@@ -6,7 +6,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Leermodule Programmatisch Toetsen</a></li>
       after: |
-        <li><a href="mailto:annette.peet@surfnet.nl?SUBJECT=Reactie Resultaten Enquête Docenten" target="blank">Mail de werkgroep</a></li>
+        <li><a href="mailto:annette.peet@surfnet.nl?SUBJECT=Reactie Leermodule Programmatisch Toetsen" target="blank">Mail de werkgroep</a></li>
         <li><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></li>
     search: yes
     download: ["epub", "pdf"]

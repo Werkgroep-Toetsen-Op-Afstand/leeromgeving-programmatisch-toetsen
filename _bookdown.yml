@@ -1,6 +1,6 @@
 book_filename: "leermodule-programmatisch-toetsen"
 language:
   ui:
-    chapter_name: "Hoofdstuk "
+    chapter_name: "Thema "
 delete_merged_file: true
 output_dir: "docs"
