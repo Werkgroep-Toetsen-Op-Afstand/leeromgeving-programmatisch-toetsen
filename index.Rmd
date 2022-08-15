@@ -13,8 +13,1155 @@ description: "Leermodule over het toepassen van programmatisch toetsen binnen he
 always_allow_html: true
 ---
 
-# Introductie {#intro}
+# Online leeromgeving programmatisch toetsen {#onlineleeromgeving}
+
+# Aan de slag 
+
+## Programmatisch toetsen – De basis 
+
+### Inleiding 
+
+Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie  én het optimaliseren van de leerfunctie van toetsing (@baartman2020programmatisch). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee componenten. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.  
+
+### Optimaliseren van de beslisfunctie 
+
+Als je belangrijke beslissingen neemt over studenten zoals het toekennen van studiepunten, wat uiteindelijk zal leiden tot het toekennen van een diploma, dan wil je dat deze beslissing betrouwbaar en valide is.
+
+### Betrouwbaarheid 
+
+Bij betrouwbaarheid gaat het om de vraag hoe consistent een bepaalde toetsvorm iets meet, of de vraag in hoeverre beoordelingen van verschillende beoordelaars overeenstemmen. Vaak wordt gedacht dat mc-toetsen (of meer “gestandaardiseerde toetsen”) meer betrouwbaar zijn dan bijvoorbeeld mondelinge toetsvormen of observaties in de praktijk (meer “subjectieve toetsen”). Uit onderzoek is gebleken dat álle toetsvormen onbetrouwbaar zijn als de toetstijd maar kort is, dus als een mc-toets weinig items bevat of een observatie in de praktijk slechts een korte momentopname is  (@van2005assessing). Op basis van één enkele meting worden er dus veel fout-positieve en fout-negatieve beslissingen genomen. Meer toetstijd, oftewel meer vragen in een toets of meer meetmomenten in de praktijk bleken daarentegen wel tot een betrouwbare beslissing te leiden. Interessant aan dit onderzoek was dat dit niet alleen bleek voor meer subjectieve toetsvormen zoals praktijkobservaties en mondelinge examens, maar ook voor meer objectieve toetsvormen zoals multiple choice toetsen. Dus niet de manier van toetsen maar juist een veelvuldigheid aan meetmomenten leidt tot een betrouwbare beslissing. Een betrouwbare beslissing wordt dus gebaseerd op een veelheid aan verschillende meetmomenten. 
+
+### Validiteit 
+
+Validiteit gaat over de vraag of een bepaalde toetsvorm (of combinatie daarvan) echt het construct meet dat we beogen, en niet bijvoorbeeld maar een deel daarvan, of net iets anders. Vaak willen we dat studenten complexe vaardigheden of competenties ontwikkelen, of kunnen handelen in een complexe beroepspraktijk. Het gaat hierbij om complexe vaardigheden zoals communiceren, samenwerken of professioneel handelen. Om dit daadwerkelijk te kunnen meten is het nodig om niet alleen naar de kennis maar ook naar de gedragingen van een student te kijken. Een valide toetsprogramma moet dus recht kunnen doen aan de verschillende aspecten van de complexe vaardigheden die de opleiding beoogd aan te leren. Dit betekent dat een mix aan methoden nodig is om complexe vaardigheden / competenties te kunnen beoordelen.  
+
+### Het stimuleren van het leerproces van de student 
+
+Binnen de conventionele manier van toetsen wordt toetsing vaak primair ingezet als afsluiting van een leerproces (assessment of learning), terwijl juist de verbinding van het leren aan het onderwijs- en toetsactiviteiten van waarde kan zijn voor de ontwikkeling van de student  (@baartman2020programmatisch).). Zo blijkt uit onderzoek dat het leerproces van de student stopt wanneer de beoordeling is gegeven (Kohn, 2011). Ook is gebleken dat studenten zich met name inzetten voor dat waar zij op getoetst worden (@kickert2022curricular). Het inzetten van toetsing als afsluiting van het leerproces leidt dus tot povere leerstijlen die als focus hebben de toets te behalen. Ook de manier waarop beoordeeld wordt is van invloed op de mate waarin studenten kunnen leren van beoordelingen. Zo kan het geven van een cijfer gezien worden als een hele summiere vorm van feedback. Het cijfer vertelt studenten namelijk alleen iets over hoe goed zij het hebben gedaan, maar zegt verder niets over wat goed was en wat beter kon. Op deze manier krijgen studenten maar weinig inzicht in hun eigen leerproces wat het lastig maakt om hier als student de regie over te pakken. Terwijl dit in het kader van een leven lang ontwikkelen steeds belangrijker wordt. Een toetsprogramma dat van waarde kan zijn voor het leerproces van de student zou dus inzichten moeten bieden in de ontwikkeling van de student en ruimte moeten bieden voor doorontwikkeling.  
+
+### Uitgangspunten van programmatisch toetsen 
+
+Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (@van2012model; @heeneman2021ottawa), waarbij de volgende uitgangspunten centraal staan (@baartman2020programmatisch):  
+
+#### Inzicht in de ontwikkeling van de studenten ontstaat door een mix van verschillende datapunten
+
+Binnen programmatisch toetsen wordt de ontwikkeling van studenten gevolgd aan de hand van datapunten. Datapunten zijn dingen die de student doet of maakt, en die informatie geven over hun kennen en kunnen. Dit kan bijvoorbeeld een gemaakte opdracht, beroepsproduct, handeling in de praktijk, presentatie of de uitkomst van een kennistoets zijn. De vormkeuze van het datapunt staat hierbij ten dienste van het leerproces. Zo lokt bijvoorbeeld een kennistoets ander leergedrag uit dan een praktijkopdracht. Er bestaan dus geen voorkeurstypen van datapunten. Wel is de combinatie van verschillende typen datapunten van belang voor de validiteit, aangezien het in de beroepspraktijk immers ook zo is dat professionals op het ene moment bezig zijn met het schrijven van een rapport en op andere momenten bezig zijn met het geven van een presentatie, het opleveren van een product, et cetera. Geen enkel datapunt kan daardoor dekkend zijn voor alle complexe vaardigheden of competenties die beoordeeld dienen te worden.  
+
+#### Elk datapunt is feedbackgericht en kent geen zak-/slaagbeslissing 
+
+Op basis van een datapunt kan nog geen zak-/slaagbeslissing genomen zoals het wel of niet toekennen van studiepunten. Een datapunt is immers maar een momentopname en geeft daarom geen betrouwbaar beeld van de student weet en kan. Wel is het van belang dat studenten feedback krijgen bij ieder datapunt zodat zij inzicht krijgen in waar zij nu staan en wat mogelijke vervolgstappen zijn. Deze feedback kan zowel kwantitatief (bijvoorbeeld een score op een5-puntschaal of een percentage goed beantwoordde vragen) als kwalitatief (narratieve feedback) zijn. Doordat er geen zak-/slaag beslissing verbonden is aan een datapunt hoeft niet iedereen hetzelfde beoordeeld te worden, maar kunnen er juist verschillende perspectieven op het werk meegenomen worden om zo veel mogelijk te kunnen leren. Hierbij kun je denken aan feedback van docenten, mensen uit de praktijk en peers. Deze feedback kan de student weer benutten voor een volgende opdracht, waarin een beroep wordt gedaan op dezelfde competenties.  
+
+#### De leeropbrengsten vormen de ruggengraat van het toetsprogramma 
+
+Binnen programmatisch toetsen zijn de beoogde leeropbrengsten het uitgangspunt voor de keuze van de datapunten. Op basis van dit raamwerk aan competenties, vaardigheden en/of beroepstaken wordt bepaald wat de student moet laten zien om de beoogde leeruitkomsten aan te tonen. Datapunten worden gekoppeld aan dit raamwerk (of ruggengraat), zodat het voor zowel docenten als studenten inzichtelijk is welke datapunten een bijdrage leveren aan welk leerproces ten aanzien van de beoogde leerresultaten. Datapunten en/of de feedback op datapunten worden vastgelegd in een portfolio om de ontwikkeling van de student te kunnen monitoren. Het monitoren en begeleiden van de ontwikkeling van studenten gebeurt ook aan de hand van de ruggengraat. Zo kunnen datapunten beoordeeld worden aan de hand van feedbackformulieren waarin ook de onderliggende competenties terugkomen. Zo gaat de feedback die studenten ontvangen niet alleen over hoe zij de specifieke opdracht uit hebben gevoerd, maar ook over de competenties die zij hierbij hebben ingezet en ontwikkeld. Deze feedback kan een student weer benutten voor een volgende opdracht waar dezelfde competenties aan gekoppeld zijn. Op deze manier verzamelen studenten verschillende datapunten die dezelfde competenties aantonen. Al deze informatiebrokjes samen kunnen vervolgens weer leiden tot een betrouwbare zak-/slaagbeslissing.  
+
+#### Er is een constante dialoog over het gebruik van feedback voor zelfsturing 
+
+Uit onderzoek is gebleken dat studenten niet automatisch aan de slag gaan met de feedback die zij krijgen. Het leren ontvangen en benutten van feedback, en (uiteindelijk) het nemen van regie over het eigen leerproces moet daarom begeleid worden. Deze begeleiding kan geboden worden door een mentor/coach die de ontwikkeling van de student volgt en hier regelmatig het gesprek met de student over aan gaat. De mentor/coach bespreekt samen met de student de ontwikkeling aan de hand van de datapunten die tot dan toe verzameld zijn in het portfolio. 
+
+#### Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd 
+
+Zoals eerder aangegeven zijn er veel datapunten nodig om een betrouwbare beslissing te kunnen maken. Daarom moet de zwaarte van de beslissing (dat wat er op het spel staat voor de student) in verhouding staan met het aantal datapunten dat aanwezig is. Binnen programmatisch toetsen wordt er daarom gesproken over een “continuüm van stakes”, die gaat van low tot high stakes. Low stakes beslissingen hebben  weinig consequenties , zoals de feedback op een datapunt. Medium stakes zijn veelal tussentijdse beoordelingen waarin er samen met de student gekeken wordt hoe deze er nu voor staat op basis van de geleverde datapunten. Deze beoordeling wordt vaak halverwege de onderwijsperiode gepland zodat de student nog genoeg tijd heeft om te werken aan de geconstateerde leerdoelen en datapunten kan verzamelen om groei aan te tonen. High stakes beslissingen hebben  zwaarwegende gevolgen voor de student, zoals het toekennen van studiepunten of het behalen van een diploma.  
+
+[AFBEELDING TOEVOEGEN - moet nog aangeleverd worden]
+
+#### De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise  
+
+Op basis van meerdere datapunten kan afgeleid worden of een student de gewenste competenties en/of leeruitkomsten beheerst. Echter, gezien de heterogeniteit van de datapunten, kan er geen rekenkundig oordeel geveld worden over het totaal aan datapunten. Een high stakes beslissing op basis van een groot aantal datapunten  vereist daarom een professioneel holistisch oordeel. Bij programmatisch toetsen wordt zo’n high stakes beslissing genomen door een besliscommissie. Ook hier geldt: wanneer een beslissing meer high stakes is, is meer beoordelaarsexpertise nodig, bijvoorbeeld door het inzetten van meer beoordelaars, het trainen van beoordelaars en kalibreersessies. . Om het oordeel van de beoordelaars te vergemakkelijken wordt veelal gebruik gemaakt van holistische beoordelingscriteria en niveaubeschrijvingen van een bepaalde competentie.  
+
+### Aan de slag 
+
+#### Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+##### Wetenschappelijke publicaties 
+
+###### Assessing professional competence: from methods to programmes 
+
+**BiB invoegen**
+
+@article{van2005assessing, 
+
+  title={Assessing professional competence: from methods to programmes}, 
+
+  author={Van Der Vleuten, Cees PM and Schuwirth, Lambert WT}, 
+
+  journal={Medical education}, 
+
+  volume={39}, 
+
+  number={3}, 
+
+  pages={309--317}, 
+
+  year={2005}, 
+
+  publisher={Wiley Online Library} 
+
+###### The assessment of professional competence: building blocks for theory development 
+
+**BiB invoegen**
+
+@article{van2010assessment, 
+  title={The assessment of professional competence: building blocks for theory development}, 
+  author={Van der Vleuten, CPM and Schuwirth, LWT and Scheele, Fedde and Driessen, EW and Hodges, Brian}, 
+  journal={Best practice \& research Clinical obstetrics \& gynaecology}, 
+  volume={24}, 
+  number={6}, 
+  pages={703--719}, 
+  year={2010}, 
+  publisher={Elsevier} 
+} 
+
+###### Twelve Tips for programmatic assessment  
+
+**BiB invoegen**
+
+@article{doi:10.3109/0142159X.2014.973388, 
+author = {C.P.M. Van Der Vleuten and L.W.T. Schuwirth and E.W. Driessen and M.J.B. Govaerts and S. Heeneman}, 
+title = {Twelve Tips for programmatic assessment}, 
+journal = {Medical Teacher}, 
+volume = {37}, 
+number = {7}, 
+pages = {641-646}, 
+year  = {2015}, 
+publisher = {Taylor & Francis}, 
+doi = {10.3109/0142159X.2014.973388}, 
+    note ={PMID: 25410481}, 
+URL = {  
+        https://doi.org/10.3109/0142159X.2014.973388 
+}, 
+eprint = {  
+        https://doi.org/10.3109/0142159X.2014.973388 
+} 
+}
+
+###### A model for programmatic assessment fit for purpose 
+
+**BiB invoegen**
+
+@article{van2012model, 
+  title={A model for programmatic assessment fit for purpose}, 
+  author={van der Vleuten, Cees PM and Schuwirth, LWT and Driessen, EW and Dijkstra, Joost and Tigelaar, Dineke and Baartman, LKJ and Van Tartwijk, Jan}, 
+  journal={Medical teacher}, 
+  volume={34}, 
+  number={3}, 
+  pages={205--214}, 
+  year={2012}, 
+  publisher={Taylor \& Francis} 
+} 
 
 
+###### Programmatic assessment: From assessment of learning to assessment for learning 
+
+**BiB invoegen**
+
+@article{doi:10.3109/0142159X.2011.565828, 
+author = {Lambert W. T. Schuwirth and Cees P. M. Van der Vleuten}, 
+title = {Programmatic assessment: From assessment of learning to assessment for learning}, 
+journal = {Medical Teacher}, 
+volume = {33}, 
+number = {6}, 
+pages = {478-485}, 
+year  = {2011}, 
+publisher = {Taylor & Francis}, 
+doi = {10.3109/0142159X.2011.565828}, 
+    note ={PMID: 21609177}, 
+URL = {  
+        https://doi.org/10.3109/0142159X.2011.565828 
+}, 
+eprint = {  
+        https://doi.org/10.3109/0142159X.2011.565828 
+} 
+} 
+
+###### Ottawa 2020 consensus statement for programmatic assessment - 1. Agreement on the principles 
+
+**BiB invoegen**
+
+@article{heeneman2021ottawa, 
+  title={Ottawa 2020 consensus statement for programmatic assessment--1. Agreement on the principles}, 
+  author={Heeneman, Sylvia and de Jong, Lubberta H and Dawson, Luke J and Wilkinson, Tim J and Ryan, Anna and Tait, Glendon R and Rice, Neil and Torre, Dario and Freeman, Adrian and van der Vleuten, Cees PM}, 
+  journal={Medical Teacher}, 
+  volume={43}, 
+  number={10}, 
+  pages={1139--1148}, 
+  year={2021}, 
+  publisher={Taylor \& Francis} 
+} 
+
+Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](./bronnen/20_Ottowa_2020.pdf) te vinden.
+
+###### Where the rubber meets the road — An integrative review of programmatic assessment in health care professions education 
+
+**BiB invoegen**
+
+@article{schut2021rubber, 
+  title={Where the rubber meets the road—An integrative review of programmatic assessment in health care professions education}, 
+  author={Schut, Suzanne and Maggio, Lauren A and Heeneman, Sylvia and van Tartwijk, Jan and van der Vleuten, Cees and Driessen, Erik}, 
+  journal={Perspectives on medical education}, 
+  volume={10}, 
+  number={1}, 
+  pages={6--13}, 
+  year={2021}, 
+  publisher={Springer} 
+} 
+
+###### Theoretical considerations on programmatic assessment 
+
+**BiB invoegen**
+
+@article{torre2020theoretical, 
+ title={Theoretical considerations on programmatic assessment}, 
+ author={Torre, Dario M and Schuwirth, LWT and Van der Vleuten, CPM}, 
+ journal={Medical teacher}, 
+ volume={42}, 
+ number={2}, 
+ pages={213--220}, 
+ year={2020}, 
+ publisher={Taylor \& Francis} 
+} 
+
+##### Praktijkgerichte publicaties
+
+###### Programmatisch toetsen als motor voor professioneel leren in het hoger onderwijs 
+
+In het boek Toetsrevolutie schreven Cees van der Vleuten, Suzanne Schut en Sylvia Heeneman het hoofdstuk “Programmatisch toetsen als motor voor professioneel leren in het hoger onderwijs". In dit hoofdstuk beschrijven zij op toegankelijke wijze wat programmatisch toetsen is en hoe het een bijdrage zou kunnen leveren aan meer professioneel leren binnen het hoger onderwijs.  
+
+[Toetsrevolutie: Naar een feedbackcultuur in het hoger onderwijs](./bronnen/27_Toetsrevolutie.pdf)
+
+###### ‘Wat is programmatisch toetsen’ in 2 minuten 
+
+In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat programmatisch toetsen is. De animatie is ontwikkeld door Cees van der Vleuten. 
+
+['Wat is programmatisch toetsen' in 2 minuten](./bronnen/80_Animatie_PT.mp4)
+
+###### Drie perspectieven op toetsing: waar staat u en waar wilt u naar toe? 
+
+In dit webinar gaat Cees van der Vleuten in op de drie perspectieven binnen toetsing: assessment of learning, assessment for learning en een meer systeem-geïntegreerde aanpak van toetsing. Cees daagt de kijker uit na te denken over de vraag: waar staat u nu en waar wilt u naar toe?  
+
+Dit webinar is opgenomen voor de online leeromgeving. Bekijk het webinar [hier](https://hva.mediamission.nl/Mediasite/Play/3e1d975a273b49e7bfa2ec6f1467eb1e1d).
+
+###### In gesprek over veelgestelde vragen over programmatisch toetsen 
+
+Op 6 juli 2020 vond een Q&A plaats waarin Cees van der Vleuten, Liesbeth Baartman en Tamara van Schilt-Mol antwoorden gaven op veelgestelde vragen over programmatisch toetsen. Tijdens deze Q&A wordt er onder meer gesproken over de uitgangspunten van programmatisch toetsen, de relatie met andere onderwijsconcepten en onderwijsinnovaties, en over het ontwerpen, implementeren en uitvoeren van programmatisch toetsen. 
+
+Bekijk de Q&A [hier](https://video.han.nl/P2G/Player/Player.aspx?id=cCjdDl).
+
+###### Programmatischtoetsen.nl  
+
+Op deze website vind je informatie over programmatisch toetsen en portretten van opleidingen die zijn aangesloten bij het Landelijk Netwerk Programmatisch toetsen. Daarnaast worden antwoorden gegeven op veel gestelde vragen over programmatisch toetsen. 
+
+[Programmatisch toetsen – Platform Leren van Toetsen](https://www.programmatischtoetsen.nl)
+
+###### Curriculumperspectief op motivatie 
+
+De manier waarop toetsing binnen een curriculum ingericht is, kan een groot effect hebben op de motivatie van studenten. In dit artikel wordt ingegaan op deze relatie. Er zijn zowel een praktijkgericht artikel als een wetenschappelijk artikel over dit onderwerp toegevoegd. 
+
+[Praktijkgericht artikel: Een curriculumperspectief op motivatie](./bronnen/102_Kickert_Curriculumperspectief.pdf)
+
+**BiB invoegen**
+
+@article{kickert2022curricular, 
+  title={Curricular fit perspective on motivation in higher education}, 
+  author={Kickert, Rob and Meeuwisse, Marieke and Stegers-Jager, KM and Prinzie, Peter and Arends, LR}, 
+  journal={Higher Education}, 
+  volume={83}, 
+  number={4}, 
+  pages={729--745}, 
+  year={2022}, 
+  publisher={Springer} 
+} 
+ 
+#### Praktijkvoorbeelden 
+
+##### Wat is programmatisch toetsen (niet)? 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 26 november 2021 werd stilgestaan bij de uitgangspunten van programmatisch toetsen, het ontwerpen van programmatisch toetsen en bij enkele veelvoorkomende misconcepties. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Powerpointpresentatie](./bronnen/55_Buitenkring_PT.pptx)
+
+[Opname](./bronnen/55_Bijeenkomst.mp4)
+
+#### Praktische handvatten 
+
+##### ‘Wat is programmatisch toetsen’ in 2 minuten 
+
+In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat programmatisch toetsen is. Het filmpje is een mooi startpunt om met collega’s te gesprek over programmatisch toetsen te voeren: wat is het en past het bij onze visie?  
+ 
+De animatie is ontwikkeld door professor Cees van der Vleuten en geproduceerd door Masterbranders. 
+
+Bekijk de animatie [hier](./bronnen/80_Animatie_PT.mp4).
+
+##### Praatplaat programmatisch toetsen 
+
+Op deze praatplaat is het concept programmatisch toetsen visueel weergegeven. De praatplaat kan worden gebruikt als handvat om met elkaar de uitgangspunten van programmatisch toetsen te bespreken of om het concept toe te lichten. De praatplaat is in opdracht van Tamara van Schilt-Mol en Liesbeth Baartman ontwikkeld door Studio Duikboot en is zowel in het Nederlands als Engels beschikbaar. 
+
+[Programmatisch Toetsen: A3 print](./bronnen/93_PT_Print_A3.png)
+
+[Programmatisch Toetsen: 1920x1080 300ppi](./bronnen/93_PT_1920x1080.png)
+
+[Programmatic Assessment: A3 print](./bronnen/93_PA_Print_A3.png)
+
+[Programmatic Assessment: 1920x1080 300ppi](./bronnen/93_PA_1920x1080.png) 
+
+##### ‘Wat is programmatisch toetsen’ voor studenten            
+
+In deze animatie wordt heel duidelijk aan studenten uitgelegd wat programmatisch toetsen is, en wat het hem kan brengen. Hoewel de animatie gemaakt is voor studenten die co-schappen gaan lopen, is het zeker ook bruikbaar voor andere opleidingen als startpunt om met studenten het gesprek over programmatisch toetsen te voeren.  
+
+De animatie is gemaakt door Amsterdam UMC - masteropleiding Geneeskunde Vrije Universiteit. 
+[Bekijk de animatie](https://vimeo.com/536324176).
+ 
+##### ‘Wat is programmatisch toetsen’ door een student 
+
+In deze animatie legt een student - vanuit het studentperspectief - uit wat programmatisch toetsen is.  
+
+Deze animatie is door Charlene van der Deijl gemaakt als opdracht van het vak 'Communicatiebureau' van de HAN-opleiding Communicatie. 
+
+[Bekijk de animatie](https://www.youtube.com/watch?v=ssFiVvV4Hhk).
+
+##### 30 seconds en speeddaten 
+
+Wil je samen met collega's aan de slag met programmatisch toetsen en ben je benieuwd of iedereen bekend is met alle begrippen? Met de spellen 'speeddate' en '30 seconds' krijg je hier snel zicht op.  
+
+Speeddate en 30 seconds werden ontwikkeld door Barbara Spieringhs, Jantina Huizinga en Christina Schouten in het leernetwerk programmatisch toetsen. 
+
+[Download Speeddate en 30 Seconds hier](./bronnen/36_37_Speeddate_30seconds.pdf)
+
+## Programmatisch toetsen als ontwerpvraagstuk 
+
+### Betrekken van stakeholders in het ontwerpproces 
+
+### Backwards design 
+
+### Belangrijkste ontwerpkeuzes binnen programmatisch toetsen 
+
+#### Samenstellen van een mix van datapunten 
+
+#### Elk datapunt is feedbackgericht en kent geen zak-/slaagbeslissing 
+
+#### De leeropbrengsten vormen de ruggengraat van het toetsprogramma 
+
+#### Er is een constante dialoog over het gebruik van feedback voor zelfsturing 
+
+#### Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd 
+
+#### De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise  
+
+### Inrichting van ICT-systemen voor het monitoren en vastleggen van ontwikkeling 
+
+### Aan de slag 
+
+#### Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+##### Wetenschappelijke publicaties 
+
+###### Twelve Tips for programmatic assessment 
+
+**BiB invoegen** 
+
+@article{doi:10.3109/0142159X.2014.973388, 
+author = {C.P.M. Van Der Vleuten and L.W.T. Schuwirth and E.W. Driessen and M.J.B. Govaerts and S. Heeneman}, 
+title = {Twelve Tips for programmatic assessment}, 
+journal = {Medical Teacher}, 
+volume = {37}, 
+number = {7}, 
+pages = {641-646}, 
+year  = {2015}, 
+publisher = {Taylor & Francis}, 
+doi = {10.3109/0142159X.2014.973388}, 
+    note ={PMID: 25410481}, 
+URL = {  
+        https://doi.org/10.3109/0142159X.2014.973388 
+}, 
+eprint = {  
+        https://doi.org/10.3109/0142159X.2014.973388 
+} 
+} 
+
+###### Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment 
+
+**BiB invoegen**
+
+@article{doi:10.1080/0142159X.2016.1230183, 
+author = {Sylvia Heeneman and Suzanne Schut and Jeroen Donkers and Cees van der Vleuten and Arno Muijtjens}, 
+title = {Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment}, 
+journal = {Medical Teacher}, 
+volume = {39}, 
+number = {1}, 
+pages = {44-52}, 
+year  = {2017}, 
+publisher = {Taylor & Francis}, 
+doi = {10.1080/0142159X.2016.1230183}, 
+    note ={PMID: 27646870}, 
+URL = {  
+        https://doi.org/10.1080/0142159X.2016.1230183 
+}, 
+eprint = {  
+        https://doi.org/10.1080/0142159X.2016.1230183 
+} 
+} 
+
+###### Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach 
+
+**BiB invoegen** 
+
+@article{imanipour2016development, 
+  title={Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach}, 
+  author={Imanipour, Masoomeh and Jalili, Mohammad}, 
+  journal={Japan Journal of Nursing Science}, 
+  volume={13}, 
+  number={1}, 
+  pages={46--54}, 
+  year={2016}, 
+  publisher={Wiley Online Library} 
+} 
+
+###### Designing programmes of assessment: a participatory approach 
+
+**BiB invoegen** 
+
+@article{jamieson2017designing, 
+  title={Designing programmes of assessment: a participatory approach}, 
+  author={Jamieson, Janica and Jenkins, Gemma and Beatty, Shelley and Palermo, Claire}, 
+  journal={Medical Teacher}, 
+  volume={39}, 
+  number={11}, 
+  pages={1182--1188}, 
+  year={2017}, 
+  publisher={Taylor \& Francis} 
+} 
+
+##### Praktijkgerichte publicaties 
+
+###### Backwards design van een curriculum 
+
+Een van de vragen die leeft bij opleidingen die (willen gaan) werken volgens de uitgangspunten van programmatisch toetsen is: ‘Hoe kom je tot een verantwoord en bewust samengesteld toetsprogramma?’. In dit artikel wordt een stappenplan geboden waarbij vanuit de te nemen beslissingen wordt toegewerkt naar het toetsprogramma.  
+
+[Backwards design](./bronnen/40_Backwards_design.pdf)
+
+###### Dashboard bij ontwikkelen van programmatisch toetsen 
+
+In deze blog wordt een dashboard beschreven met succesfactoren voor de ontwikkeling van programmatisch toetsen.  
+
+[Dashboard voor het ontwikkelen van programmatisch toetsen in je opleiding – Platform Leren van Toetsen](https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/)
+
+###### Ontwerpvraagstukken bij programmatisch toetsen 
+
+In [deze blog](https://lerenvantoetsen.nl/houvast-bij-het-invoeren-van-programmatisch-toetsen-in-de-praktijk/) wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen van een curriculum volgens de principes van programmatisch toetsen: feedbackproces, toetsprogramma en het nemen van beslissingen. De blog is gebaseerd op het wetenschappelijke artikel van Torre en collega's (2021). 
+
+**BiB invoegen** 
+
+@article{torre2021ottawa, 
+  title={Ottawa 2020 consensus statements for programmatic assessment--2. Implementation and practice}, 
+  author={Torre, Dario and Rice, Neil E and Ryan, Anna and Bok, Harold and Dawson, Luke J and Bierer, Beth and Wilkinson, Tim J and Tait, Glendon R and Laughlin, Tom and Veerapen, Kiran and others}, 
+  journal={Medical Teacher}, 
+  volume={43}, 
+  number={10}, 
+  pages={1149--1160}, 
+  year={2021}, 
+  publisher={Taylor \& Francis} 
+} 
+
+#### Praktijkvoorbeelden 
+
+##### ICT-systemen 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 8 april 2022 werd stilgestaan bij de vraag aan welke eisen ICT-systemen moeten voldoen om de ontwikkeling van de studenten te kunnen monitoren en om zorgvuldige beslissingen over studenten te nemen. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Opname Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_opname.mp4)
+
+[Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
+
+[Hogeschool Inholland - Portfolio Mahara](./bronnen/57_Inholland_Portfolio_Mahara.pptx)
+
+[Presentatie Arno Kamphuis - HU](./bronnen/57_ArnoKamphuis _HU.pptx)
+
+[Presentatie Hanneke Fens - HU](./bronnen/57_HannekeFens_HU.pdf)
+
+##### Handreiking ontwerpeisen curriculum 
+
+Fontys Paramedische Hogescholen maakte een handreiking die opleidingen kan ondersteunen bij het ontwerpen van het curriculum. In deze handreiking worden vijf ontwerpeisen  toegelicht. In de ontwerpeis 'toetsconcept' wordt beschreven hoe bij het ontwerpen van het curriculum volgens de principes van programmatisch toetsen toetsing ingericht kan worden. 
+
+[Handreiking Ontwerpeisen curriculumontwikkeling Fontys](./bronnen/110_Handreiking_Ontwerpeisen_Fontys.pdf)
+
+##### Voorbeeld van een toetsplan 
+
+Het [toetsplan 'vakdidactisch handelen: ontwerpen van onderwijs'](./bronnen/84_Format_Toetsplan_HU.docx) van Instituut Archimedes van de Hogeschool Utrecht geeft een voorbeeld van hoe de principes van programmatisch toetsen verwerkt zijn in een toetsplan.  
+
+#### Praktische handvatten 
+
+##### Ontwerpprincipes inrichting studiecoaching 
+
+Deze flyer geeft een overzicht van de belangrijkste ontwerprincipes voor het ontwerpen van de inrichting van de studiecoaching. De ontwerpprincipes kunen als handvat dienen bij zowel het gesprek over ontwerpkeuzes als bij het daadwerkelijke ontwerp.  
+
+De ontwerpprincipes werden ontwikkeld door Debby Weerlink als onderdeel van haar masterproef voor de opleiding Master Toetsdeskundige. 
+
+[Ontwerpprincipes inrichting studiecoaching](./bronnen/81_Ontwerpprincipes_studiecoaching.pdf)
+
+##### Ontwerpvraagstukken 
+
+Wil je als opleiding aan de slag met programmatisch toetsen? Dan zul je merken dat er verschillende ontwerpkeuzes gemaakt moeten worden. In dit artikel worden acht veelvoorkomende vraagstukken besproken en zijn gesprekskaarten gemaakt die helpen om deze vraagstukken gezamenlijk te bespreken. 
+
+[Programmatisch toetsen: 8 dilemma's voor het ontwerp - Vernieuwenderwijs](https://www.vernieuwenderwijs.nl/programmatisch-toetsen-8-dilemmas/)
+
+## Implementeren van programmatisch toetsen 
+
+Niet alleen een goed ontwerp maar ook de invoering van programmatisch toetsen is van cruciaal belang voor het succes van het programma. Deze pagina gaat daarom over de implementatie van programmatisch toetsen. Inmiddels zijn er verschillende onderzoeken gedaan naar de implementatie hiervan. De lessen die hieruit naar voren zijn gekomen zijn hieronder op een rijtje gezet. Vervolgens zal worden ingegaan op hoe de geleerde lessen meegenomen kunnen worden in het implementatieproces en zal de dashboard tool geïntroduceerd worden als hulpmiddel hiervoor.   
+
+### Geleerde lessen 
+
+#### Aansluiting op de gedeelde onderwijsvisie 
+
+Programmatisch toetsen sluit aan bij een onderwijsvisie waarbij zelfregulatie, leren van narratieve feedback, ruimte voor het maken van fouten en reflectie hoog in het vaandel staan en kan gezien worden als een middel om het leren van studenten te bevorderen (Biemond &Kaijen, 2021). Een van de grootste obstakels bij het implementeren van programmatisch toetsen blijkt de algemene weerstand tegen verandering te zijn, waarbij het lastig is om de verankerde onderwijs- en beoordelingsculturen, verwachtingen en attitudes van betrokkenen te veranderen. Doorzettingsvermogen, sterk leiderschap en het betrekken van verschillende stake-holders bij het ontwerpen en uitvoeren van programmatisch toetsen kan helpen om tot een aansluitende en gedeelde visie te komen (@torre2021ottawa). Wanneer er helemaal geen gedeelde onderwijsvisie is of deze niet aansluit bij het bovengenoemde, dan wordt aangeraden hierbij stil te staan en vervolgens te bepalen of programmatisch toetsen passend is voor de opleiding [BRON TOEVOEGEN].
+
+#### Het hebben van een heldere ruggengraat 
+
+Om ervoor te zorgen dat het voor iedereen duidelijk is wat er wordt beoogd met het onderwijs en wat de waarde is van wat er geleerd wordt, is het van belang om een heldere ruggengraat te hebben (@bate2020does; @van2015twelve). De ruggengraat kan gezien worden als een raamwerk van beoogde competenties, vaardigheden en/of beroepstaken binnen het onderwijsprogramma (baartman2020programmatisch). Als een opleiding nog niet over een dergelijke ‘ruggengraat’ beschikt, wordt aangeraden om deze eerst met de opleiding vast te stellen (Biemond &Kaijen, 2021). Op basis daarvan kan een coherent opleidings- en datapuntenprogramma worden ingericht (@bate2020does; Biemond & Kaijen, 2021). Tips over hoe je dit precies kunt aanpakken zijn te vinden op de ontwerppagina.  
+
+#### De wil om een leer- en feedbackcultuur te laten ontstaan 
+
+Uit eerder onderzoek is gebleken dat studenten datapunten als “summatief” ervaren of als dingen die ze moeten behalen en niet automatisch aan de slag gaan met de feedback die ze hierop ontvangen (@heeneman2015impact; @bok2013programmatic). Het is daarom van belang om een goede leer- en feedbackcultuur neer te zetten. De wil om zo’n leer- en feedbackcultuur in de opleiding te laten ontstaan moet binnen het docententeam én bij de onderwijsmanager(s) aanwezig zijn. Dat gebeurt vanuit een gezamenlijke visie en de bereidheid om te veranderen. Daarnaast is het van belang om de feedbackgeletterdheid van zowel studenten als docenten te trainen en studenten goed mee te nemen in het concept van programmatisch toetsen en hen doorlopend inzicht te bieden in hoe zij ervoor staan (@bate2020does). Meer tips en praktische handvatten over hoe je een leer- en feedbackcultuur kunt laten ontstaan worden geven op de pagina over het ontwerpproces.  
+
+#### Het hebben van moed 
+
+Programmatisch toetsen vergt zowel een andere manier van werken als een andere manier van denken. Veel van de eerder opgedane ideeën en ervaringen over onderwijs en toetsing zullen losgelaten moeten worden om programmatisch toetsen te implementeren. Ook vraagt het andere manier van werken voor docenten. Zo kijken docenten voortdurend mee met de studenten om zo de ontwikkeling te monitoren en bij te sturen waar nodig. Docenten hebben dus niet alleen te maken met een ander toetsbeleid maar krijgen ook een meer coachende rol toebedeeld. Voor zo'n omslag is moed nodig. Moed om te gaan proberen, fouten te maken en weer door te gaan (Biemond & Kaijen, 2021).  
+
+#### Voldoende tijd en middelen 
+
+Een andere belangrijke factor voor het implementeren van programmatisch toetsen is de beschikbaarheid van tijd en middelen (@torre2021ottawa). Zo gaven verschillende opleidingen aan dat er toename ontstond in tijd en werkdruk voor docenten in het beginstadium van programmatisch toetsen. Daarnaast bleek er behoefte te zijn aan ondersteuning bij het ontwikkelen van programmatisch toetsen, het trainen van docenten en studenten in de principes van programmatisch toetsen en het geven en ontvangen van feedback. Ook bleek de aanschaf van e-portfolio een waardevolle investering om de voortgang van de studenten goed te kunnen volgen. Het implementeren van programmatisch toetsen vereist dus het kunnen inzetten van dergelijke middelen, waarbij steun vanuit de onderwijsinstelling een vereiste is.  
+
+### Geleerde lessen meenemen in het implementatieproces 
+
+Opleidingen die bezig zijn met programmatisch toetsen kunnen gebruik maken van de [Dashboard tool](https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/) om bovengenoemde lessen mee te nemen in het implementatieproces. Op het dashboard staan succesfactoren weergegeven die gaan over sterk leiderschap, regie, een nieuw curriculum, betrokken stakeholders, professionalisering, investeren in software, feedbackgeletterdheid en de ontwikkeling van een coachsysteem. De dashboardtool kan opleidingen helpen het gesprek met elkaar aan te gaan en in kaart te brengen op welke factoren zij goed en minder goed scoren, om zo meer grip te krijgen op het bevorderen van het implementatieproces.   
+
+### Aan de slag 
+
+#### Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het implementeren van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+##### Wetenschappelijke publicaties 
+
+###### Between trust and control: Teachers' assessment conceptualisations within programmatic assessment 
+
+**BiB invoegen**
+
+@article{schut2020between, 
+  title={Between trust and control: Teachers' assessment conceptualisations within programmatic assessment}, 
+  author={Schut, Suzanne and Heeneman, Sylvia and Bierer, Beth and Driessen, Erik and van Tartwijk, Jan and van Der Vleuten, Cees}, 
+  journal={Medical education}, 
+  volume={54}, 
+  number={6}, 
+  pages={528--537}, 
+  year={2020}, 
+  publisher={Wiley Online Library} 
+} 
+
+###### Ottawa 2020 consensus statements for programmatic assessment - 2. Implementation and practice 
+
+**BiB invoegen**
+
+@article{torre2021ottawa, 
+  title={Ottawa 2020 consensus statements for programmatic assessment--2. Implementation and practice}, 
+  author={Torre, Dario and Rice, Neil E and Ryan, Anna and Bok, Harold and Dawson, Luke J and Bierer, Beth and Wilkinson, Tim J and Tait, Glendon R and Laughlin, Tom and Veerapen, Kiran and others}, 
+  journal={Medical Teacher}, 
+  volume={43}, 
+  number={10}, 
+  pages={1149--1160}, 
+  year={2021}, 
+  publisher={Taylor \& Francis} 
+} 
+
+Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](./bronnen/20_Ottowa_2020.pdf) te vinden.
+
+###### Competency-based education calls for programmatic assessment: But what does this look like in practice? 
+
+**BiB invoegen**
+
+@article{rich2020competency, 
+  title={Competency-based education calls for programmatic assessment: But what does this look like in practice?}, 
+  author={Rich, Jessica V and Fostaty Young, Sue and Donnelly, Catherine and Hall, Andrew K and Dagnone, J Damon and Weersink, Kristen and Caudle, Jaelyn and Van Melle, Elaine and Klinger, Don A}, 
+  journal={Journal of Evaluation in Clinical Practice}, 
+  volume={26}, 
+  number={4}, 
+  pages={1087--1095}, 
+  year={2020}, 
+  publisher={Wiley Online Library} 
+} 
+
+##### Praktijkgerichte publicaties 
+
+###### Voorwaarden voor programmatisch toetsen 
+
+In [deze blog](https://lerenvantoetsen.nl/programmatisch-toetsen-in-het-hbo-dat-vraagt-moed/) wordt stilgestaan bij een viertal voorwaarden waaraan voldaan moet zijn om te kunnen starten met het ontwerpen en implementeren van programmatisch toetsen. 
+
+###### Programmatisch toetsen in verschillende onderwijsdomeinen 
+
+Programmatisch toetsen wordt momenteel geïmplementeerd in verschillende onderwijsdomeinen. Liesbeth Baartman, Tamara van Schilt-Mol en Cees van der Vleuten legden een aantal implementaties naast elkaar om meer zicht te krijgen op de verschillen en overeenkomsten. Deze korte (Engelstalige) presentatie is opgenomen ten behoeve van het EARLI congres 2021. Zowel de opname als de gebruikte PowerPoint zou toegevoegd. 
+
+[EARLI 2021: Baartman et al. opname](./bronnen/107_EARLI2021_Baartman.mp4)
+
+[EARLI 2021: Baartman et al. Powerpoint](./bronnen/107_EARLI2021_Baartman_PPT.pptx)
+
+###### Mindset en vaardigheden van docenten 
+
+Anne Hoogeveen onderzocht voor haar masterscriptie hoe docenten aankijken tegen programmatisch toetsen en over welke vaardigheden zij moeten beschikken. Haar (Engelstalige) scriptie is hier opgenomen. 
+
+[Thesis report Anne Hoogeveen](./bronnen/104_Thesisreport_AnneHoogeveen.pdf)
+
+#### Praktijkvoorbeelden 
+
+##### Rollen van de docent 
+
+Binnen programmatisch toetsen vervult de docent meerdere rollen. Fontys Paramedische Hogeschool werkte de rollen voor hun docenten uit in deze profielschets. In deze beschrijving wordt onder meer ingegaan op het begeleiden van het leerproces van de studenten, het beoordelen en het beslissen. 
+
+[Profiel FPH Docent - Fontys Paramedische Hogeschool](./bronnen/83_Profiel_FPH_Fontys.pdf)
+
+https://hannl.sharepoint.com/:b:/r/teams/ontwikkelingleeromgevingPT/Gedeelde%20documenten/General/content/programmatisch%20toetsen/83.%20Profiel%20FPH%20docen%20Fontys%20Paramedische%20Hogeschool.pdf?csf=1&web=1&e=rkvOKI  
+
+##### Ervaringen van de opleiding vaktherapie (HAN): een tweeluik 
+
+De opleiding vaktherapie van de Hogeschool van Arnhem en Nijmegen is in september 2018 gestart met een curriculumherziening volgens de principes van programmatisch toetsen. In dit tweeluik worden de ervaringen van de opleiding met het ontwerpen en implementeren van het nieuwe curriculum beschreven. 
+
+[Vernieuwenderwijs: Programmatisch toetsen deel 1](https://www.vernieuwenderwijs.nl/programmatisch-toetsen-deel-1/)
+
+[Vernieuwenderwijs: Programmatisch toetsen deel 2](https://www.vernieuwenderwijs.nl/programmatisch-toetsen-deel-2/)
+
+#### Praktische handvatten 
+
+ 
+
+## De leerfunctie 
+
+### Datapunten in het teken van het leerproces van de lerende 
+
+### Feedback 
+
+### Zelfregulatie 
+
+### Aan de slag 
+
+#### Meer weten? 
+Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op de leerfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+##### Wetenschappelijke publicaties 
+
+###### A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL) 
+
+**BiB invoegen** 
+
+@article{schellekens2021scoping, 
+  title={A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL)}, 
+  author={Schellekens, Lonneke H and Bok, Harold GJ and de Jong, Lubberta H and van der Schaaf, Marieke F and Kremer, Wim DJ and van der Vleuten, Cees PM}, 
+  journal={Studies in Educational Evaluation}, 
+  volume={71}, 
+  pages={101094}, 
+  year={2021}, 
+  publisher={Elsevier} 
+} 
+
+###### Clarifying students’ feedback-seeking behaviour in clinical clerkships 
+
+**BiB invoegen**
+
+@article{bok2013clarifying, 
+  title={Clarifying students’ feedback-seeking behaviour in clinical clerkships}, 
+  author={Bok, Harold GJ and Teunissen, Pim W and Spruijt, Annemarie and Fokkema, Joanne PI and van Beukelen, Peter and Jaarsma, Debbie ADC and van der Vleuten, Cees PM}, 
+  journal={Medical education}, 
+  volume={47}, 
+  number={3}, 
+  pages={282--291}, 
+  year={2013}, 
+  publisher={Wiley Online Library} 
+} 
+
+###### Understanding the influence of teacher--learner relationships on learners’ assessment perception 
+
+**BiB invoegen**
+
+@article{schut2020understanding, 
+  title={Understanding the influence of teacher--learner relationships on learners’ assessment perception}, 
+  author={Schut, Suzanne and van Tartwijk, Jan and Driessen, Erik and van der Vleuten, Cees and Heeneman, Sylvia}, 
+  journal={Advances in Health Sciences Education}, 
+  volume={25}, 
+  number={2}, 
+  pages={441--456}, 
+  year={2020}, 
+  publisher={Springer} 
+} 
+
+###### Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment 
+
+**BiB invoegen**
+
+@article{schut2018stakes, 
+  title={Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment}, 
+  author={Schut, Suzanne and Driessen, Erik and Van Tartwijk, Jan and van der Vleuten, Cees and Heeneman, Sylvia}, 
+  journal={Medical Education}, 
+  volume={52}, 
+  number={6}, 
+  pages={654--663}, 
+  year={2018}, 
+  publisher={Wiley Online Library} 
+} 
+
+###### The impact of programmatic assessment on student learning: theory versus practice 
+
+**BiB invoegen**
+
+@article{heeneman2015impact, 
+  title={The impact of programmatic assessment on student learning: theory versus practice}, 
+  author={Heeneman, Sylvia and Oudkerk Pool, Andrea and Schuwirth, Lambert WT and van der Vleuten, Cees PM and Driessen, Erik W}, 
+  journal={Medical education}, 
+  volume={49}, 
+  number={5}, 
+  pages={487--498}, 
+  year={2015}, 
+  publisher={Wiley Online Library} 
+} 
+
+###### McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period 
+
+**BiB invoegen**
+
+@article{li2017mcmaster, 
+  title={McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period}, 
+  author={Li, Shelly-Anne and Sherbino, Jonathan and Chan, Teresa M}, 
+  journal={AEM Education and Training}, 
+  volume={1}, 
+  number={1}, 
+  pages={5--14}, 
+  year={2017}, 
+  publisher={Wiley Online Library} 
+} 
+
+##### Praktijkgerichte publicaties 
+
+###### Actieve rol van de student in het feedbackproces 
+
+Feedback is een essentieel onderdeel van programmatisch toetsen. Het gaat dan zowel om feedback vragen als om de ontvangen feedback gebruiken. In dit feedbackproces wordt een actieve rol van de student verwacht. Hoe help je de student om deze rol te pakken? In dit webinar gaat Renske de Kleijn hierop in. Het webinar is georganiseerd vanuit het Platform Leren van Toetsen. 
+
+[Webinar Platform Leren van Toetsen](https://www.youtube.com/watch?v=rN8w3rvvugY&t=741s)
+
+###### Zelfregulerend leren 
+
+In dit webinar gaat Niels Bohnen in op de relatie tussen zelfregulerend leren en programmatisch toetsen. Hij maakte deze presentatie in het landelijk leernetwerk programmatisch toetsen. 
+
+[Keynote Niels Bohnen over zelfregulerend leren en de relatie met PT](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
+
+###### Zelfregulatie, leerstrategieën en zelfbeoordeling 
+
+Binnen de context van programmatisch toetsen wordt van studenten in toenemende mate verwacht dat zij in staat zijn op een effectieve en efficiënte maniet zelfregulatiestrategieën in te zetten. Hoewel bijgevoegd artikel zich primair richt op het voortgezet onderwijs, beidt het duidelijke informatie over zelfregulatie, leerstrategieën en zelfbeoordeling die ook goed toepasbaar zijn binnen de HO-context. 
+
+[Zelfregulatie en eigenaarschap in het VO](./bronnen/106_Zelfregulatie_eigenaarschap_VO.pdf)
+
+#### Praktijkvoorbeelden 
+
+##### Feedbackformulieren 
+
+Instituut Archimedes (HU) ontwikkelde een feedbackformulier dat studenten helpt om heel gericht zichzelf te beoordelen en een feedbackvraag te formuleren, en dat beoordelaars helpt om gerichte feedback te geven. Ook MOVEL (HAN) ontwikkelde een formulier waarmee beoordelaars en studenten feedback kunnen geven waarin expliciete aandacht is voor zowel feedup, feedback als feedforward. 
+
+[Feedbackformulier Instituut Archimedes](./bronnen/90_Feedbackformulier_Archimedes.docx)
+
+[Feedbackformulier MOVEL](./bronnen/96_Feedbackformulier_MOVEL.pdf)
+
+#### Praktische handvatten 
+
+##### Feedback geven 
+
+Feedback is essentieel bij programmatisch toetsen. Het geven van goede feedback is echter niet eenvoudig, evenals het vragen van feedback. Fontys ontwikkelde handreikingen voor student, docent en werkveld over het geven en vragen van feedback.  
+
+[Feedback handout Fontys](./bronnen/82_Feedback_handout_Fontys.pdf)
+
+[Feedback handreiking docent Fontys](./bronnen/82_Feedback_handreiking_docent_Fontys.pdf)
+
+[Feedback handreiking student Fontys](./bronnen/82_Feedback_handreiking_student_Fontys.pdf)
+
+[Feedback handreiking werkveld Fontys](./bronnen/82_Feedback_handreiking_student_Fontys.pdf)
+
+##### Workshop feedback geven 
+
+Instituut Archimedes (HU) ontwikkelde deze workshop die bestaat uit 2 delen. In deze workshop wordt expliciet stilgestaan bij feedback binnen de context van programmatisch toetsen. 
+
+[Workshop feedback geven binnen programmatisch toetsen - Deel 1](./bronnen/87_HU_Workshop_Feedback_1.pptx)
+
+[Workshop feedback geven binnen programmatisch toetsen - Deel 2](./bronnen/87_HU_Workshop_Feedback_2.pptx)
+
+##### Praatplaat grip op ontwikkeling 
+  
+Het is belangrijk om met studenten het gesprek aan te gaan over hun ontwikkeling. Deze praatplaat kan daarbij helpen. De praatplaat is door Lambert Zaad, Tugba Ozdes, Ria Kersbergen, Sabrina Bloemen en Ellen Leenaarts-Gunnewijk ontwikkeld in het HAN leernetwerk programmatisch toetsen (ontwerp: Studio Duikboot).  
+
+[Praatplaat Grip op Ontwikkeling - Powerpoint HD, 1920x1080, 72ppi](./bronnen/92_Praatplaat_PowerpointHD.png)
+
+[Praatplaat Grip op Ontwikkeling - A3, 4961x3508, 300ppi](./bronnen/92_Praatplaat_A3.png)
+
+[Grafiek uitgelicht - Print, 300ppi](./bronnen/92_Praatplaat_Grafiek.png)
+
+## De beslisfunctie 
+
+Naast het optimaliseren van de leerfunctie, ligt de focus van programmatisch toetsen ook op het optimaliseren van de beslisfunctie (@van2012model). Om tot een beslissing te komen over de beheersing van een student over een leeruitkomst, wordt informatie op het niveau van de leeruitkomst gedestilleerd uit alle beschikbare datapunten, waarbij er over de datapunten heen een beslissing wordt genomen (@baartman2020programmatisch).  
+
+### High-stake beslissingen 
+
+In tegenstelling tot low-stake momenten, hebben de resultaten bij high-stake beslissingen wel een grote consequentie (@van2012model). Er wordt namelijk een zak-/slaagbeslissing genomen (@baartman2020programmatisch). Hierbij is het belangrijk dat high-stake beslissingen zijn gebaseerd op veel datapunten, rijke informatie uit verschillende contexten en verschillende toetsvormen en beoordelaars; hoe hoger de ‘stake’, hoe meer gegevens er naar verhouding nodig zijn voor de beslissing (@van2012model). De datapunten vormen samen een totaalplaatje van de student. Er kan een legitiem besluit worden genomen over de student, wanneer dit plaatje duidelijk genoeg is (@baartman2020programmatisch).  
+
+Er bestaat niet zoiets als ‘het perfecte aantal’ aan datapunten. Belangrijk is wel dat er niet teveel datapunten zijn, omdat dit zorgt voor een hoge werkdruk bij de docenten en studenten weinig tijd hebben om iets met de feedback op de datapunten te doen. Maar te weinig datapunten zorgt voor een onvoldoende beeld om een robuuste beslissing te kunnen nemen [BRON TOEVOEGEN](@filmpje Luberta).
+
+### Inrichten van de beslisprocedure 
+
+Bij een tussentijdse beoordeling vergelijkt een commissie van examinatoren de gecombineerde informatie uit de datapunten met de prestatienorm. Omdat datapunten zowel narratief als kwalitatief kunnen zijn, vraagt dit om menselijke interpretatie. De examinatoren moeten goed geïnformeerd zijn over hetgeen wat zij beoordelen en hier ook getraind in zijn. Voor het beoordelen kunnen de examinatoren gebruik maken van bijvoorbeeld rubrics of prestatienormen. De omvang van de commissie en de mate van beraadslaging zijn van belang. Een commissie met meerdere personen zorgt voor een collectief oordeel op basis van alle beschikbare informatie en kan ervoor zorgen dat bepaalde patronen aan het licht komen die een enkele beoordelaar niet zou zien (@wilkinson2011joining).  
+
+Wanneer een coach of mentor betrokken is bij het maken van de beslissing, kan de relatie tussen de coach/mentor en student in gevaar komen en het beslisproces belemmeren. Om toch de rijke informatie die een coach/mentor kan bieden mee te nemen in het beslisproces, kan een coach/mentor een bevestiging geven dat de gecombineerde informatie uit de datapunten een goed beeld van de student weergeeft. Of de coach/mentor kan gevraagd worden om een aanbeveling te geven voor de beslissing. De tussentijdse beoordeling van de commissie is informerend in relatie tot de prestatienorm, maar geeft ook informatie over wat al goed gaat en wat nog beter kan, waar (nog) aan gewerkt moet worden en kan voorspellend zijn. Belangrijk is in ieder geval dat de beoordeling gericht is om remediëring, waarbij het doel is om tot een informatierijke aanbeveling te komen, die is afgestemd op de lerende en gebaseerd is op de gecombineerde informatie uit de datapunten. Hiernaast is het belangrijk dat de lerende wordt begeleidt door een coach/mentor en er sprake is van een feedback dialoog (@heeneman2021ottawa).  
+
+Een high-stake beslissing vindt plaats wanneer er een beslissing moet worden gemaakt over het leerproces van de lerende. Deze high-stake beslissing is bijvoorbeeld gebaseerd op een uitgebreid portfolio waaraan gedurende een bepaalde periode wordt gewerkt (@heeneman2021ottawa). Door deze beslissing door dezelfde commissie van examinatoren als bij de tussenbeoordeling te laten nemen, ontstaat er langdurige betrokkenheid. Waar mogelijk worden er striktere procedurele garanties ingezet, bijvoorbeeld procedures voor de inbreng van de student en de coach, opleiding en benchmarking van examinatoren, omvang van de commissie, beraadslaging en documentatie, prestatienormen en/of rubrics en het meenemen van alle datapunten van de voorafgaande periode, inclusief de tussentijdse beoordeling. Gezien er veel afhangt van een high-stake beslissing, is het van belang dat de procedure betrouwbaar en geloofwaardig is (@heeneman2021ottawa). Als de procedure/het systeem goed werkt, zou de beoordeling/beslissing geen verassing moeten zijn. Wanneer een student het high-stake moment niet behaald, kan de commissie aanbeveling doen voor remediëring. Samengevat is de high-stake beslissing robuust en gebaseerd op rijke informatie en veel datapunten.  
+
+### Saturatie, triangulatie en intersubjectiviteit 
+
+Het bekijken van de informatie uit de low-stake momenten gaat door tot er saturatie van informatie is bereikt (@de2022shaping). Dit betekent dat extra/nieuwe informatie uit low-stake momenten, niks meer toevoegt aan het beeld van de student wat je al hebt (@schuwirth2012programmatic). Met andere woorden: er is voldoende informatie om een beslissing te nemen. Het aantal datapunten/low-stake momenten dat nodig is voor saturatie van informatie kan verschillen per studenten (@filmpje Luberta). Hierbij is triangulatie van belang: het combineren van informatie uit verschillende bronnen (methodes, beoordelaars etc.) (@cook2016assessment). Triangulatie zorgt voor een grote verzameling van rijke informatie, zowel kwantitatief en narratief (feedback en reflectie) (de2022shaping). Hierdoor is het resultaat geen berekening, maar een beschrijving over en voor de lerende (@heeneman2021ottawa). Hierbij is een sequentiële beoordelingsprocedure van belang, waarbij tegenstrijdige informatie et verzamelen van meer informatie noodzakelijk maakt (@van2012model).   
+
+### Aan de slag 
+
+#### Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op de beslisfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+##### Wetenschappelijke publicaties 
+
+###### Programmatic assessment: Can we provide evidence for saturation of information? 
+
+**BiB invoegen**
+
+@article{doi:10.1080/0142159X.2018.1555369, 
+author = {Lubberta H. de Jong and Harold G. J. Bok and Wim D. J. Kremer and Cees P. M. van der Vleuten}, 
+title = {Programmatic assessment: Can we provide evidence for saturation of information?},
+journal = {Medical Teacher}, 
+volume = {41}, 
+number = {6}, 
+pages = {678-682}, 
+year  = {2019}, 
+publisher = {Taylor & Francis}, 
+doi = {10.1080/0142159X.2018.1555369}, 
+    note ={PMID: 30707848}, 
+URL = {  
+        https://doi.org/10.1080/0142159X.2018.1555369 
+}, 
+eprint = {  
+        https://doi.org/10.1080/0142159X.2018.1555369 
+} 
+} 
+
+###### From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio 
+
+**BiB invoegen**
+
+@article{oudkerk2018aggregation, 
+  title={From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio}, 
+  author={Oudkerk Pool, Andrea and Govaerts, Marjan JB and Jaarsma, Debbie ADC and Driessen, Erik W}, 
+  journal={Advances in Health Sciences Education}, 
+  volume={23}, 
+  number={2}, 
+  pages={275--287}, 
+  year={2018}, 
+  publisher={Springer} 
+} 
+
+###### Evaluation of an assessment system for professionalism amongst dental students 
+
+**BiB invoegen**
+
+@article{zijlstra2017evaluation, 
+  title={Evaluation of an assessment system for professionalism amongst dental students}, 
+  author={Zijlstra-Shaw, S and Roberts, T and Robinson, PG}, 
+  journal={European Journal of Dental Education}, 
+  volume={21}, 
+  number={4}, 
+  pages={e89--e100}, 
+  year={2017}, 
+  publisher={Wiley Online Library} 
+} 
+
+###### Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress 
+
+**BiB invoegen** 
+
+@article{wilkinson2011joining, 
+  title={Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress}, 
+  author={Wilkinson, Tim J and Tweed, Mike J and Egan, Tony G and Ali, Anthony N and McKenzie, Jan M and Moore, MaryLeigh and Rudland, Joy R}, 
+  journal={BMC Medical Education}, 
+  volume={11}, 
+  number={1}, 
+  pages={1--9}, 
+  year={2011}, 
+  publisher={BioMed Central} 
+} 
+
+##### Praktijkgerichte publicaties 
+
+###### Het nemen van zorgvuldige beslissingen 
+
+In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen. 
+
+[Bekijk het webinar](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
+
+#### Praktijkvoorbeelden 
+
+##### het nemen van zorgvuldige beslissingen 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vind hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Buitenkring bijeenkomst 2: Opname](./bronnen/56_Buitenkring_Bijeenkomst2_Opname.mp4)
+
+[Buitenkring bijeenkomst 2: Presentatie](./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf)
+
+[Buitenkring bijeenkomst 2: Beslisprocedure](./bronnen/56_Buitenkring_Bijeenkomst2_Beslisprocedure.pptx)
+
+##### Inrichten beslisprocedure 
+
+Instituut Archimedes (HU) gebruikte de [gesprekskaartjes](./bronnen/59_Gesprekskaartjes.pptx) die ontwikkeld zijn in het landelijk leernetwerk programmatisch toetsen om een procedure uit te werken voor het komen tot een high stake beslissing. Deze procedure is als praktijkvoorbeeld toegevoegd. 
+
+[Procedure high-stake beslissingen van de HU](./bronnen/100_Procedure_highstake_beslissingen_HU.pdf)
+
+#### Praktische handvatten 
+
+##### Inrichten van de beslisprocedure 
+
+Hoe richt je de beslisprocedure in? Wil je hierover samen met collega's in gesprek, dan bieden deze gesprekskaartjes een mooi handvat om dat gesprek te voeren. De gesprekskaartjes werden ontwikkeld door Maartjes de Groot, Jantina Huizenga en Judith Revet in het landelijk leernetwerk programmatisch toetsen. 
+
+[Gesprekskaartjes beslisproces](./bronnen/59_Gesprekskaartjes.pptx)
+
+## Zorgen en borgen 
+
+Bij opleidingen die (gaan) werken met programmatisch toetsen verandert vaak de manier waarop zij zorgen voor de toetskwaliteit. Ook de manier waarop de examencommissie deze toetskwaliteit borgt, verandert. In deze inleiding staan we stil bij nieuwe en aangepaste instrumenten voor het zorgen voor en borgen van de toetskwaliteit. We doen dat aan de hand van de elementen van het toetsweb (Van Schilt-Mol et al, 2020) met een aanpassing; bij programmatisch toetsen wordt op één of meerdere momenten de informatie van een groot aantal datapunten gebruikt om een beslissing te nemen over het wel of niet toekennen van studiepunten (highstake beslissing). We gebruiken hier daarom de termen datapuntenprogramma, highstakebeslissing en datapunten in plaats van de toetswebtermen toetsprogramma en toets(tak)en. Daarmee zijn er bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen: 
+
+[AFBEELDING TOEVOEGEN]
+
+### Toetsbeleid 
+
+Het toetsbeleid is het geheel aan vastgestelde afspraken over toetsen en beoordelen, zowel inhoudelijk als procedureel (Bruijns & Kok, 2015). Toetsbeleid kan bestaan op verschillende niveaus, bijvoorbeeld op instellingsniveau en opleidingsniveau. Het toetsbeleid is vaak onderdeel van en opgenomen in meerdere documenten zoals een toetskader, een toetsbeleid, een toetsreglement en een onderwijs- en examenregeling. De afspraken in het toetsbeleid kunnen gaan over alle elementen van het toetsweb. Naast de afspraken die de instelling en opleiding maken, zijn examencommissies in het hoger onderwijs bevoegd eigen richtlijnen en aanwijzingen te geven binnen het kader van de onderwijs- en examenregeling (WHW 7.12b lid 1b). 
+
+#### Toetsbeleid: zorgen voor kwaliteit van toetsing 
+
+Stel toetsbeleid op; zorg in ieder geval voor afspraken over: 
+
+* de rechtsbescherming van studenten;
+* het voorkómen en constateren van fraude in de datapunten; 
+* de herkansings- en/of remedieermogelijkheden voor studenten die een onderwijseenheid niet hebben behaald.   
+
+#### Toetsbeleid: borgen van kwaliteit van toetsing 
+
+* Wees scherp op de vraag of programmatisch toetsen volgens de bedoeling wordt ingezet (VERWIJZING naar : Biemond - Overzicht van signalen voor ‘slechte invoering van PT’). 
+* Ga na of het toetsbeleid de examencommissies voldoende mogelijkheden geeft haar borgende taak uit te voeren. 
+* Ga na of het toetsbeleid bekend is bij alle relevante actoren en wordt nageleefd. 
+
+### Geheel aan datapunten 
+
+Een datapuntenprogramma is een overzicht van (kenmerken van) datapunten en beslismomenten dat bewust tot stand is gekomen op basis van vastgestelde doelen (Biemond & Baartman, 2021). Die doelen zijn bijvoorbeeld validiteit en betrouwbaarheid. Bij een datapuntenprogramma hoort een verantwoording, waarin ook de uitgangspunten voor het datapuntenprogramma staan vermeld. Een uitgangspunt kan bijvoorbeeld zijn dat er wordt gewerkt met een mix van datapunten, bijvoorbeeld in het soort datapunten, in de contexten waarin beroepshandelingen zijn uitgevoerd en in het perspectief zoals een klant/patiënt/ docent/medestudent (Biemond & Baartman, 2021). 
+
+#### Geheel aan datapunten: zorgen voor kwaliteit van toetsing 
+
+* Geef een heldere verantwoording van het datapuntenprogramma en relateer de keuzes aan de uitgangspunten van programmatisch toetsen (link naar andere deel online leeromgeving). Dit artikel van Biemond & Baartman (2021) kan daarbij behulpzaam zijn. [BRON TOEVOEGEN]
+* Ontwerp een datapuntenprogramma dat de leerfunctie versterkt. 
+* Ontwerp een datapuntenprogramma dat leidt tot een robuuste beslissing. 
+* Besteed aandacht aan de kaders die je de studenten meegeeft in hun keuzemogelijkheden (voor bijvoorbeeld datapunten, contexten, perspectief van feedbackgever). 
+* Besteed aandacht aan de wijze waarop saturatie bereikt wordt. 
+* Stel vast op welke wijze de informatie van datapunten wordt geaggregeerd tot een high stake beslissing.  
+
+#### Geheel aan datapunten: borgen van kwaliteit van toetsing 
+
+* Bekijk het datapuntenprogramma op papier en ga na of het in de praktijk ook zo wordt uitgevoerd. 
+* Evalueer de verantwoording van het datapuntenprogramma. 
+* Besteed aandacht aan de kaders die de studenten meekrijgen in hun keuzemogelijkheden. 
+* Bekijk steekproefsgewijs welke datapunten studenten opnemen in hun portfolio en de keuzes die ze maken. 
+
+### High-stake beslissing 
+
+De high-stake beslissing gaat over het wel of niet toekennen van studiepunten. Hierbij wordt de informatie uit een groot aantal datapunten gebruikt om deze beslissing te nemen. 
+
+#### High-stake beslissing: zorgen voor kwaliteit van toetsing 
+
+* Expliciteer de richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie (Verwijzing naar nog te schrijven blog Sylvia/Irene). 
+* Maak duidelijk hoe begeleiders en examinatoren kalibreren. 
+* Leg procedures rondom highstakebeslissingen vast. 
+* Leg uit hoe de besliscommissie wordt samengesteld. 
+* Stel een helder(e) beoordelingsformulier/rubric op met een duidelijke invulinstructie. 
+* Leg uit op welke wijze de eventuele remediëring tot stand komt. 
+
+#### High-stake beslissing: borgen van kwaliteit van toetsing 
+
+* Evalueer steekproefsgewijs de kwaliteit van de portfolio’s (kwaliteit datapunten, kwaliteit feedback, saturatie). 
+* Beoordeel richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie en/of verslagen van highstakebeslissingen. 
+* Bekijk de manier waarop aggregatie van informatie plaatsvindt. 
+* Beoordeel procedures rondom highstakebeslissingen en woon beslismomenten bij. 
+* Beoordeel de samenstelling van de besliscommissie of geef hiervoor richtlijnen. 
+* Beoordeel de procedures rondom kalibratie en de uitvoering ervan in de praktijk. 
+* Evalueer de kwaliteit van het beoordelingsformulier/rubric en de invulinstructie.
+* Beoordeel de procedure rondom de totstandkoming van de remediering. 
+* Beoordeel of de student met het remediëringsprogramma of de remediëringsopdracht aan de eisen kan voldoen.  
+
+### Datapunten 
+
+Een datapunt geeft een brokje informatie over de student en kan bijvoorbeeld bestaan uit beroepsproducten, kennisproducten, onderbouwingen, reflecties, zelfbeoordelingen, scores op kennistoetsen of feedback van medestudenten, cliënten of opdrachtgevers. Een datapunt kan informatie geven over meerdere beroepscompetenties (Biemond & Baartman, 2021). 
+
+#### Datapunten: zorgen voor kwaliteit van toetsing 
+
+* Besteed aandacht aan de kaders die je de studenten meegeeft in hun keuzemogelijkheden voor datapunten (bijvoorbeeld contexten, perspectief van feedbackgever). 
+* Maak duidelijk welke eisen worden gesteld aan feedback. 
+* Stel richtlijnen vast voor de kwaliteit van de datapunten, rekening houdend met zowel de leerfunctie als de beslisfunctie. 
+
+#### Datapunten: borgen van kwaliteit van toetsing 
+
+* Bepaal en beargumenteer hoeveel aandacht de examencommissie wil besteden aan de borgen van de kwaliteit van datapunten. 
+* Evalueer de richtlijnen voor de kwaliteit van de datapunten. 
+* Bepaal eventueel in hoeverre deze richtlijnen in de praktijk worden nageleefd. 
+
+### Toetsorganisatie 
+
+Met de toetsorganisatie wordt verwezen naar de wijze waarop docenten, examencommissie, toetscommissie, management en ondersteunende medewerkers doelgericht met elkaar samenwerken om de gewenste toetskwaliteit te realiseren (Van Deursen & Van Zijl, 2015). Daarbij gaat het om het vaststellen van rollen, taken en verantwoordelijkheden van actoren/betrokkenen bij toetsing, het rolvast met elkaar samenwerken en de logistieke organisatie van toetsing (Van Deursen & Van Zijl, 2015).  
+
+#### Toetsorganisatie: zorgen voor kwaliteit van toetsing 
+
+* Regel de logistiek rondom de bijeenkomsten van de besliscommissie. 
+* Expliciteer taken, verantwoordelijkheden en bevoegdheden van diegenen die een rol spelen in de toetskwaliteit.  
+* Zorg - zeker als studenten veel keuzemogelijkheden krijgen - voor een goede uitvoering en registratie en pas systemen en procedures hierop zo nodig aan. 
+
+#### Toetsorganisatie: borgen van kwaliteit van toetsing 
+
+* Ga na of de logistiek rondom de bijeenkomsten van de besliscommissie goed werkt. 
+* Evalueer of diegenen die een rol spelen in de toetskwaliteit de juiste taken uitvoeren, de juiste verantwoordelijkheden dragen en bevoegdheden gebruiken.  
+* Ga na of de uitvoering en registratie - als gevolg van de keuzemogelijkheden van studenten - in systemen en procedures goed verloopt. 
+
+### Toetsbekwaamheid 
+
+Met toetsbekwaamheid wordt verwezen naar de deskundigheid die bij actoren aanwezig moet zijn om toetskwaliteit te realiseren (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Bij programmatisch toetsen hoort daarbij ook feedbackgeletterdheid van studenten, docenten en begeleiders uit het werkveld; coachingsvaardigheden bij docenten en vaardigheid in holistisch beoordelen bij examinatoren. Daarnaast is kennis nodig bij examencommissies, docenten en managers over het doel van en de werkwijze bij programmatisch toetsen. Wij merken daarnaast dat het verstandig is om ook minder direct betrokkenen, zoals juridisch medewerkers of medewerkers van de cijferadministratie, uit te leggen wat programmatisch toetsen inhoudt. 
+
+#### Toetsbekwaamheid: zorgen voor kwaliteit van toetsing 
+
+* Maak een plan om de toetsbekwaamheid van studenten, docenten, beoogd examinatoren en andere actoren op peil te krijgen en te houden, voer het plan uit en evalueer de uitvoering.  
+
+#### Toetsbekwaamheid: borgen van kwaliteit van toetsing 
+
+* Stel (nieuwe) criteria vast waaraan examinatoren moeten voldoen. 
+* Evalueer de uitvoering van het plan rondom de toetsbekwaamheid. 
+* Signaleer mogelijke tekortkomingen in toetsbekwaamheid van verschillende actoren en vraag de opleiding actie te ondernemen. 
+
+### Aan de slag 
+
+#### Meer weten? 
+
+#### meer weten? 
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het zorgen voor en borgen van de kwaliteit van toetsing bij programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+##### Wetenschappelijke publicaties 
+
+###### Programmatic assessment: Can we provide evidence for saturation of information? 
+
+**BiB invoegen**
+
+@article{doi:10.1080/0142159X.2018.1555369, 
+author = {Lubberta H. de Jong and Harold G. J. Bok and Wim D. J. Kremer and Cees P. M. van der Vleuten}, 
+title = {Programmatic assessment: Can we provide evidence for saturation of information?},
+journal = {Medical Teacher}, 
+volume = {41}, 
+number = {6}, 
+pages = {678-682}, 
+year  = {2019}, 
+publisher = {Taylor & Francis}, 
+doi = {10.1080/0142159X.2018.1555369}, 
+    note ={PMID: 30707848}, 
+URL = {  
+        https://doi.org/10.1080/0142159X.2018.1555369 
+}, 
+eprint = {  
+        https://doi.org/10.1080/0142159X.2018.1555369 
+} 
+} 
+
+###### The pursuit of fairness in assessment: Looking beyond the objective 
+
+**BiB invoegen**
+
+@article{valentine2022pursuit, 
+  title={The pursuit of fairness in assessment: Looking beyond the objective}, 
+  author={Valentine, Nyoli and Durning, Steven J and Shanahan, Ernst Michael and van der Vleuten, Cees and Schuwirth, Lambert}, 
+  journal={Medical Teacher}, 
+  pages={1--7}, 
+  year={2022}, 
+  publisher={Taylor \& Francis} 
+} 
+
+##### praktijkgerichte publicaties 
+
+ 
+
+###### Kennisclips zorgen en borgen 
+
+In zeven korte kennisclips wordt ingegaan op het zorgen voor en borgen van kwaliteit voor toetsing binnen de context van programmatisch toetsen. De kennisclips zijn gemaakt door Sylvia Heeneman en Irene Biemond.  
+
+[Kennisclip 1 - Inleiding en samenvatting](./bronnen/111_Kennisclip_1_Inleiding.mp4)
+
+[Kennisclip 2 - Toetsbeleid](./bronnen/111_Kennisclip_2_Toetsbeleid.mp4)
+
+[Kennisclip 3 - Overzicht van datapunten](./bronnen/111_Kennisclip_3_Overzicht_datapunten.mp4)
+
+[Kennisclip 4 - Highstake beslissing](./bronnen/111_Kennisclip_4_Highstake_beslissing.mp4)
+
+[Kennisclip 5 - Datapunten](./bronnen/111_Kennisclip_5_Datapunten.mp4)
+
+[Kennisclip 6 - Toetsorganisatie](./bronnen/111_Kennisclip_6_Toetsorganisatie.mp4)
+
+[Kennisclip 7 - Toetsbekwaamheid](./bronnen/111_Kennisclip_7_Toetsbekwaamheid.mp4)
+
+###### De rol van de examencommissie  
+
+Hoe kunnen examencommissies op een goede manier invulling geven aan hun wettelijke taak (het borgen van de kwaliteit van toetsing) bij opleidingen die werken volgens de principes van programmatisch toetsen? In dit tweeluik wordt eerst ingegaan op de rol van de examencommissie, daarna op concrete instrumenten waarmee de examencommissie invulling kan deze aan deze rol. Deel 2 van dit tweeluik is te vinden bij de praktische handvatten op deze pagina. 
+
+[Naar gecontroleerd vertrouwen: De rol van de examencommissie bij programmatisch toetsen](https://lerenvantoetsen.nl/naar-gecontroleerd-vertrouwen-de-rol-van-de-examencommissie-bij-programmatisch-toetsen/)
+
+#### Praktijkvoorbeelden 
+
+##### Het borgen van de kwaliteit van zorgvuldige beslissingen 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vind hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Buitenkring bijeenkomst 2: Opname](./bronnen/56_Buitenkring_Bijeenkomst2_Opname.mp4)
+
+[Buitenkring bijeenkomst 2: Presentatie](./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf)
+
+[Buitenkring bijeenkomst 2: Beslisprocedure](./bronnen/56_Buitenkring_Bijeenkomst2_Beslisprocedure.pptx)
+
+#### Praktische handvatten 
+
+###### De rol van de examencommissie - hoe 
+
+Hoe kunnen examencommissies op een goede manier invulling geven aan hun wettelijke taak (het borgen van de kwaliteit van toetsing) bij opleidingen die werken volgens de principes van programmatisch toetsen? In dit tweeluik wordt eerst ingegaan op de rol van de examencommissie, daarna op concrete instrumenten waarmee de examencommissie invulling kan deze aan deze rol. Deel 1 van dit tweeluik is te vinden bij de praktijkgerichte publicaties op deze pagina. 
+
+[Holistisch beslissen en de borging van kwaliteit door een examencommissie, hoe dan?](https://lerenvantoetsen.nl/holistisch-beslissen-en-de-borging-van-kwaliteit-door-een-examencommissie-hoe-dan/)
+
+##### Protocol toetsing en beoordeling bij de huisartsenopleiding 
+
+In de huisartsenopleiding wordt gewerkt volgens de principes van programmatisch toetsen. Op deze site staan het toetsplan en het 'protocol toetsing en beoordeling' dat de opleiding hanteert. Hierin is uitgewerkt hoe de ontwikkeling van de student gedurende de opleiding steeds onderwerp van gesprek is en hoe (en op basis waarvan) beslissingen worden genomen. 
+
+[Huisartsenopleiding: Programmatisch toetsen](https://www.huisartsopleiding.nl/toetsen-beoordelen/programmatisch-toetsen/)
+
+##### Zelfevaluatie kwaliteit van toetsprogramma 
+
+De zelfevaluatie-methodiek KIT2.0 is gebaseerd op principes van programmatisch toetsen. Deze basisprincipes zie je terug in de kwaliteitscriteria. Met de methodiek kun je de kwaliteit van je toetsprogramma in kaart brengen en nagaan hoe je toetsprogramma zich verhoudt tot de uitgangspunten van programmatisch toetsen. 
+
+[Achtergrond – Kwaliteitsinstrument Toetsprogramma (kwaliteit-toetsprogramma.nl)](https://www.kwaliteit-toetsprogramma.nl/achtergrond/)
+
+# Colofon 
+
+## Het leernetwerk programmatisch toetsen 
+
+## Samenstellers van de online leeromgeving 
+
+## Versnellingsplan 
+
+## Bijdragen aan de online leeromgeving? 
 
 <center> Updated: `r Sys.Date()` </center>
