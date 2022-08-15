@@ -5,7 +5,7 @@ date: "2022-08-14"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-# bibliography: [book.bib, packages.bib]
+# bibliography: [references.bib]
 # biblio-style: apalike
 # link-citations: yes
 github-repo: Werkgroep-Toetsen-Op-Afstand/leermodule-programmatisch-toetsen
@@ -79,149 +79,37 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 ###### Assessing professional competence: from methods to programmes 
 
-**BiB invoegen**
-
-@article{van2005assessing, 
-
-  title={Assessing professional competence: from methods to programmes}, 
-
-  author={Van Der Vleuten, Cees PM and Schuwirth, Lambert WT}, 
-
-  journal={Medical education}, 
-
-  volume={39}, 
-
-  number={3}, 
-
-  pages={309--317}, 
-
-  year={2005}, 
-
-  publisher={Wiley Online Library} 
+@van2005assessing
 
 ###### The assessment of professional competence: building blocks for theory development 
 
-**BiB invoegen**
-
-@article{van2010assessment, 
-  title={The assessment of professional competence: building blocks for theory development}, 
-  author={Van der Vleuten, CPM and Schuwirth, LWT and Scheele, Fedde and Driessen, EW and Hodges, Brian}, 
-  journal={Best practice \& research Clinical obstetrics \& gynaecology}, 
-  volume={24}, 
-  number={6}, 
-  pages={703--719}, 
-  year={2010}, 
-  publisher={Elsevier} 
-} 
+@van2010assessment 
 
 ###### Twelve Tips for programmatic assessment  
 
-**BiB invoegen**
-
-@article{doi:10.3109/0142159X.2014.973388, 
-author = {C.P.M. Van Der Vleuten and L.W.T. Schuwirth and E.W. Driessen and M.J.B. Govaerts and S. Heeneman}, 
-title = {Twelve Tips for programmatic assessment}, 
-journal = {Medical Teacher}, 
-volume = {37}, 
-number = {7}, 
-pages = {641-646}, 
-year  = {2015}, 
-publisher = {Taylor & Francis}, 
-doi = {10.3109/0142159X.2014.973388}, 
-    note ={PMID: 25410481}, 
-URL = {  
-        https://doi.org/10.3109/0142159X.2014.973388 
-}, 
-eprint = {  
-        https://doi.org/10.3109/0142159X.2014.973388 
-} 
-}
+@doi:10.3109/0142159X.2014.973388
 
 ###### A model for programmatic assessment fit for purpose 
 
-**BiB invoegen**
-
-@article{van2012model, 
-  title={A model for programmatic assessment fit for purpose}, 
-  author={van der Vleuten, Cees PM and Schuwirth, LWT and Driessen, EW and Dijkstra, Joost and Tigelaar, Dineke and Baartman, LKJ and Van Tartwijk, Jan}, 
-  journal={Medical teacher}, 
-  volume={34}, 
-  number={3}, 
-  pages={205--214}, 
-  year={2012}, 
-  publisher={Taylor \& Francis} 
-} 
-
+@van2012model 
 
 ###### Programmatic assessment: From assessment of learning to assessment for learning 
 
-**BiB invoegen**
-
-@article{doi:10.3109/0142159X.2011.565828, 
-author = {Lambert W. T. Schuwirth and Cees P. M. Van der Vleuten}, 
-title = {Programmatic assessment: From assessment of learning to assessment for learning}, 
-journal = {Medical Teacher}, 
-volume = {33}, 
-number = {6}, 
-pages = {478-485}, 
-year  = {2011}, 
-publisher = {Taylor & Francis}, 
-doi = {10.3109/0142159X.2011.565828}, 
-    note ={PMID: 21609177}, 
-URL = {  
-        https://doi.org/10.3109/0142159X.2011.565828 
-}, 
-eprint = {  
-        https://doi.org/10.3109/0142159X.2011.565828 
-} 
-} 
+@doi:10.3109/0142159X.2011.565828
 
 ###### Ottawa 2020 consensus statement for programmatic assessment - 1. Agreement on the principles 
 
-**BiB invoegen**
-
-@article{heeneman2021ottawa, 
-  title={Ottawa 2020 consensus statement for programmatic assessment--1. Agreement on the principles}, 
-  author={Heeneman, Sylvia and de Jong, Lubberta H and Dawson, Luke J and Wilkinson, Tim J and Ryan, Anna and Tait, Glendon R and Rice, Neil and Torre, Dario and Freeman, Adrian and van der Vleuten, Cees PM}, 
-  journal={Medical Teacher}, 
-  volume={43}, 
-  number={10}, 
-  pages={1139--1148}, 
-  year={2021}, 
-  publisher={Taylor \& Francis} 
-} 
+@heeneman2021ottawa
 
 Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](./bronnen/20_Ottowa_2020.pdf) te vinden.
 
 ###### Where the rubber meets the road — An integrative review of programmatic assessment in health care professions education 
 
-**BiB invoegen**
-
-@article{schut2021rubber, 
-  title={Where the rubber meets the road—An integrative review of programmatic assessment in health care professions education}, 
-  author={Schut, Suzanne and Maggio, Lauren A and Heeneman, Sylvia and van Tartwijk, Jan and van der Vleuten, Cees and Driessen, Erik}, 
-  journal={Perspectives on medical education}, 
-  volume={10}, 
-  number={1}, 
-  pages={6--13}, 
-  year={2021}, 
-  publisher={Springer} 
-} 
+@schut2021rubber
 
 ###### Theoretical considerations on programmatic assessment 
 
-**BiB invoegen**
-
-@article{torre2020theoretical, 
- title={Theoretical considerations on programmatic assessment}, 
- author={Torre, Dario M and Schuwirth, LWT and Van der Vleuten, CPM}, 
- journal={Medical teacher}, 
- volume={42}, 
- number={2}, 
- pages={213--220}, 
- year={2020}, 
- publisher={Taylor \& Francis} 
-} 
+@torre2020theoretical
 
 ##### Praktijkgerichte publicaties
 
@@ -261,18 +149,7 @@ De manier waarop toetsing binnen een curriculum ingericht is, kan een groot effe
 
 [Praktijkgericht artikel: Een curriculumperspectief op motivatie](./bronnen/102_Kickert_Curriculumperspectief.pdf)
 
-**BiB invoegen**
-
-@article{kickert2022curricular, 
-  title={Curricular fit perspective on motivation in higher education}, 
-  author={Kickert, Rob and Meeuwisse, Marieke and Stegers-Jager, KM and Prinzie, Peter and Arends, LR}, 
-  journal={Higher Education}, 
-  volume={83}, 
-  number={4}, 
-  pages={729--745}, 
-  year={2022}, 
-  publisher={Springer} 
-} 
+@kickert2022curricular
  
 #### Praktijkvoorbeelden 
 
@@ -361,79 +238,19 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 
 ###### Twelve Tips for programmatic assessment 
 
-**BiB invoegen** 
-
-@article{doi:10.3109/0142159X.2014.973388, 
-author = {C.P.M. Van Der Vleuten and L.W.T. Schuwirth and E.W. Driessen and M.J.B. Govaerts and S. Heeneman}, 
-title = {Twelve Tips for programmatic assessment}, 
-journal = {Medical Teacher}, 
-volume = {37}, 
-number = {7}, 
-pages = {641-646}, 
-year  = {2015}, 
-publisher = {Taylor & Francis}, 
-doi = {10.3109/0142159X.2014.973388}, 
-    note ={PMID: 25410481}, 
-URL = {  
-        https://doi.org/10.3109/0142159X.2014.973388 
-}, 
-eprint = {  
-        https://doi.org/10.3109/0142159X.2014.973388 
-} 
-} 
+@doi:10.3109/0142159X.2014.973388
 
 ###### Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment 
 
-**BiB invoegen**
-
-@article{doi:10.1080/0142159X.2016.1230183, 
-author = {Sylvia Heeneman and Suzanne Schut and Jeroen Donkers and Cees van der Vleuten and Arno Muijtjens}, 
-title = {Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment}, 
-journal = {Medical Teacher}, 
-volume = {39}, 
-number = {1}, 
-pages = {44-52}, 
-year  = {2017}, 
-publisher = {Taylor & Francis}, 
-doi = {10.1080/0142159X.2016.1230183}, 
-    note ={PMID: 27646870}, 
-URL = {  
-        https://doi.org/10.1080/0142159X.2016.1230183 
-}, 
-eprint = {  
-        https://doi.org/10.1080/0142159X.2016.1230183 
-} 
-} 
+@doi:10.1080/0142159X.2016.1230183
 
 ###### Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach 
 
-**BiB invoegen** 
-
-@article{imanipour2016development, 
-  title={Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach}, 
-  author={Imanipour, Masoomeh and Jalili, Mohammad}, 
-  journal={Japan Journal of Nursing Science}, 
-  volume={13}, 
-  number={1}, 
-  pages={46--54}, 
-  year={2016}, 
-  publisher={Wiley Online Library} 
-} 
+@imanipour2016development
 
 ###### Designing programmes of assessment: a participatory approach 
 
-**BiB invoegen** 
-
-@article{jamieson2017designing, 
-  title={Designing programmes of assessment: a participatory approach}, 
-  author={Jamieson, Janica and Jenkins, Gemma and Beatty, Shelley and Palermo, Claire}, 
-  journal={Medical Teacher}, 
-  volume={39}, 
-  number={11}, 
-  pages={1182--1188}, 
-  year={2017}, 
-  publisher={Taylor \& Francis} 
-} 
+@jamieson2017designing
 
 ##### Praktijkgerichte publicaties 
 
@@ -453,18 +270,7 @@ In deze blog wordt een dashboard beschreven met succesfactoren voor de ontwikkel
 
 In [deze blog](https://lerenvantoetsen.nl/houvast-bij-het-invoeren-van-programmatisch-toetsen-in-de-praktijk/) wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen van een curriculum volgens de principes van programmatisch toetsen: feedbackproces, toetsprogramma en het nemen van beslissingen. De blog is gebaseerd op het wetenschappelijke artikel van Torre en collega's (2021). 
 
-**BiB invoegen** 
-
-@article{torre2021ottawa, 
-  title={Ottawa 2020 consensus statements for programmatic assessment--2. Implementation and practice}, 
-  author={Torre, Dario and Rice, Neil E and Ryan, Anna and Bok, Harold and Dawson, Luke J and Bierer, Beth and Wilkinson, Tim J and Tait, Glendon R and Laughlin, Tom and Veerapen, Kiran and others}, 
-  journal={Medical Teacher}, 
-  volume={43}, 
-  number={10}, 
-  pages={1149--1160}, 
-  year={2021}, 
-  publisher={Taylor \& Francis} 
-} 
+@torre2021ottawa
 
 #### Praktijkvoorbeelden 
 
@@ -548,50 +354,17 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 ###### Between trust and control: Teachers' assessment conceptualisations within programmatic assessment 
 
-**BiB invoegen**
-
-@article{schut2020between, 
-  title={Between trust and control: Teachers' assessment conceptualisations within programmatic assessment}, 
-  author={Schut, Suzanne and Heeneman, Sylvia and Bierer, Beth and Driessen, Erik and van Tartwijk, Jan and van Der Vleuten, Cees}, 
-  journal={Medical education}, 
-  volume={54}, 
-  number={6}, 
-  pages={528--537}, 
-  year={2020}, 
-  publisher={Wiley Online Library} 
-} 
+@schut2020between
 
 ###### Ottawa 2020 consensus statements for programmatic assessment - 2. Implementation and practice 
 
-**BiB invoegen**
-
-@article{torre2021ottawa, 
-  title={Ottawa 2020 consensus statements for programmatic assessment--2. Implementation and practice}, 
-  author={Torre, Dario and Rice, Neil E and Ryan, Anna and Bok, Harold and Dawson, Luke J and Bierer, Beth and Wilkinson, Tim J and Tait, Glendon R and Laughlin, Tom and Veerapen, Kiran and others}, 
-  journal={Medical Teacher}, 
-  volume={43}, 
-  number={10}, 
-  pages={1149--1160}, 
-  year={2021}, 
-  publisher={Taylor \& Francis} 
-} 
+@torre2021ottawa
 
 Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](./bronnen/20_Ottowa_2020.pdf) te vinden.
 
 ###### Competency-based education calls for programmatic assessment: But what does this look like in practice? 
 
-**BiB invoegen**
-
-@article{rich2020competency, 
-  title={Competency-based education calls for programmatic assessment: But what does this look like in practice?}, 
-  author={Rich, Jessica V and Fostaty Young, Sue and Donnelly, Catherine and Hall, Andrew K and Dagnone, J Damon and Weersink, Kristen and Caudle, Jaelyn and Van Melle, Elaine and Klinger, Don A}, 
-  journal={Journal of Evaluation in Clinical Practice}, 
-  volume={26}, 
-  number={4}, 
-  pages={1087--1095}, 
-  year={2020}, 
-  publisher={Wiley Online Library} 
-} 
+@rich2020competency
 
 ##### Praktijkgerichte publicaties 
 
@@ -652,92 +425,27 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 ###### A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL) 
 
-**BiB invoegen** 
-
-@article{schellekens2021scoping, 
-  title={A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL)}, 
-  author={Schellekens, Lonneke H and Bok, Harold GJ and de Jong, Lubberta H and van der Schaaf, Marieke F and Kremer, Wim DJ and van der Vleuten, Cees PM}, 
-  journal={Studies in Educational Evaluation}, 
-  volume={71}, 
-  pages={101094}, 
-  year={2021}, 
-  publisher={Elsevier} 
-} 
+@schellekens2021scoping
 
 ###### Clarifying students’ feedback-seeking behaviour in clinical clerkships 
 
-**BiB invoegen**
-
-@article{bok2013clarifying, 
-  title={Clarifying students’ feedback-seeking behaviour in clinical clerkships}, 
-  author={Bok, Harold GJ and Teunissen, Pim W and Spruijt, Annemarie and Fokkema, Joanne PI and van Beukelen, Peter and Jaarsma, Debbie ADC and van der Vleuten, Cees PM}, 
-  journal={Medical education}, 
-  volume={47}, 
-  number={3}, 
-  pages={282--291}, 
-  year={2013}, 
-  publisher={Wiley Online Library} 
-} 
+@bok2013clarifying
 
 ###### Understanding the influence of teacher--learner relationships on learners’ assessment perception 
 
-**BiB invoegen**
-
-@article{schut2020understanding, 
-  title={Understanding the influence of teacher--learner relationships on learners’ assessment perception}, 
-  author={Schut, Suzanne and van Tartwijk, Jan and Driessen, Erik and van der Vleuten, Cees and Heeneman, Sylvia}, 
-  journal={Advances in Health Sciences Education}, 
-  volume={25}, 
-  number={2}, 
-  pages={441--456}, 
-  year={2020}, 
-  publisher={Springer} 
-} 
+@schut2020understanding
 
 ###### Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment 
 
-**BiB invoegen**
-
-@article{schut2018stakes, 
-  title={Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment}, 
-  author={Schut, Suzanne and Driessen, Erik and Van Tartwijk, Jan and van der Vleuten, Cees and Heeneman, Sylvia}, 
-  journal={Medical Education}, 
-  volume={52}, 
-  number={6}, 
-  pages={654--663}, 
-  year={2018}, 
-  publisher={Wiley Online Library} 
-} 
+@schut2018stakes
 
 ###### The impact of programmatic assessment on student learning: theory versus practice 
 
-**BiB invoegen**
-
-@article{heeneman2015impact, 
-  title={The impact of programmatic assessment on student learning: theory versus practice}, 
-  author={Heeneman, Sylvia and Oudkerk Pool, Andrea and Schuwirth, Lambert WT and van der Vleuten, Cees PM and Driessen, Erik W}, 
-  journal={Medical education}, 
-  volume={49}, 
-  number={5}, 
-  pages={487--498}, 
-  year={2015}, 
-  publisher={Wiley Online Library} 
-} 
+@heeneman2015impact
 
 ###### McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period 
 
-**BiB invoegen**
-
-@article{li2017mcmaster, 
-  title={McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period}, 
-  author={Li, Shelly-Anne and Sherbino, Jonathan and Chan, Teresa M}, 
-  journal={AEM Education and Training}, 
-  volume={1}, 
-  number={1}, 
-  pages={5--14}, 
-  year={2017}, 
-  publisher={Wiley Online Library} 
-} 
+@li2017mcmaster
 
 ##### Praktijkgerichte publicaties 
 
@@ -833,71 +541,19 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 
 ###### Programmatic assessment: Can we provide evidence for saturation of information? 
 
-**BiB invoegen**
-
-@article{doi:10.1080/0142159X.2018.1555369, 
-author = {Lubberta H. de Jong and Harold G. J. Bok and Wim D. J. Kremer and Cees P. M. van der Vleuten}, 
-title = {Programmatic assessment: Can we provide evidence for saturation of information?},
-journal = {Medical Teacher}, 
-volume = {41}, 
-number = {6}, 
-pages = {678-682}, 
-year  = {2019}, 
-publisher = {Taylor & Francis}, 
-doi = {10.1080/0142159X.2018.1555369}, 
-    note ={PMID: 30707848}, 
-URL = {  
-        https://doi.org/10.1080/0142159X.2018.1555369 
-}, 
-eprint = {  
-        https://doi.org/10.1080/0142159X.2018.1555369 
-} 
-} 
+@doi:10.1080/0142159X.2018.1555369
 
 ###### From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio 
 
-**BiB invoegen**
-
-@article{oudkerk2018aggregation, 
-  title={From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio}, 
-  author={Oudkerk Pool, Andrea and Govaerts, Marjan JB and Jaarsma, Debbie ADC and Driessen, Erik W}, 
-  journal={Advances in Health Sciences Education}, 
-  volume={23}, 
-  number={2}, 
-  pages={275--287}, 
-  year={2018}, 
-  publisher={Springer} 
-} 
+@oudkerk2018aggregation
 
 ###### Evaluation of an assessment system for professionalism amongst dental students 
 
-**BiB invoegen**
-
-@article{zijlstra2017evaluation, 
-  title={Evaluation of an assessment system for professionalism amongst dental students}, 
-  author={Zijlstra-Shaw, S and Roberts, T and Robinson, PG}, 
-  journal={European Journal of Dental Education}, 
-  volume={21}, 
-  number={4}, 
-  pages={e89--e100}, 
-  year={2017}, 
-  publisher={Wiley Online Library} 
-} 
+@zijlstra2017evaluation
 
 ###### Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress 
 
-**BiB invoegen** 
-
-@article{wilkinson2011joining, 
-  title={Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress}, 
-  author={Wilkinson, Tim J and Tweed, Mike J and Egan, Tony G and Ali, Anthony N and McKenzie, Jan M and Moore, MaryLeigh and Rudland, Joy R}, 
-  journal={BMC Medical Education}, 
-  volume={11}, 
-  number={1}, 
-  pages={1--9}, 
-  year={2011}, 
-  publisher={BioMed Central} 
-} 
+@wilkinson2011joining
 
 ##### Praktijkgerichte publicaties 
 
@@ -1060,43 +716,14 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 
 ###### Programmatic assessment: Can we provide evidence for saturation of information? 
 
-**BiB invoegen**
-
-@article{doi:10.1080/0142159X.2018.1555369, 
-author = {Lubberta H. de Jong and Harold G. J. Bok and Wim D. J. Kremer and Cees P. M. van der Vleuten}, 
-title = {Programmatic assessment: Can we provide evidence for saturation of information?},
-journal = {Medical Teacher}, 
-volume = {41}, 
-number = {6}, 
-pages = {678-682}, 
-year  = {2019}, 
-publisher = {Taylor & Francis}, 
-doi = {10.1080/0142159X.2018.1555369}, 
-    note ={PMID: 30707848}, 
-URL = {  
-        https://doi.org/10.1080/0142159X.2018.1555369 
-}, 
-eprint = {  
-        https://doi.org/10.1080/0142159X.2018.1555369 
-} 
-} 
+@doi:10.1080/0142159X.2018.1555369
 
 ###### The pursuit of fairness in assessment: Looking beyond the objective 
 
-**BiB invoegen**
+@valentine2022pursuit
 
-@article{valentine2022pursuit, 
-  title={The pursuit of fairness in assessment: Looking beyond the objective}, 
-  author={Valentine, Nyoli and Durning, Steven J and Shanahan, Ernst Michael and van der Vleuten, Cees and Schuwirth, Lambert}, 
-  journal={Medical Teacher}, 
-  pages={1--7}, 
-  year={2022}, 
-  publisher={Taylor \& Francis} 
-} 
+##### Praktijkgerichte publicaties 
 
-##### praktijkgerichte publicaties 
-
- 
 
 ###### Kennisclips zorgen en borgen 
 
