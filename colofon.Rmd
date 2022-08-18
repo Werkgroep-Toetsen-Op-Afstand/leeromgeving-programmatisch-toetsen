@@ -1,0 +1,18 @@
+---
+title: "Leeromgeving programmatisch toetsen"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Colofon 
+
+## Het leernetwerk programmatisch toetsen 
+
+## Samenstellers van de online leeromgeving 
+
+## Versnellingsplan 
+
+## Bijdragen aan de online leeromgeving? 

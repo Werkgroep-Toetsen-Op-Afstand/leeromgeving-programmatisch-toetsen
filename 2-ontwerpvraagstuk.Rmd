@@ -1,0 +1,105 @@
+# Programmatisch toetsen als ontwerpvraagstuk 
+
+## Betrekken van stakeholders in het ontwerpproces 
+
+## Backwards design 
+
+## Belangrijkste ontwerpkeuzes binnen programmatisch toetsen 
+
+### Samenstellen van een mix van datapunten 
+
+### Elk datapunt is feedbackgericht en kent geen zak-/slaagbeslissing 
+
+### De leeropbrengsten vormen de ruggengraat van het toetsprogramma 
+
+### Er is een constante dialoog over het gebruik van feedback voor zelfsturing 
+
+### Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd 
+
+### De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise  
+
+## Inrichting van ICT-systemen voor het monitoren en vastleggen van ontwikkeling 
+
+## Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+### Wetenschappelijke publicaties 
+
+#### Twelve Tips for programmatic assessment 
+
+@doi:10.3109/0142159X.2014.973388
+
+#### Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment 
+
+@doi:10.1080/0142159X.2016.1230183
+
+#### Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach 
+
+@imanipour2016development
+
+#### Designing programmes of assessment: a participatory approach 
+
+@jamieson2017designing
+
+### Praktijkgerichte publicaties 
+
+#### Backwards design van een curriculum 
+
+Een van de vragen die leeft bij opleidingen die (willen gaan) werken volgens de uitgangspunten van programmatisch toetsen is: ‘Hoe kom je tot een verantwoord en bewust samengesteld toetsprogramma?’. In dit artikel wordt een stappenplan geboden waarbij vanuit de te nemen beslissingen wordt toegewerkt naar het toetsprogramma.  
+
+[Backwards design](./bronnen/40_Backwards_design.pdf)
+
+#### Dashboard bij ontwikkelen van programmatisch toetsen 
+
+In deze blog wordt een dashboard beschreven met succesfactoren voor de ontwikkeling van programmatisch toetsen.  
+
+[Dashboard voor het ontwikkelen van programmatisch toetsen in je opleiding – Platform Leren van Toetsen](https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/)
+
+#### Ontwerpvraagstukken bij programmatisch toetsen 
+
+In [deze blog](https://lerenvantoetsen.nl/houvast-bij-het-invoeren-van-programmatisch-toetsen-in-de-praktijk/) wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen van een curriculum volgens de principes van programmatisch toetsen: feedbackproces, toetsprogramma en het nemen van beslissingen. De blog is gebaseerd op het wetenschappelijke artikel van Torre en collega's (2021). 
+
+@torre2021ottawa
+
+## Praktijkvoorbeelden 
+
+### ICT-systemen 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 8 april 2022 werd stilgestaan bij de vraag aan welke eisen ICT-systemen moeten voldoen om de ontwikkeling van de studenten te kunnen monitoren en om zorgvuldige beslissingen over studenten te nemen. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Opname Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_opname.mp4)
+
+[Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
+
+[Hogeschool Inholland - Portfolio Mahara](./bronnen/57_Inholland_Portfolio_Mahara.pptx)
+
+[Presentatie Arno Kamphuis - HU](./bronnen/57_ArnoKamphuis _HU.pptx)
+
+[Presentatie Hanneke Fens - HU](./bronnen/57_HannekeFens_HU.pdf)
+
+### Handreiking ontwerpeisen curriculum 
+
+Fontys Paramedische Hogescholen maakte een handreiking die opleidingen kan ondersteunen bij het ontwerpen van het curriculum. In deze handreiking worden vijf ontwerpeisen  toegelicht. In de ontwerpeis 'toetsconcept' wordt beschreven hoe bij het ontwerpen van het curriculum volgens de principes van programmatisch toetsen toetsing ingericht kan worden. 
+
+[Handreiking Ontwerpeisen curriculumontwikkeling Fontys](./bronnen/110_Handreiking_Ontwerpeisen_Fontys.pdf)
+
+### Voorbeeld van een toetsplan 
+
+Het [toetsplan 'vakdidactisch handelen: ontwerpen van onderwijs'](./bronnen/84_Format_Toetsplan_HU.docx) van Instituut Archimedes van de Hogeschool Utrecht geeft een voorbeeld van hoe de principes van programmatisch toetsen verwerkt zijn in een toetsplan.  
+
+## Praktische handvatten 
+
+### Ontwerpprincipes inrichting studiecoaching 
+
+Deze flyer geeft een overzicht van de belangrijkste ontwerprincipes voor het ontwerpen van de inrichting van de studiecoaching. De ontwerpprincipes kunen als handvat dienen bij zowel het gesprek over ontwerpkeuzes als bij het daadwerkelijke ontwerp.  
+
+De ontwerpprincipes werden ontwikkeld door Debby Weerlink als onderdeel van haar masterproef voor de opleiding Master Toetsdeskundige. 
+
+[Ontwerpprincipes inrichting studiecoaching](./bronnen/81_Ontwerpprincipes_studiecoaching.pdf)
+
+### Ontwerpvraagstukken 
+
+Wil je als opleiding aan de slag met programmatisch toetsen? Dan zul je merken dat er verschillende ontwerpkeuzes gemaakt moeten worden. In dit artikel worden acht veelvoorkomende vraagstukken besproken en zijn gesprekskaarten gemaakt die helpen om deze vraagstukken gezamenlijk te bespreken. 
+
+[Programmatisch toetsen: 8 dilemma's voor het ontwerp - Vernieuwenderwijs](https://www.vernieuwenderwijs.nl/programmatisch-toetsen-8-dilemmas/)

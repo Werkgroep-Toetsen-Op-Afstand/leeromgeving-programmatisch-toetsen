@@ -1,0 +1,77 @@
+# De beslisfunctie 
+
+Naast het optimaliseren van de leerfunctie, ligt de focus van programmatisch toetsen ook op het optimaliseren van de beslisfunctie (@van2012model). Om tot een beslissing te komen over de beheersing van een student over een leeruitkomst, wordt informatie op het niveau van de leeruitkomst gedestilleerd uit alle beschikbare datapunten, waarbij er over de datapunten heen een beslissing wordt genomen (@baartman2020programmatisch).  
+
+## High-stake beslissingen 
+
+In tegenstelling tot low-stake momenten, hebben de resultaten bij high-stake beslissingen wel een grote consequentie (@van2012model). Er wordt namelijk een zak-/slaagbeslissing genomen (@baartman2020programmatisch). Hierbij is het belangrijk dat high-stake beslissingen zijn gebaseerd op veel datapunten, rijke informatie uit verschillende contexten en verschillende toetsvormen en beoordelaars; hoe hoger de ‘stake’, hoe meer gegevens er naar verhouding nodig zijn voor de beslissing (@van2012model). De datapunten vormen samen een totaalplaatje van de student. Er kan een legitiem besluit worden genomen over de student, wanneer dit plaatje duidelijk genoeg is (@baartman2020programmatisch).  
+
+Er bestaat niet zoiets als ‘het perfecte aantal’ aan datapunten. Belangrijk is wel dat er niet teveel datapunten zijn, omdat dit zorgt voor een hoge werkdruk bij de docenten en studenten weinig tijd hebben om iets met de feedback op de datapunten te doen. Maar te weinig datapunten zorgt voor een onvoldoende beeld om een robuuste beslissing te kunnen nemen [BRON TOEVOEGEN](@filmpje Luberta).
+
+## Inrichten van de beslisprocedure 
+
+Bij een tussentijdse beoordeling vergelijkt een commissie van examinatoren de gecombineerde informatie uit de datapunten met de prestatienorm. Omdat datapunten zowel narratief als kwalitatief kunnen zijn, vraagt dit om menselijke interpretatie. De examinatoren moeten goed geïnformeerd zijn over hetgeen wat zij beoordelen en hier ook getraind in zijn. Voor het beoordelen kunnen de examinatoren gebruik maken van bijvoorbeeld rubrics of prestatienormen. De omvang van de commissie en de mate van beraadslaging zijn van belang. Een commissie met meerdere personen zorgt voor een collectief oordeel op basis van alle beschikbare informatie en kan ervoor zorgen dat bepaalde patronen aan het licht komen die een enkele beoordelaar niet zou zien (@wilkinson2011joining).  
+
+Wanneer een coach of mentor betrokken is bij het maken van de beslissing, kan de relatie tussen de coach/mentor en student in gevaar komen en het beslisproces belemmeren. Om toch de rijke informatie die een coach/mentor kan bieden mee te nemen in het beslisproces, kan een coach/mentor een bevestiging geven dat de gecombineerde informatie uit de datapunten een goed beeld van de student weergeeft. Of de coach/mentor kan gevraagd worden om een aanbeveling te geven voor de beslissing. De tussentijdse beoordeling van de commissie is informerend in relatie tot de prestatienorm, maar geeft ook informatie over wat al goed gaat en wat nog beter kan, waar (nog) aan gewerkt moet worden en kan voorspellend zijn. Belangrijk is in ieder geval dat de beoordeling gericht is om remediëring, waarbij het doel is om tot een informatierijke aanbeveling te komen, die is afgestemd op de lerende en gebaseerd is op de gecombineerde informatie uit de datapunten. Hiernaast is het belangrijk dat de lerende wordt begeleidt door een coach/mentor en er sprake is van een feedback dialoog (@heeneman2021ottawa).  
+
+Een high-stake beslissing vindt plaats wanneer er een beslissing moet worden gemaakt over het leerproces van de lerende. Deze high-stake beslissing is bijvoorbeeld gebaseerd op een uitgebreid portfolio waaraan gedurende een bepaalde periode wordt gewerkt (@heeneman2021ottawa). Door deze beslissing door dezelfde commissie van examinatoren als bij de tussenbeoordeling te laten nemen, ontstaat er langdurige betrokkenheid. Waar mogelijk worden er striktere procedurele garanties ingezet, bijvoorbeeld procedures voor de inbreng van de student en de coach, opleiding en benchmarking van examinatoren, omvang van de commissie, beraadslaging en documentatie, prestatienormen en/of rubrics en het meenemen van alle datapunten van de voorafgaande periode, inclusief de tussentijdse beoordeling. Gezien er veel afhangt van een high-stake beslissing, is het van belang dat de procedure betrouwbaar en geloofwaardig is (@heeneman2021ottawa). Als de procedure/het systeem goed werkt, zou de beoordeling/beslissing geen verassing moeten zijn. Wanneer een student het high-stake moment niet behaald, kan de commissie aanbeveling doen voor remediëring. Samengevat is de high-stake beslissing robuust en gebaseerd op rijke informatie en veel datapunten.  
+
+## Saturatie, triangulatie en intersubjectiviteit 
+
+Het bekijken van de informatie uit de low-stake momenten gaat door tot er saturatie van informatie is bereikt (@de2022shaping). Dit betekent dat extra/nieuwe informatie uit low-stake momenten, niks meer toevoegt aan het beeld van de student wat je al hebt (@schuwirth2012programmatic). Met andere woorden: er is voldoende informatie om een beslissing te nemen. Het aantal datapunten/low-stake momenten dat nodig is voor saturatie van informatie kan verschillen per studenten (@filmpje Luberta). Hierbij is triangulatie van belang: het combineren van informatie uit verschillende bronnen (methodes, beoordelaars etc.) (@cook2016assessment). Triangulatie zorgt voor een grote verzameling van rijke informatie, zowel kwantitatief en narratief (feedback en reflectie) (de2022shaping). Hierdoor is het resultaat geen berekening, maar een beschrijving over en voor de lerende (@heeneman2021ottawa). Hierbij is een sequentiële beoordelingsprocedure van belang, waarbij tegenstrijdige informatie et verzamelen van meer informatie noodzakelijk maakt (@van2012model).   
+
+## Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op de beslisfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+### Wetenschappelijke publicaties 
+
+#### Programmatic assessment: Can we provide evidence for saturation of information? 
+
+@doi:10.1080/0142159X.2018.1555369
+
+#### From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio 
+
+@oudkerk2018aggregation
+
+#### Evaluation of an assessment system for professionalism amongst dental students 
+
+@zijlstra2017evaluation
+
+#### Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress 
+
+@wilkinson2011joining
+
+### Praktijkgerichte publicaties 
+
+#### Het nemen van zorgvuldige beslissingen 
+
+In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen. 
+
+[Bekijk het webinar](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
+
+## Praktijkvoorbeelden 
+
+### het nemen van zorgvuldige beslissingen 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vind hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Buitenkring bijeenkomst 2: Opname](./bronnen/56_Buitenkring_Bijeenkomst2_Opname.mp4)
+
+[Buitenkring bijeenkomst 2: Presentatie](./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf)
+
+[Buitenkring bijeenkomst 2: Beslisprocedure](./bronnen/56_Buitenkring_Bijeenkomst2_Beslisprocedure.pptx)
+
+### Inrichten beslisprocedure 
+
+Instituut Archimedes (HU) gebruikte de [gesprekskaartjes](./bronnen/59_Gesprekskaartjes.pptx) die ontwikkeld zijn in het landelijk leernetwerk programmatisch toetsen om een procedure uit te werken voor het komen tot een high stake beslissing. Deze procedure is als praktijkvoorbeeld toegevoegd. 
+
+[Procedure high-stake beslissingen van de HU](./bronnen/100_Procedure_highstake_beslissingen_HU.pdf)
+
+## Praktische handvatten 
+
+### Inrichten van de beslisprocedure 
+
+Hoe richt je de beslisprocedure in? Wil je hierover samen met collega's in gesprek, dan bieden deze gesprekskaartjes een mooi handvat om dat gesprek te voeren. De gesprekskaartjes werden ontwikkeld door Maartjes de Groot, Jantina Huizenga en Judith Revet in het landelijk leernetwerk programmatisch toetsen. 
+
+[Gesprekskaartjes beslisproces](./bronnen/59_Gesprekskaartjes.pptx)
