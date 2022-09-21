@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Leermodule Programmatisch Toetsen"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      # - text: Hoofdstukken
+      #   menu:
+      #     - sidebar:modules      
+      - about.qmd
+      
+  sidebar:
+    - id: modules
+      title: "Hoofdstukken"
+      style: "docked"
+      # foreground: '#BC0031'
+      background: light
+      collapse-level: 2
+      contents:
+        - 1-basis.qmd
+        - 2-ontwerpvraagstuk.qmd
+        - 3-implementeren.qmd
+        - 4-leerfunctie.qmd
+        - 5-beslisfunctie.qmd
+        - 6-zorgen_borgen.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    bibliography: references.bib
+
+
+

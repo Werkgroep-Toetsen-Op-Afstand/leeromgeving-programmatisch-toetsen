@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Leermodule Programmatisch Toetsen – implementeren</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leermodule Programmatisch Toetsen</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1-basis.html" class="sidebar-item-text sidebar-link">De basis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk.html" class="sidebar-item-text sidebar-link">Programmatisch toetsen als ontwerpvraagstuk</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link active">Implementeren van programmatisch toetsen</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">De beslisfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen en borgen</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#implementeren-van-programmatisch-toetsen" id="toc-implementeren-van-programmatisch-toetsen" class="nav-link active" data-scroll-target="#implementeren-van-programmatisch-toetsen">Implementeren van programmatisch toetsen</a>
+  <ul class="collapse">
+  <li><a href="#geleerde-lessen" id="toc-geleerde-lessen" class="nav-link" data-scroll-target="#geleerde-lessen">Geleerde lessen</a>
+  <ul class="collapse">
+  <li><a href="#aansluiting-op-de-gedeelde-onderwijsvisie" id="toc-aansluiting-op-de-gedeelde-onderwijsvisie" class="nav-link" data-scroll-target="#aansluiting-op-de-gedeelde-onderwijsvisie">Aansluiting op de gedeelde onderwijsvisie</a></li>
+  <li><a href="#het-hebben-van-een-heldere-ruggengraat" id="toc-het-hebben-van-een-heldere-ruggengraat" class="nav-link" data-scroll-target="#het-hebben-van-een-heldere-ruggengraat">Het hebben van een heldere ruggengraat</a></li>
+  <li><a href="#de-wil-om-een-leer--en-feedbackcultuur-te-laten-ontstaan" id="toc-de-wil-om-een-leer--en-feedbackcultuur-te-laten-ontstaan" class="nav-link" data-scroll-target="#de-wil-om-een-leer--en-feedbackcultuur-te-laten-ontstaan">De wil om een leer- en feedbackcultuur te laten ontstaan</a></li>
+  <li><a href="#het-hebben-van-moed" id="toc-het-hebben-van-moed" class="nav-link" data-scroll-target="#het-hebben-van-moed">Het hebben van moed</a></li>
+  <li><a href="#voldoende-tijd-en-middelen" id="toc-voldoende-tijd-en-middelen" class="nav-link" data-scroll-target="#voldoende-tijd-en-middelen">Voldoende tijd en middelen</a></li>
+  </ul></li>
+  <li><a href="#geleerde-lessen-meenemen-in-het-implementatieproces" id="toc-geleerde-lessen-meenemen-in-het-implementatieproces" class="nav-link" data-scroll-target="#geleerde-lessen-meenemen-in-het-implementatieproces">Geleerde lessen meenemen in het implementatieproces</a></li>
+  <li><a href="#meer-weten" id="toc-meer-weten" class="nav-link" data-scroll-target="#meer-weten">Meer weten?</a>
+  <ul class="collapse">
+  <li><a href="#wetenschappelijke-publicaties" id="toc-wetenschappelijke-publicaties" class="nav-link" data-scroll-target="#wetenschappelijke-publicaties">Wetenschappelijke publicaties</a></li>
+  <li><a href="#praktijkgerichte-publicaties" id="toc-praktijkgerichte-publicaties" class="nav-link" data-scroll-target="#praktijkgerichte-publicaties">Praktijkgerichte publicaties</a></li>
+  </ul></li>
+  <li><a href="#praktijkvoorbeelden" id="toc-praktijkvoorbeelden" class="nav-link" data-scroll-target="#praktijkvoorbeelden">Praktijkvoorbeelden</a>
+  <ul class="collapse">
+  <li><a href="#rollen-van-de-docent" id="toc-rollen-van-de-docent" class="nav-link" data-scroll-target="#rollen-van-de-docent">Rollen van de docent</a></li>
+  <li><a href="#ervaringen-van-de-opleiding-vaktherapie-han-een-tweeluik" id="toc-ervaringen-van-de-opleiding-vaktherapie-han-een-tweeluik" class="nav-link" data-scroll-target="#ervaringen-van-de-opleiding-vaktherapie-han-een-tweeluik">Ervaringen van de opleiding vaktherapie (HAN): een tweeluik</a></li>
+  <li><a href="#praktische-handvatten" id="toc-praktische-handvatten" class="nav-link" data-scroll-target="#praktische-handvatten">Praktische handvatten</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="implementeren-van-programmatisch-toetsen" class="level1">
+<h1>Implementeren van programmatisch toetsen</h1>
+<p>Niet alleen een goed ontwerp maar ook de invoering van programmatisch toetsen is van cruciaal belang voor het succes van het programma. Deze pagina gaat daarom over de implementatie van programmatisch toetsen. Inmiddels zijn er verschillende onderzoeken gedaan naar de implementatie hiervan. De lessen die hieruit naar voren zijn gekomen zijn hieronder op een rijtje gezet. Vervolgens zal worden ingegaan op hoe de geleerde lessen meegenomen kunnen worden in het implementatieproces en zal de dashboard tool geïntroduceerd worden als hulpmiddel hiervoor.</p>
+<section id="geleerde-lessen" class="level2">
+<h2 class="anchored" data-anchor-id="geleerde-lessen">Geleerde lessen</h2>
+<section id="aansluiting-op-de-gedeelde-onderwijsvisie" class="level3">
+<h3 class="anchored" data-anchor-id="aansluiting-op-de-gedeelde-onderwijsvisie">Aansluiting op de gedeelde onderwijsvisie</h3>
+<p>Programmatisch toetsen sluit aan bij een onderwijsvisie waarbij zelfregulatie, leren van narratieve feedback, ruimte voor het maken van fouten en reflectie hoog in het vaandel staan en kan gezien worden als een middel om het leren van studenten te bevorderen (Biemond &amp;Kaijen, 2021). Een van de grootste obstakels bij het implementeren van programmatisch toetsen blijkt de algemene weerstand tegen verandering te zijn, waarbij het lastig is om de verankerde onderwijs- en beoordelingsculturen, verwachtingen en attitudes van betrokkenen te veranderen. Doorzettingsvermogen, sterk leiderschap en het betrekken van verschillende stake-holders bij het ontwerpen en uitvoeren van programmatisch toetsen kan helpen om tot een aansluitende en gedeelde visie te komen (<span class="citation" data-cites="torre2021ottawa">Torre et al. (<a href="#ref-torre2021ottawa" role="doc-biblioref">2021</a>)</span>). Wanneer er helemaal geen gedeelde onderwijsvisie is of deze niet aansluit bij het bovengenoemde, dan wordt aangeraden hierbij stil te staan en vervolgens te bepalen of programmatisch toetsen passend is voor de opleiding [BRON TOEVOEGEN].</p>
+</section>
+<section id="het-hebben-van-een-heldere-ruggengraat" class="level3">
+<h3 class="anchored" data-anchor-id="het-hebben-van-een-heldere-ruggengraat">Het hebben van een heldere ruggengraat</h3>
+<p>Om ervoor te zorgen dat het voor iedereen duidelijk is wat er wordt beoogd met het onderwijs en wat de waarde is van wat er geleerd wordt, is het van belang om een heldere ruggengraat te hebben (<span class="citation" data-cites="bate2020does">Bate et al. (<a href="#ref-bate2020does" role="doc-biblioref">2020</a>)</span>; <span class="citation" data-cites="van2015twelve">Van Der Vleuten et al. (<a href="#ref-van2015twelve" role="doc-biblioref">2015</a>)</span>). De ruggengraat kan gezien worden als een raamwerk van beoogde competenties, vaardigheden en/of beroepstaken binnen het onderwijsprogramma (baartman2020programmatisch). Als een opleiding nog niet over een dergelijke ‘ruggengraat’ beschikt, wordt aangeraden om deze eerst met de opleiding vast te stellen (Biemond &amp;Kaijen, 2021). Op basis daarvan kan een coherent opleidings- en datapuntenprogramma worden ingericht (<span class="citation" data-cites="bate2020does">Bate et al. (<a href="#ref-bate2020does" role="doc-biblioref">2020</a>)</span>; Biemond &amp; Kaijen, 2021). Tips over hoe je dit precies kunt aanpakken zijn te vinden op de ontwerppagina.</p>
+</section>
+<section id="de-wil-om-een-leer--en-feedbackcultuur-te-laten-ontstaan" class="level3">
+<h3 class="anchored" data-anchor-id="de-wil-om-een-leer--en-feedbackcultuur-te-laten-ontstaan">De wil om een leer- en feedbackcultuur te laten ontstaan</h3>
+<p>Uit eerder onderzoek is gebleken dat studenten datapunten als “summatief” ervaren of als dingen die ze moeten behalen en niet automatisch aan de slag gaan met de feedback die ze hierop ontvangen (<span class="citation" data-cites="heeneman2015impact">Heeneman et al. (<a href="#ref-heeneman2015impact" role="doc-biblioref">2015</a>)</span>; <span class="citation" data-cites="bok2013programmatic">Bok et al. (<a href="#ref-bok2013programmatic" role="doc-biblioref">2013</a>)</span>). Het is daarom van belang om een goede leer- en feedbackcultuur neer te zetten. De wil om zo’n leer- en feedbackcultuur in de opleiding te laten ontstaan moet binnen het docententeam én bij de onderwijsmanager(s) aanwezig zijn. Dat gebeurt vanuit een gezamenlijke visie en de bereidheid om te veranderen. Daarnaast is het van belang om de feedbackgeletterdheid van zowel studenten als docenten te trainen en studenten goed mee te nemen in het concept van programmatisch toetsen en hen doorlopend inzicht te bieden in hoe zij ervoor staan (<span class="citation" data-cites="bate2020does">Bate et al. (<a href="#ref-bate2020does" role="doc-biblioref">2020</a>)</span>). Meer tips en praktische handvatten over hoe je een leer- en feedbackcultuur kunt laten ontstaan worden geven op de pagina over het ontwerpproces.</p>
+</section>
+<section id="het-hebben-van-moed" class="level3">
+<h3 class="anchored" data-anchor-id="het-hebben-van-moed">Het hebben van moed</h3>
+<p>Programmatisch toetsen vergt zowel een andere manier van werken als een andere manier van denken. Veel van de eerder opgedane ideeën en ervaringen over onderwijs en toetsing zullen losgelaten moeten worden om programmatisch toetsen te implementeren. Ook vraagt het andere manier van werken voor docenten. Zo kijken docenten voortdurend mee met de studenten om zo de ontwikkeling te monitoren en bij te sturen waar nodig. Docenten hebben dus niet alleen te maken met een ander toetsbeleid maar krijgen ook een meer coachende rol toebedeeld. Voor zo’n omslag is moed nodig. Moed om te gaan proberen, fouten te maken en weer door te gaan (Biemond &amp; Kaijen, 2021).</p>
+</section>
+<section id="voldoende-tijd-en-middelen" class="level3">
+<h3 class="anchored" data-anchor-id="voldoende-tijd-en-middelen">Voldoende tijd en middelen</h3>
+<p>Een andere belangrijke factor voor het implementeren van programmatisch toetsen is de beschikbaarheid van tijd en middelen (<span class="citation" data-cites="torre2021ottawa">Torre et al. (<a href="#ref-torre2021ottawa" role="doc-biblioref">2021</a>)</span>). Zo gaven verschillende opleidingen aan dat er toename ontstond in tijd en werkdruk voor docenten in het beginstadium van programmatisch toetsen. Daarnaast bleek er behoefte te zijn aan ondersteuning bij het ontwikkelen van programmatisch toetsen, het trainen van docenten en studenten in de principes van programmatisch toetsen en het geven en ontvangen van feedback. Ook bleek de aanschaf van e-portfolio een waardevolle investering om de voortgang van de studenten goed te kunnen volgen. Het implementeren van programmatisch toetsen vereist dus het kunnen inzetten van dergelijke middelen, waarbij steun vanuit de onderwijsinstelling een vereiste is.</p>
+</section>
+</section>
+<section id="geleerde-lessen-meenemen-in-het-implementatieproces" class="level2">
+<h2 class="anchored" data-anchor-id="geleerde-lessen-meenemen-in-het-implementatieproces">Geleerde lessen meenemen in het implementatieproces</h2>
+<p>Opleidingen die bezig zijn met programmatisch toetsen kunnen gebruik maken van de <a href="https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/">Dashboard tool</a> om bovengenoemde lessen mee te nemen in het implementatieproces. Op het dashboard staan succesfactoren weergegeven die gaan over sterk leiderschap, regie, een nieuw curriculum, betrokken stakeholders, professionalisering, investeren in software, feedbackgeletterdheid en de ontwikkeling van een coachsysteem. De dashboardtool kan opleidingen helpen het gesprek met elkaar aan te gaan en in kaart te brengen op welke factoren zij goed en minder goed scoren, om zo meer grip te krijgen op het bevorderen van het implementatieproces.</p>
+</section>
+<section id="meer-weten" class="level2">
+<h2 class="anchored" data-anchor-id="meer-weten">Meer weten?</h2>
+<p>Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het implementeren van programmatisch toetsen. Onderstaande lijst geeft een overzicht.</p>
+<section id="wetenschappelijke-publicaties" class="level3">
+<h3 class="anchored" data-anchor-id="wetenschappelijke-publicaties">Wetenschappelijke publicaties</h3>
+<section id="between-trust-and-control-teachers-assessment-conceptualisations-within-programmatic-assessment" class="level4">
+<h4 class="anchored" data-anchor-id="between-trust-and-control-teachers-assessment-conceptualisations-within-programmatic-assessment">Between trust and control: Teachers’ assessment conceptualisations within programmatic assessment</h4>
+<p><span class="citation" data-cites="schut2020between">Schut et al. (<a href="#ref-schut2020between" role="doc-biblioref">2020</a>)</span></p>
+</section>
+<section id="ottawa-2020-consensus-statements-for-programmatic-assessment---2.-implementation-and-practice" class="level4">
+<h4 class="anchored" data-anchor-id="ottawa-2020-consensus-statements-for-programmatic-assessment---2.-implementation-and-practice">Ottawa 2020 consensus statements for programmatic assessment - 2. Implementation and practice</h4>
+<p><span class="citation" data-cites="torre2021ottawa">Torre et al. (<a href="#ref-torre2021ottawa" role="doc-biblioref">2021</a>)</span></p>
+<p>Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is <a href="./bronnen/20_Ottowa_2020.pdf">hier</a> te vinden.</p>
+</section>
+<section id="competency-based-education-calls-for-programmatic-assessment-but-what-does-this-look-like-in-practice" class="level4">
+<h4 class="anchored" data-anchor-id="competency-based-education-calls-for-programmatic-assessment-but-what-does-this-look-like-in-practice">Competency-based education calls for programmatic assessment: But what does this look like in practice?</h4>
+<p><span class="citation" data-cites="rich2020competency">Rich et al. (<a href="#ref-rich2020competency" role="doc-biblioref">2020</a>)</span></p>
+</section>
+</section>
+<section id="praktijkgerichte-publicaties" class="level3">
+<h3 class="anchored" data-anchor-id="praktijkgerichte-publicaties">Praktijkgerichte publicaties</h3>
+<section id="voorwaarden-voor-programmatisch-toetsen" class="level4">
+<h4 class="anchored" data-anchor-id="voorwaarden-voor-programmatisch-toetsen">Voorwaarden voor programmatisch toetsen</h4>
+<p>In <a href="https://lerenvantoetsen.nl/programmatisch-toetsen-in-het-hbo-dat-vraagt-moed/">deze blog</a> wordt stilgestaan bij een viertal voorwaarden waaraan voldaan moet zijn om te kunnen starten met het ontwerpen en implementeren van programmatisch toetsen.</p>
+</section>
+<section id="programmatisch-toetsen-in-verschillende-onderwijsdomeinen" class="level4">
+<h4 class="anchored" data-anchor-id="programmatisch-toetsen-in-verschillende-onderwijsdomeinen">Programmatisch toetsen in verschillende onderwijsdomeinen</h4>
+<p>Programmatisch toetsen wordt momenteel geïmplementeerd in verschillende onderwijsdomeinen. Liesbeth Baartman, Tamara van Schilt-Mol en Cees van der Vleuten legden een aantal implementaties naast elkaar om meer zicht te krijgen op de verschillen en overeenkomsten. Deze korte (Engelstalige) presentatie is opgenomen ten behoeve van het EARLI congres 2021. Zowel de opname als de gebruikte PowerPoint zou toegevoegd.</p>
+<p><a href="./bronnen/107_EARLI2021_Baartman.mp4">EARLI 2021: Baartman et al.&nbsp;opname</a></p>
+<p><a href="./bronnen/107_EARLI2021_Baartman_PPT.pptx">EARLI 2021: Baartman et al.&nbsp;Powerpoint</a></p>
+</section>
+<section id="mindset-en-vaardigheden-van-docenten" class="level4">
+<h4 class="anchored" data-anchor-id="mindset-en-vaardigheden-van-docenten">Mindset en vaardigheden van docenten</h4>
+<p>Anne Hoogeveen onderzocht voor haar masterscriptie hoe docenten aankijken tegen programmatisch toetsen en over welke vaardigheden zij moeten beschikken. Haar (Engelstalige) scriptie is hier opgenomen.</p>
+<p><a href="./bronnen/104_Thesisreport_AnneHoogeveen.pdf">Thesis report Anne Hoogeveen</a></p>
+</section>
+</section>
+</section>
+<section id="praktijkvoorbeelden" class="level2">
+<h2 class="anchored" data-anchor-id="praktijkvoorbeelden">Praktijkvoorbeelden</h2>
+<section id="rollen-van-de-docent" class="level3">
+<h3 class="anchored" data-anchor-id="rollen-van-de-docent">Rollen van de docent</h3>
+<p>Binnen programmatisch toetsen vervult de docent meerdere rollen. Fontys Paramedische Hogeschool werkte de rollen voor hun docenten uit in deze profielschets. In deze beschrijving wordt onder meer ingegaan op het begeleiden van het leerproces van de studenten, het beoordelen en het beslissen.</p>
+<p><a href="./bronnen/83_Profiel_FPH_Fontys.pdf">Profiel FPH Docent - Fontys Paramedische Hogeschool</a></p>
+<p>https://hannl.sharepoint.com/:b:/r/teams/ontwikkelingleeromgevingPT/Gedeelde%20documenten/General/content/programmatisch%20toetsen/83.%20Profiel%20FPH%20docen%20Fontys%20Paramedische%20Hogeschool.pdf?csf=1&amp;web=1&amp;e=rkvOKI</p>
+</section>
+<section id="ervaringen-van-de-opleiding-vaktherapie-han-een-tweeluik" class="level3">
+<h3 class="anchored" data-anchor-id="ervaringen-van-de-opleiding-vaktherapie-han-een-tweeluik">Ervaringen van de opleiding vaktherapie (HAN): een tweeluik</h3>
+<p>De opleiding vaktherapie van de Hogeschool van Arnhem en Nijmegen is in september 2018 gestart met een curriculumherziening volgens de principes van programmatisch toetsen. In dit tweeluik worden de ervaringen van de opleiding met het ontwerpen en implementeren van het nieuwe curriculum beschreven.</p>
+<p><a href="https://www.vernieuwenderwijs.nl/programmatisch-toetsen-deel-1/">Vernieuwenderwijs: Programmatisch toetsen deel 1</a></p>
+<p><a href="https://www.vernieuwenderwijs.nl/programmatisch-toetsen-deel-2/">Vernieuwenderwijs: Programmatisch toetsen deel 2</a></p>
+</section>
+<section id="praktische-handvatten" class="level3">
+
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Praktische handvatten</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-bate2020does" class="csl-entry" role="doc-biblioentry">
+Bate, Frank, Sue Fyfe, Dylan Griffiths, Kylie Russell, Chris Skinner, and Elina Tor. 2020. <span>“Does an Incremental Approach to Implementing Programmatic Assessment Work? Reflections on the Change Process.”</span> <em>MedEdPublish</em> 9 (55): 55.
+</div>
+<div id="ref-bok2013programmatic" class="csl-entry" role="doc-biblioentry">
+Bok, Harold GJ, Pim W Teunissen, Robert P Favier, Nancy J Rietbroek, Lars FH Theyse, Harold Brommer, Jan Haarhuis, Peter van Beukelen, Cees PM van der Vleuten, and Debbie ADC Jaarsma. 2013. <span>“Programmatic Assessment of Competency-Based Workplace Learning: When Theory Meets Practice.”</span> <em>BMC Medical Education</em> 13 (1): 1–9.
+</div>
+<div id="ref-heeneman2015impact" class="csl-entry" role="doc-biblioentry">
+Heeneman, Sylvia, Andrea Oudkerk Pool, Lambert WT Schuwirth, Cees PM van der Vleuten, and Erik W Driessen. 2015. <span>“The Impact of Programmatic Assessment on Student Learning: Theory Versus Practice.”</span> <em>Medical Education</em> 49 (5): 487–98.
+</div>
+<div id="ref-rich2020competency" class="csl-entry" role="doc-biblioentry">
+Rich, Jessica V, Sue Fostaty Young, Catherine Donnelly, Andrew K Hall, J Damon Dagnone, Kristen Weersink, Jaelyn Caudle, Elaine Van Melle, and Don A Klinger. 2020. <span>“Competency-Based Education Calls for Programmatic Assessment: But What Does This Look Like in Practice?”</span> <em>Journal of Evaluation in Clinical Practice</em> 26 (4): 1087–95.
+</div>
+<div id="ref-schut2020between" class="csl-entry" role="doc-biblioentry">
+Schut, Suzanne, Sylvia Heeneman, Beth Bierer, Erik Driessen, Jan van Tartwijk, and Cees van Der Vleuten. 2020. <span>“Between Trust and Control: Teachers’ Assessment Conceptualisations Within Programmatic Assessment.”</span> <em>Medical Education</em> 54 (6): 528–37.
+</div>
+<div id="ref-torre2021ottawa" class="csl-entry" role="doc-biblioentry">
+Torre, Dario, Neil E Rice, Anna Ryan, Harold Bok, Luke J Dawson, Beth Bierer, Tim J Wilkinson, et al. 2021. <span>“Ottawa 2020 Consensus Statements for Programmatic Assessment–2. Implementation and Practice.”</span> <em>Medical Teacher</em> 43 (10): 1149–60.
+</div>
+<div id="ref-van2015twelve" class="csl-entry" role="doc-biblioentry">
+Van Der Vleuten, Cees PM, LWT Schuwirth, EW Driessen, MJB Govaerts, and Sylvia Heeneman. 2015. <span>“Twelve Tips for Programmatic Assessment.”</span> <em>Medical Teacher</em> 37 (7): 641–46.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Leermodule Programmatisch Toetsen – zorgen_borgen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leermodule Programmatisch Toetsen</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1-basis.html" class="sidebar-item-text sidebar-link">De basis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk.html" class="sidebar-item-text sidebar-link">Programmatisch toetsen als ontwerpvraagstuk</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link">Implementeren van programmatisch toetsen</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">De beslisfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link active">Zorgen en borgen</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#zorgen-en-borgen" id="toc-zorgen-en-borgen" class="nav-link active" data-scroll-target="#zorgen-en-borgen">Zorgen en borgen</a>
+  <ul class="collapse">
+  <li><a href="#toetsbeleid" id="toc-toetsbeleid" class="nav-link" data-scroll-target="#toetsbeleid">Toetsbeleid</a>
+  <ul class="collapse">
+  <li><a href="#toetsbeleid-zorgen-voor-kwaliteit-van-toetsing" id="toc-toetsbeleid-zorgen-voor-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#toetsbeleid-zorgen-voor-kwaliteit-van-toetsing">Toetsbeleid: zorgen voor kwaliteit van toetsing</a></li>
+  <li><a href="#toetsbeleid-borgen-van-kwaliteit-van-toetsing" id="toc-toetsbeleid-borgen-van-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#toetsbeleid-borgen-van-kwaliteit-van-toetsing">Toetsbeleid: borgen van kwaliteit van toetsing</a></li>
+  </ul></li>
+  <li><a href="#geheel-aan-datapunten" id="toc-geheel-aan-datapunten" class="nav-link" data-scroll-target="#geheel-aan-datapunten">Geheel aan datapunten</a>
+  <ul class="collapse">
+  <li><a href="#geheel-aan-datapunten-zorgen-voor-kwaliteit-van-toetsing" id="toc-geheel-aan-datapunten-zorgen-voor-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#geheel-aan-datapunten-zorgen-voor-kwaliteit-van-toetsing">Geheel aan datapunten: zorgen voor kwaliteit van toetsing</a></li>
+  <li><a href="#geheel-aan-datapunten-borgen-van-kwaliteit-van-toetsing" id="toc-geheel-aan-datapunten-borgen-van-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#geheel-aan-datapunten-borgen-van-kwaliteit-van-toetsing">Geheel aan datapunten: borgen van kwaliteit van toetsing</a></li>
+  </ul></li>
+  <li><a href="#high-stake-beslissing" id="toc-high-stake-beslissing" class="nav-link" data-scroll-target="#high-stake-beslissing">High-stake beslissing</a>
+  <ul class="collapse">
+  <li><a href="#high-stake-beslissing-zorgen-voor-kwaliteit-van-toetsing" id="toc-high-stake-beslissing-zorgen-voor-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#high-stake-beslissing-zorgen-voor-kwaliteit-van-toetsing">High-stake beslissing: zorgen voor kwaliteit van toetsing</a></li>
+  <li><a href="#high-stake-beslissing-borgen-van-kwaliteit-van-toetsing" id="toc-high-stake-beslissing-borgen-van-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#high-stake-beslissing-borgen-van-kwaliteit-van-toetsing">High-stake beslissing: borgen van kwaliteit van toetsing</a></li>
+  </ul></li>
+  <li><a href="#datapunten" id="toc-datapunten" class="nav-link" data-scroll-target="#datapunten">Datapunten</a>
+  <ul class="collapse">
+  <li><a href="#datapunten-zorgen-voor-kwaliteit-van-toetsing" id="toc-datapunten-zorgen-voor-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#datapunten-zorgen-voor-kwaliteit-van-toetsing">Datapunten: zorgen voor kwaliteit van toetsing</a></li>
+  <li><a href="#datapunten-borgen-van-kwaliteit-van-toetsing" id="toc-datapunten-borgen-van-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#datapunten-borgen-van-kwaliteit-van-toetsing">Datapunten: borgen van kwaliteit van toetsing</a></li>
+  </ul></li>
+  <li><a href="#toetsorganisatie" id="toc-toetsorganisatie" class="nav-link" data-scroll-target="#toetsorganisatie">Toetsorganisatie</a>
+  <ul class="collapse">
+  <li><a href="#toetsorganisatie-zorgen-voor-kwaliteit-van-toetsing" id="toc-toetsorganisatie-zorgen-voor-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#toetsorganisatie-zorgen-voor-kwaliteit-van-toetsing">Toetsorganisatie: zorgen voor kwaliteit van toetsing</a></li>
+  <li><a href="#toetsorganisatie-borgen-van-kwaliteit-van-toetsing" id="toc-toetsorganisatie-borgen-van-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#toetsorganisatie-borgen-van-kwaliteit-van-toetsing">Toetsorganisatie: borgen van kwaliteit van toetsing</a></li>
+  </ul></li>
+  <li><a href="#toetsbekwaamheid" id="toc-toetsbekwaamheid" class="nav-link" data-scroll-target="#toetsbekwaamheid">Toetsbekwaamheid</a>
+  <ul class="collapse">
+  <li><a href="#toetsbekwaamheid-zorgen-voor-kwaliteit-van-toetsing" id="toc-toetsbekwaamheid-zorgen-voor-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#toetsbekwaamheid-zorgen-voor-kwaliteit-van-toetsing">Toetsbekwaamheid: zorgen voor kwaliteit van toetsing</a></li>
+  <li><a href="#toetsbekwaamheid-borgen-van-kwaliteit-van-toetsing" id="toc-toetsbekwaamheid-borgen-van-kwaliteit-van-toetsing" class="nav-link" data-scroll-target="#toetsbekwaamheid-borgen-van-kwaliteit-van-toetsing">Toetsbekwaamheid: borgen van kwaliteit van toetsing</a></li>
+  </ul></li>
+  <li><a href="#meer-weten" id="toc-meer-weten" class="nav-link" data-scroll-target="#meer-weten">Meer weten?</a>
+  <ul class="collapse">
+  <li><a href="#wetenschappelijke-publicaties" id="toc-wetenschappelijke-publicaties" class="nav-link" data-scroll-target="#wetenschappelijke-publicaties">Wetenschappelijke publicaties</a></li>
+  <li><a href="#praktijkgerichte-publicaties" id="toc-praktijkgerichte-publicaties" class="nav-link" data-scroll-target="#praktijkgerichte-publicaties">Praktijkgerichte publicaties</a></li>
+  </ul></li>
+  <li><a href="#praktijkvoorbeelden" id="toc-praktijkvoorbeelden" class="nav-link" data-scroll-target="#praktijkvoorbeelden">Praktijkvoorbeelden</a>
+  <ul class="collapse">
+  <li><a href="#het-borgen-van-de-kwaliteit-van-zorgvuldige-beslissingen" id="toc-het-borgen-van-de-kwaliteit-van-zorgvuldige-beslissingen" class="nav-link" data-scroll-target="#het-borgen-van-de-kwaliteit-van-zorgvuldige-beslissingen">Het borgen van de kwaliteit van zorgvuldige beslissingen</a></li>
+  </ul></li>
+  <li><a href="#praktische-handvatten" id="toc-praktische-handvatten" class="nav-link" data-scroll-target="#praktische-handvatten">Praktische handvatten</a>
+  <ul class="collapse">
+  <li><a href="#de-rol-van-de-examencommissie---hoe" id="toc-de-rol-van-de-examencommissie---hoe" class="nav-link" data-scroll-target="#de-rol-van-de-examencommissie---hoe">De rol van de examencommissie - hoe</a></li>
+  <li><a href="#protocol-toetsing-en-beoordeling-bij-de-huisartsenopleiding" id="toc-protocol-toetsing-en-beoordeling-bij-de-huisartsenopleiding" class="nav-link" data-scroll-target="#protocol-toetsing-en-beoordeling-bij-de-huisartsenopleiding">Protocol toetsing en beoordeling bij de huisartsenopleiding</a></li>
+  <li><a href="#zelfevaluatie-kwaliteit-van-toetsprogramma" id="toc-zelfevaluatie-kwaliteit-van-toetsprogramma" class="nav-link" data-scroll-target="#zelfevaluatie-kwaliteit-van-toetsprogramma">Zelfevaluatie kwaliteit van toetsprogramma</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="zorgen-en-borgen" class="level1">
+<h1>Zorgen en borgen</h1>
+<p>Bij opleidingen die (gaan) werken met programmatisch toetsen verandert vaak de manier waarop zij zorgen voor de toetskwaliteit. Ook de manier waarop de examencommissie deze toetskwaliteit borgt, verandert. In deze inleiding staan we stil bij nieuwe en aangepaste instrumenten voor het zorgen voor en borgen van de toetskwaliteit. We doen dat aan de hand van de elementen van het toetsweb (Van Schilt-Mol et al, 2020) met een aanpassing; bij programmatisch toetsen wordt op één of meerdere momenten de informatie van een groot aantal datapunten gebruikt om een beslissing te nemen over het wel of niet toekennen van studiepunten (highstake beslissing). We gebruiken hier daarom de termen datapuntenprogramma, highstakebeslissing en datapunten in plaats van de toetswebtermen toetsprogramma en toets(tak)en. Daarmee zijn er bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen:</p>
+<p>[AFBEELDING TOEVOEGEN]</p>
+<section id="toetsbeleid" class="level2">
+<h2 class="anchored" data-anchor-id="toetsbeleid">Toetsbeleid</h2>
+<p>Het toetsbeleid is het geheel aan vastgestelde afspraken over toetsen en beoordelen, zowel inhoudelijk als procedureel (Bruijns &amp; Kok, 2015). Toetsbeleid kan bestaan op verschillende niveaus, bijvoorbeeld op instellingsniveau en opleidingsniveau. Het toetsbeleid is vaak onderdeel van en opgenomen in meerdere documenten zoals een toetskader, een toetsbeleid, een toetsreglement en een onderwijs- en examenregeling. De afspraken in het toetsbeleid kunnen gaan over alle elementen van het toetsweb. Naast de afspraken die de instelling en opleiding maken, zijn examencommissies in het hoger onderwijs bevoegd eigen richtlijnen en aanwijzingen te geven binnen het kader van de onderwijs- en examenregeling (WHW 7.12b lid 1b).</p>
+<section id="toetsbeleid-zorgen-voor-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="toetsbeleid-zorgen-voor-kwaliteit-van-toetsing">Toetsbeleid: zorgen voor kwaliteit van toetsing</h3>
+<p>Stel toetsbeleid op; zorg in ieder geval voor afspraken over:</p>
+<ul>
+<li>de rechtsbescherming van studenten;</li>
+<li>het voorkómen en constateren van fraude in de datapunten;</li>
+<li>de herkansings- en/of remedieermogelijkheden voor studenten die een onderwijseenheid niet hebben behaald.</li>
+</ul>
+</section>
+<section id="toetsbeleid-borgen-van-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="toetsbeleid-borgen-van-kwaliteit-van-toetsing">Toetsbeleid: borgen van kwaliteit van toetsing</h3>
+<ul>
+<li>Wees scherp op de vraag of programmatisch toetsen volgens de bedoeling wordt ingezet (VERWIJZING naar : Biemond - Overzicht van signalen voor ‘slechte invoering van PT’).</li>
+<li>Ga na of het toetsbeleid de examencommissies voldoende mogelijkheden geeft haar borgende taak uit te voeren.</li>
+<li>Ga na of het toetsbeleid bekend is bij alle relevante actoren en wordt nageleefd.</li>
+</ul>
+</section>
+</section>
+<section id="geheel-aan-datapunten" class="level2">
+<h2 class="anchored" data-anchor-id="geheel-aan-datapunten">Geheel aan datapunten</h2>
+<p>Een datapuntenprogramma is een overzicht van (kenmerken van) datapunten en beslismomenten dat bewust tot stand is gekomen op basis van vastgestelde doelen (Biemond &amp; Baartman, 2021). Die doelen zijn bijvoorbeeld validiteit en betrouwbaarheid. Bij een datapuntenprogramma hoort een verantwoording, waarin ook de uitgangspunten voor het datapuntenprogramma staan vermeld. Een uitgangspunt kan bijvoorbeeld zijn dat er wordt gewerkt met een mix van datapunten, bijvoorbeeld in het soort datapunten, in de contexten waarin beroepshandelingen zijn uitgevoerd en in het perspectief zoals een klant/patiënt/ docent/medestudent (Biemond &amp; Baartman, 2021).</p>
+<section id="geheel-aan-datapunten-zorgen-voor-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="geheel-aan-datapunten-zorgen-voor-kwaliteit-van-toetsing">Geheel aan datapunten: zorgen voor kwaliteit van toetsing</h3>
+<ul>
+<li>Geef een heldere verantwoording van het datapuntenprogramma en relateer de keuzes aan de uitgangspunten van programmatisch toetsen (link naar andere deel online leeromgeving). Dit artikel van Biemond &amp; Baartman (2021) kan daarbij behulpzaam zijn. [BRON TOEVOEGEN]</li>
+<li>Ontwerp een datapuntenprogramma dat de leerfunctie versterkt.</li>
+<li>Ontwerp een datapuntenprogramma dat leidt tot een robuuste beslissing.</li>
+<li>Besteed aandacht aan de kaders die je de studenten meegeeft in hun keuzemogelijkheden (voor bijvoorbeeld datapunten, contexten, perspectief van feedbackgever).</li>
+<li>Besteed aandacht aan de wijze waarop saturatie bereikt wordt.</li>
+<li>Stel vast op welke wijze de informatie van datapunten wordt geaggregeerd tot een high stake beslissing.</li>
+</ul>
+</section>
+<section id="geheel-aan-datapunten-borgen-van-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="geheel-aan-datapunten-borgen-van-kwaliteit-van-toetsing">Geheel aan datapunten: borgen van kwaliteit van toetsing</h3>
+<ul>
+<li>Bekijk het datapuntenprogramma op papier en ga na of het in de praktijk ook zo wordt uitgevoerd.</li>
+<li>Evalueer de verantwoording van het datapuntenprogramma.</li>
+<li>Besteed aandacht aan de kaders die de studenten meekrijgen in hun keuzemogelijkheden.</li>
+<li>Bekijk steekproefsgewijs welke datapunten studenten opnemen in hun portfolio en de keuzes die ze maken.</li>
+</ul>
+</section>
+</section>
+<section id="high-stake-beslissing" class="level2">
+<h2 class="anchored" data-anchor-id="high-stake-beslissing">High-stake beslissing</h2>
+<p>De high-stake beslissing gaat over het wel of niet toekennen van studiepunten. Hierbij wordt de informatie uit een groot aantal datapunten gebruikt om deze beslissing te nemen.</p>
+<section id="high-stake-beslissing-zorgen-voor-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="high-stake-beslissing-zorgen-voor-kwaliteit-van-toetsing">High-stake beslissing: zorgen voor kwaliteit van toetsing</h3>
+<ul>
+<li>Expliciteer de richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie (Verwijzing naar nog te schrijven blog Sylvia/Irene).</li>
+<li>Maak duidelijk hoe begeleiders en examinatoren kalibreren.</li>
+<li>Leg procedures rondom highstakebeslissingen vast.</li>
+<li>Leg uit hoe de besliscommissie wordt samengesteld.</li>
+<li>Stel een helder(e) beoordelingsformulier/rubric op met een duidelijke invulinstructie.</li>
+<li>Leg uit op welke wijze de eventuele remediëring tot stand komt.</li>
+</ul>
+</section>
+<section id="high-stake-beslissing-borgen-van-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="high-stake-beslissing-borgen-van-kwaliteit-van-toetsing">High-stake beslissing: borgen van kwaliteit van toetsing</h3>
+<ul>
+<li>Evalueer steekproefsgewijs de kwaliteit van de portfolio’s (kwaliteit datapunten, kwaliteit feedback, saturatie).</li>
+<li>Beoordeel richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie en/of verslagen van highstakebeslissingen.</li>
+<li>Bekijk de manier waarop aggregatie van informatie plaatsvindt.</li>
+<li>Beoordeel procedures rondom highstakebeslissingen en woon beslismomenten bij.</li>
+<li>Beoordeel de samenstelling van de besliscommissie of geef hiervoor richtlijnen.</li>
+<li>Beoordeel de procedures rondom kalibratie en de uitvoering ervan in de praktijk.</li>
+<li>Evalueer de kwaliteit van het beoordelingsformulier/rubric en de invulinstructie.</li>
+<li>Beoordeel de procedure rondom de totstandkoming van de remediering.</li>
+<li>Beoordeel of de student met het remediëringsprogramma of de remediëringsopdracht aan de eisen kan voldoen.</li>
+</ul>
+</section>
+</section>
+<section id="datapunten" class="level2">
+<h2 class="anchored" data-anchor-id="datapunten">Datapunten</h2>
+<p>Een datapunt geeft een brokje informatie over de student en kan bijvoorbeeld bestaan uit beroepsproducten, kennisproducten, onderbouwingen, reflecties, zelfbeoordelingen, scores op kennistoetsen of feedback van medestudenten, cliënten of opdrachtgevers. Een datapunt kan informatie geven over meerdere beroepscompetenties (Biemond &amp; Baartman, 2021).</p>
+<section id="datapunten-zorgen-voor-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="datapunten-zorgen-voor-kwaliteit-van-toetsing">Datapunten: zorgen voor kwaliteit van toetsing</h3>
+<ul>
+<li>Besteed aandacht aan de kaders die je de studenten meegeeft in hun keuzemogelijkheden voor datapunten (bijvoorbeeld contexten, perspectief van feedbackgever).</li>
+<li>Maak duidelijk welke eisen worden gesteld aan feedback.</li>
+<li>Stel richtlijnen vast voor de kwaliteit van de datapunten, rekening houdend met zowel de leerfunctie als de beslisfunctie.</li>
+</ul>
+</section>
+<section id="datapunten-borgen-van-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="datapunten-borgen-van-kwaliteit-van-toetsing">Datapunten: borgen van kwaliteit van toetsing</h3>
+<ul>
+<li>Bepaal en beargumenteer hoeveel aandacht de examencommissie wil besteden aan de borgen van de kwaliteit van datapunten.</li>
+<li>Evalueer de richtlijnen voor de kwaliteit van de datapunten.</li>
+<li>Bepaal eventueel in hoeverre deze richtlijnen in de praktijk worden nageleefd.</li>
+</ul>
+</section>
+</section>
+<section id="toetsorganisatie" class="level2">
+<h2 class="anchored" data-anchor-id="toetsorganisatie">Toetsorganisatie</h2>
+<p>Met de toetsorganisatie wordt verwezen naar de wijze waarop docenten, examencommissie, toetscommissie, management en ondersteunende medewerkers doelgericht met elkaar samenwerken om de gewenste toetskwaliteit te realiseren (Van Deursen &amp; Van Zijl, 2015). Daarbij gaat het om het vaststellen van rollen, taken en verantwoordelijkheden van actoren/betrokkenen bij toetsing, het rolvast met elkaar samenwerken en de logistieke organisatie van toetsing (Van Deursen &amp; Van Zijl, 2015).</p>
+<section id="toetsorganisatie-zorgen-voor-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="toetsorganisatie-zorgen-voor-kwaliteit-van-toetsing">Toetsorganisatie: zorgen voor kwaliteit van toetsing</h3>
+<ul>
+<li>Regel de logistiek rondom de bijeenkomsten van de besliscommissie.</li>
+<li>Expliciteer taken, verantwoordelijkheden en bevoegdheden van diegenen die een rol spelen in de toetskwaliteit.<br>
+</li>
+<li>Zorg - zeker als studenten veel keuzemogelijkheden krijgen - voor een goede uitvoering en registratie en pas systemen en procedures hierop zo nodig aan.</li>
+</ul>
+</section>
+<section id="toetsorganisatie-borgen-van-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="toetsorganisatie-borgen-van-kwaliteit-van-toetsing">Toetsorganisatie: borgen van kwaliteit van toetsing</h3>
+<ul>
+<li>Ga na of de logistiek rondom de bijeenkomsten van de besliscommissie goed werkt.</li>
+<li>Evalueer of diegenen die een rol spelen in de toetskwaliteit de juiste taken uitvoeren, de juiste verantwoordelijkheden dragen en bevoegdheden gebruiken.<br>
+</li>
+<li>Ga na of de uitvoering en registratie - als gevolg van de keuzemogelijkheden van studenten - in systemen en procedures goed verloopt.</li>
+</ul>
+</section>
+</section>
+<section id="toetsbekwaamheid" class="level2">
+<h2 class="anchored" data-anchor-id="toetsbekwaamheid">Toetsbekwaamheid</h2>
+<p>Met toetsbekwaamheid wordt verwezen naar de deskundigheid die bij actoren aanwezig moet zijn om toetskwaliteit te realiseren (Van Berkel, Sluijsmans &amp; Joosten-ten Brinke, 2015). Bij programmatisch toetsen hoort daarbij ook feedbackgeletterdheid van studenten, docenten en begeleiders uit het werkveld; coachingsvaardigheden bij docenten en vaardigheid in holistisch beoordelen bij examinatoren. Daarnaast is kennis nodig bij examencommissies, docenten en managers over het doel van en de werkwijze bij programmatisch toetsen. Wij merken daarnaast dat het verstandig is om ook minder direct betrokkenen, zoals juridisch medewerkers of medewerkers van de cijferadministratie, uit te leggen wat programmatisch toetsen inhoudt.</p>
+<section id="toetsbekwaamheid-zorgen-voor-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="toetsbekwaamheid-zorgen-voor-kwaliteit-van-toetsing">Toetsbekwaamheid: zorgen voor kwaliteit van toetsing</h3>
+<ul>
+<li>Maak een plan om de toetsbekwaamheid van studenten, docenten, beoogd examinatoren en andere actoren op peil te krijgen en te houden, voer het plan uit en evalueer de uitvoering.</li>
+</ul>
+</section>
+<section id="toetsbekwaamheid-borgen-van-kwaliteit-van-toetsing" class="level3">
+<h3 class="anchored" data-anchor-id="toetsbekwaamheid-borgen-van-kwaliteit-van-toetsing">Toetsbekwaamheid: borgen van kwaliteit van toetsing</h3>
+<ul>
+<li>Stel (nieuwe) criteria vast waaraan examinatoren moeten voldoen.</li>
+<li>Evalueer de uitvoering van het plan rondom de toetsbekwaamheid.</li>
+<li>Signaleer mogelijke tekortkomingen in toetsbekwaamheid van verschillende actoren en vraag de opleiding actie te ondernemen.</li>
+</ul>
+</section>
+</section>
+<section id="meer-weten" class="level2">
+<h2 class="anchored" data-anchor-id="meer-weten">Meer weten?</h2>
+<p>Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het zorgen voor en borgen van de kwaliteit van toetsing bij programmatisch toetsen. Onderstaande lijst geeft een overzicht.</p>
+<section id="wetenschappelijke-publicaties" class="level3">
+<h3 class="anchored" data-anchor-id="wetenschappelijke-publicaties">Wetenschappelijke publicaties</h3>
+<section id="programmatic-assessment-can-we-provide-evidence-for-saturation-of-information" class="level4">
+<h4 class="anchored" data-anchor-id="programmatic-assessment-can-we-provide-evidence-for-saturation-of-information">Programmatic assessment: Can we provide evidence for saturation of information?</h4>
+<p><span class="citation" data-cites="doi:10.1080/0142159X.2018.1555369">Jong et al. (<a href="#ref-doi:10.1080/0142159X.2018.1555369" role="doc-biblioref">2019</a>)</span></p>
+</section>
+<section id="the-pursuit-of-fairness-in-assessment-looking-beyond-the-objective" class="level4">
+<h4 class="anchored" data-anchor-id="the-pursuit-of-fairness-in-assessment-looking-beyond-the-objective">The pursuit of fairness in assessment: Looking beyond the objective</h4>
+<p><span class="citation" data-cites="valentine2022pursuit">Valentine et al. (<a href="#ref-valentine2022pursuit" role="doc-biblioref">2022</a>)</span></p>
+</section>
+</section>
+<section id="praktijkgerichte-publicaties" class="level3">
+<h3 class="anchored" data-anchor-id="praktijkgerichte-publicaties">Praktijkgerichte publicaties</h3>
+<section id="kennisclips-zorgen-en-borgen" class="level4">
+<h4 class="anchored" data-anchor-id="kennisclips-zorgen-en-borgen">Kennisclips zorgen en borgen</h4>
+<p>In zeven korte kennisclips wordt ingegaan op het zorgen voor en borgen van kwaliteit voor toetsing binnen de context van programmatisch toetsen. De kennisclips zijn gemaakt door Sylvia Heeneman en Irene Biemond.</p>
+<p><a href="./bronnen/111_Kennisclip_1_Inleiding.mp4">Kennisclip 1 - Inleiding en samenvatting</a></p>
+<p><a href="./bronnen/111_Kennisclip_2_Toetsbeleid.mp4">Kennisclip 2 - Toetsbeleid</a></p>
+<p><a href="./bronnen/111_Kennisclip_3_Overzicht_datapunten.mp4">Kennisclip 3 - Overzicht van datapunten</a></p>
+<p><a href="./bronnen/111_Kennisclip_4_Highstake_beslissing.mp4">Kennisclip 4 - Highstake beslissing</a></p>
+<p><a href="./bronnen/111_Kennisclip_5_Datapunten.mp4">Kennisclip 5 - Datapunten</a></p>
+<p><a href="./bronnen/111_Kennisclip_6_Toetsorganisatie.mp4">Kennisclip 6 - Toetsorganisatie</a></p>
+<p><a href="./bronnen/111_Kennisclip_7_Toetsbekwaamheid.mp4">Kennisclip 7 - Toetsbekwaamheid</a></p>
+</section>
+<section id="de-rol-van-de-examencommissie" class="level4">
+<h4 class="anchored" data-anchor-id="de-rol-van-de-examencommissie">De rol van de examencommissie</h4>
+<p>Hoe kunnen examencommissies op een goede manier invulling geven aan hun wettelijke taak (het borgen van de kwaliteit van toetsing) bij opleidingen die werken volgens de principes van programmatisch toetsen? In dit tweeluik wordt eerst ingegaan op de rol van de examencommissie, daarna op concrete instrumenten waarmee de examencommissie invulling kan deze aan deze rol. Deel 2 van dit tweeluik is te vinden bij de praktische handvatten op deze pagina.</p>
+<p><a href="https://lerenvantoetsen.nl/naar-gecontroleerd-vertrouwen-de-rol-van-de-examencommissie-bij-programmatisch-toetsen/">Naar gecontroleerd vertrouwen: De rol van de examencommissie bij programmatisch toetsen</a></p>
+</section>
+</section>
+</section>
+<section id="praktijkvoorbeelden" class="level2">
+<h2 class="anchored" data-anchor-id="praktijkvoorbeelden">Praktijkvoorbeelden</h2>
+<section id="het-borgen-van-de-kwaliteit-van-zorgvuldige-beslissingen" class="level3">
+<h3 class="anchored" data-anchor-id="het-borgen-van-de-kwaliteit-van-zorgvuldige-beslissingen">Het borgen van de kwaliteit van zorgvuldige beslissingen</h3>
+<p>Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vind hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst.</p>
+<p><a href="./bronnen/56_Buitenkring_Bijeenkomst2_Opname.mp4">Buitenkring bijeenkomst 2: Opname</a></p>
+<p><a href="./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf">Buitenkring bijeenkomst 2: Presentatie</a></p>
+<p><a href="./bronnen/56_Buitenkring_Bijeenkomst2_Beslisprocedure.pptx">Buitenkring bijeenkomst 2: Beslisprocedure</a></p>
+</section>
+</section>
+<section id="praktische-handvatten" class="level2">
+<h2 class="anchored" data-anchor-id="praktische-handvatten">Praktische handvatten</h2>
+<section id="de-rol-van-de-examencommissie---hoe" class="level3">
+<h3 class="anchored" data-anchor-id="de-rol-van-de-examencommissie---hoe">De rol van de examencommissie - hoe</h3>
+<p>Hoe kunnen examencommissies op een goede manier invulling geven aan hun wettelijke taak (het borgen van de kwaliteit van toetsing) bij opleidingen die werken volgens de principes van programmatisch toetsen? In dit tweeluik wordt eerst ingegaan op de rol van de examencommissie, daarna op concrete instrumenten waarmee de examencommissie invulling kan deze aan deze rol. Deel 1 van dit tweeluik is te vinden bij de praktijkgerichte publicaties op deze pagina.</p>
+<p><a href="https://lerenvantoetsen.nl/holistisch-beslissen-en-de-borging-van-kwaliteit-door-een-examencommissie-hoe-dan/">Holistisch beslissen en de borging van kwaliteit door een examencommissie, hoe dan?</a></p>
+</section>
+<section id="protocol-toetsing-en-beoordeling-bij-de-huisartsenopleiding" class="level3">
+<h3 class="anchored" data-anchor-id="protocol-toetsing-en-beoordeling-bij-de-huisartsenopleiding">Protocol toetsing en beoordeling bij de huisartsenopleiding</h3>
+<p>In de huisartsenopleiding wordt gewerkt volgens de principes van programmatisch toetsen. Op deze site staan het toetsplan en het ‘protocol toetsing en beoordeling’ dat de opleiding hanteert. Hierin is uitgewerkt hoe de ontwikkeling van de student gedurende de opleiding steeds onderwerp van gesprek is en hoe (en op basis waarvan) beslissingen worden genomen.</p>
+<p><a href="https://www.huisartsopleiding.nl/toetsen-beoordelen/programmatisch-toetsen/">Huisartsenopleiding: Programmatisch toetsen</a></p>
+</section>
+<section id="zelfevaluatie-kwaliteit-van-toetsprogramma" class="level3">
+<h3 class="anchored" data-anchor-id="zelfevaluatie-kwaliteit-van-toetsprogramma">Zelfevaluatie kwaliteit van toetsprogramma</h3>
+<p>De zelfevaluatie-methodiek KIT2.0 is gebaseerd op principes van programmatisch toetsen. Deze basisprincipes zie je terug in de kwaliteitscriteria. Met de methodiek kun je de kwaliteit van je toetsprogramma in kaart brengen en nagaan hoe je toetsprogramma zich verhoudt tot de uitgangspunten van programmatisch toetsen.</p>
+<p><a href="https://www.kwaliteit-toetsprogramma.nl/achtergrond/">Achtergrond – Kwaliteitsinstrument Toetsprogramma (kwaliteit-toetsprogramma.nl)</a></p>
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-doi:10.1080/0142159X.2018.1555369" class="csl-entry" role="doc-biblioentry">
+Jong, Lubberta H. de, Harold G. J. Bok, Wim D. J. Kremer, and Cees P. M. van der Vleuten. 2019. <span>“Programmatic Assessment: Can We Provide Evidence for Saturation of Information?”</span> <em>Medical Teacher</em> 41 (6): 678–82. <a href="https://doi.org/10.1080/0142159X.2018.1555369">https://doi.org/10.1080/0142159X.2018.1555369</a>.
+</div>
+<div id="ref-valentine2022pursuit" class="csl-entry" role="doc-biblioentry">
+Valentine, Nyoli, Steven J Durning, Ernst Michael Shanahan, Cees van der Vleuten, and Lambert Schuwirth. 2022. <span>“The Pursuit of Fairness in Assessment: Looking Beyond the Objective.”</span> <em>Medical Teacher</em>, 1–7.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

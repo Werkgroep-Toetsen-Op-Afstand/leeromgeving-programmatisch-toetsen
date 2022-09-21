@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Leermodule Programmatisch Toetsen – beslisfunctie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leermodule Programmatisch Toetsen</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1-basis.html" class="sidebar-item-text sidebar-link">De basis</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk.html" class="sidebar-item-text sidebar-link">Programmatisch toetsen als ontwerpvraagstuk</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link">Implementeren van programmatisch toetsen</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link active">De beslisfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen en borgen</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#de-beslisfunctie" id="toc-de-beslisfunctie" class="nav-link active" data-scroll-target="#de-beslisfunctie">De beslisfunctie</a>
+  <ul class="collapse">
+  <li><a href="#high-stake-beslissingen" id="toc-high-stake-beslissingen" class="nav-link" data-scroll-target="#high-stake-beslissingen">High-stake beslissingen</a></li>
+  <li><a href="#inrichten-van-de-beslisprocedure" id="toc-inrichten-van-de-beslisprocedure" class="nav-link" data-scroll-target="#inrichten-van-de-beslisprocedure">Inrichten van de beslisprocedure</a></li>
+  <li><a href="#saturatie-triangulatie-en-intersubjectiviteit" id="toc-saturatie-triangulatie-en-intersubjectiviteit" class="nav-link" data-scroll-target="#saturatie-triangulatie-en-intersubjectiviteit">Saturatie, triangulatie en intersubjectiviteit</a></li>
+  <li><a href="#meer-weten" id="toc-meer-weten" class="nav-link" data-scroll-target="#meer-weten">Meer weten?</a>
+  <ul class="collapse">
+  <li><a href="#wetenschappelijke-publicaties" id="toc-wetenschappelijke-publicaties" class="nav-link" data-scroll-target="#wetenschappelijke-publicaties">Wetenschappelijke publicaties</a></li>
+  <li><a href="#praktijkgerichte-publicaties" id="toc-praktijkgerichte-publicaties" class="nav-link" data-scroll-target="#praktijkgerichte-publicaties">Praktijkgerichte publicaties</a></li>
+  </ul></li>
+  <li><a href="#praktijkvoorbeelden" id="toc-praktijkvoorbeelden" class="nav-link" data-scroll-target="#praktijkvoorbeelden">Praktijkvoorbeelden</a>
+  <ul class="collapse">
+  <li><a href="#het-nemen-van-zorgvuldige-beslissingen-1" id="toc-het-nemen-van-zorgvuldige-beslissingen-1" class="nav-link" data-scroll-target="#het-nemen-van-zorgvuldige-beslissingen-1">het nemen van zorgvuldige beslissingen</a></li>
+  <li><a href="#inrichten-beslisprocedure" id="toc-inrichten-beslisprocedure" class="nav-link" data-scroll-target="#inrichten-beslisprocedure">Inrichten beslisprocedure</a></li>
+  </ul></li>
+  <li><a href="#praktische-handvatten" id="toc-praktische-handvatten" class="nav-link" data-scroll-target="#praktische-handvatten">Praktische handvatten</a>
+  <ul class="collapse">
+  <li><a href="#inrichten-van-de-beslisprocedure-1" id="toc-inrichten-van-de-beslisprocedure-1" class="nav-link" data-scroll-target="#inrichten-van-de-beslisprocedure-1">Inrichten van de beslisprocedure</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="de-beslisfunctie" class="level1">
+<h1>De beslisfunctie</h1>
+<p>Naast het optimaliseren van de leerfunctie, ligt de focus van programmatisch toetsen ook op het optimaliseren van de beslisfunctie (<span class="citation" data-cites="van2012model">Vleuten et al. (<a href="#ref-van2012model" role="doc-biblioref">2012</a>)</span>). Om tot een beslissing te komen over de beheersing van een student over een leeruitkomst, wordt informatie op het niveau van de leeruitkomst gedestilleerd uit alle beschikbare datapunten, waarbij er over de datapunten heen een beslissing wordt genomen (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>).</p>
+<section id="high-stake-beslissingen" class="level2">
+<h2 class="anchored" data-anchor-id="high-stake-beslissingen">High-stake beslissingen</h2>
+<p>In tegenstelling tot low-stake momenten, hebben de resultaten bij high-stake beslissingen wel een grote consequentie (<span class="citation" data-cites="van2012model">Vleuten et al. (<a href="#ref-van2012model" role="doc-biblioref">2012</a>)</span>). Er wordt namelijk een zak-/slaagbeslissing genomen (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Hierbij is het belangrijk dat high-stake beslissingen zijn gebaseerd op veel datapunten, rijke informatie uit verschillende contexten en verschillende toetsvormen en beoordelaars; hoe hoger de ‘stake’, hoe meer gegevens er naar verhouding nodig zijn voor de beslissing (<span class="citation" data-cites="van2012model">Vleuten et al. (<a href="#ref-van2012model" role="doc-biblioref">2012</a>)</span>). De datapunten vormen samen een totaalplaatje van de student. Er kan een legitiem besluit worden genomen over de student, wanneer dit plaatje duidelijk genoeg is (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>).</p>
+<p>Er bestaat niet zoiets als ‘het perfecte aantal’ aan datapunten. Belangrijk is wel dat er niet teveel datapunten zijn, omdat dit zorgt voor een hoge werkdruk bij de docenten en studenten weinig tijd hebben om iets met de feedback op de datapunten te doen. Maar te weinig datapunten zorgt voor een onvoldoende beeld om een robuuste beslissing te kunnen nemen <a href="@filmpje%20Luberta">BRON TOEVOEGEN</a>.</p>
+</section>
+<section id="inrichten-van-de-beslisprocedure" class="level2">
+<h2 class="anchored" data-anchor-id="inrichten-van-de-beslisprocedure">Inrichten van de beslisprocedure</h2>
+<p>Bij een tussentijdse beoordeling vergelijkt een commissie van examinatoren de gecombineerde informatie uit de datapunten met de prestatienorm. Omdat datapunten zowel narratief als kwalitatief kunnen zijn, vraagt dit om menselijke interpretatie. De examinatoren moeten goed geïnformeerd zijn over hetgeen wat zij beoordelen en hier ook getraind in zijn. Voor het beoordelen kunnen de examinatoren gebruik maken van bijvoorbeeld rubrics of prestatienormen. De omvang van de commissie en de mate van beraadslaging zijn van belang. Een commissie met meerdere personen zorgt voor een collectief oordeel op basis van alle beschikbare informatie en kan ervoor zorgen dat bepaalde patronen aan het licht komen die een enkele beoordelaar niet zou zien (<span class="citation" data-cites="wilkinson2011joining">Wilkinson et al. (<a href="#ref-wilkinson2011joining" role="doc-biblioref">2011</a>)</span>).</p>
+<p>Wanneer een coach of mentor betrokken is bij het maken van de beslissing, kan de relatie tussen de coach/mentor en student in gevaar komen en het beslisproces belemmeren. Om toch de rijke informatie die een coach/mentor kan bieden mee te nemen in het beslisproces, kan een coach/mentor een bevestiging geven dat de gecombineerde informatie uit de datapunten een goed beeld van de student weergeeft. Of de coach/mentor kan gevraagd worden om een aanbeveling te geven voor de beslissing. De tussentijdse beoordeling van de commissie is informerend in relatie tot de prestatienorm, maar geeft ook informatie over wat al goed gaat en wat nog beter kan, waar (nog) aan gewerkt moet worden en kan voorspellend zijn. Belangrijk is in ieder geval dat de beoordeling gericht is om remediëring, waarbij het doel is om tot een informatierijke aanbeveling te komen, die is afgestemd op de lerende en gebaseerd is op de gecombineerde informatie uit de datapunten. Hiernaast is het belangrijk dat de lerende wordt begeleidt door een coach/mentor en er sprake is van een feedback dialoog (<span class="citation" data-cites="heeneman2021ottawa">Heeneman et al. (<a href="#ref-heeneman2021ottawa" role="doc-biblioref">2021</a>)</span>).</p>
+<p>Een high-stake beslissing vindt plaats wanneer er een beslissing moet worden gemaakt over het leerproces van de lerende. Deze high-stake beslissing is bijvoorbeeld gebaseerd op een uitgebreid portfolio waaraan gedurende een bepaalde periode wordt gewerkt (<span class="citation" data-cites="heeneman2021ottawa">Heeneman et al. (<a href="#ref-heeneman2021ottawa" role="doc-biblioref">2021</a>)</span>). Door deze beslissing door dezelfde commissie van examinatoren als bij de tussenbeoordeling te laten nemen, ontstaat er langdurige betrokkenheid. Waar mogelijk worden er striktere procedurele garanties ingezet, bijvoorbeeld procedures voor de inbreng van de student en de coach, opleiding en benchmarking van examinatoren, omvang van de commissie, beraadslaging en documentatie, prestatienormen en/of rubrics en het meenemen van alle datapunten van de voorafgaande periode, inclusief de tussentijdse beoordeling. Gezien er veel afhangt van een high-stake beslissing, is het van belang dat de procedure betrouwbaar en geloofwaardig is (<span class="citation" data-cites="heeneman2021ottawa">Heeneman et al. (<a href="#ref-heeneman2021ottawa" role="doc-biblioref">2021</a>)</span>). Als de procedure/het systeem goed werkt, zou de beoordeling/beslissing geen verassing moeten zijn. Wanneer een student het high-stake moment niet behaald, kan de commissie aanbeveling doen voor remediëring. Samengevat is de high-stake beslissing robuust en gebaseerd op rijke informatie en veel datapunten.</p>
+</section>
+<section id="saturatie-triangulatie-en-intersubjectiviteit" class="level2">
+<h2 class="anchored" data-anchor-id="saturatie-triangulatie-en-intersubjectiviteit">Saturatie, triangulatie en intersubjectiviteit</h2>
+<p>Het bekijken van de informatie uit de low-stake momenten gaat door tot er saturatie van informatie is bereikt (<span class="citation" data-cites="de2022shaping">Lubberta H. de Jong et al. (<a href="#ref-de2022shaping" role="doc-biblioref">2022</a>)</span>). Dit betekent dat extra/nieuwe informatie uit low-stake momenten, niks meer toevoegt aan het beeld van de student wat je al hebt (<span class="citation" data-cites="schuwirth2012programmatic">Schuwirth and Vleuten (<a href="#ref-schuwirth2012programmatic" role="doc-biblioref">2012</a>)</span>). Met andere woorden: er is voldoende informatie om een beslissing te nemen. Het aantal datapunten/low-stake momenten dat nodig is voor saturatie van informatie kan verschillen per studenten (<span class="citation" data-cites="filmpje">(<a href="#ref-filmpje" role="doc-biblioref"><strong>filmpje?</strong></a>)</span> Luberta). Hierbij is triangulatie van belang: het combineren van informatie uit verschillende bronnen (methodes, beoordelaars etc.) (<span class="citation" data-cites="cook2016assessment">Cook et al. (<a href="#ref-cook2016assessment" role="doc-biblioref">2016</a>)</span>). Triangulatie zorgt voor een grote verzameling van rijke informatie, zowel kwantitatief en narratief (feedback en reflectie) (de2022shaping). Hierdoor is het resultaat geen berekening, maar een beschrijving over en voor de lerende (<span class="citation" data-cites="heeneman2021ottawa">Heeneman et al. (<a href="#ref-heeneman2021ottawa" role="doc-biblioref">2021</a>)</span>). Hierbij is een sequentiële beoordelingsprocedure van belang, waarbij tegenstrijdige informatie et verzamelen van meer informatie noodzakelijk maakt (<span class="citation" data-cites="van2012model">Vleuten et al. (<a href="#ref-van2012model" role="doc-biblioref">2012</a>)</span>).</p>
+</section>
+<section id="meer-weten" class="level2">
+<h2 class="anchored" data-anchor-id="meer-weten">Meer weten?</h2>
+<p>Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op de beslisfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.</p>
+<section id="wetenschappelijke-publicaties" class="level3">
+<h3 class="anchored" data-anchor-id="wetenschappelijke-publicaties">Wetenschappelijke publicaties</h3>
+<section id="programmatic-assessment-can-we-provide-evidence-for-saturation-of-information" class="level4">
+<h4 class="anchored" data-anchor-id="programmatic-assessment-can-we-provide-evidence-for-saturation-of-information">Programmatic assessment: Can we provide evidence for saturation of information?</h4>
+<p><span class="citation" data-cites="doi:10.1080/0142159X.2018.1555369">Lubberta H. de Jong et al. (<a href="#ref-doi:10.1080/0142159X.2018.1555369" role="doc-biblioref">2019</a>)</span></p>
+</section>
+<section id="from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio" class="level4">
+<h4 class="anchored" data-anchor-id="from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio">From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio</h4>
+<p><span class="citation" data-cites="oudkerk2018aggregation">(<a href="#ref-oudkerk2018aggregation" role="doc-biblioref"><strong>oudkerk2018aggregation?</strong></a>)</span></p>
+</section>
+<section id="evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students" class="level4">
+<h4 class="anchored" data-anchor-id="evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students">Evaluation of an assessment system for professionalism amongst dental students</h4>
+<p><span class="citation" data-cites="zijlstra2017evaluation">Zijlstra-Shaw, Roberts, and Robinson (<a href="#ref-zijlstra2017evaluation" role="doc-biblioref">2017</a>)</span></p>
+</section>
+<section id="joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress" class="level4">
+<h4 class="anchored" data-anchor-id="joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress">Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress</h4>
+<p><span class="citation" data-cites="wilkinson2011joining">Wilkinson et al. (<a href="#ref-wilkinson2011joining" role="doc-biblioref">2011</a>)</span></p>
+</section>
+</section>
+<section id="praktijkgerichte-publicaties" class="level3">
+<h3 class="anchored" data-anchor-id="praktijkgerichte-publicaties">Praktijkgerichte publicaties</h3>
+<section id="het-nemen-van-zorgvuldige-beslissingen" class="level4">
+<h4 class="anchored" data-anchor-id="het-nemen-van-zorgvuldige-beslissingen">Het nemen van zorgvuldige beslissingen</h4>
+<p>In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen.</p>
+<p><a href="https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d">Bekijk het webinar</a></p>
+</section>
+</section>
+</section>
+<section id="praktijkvoorbeelden" class="level2">
+<h2 class="anchored" data-anchor-id="praktijkvoorbeelden">Praktijkvoorbeelden</h2>
+<section id="het-nemen-van-zorgvuldige-beslissingen-1" class="level3">
+<h3 class="anchored" data-anchor-id="het-nemen-van-zorgvuldige-beslissingen-1">het nemen van zorgvuldige beslissingen</h3>
+<p>Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vind hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst.</p>
+<p><a href="./bronnen/56_Buitenkring_Bijeenkomst2_Opname.mp4">Buitenkring bijeenkomst 2: Opname</a></p>
+<p><a href="./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf">Buitenkring bijeenkomst 2: Presentatie</a></p>
+<p><a href="./bronnen/56_Buitenkring_Bijeenkomst2_Beslisprocedure.pptx">Buitenkring bijeenkomst 2: Beslisprocedure</a></p>
+</section>
+<section id="inrichten-beslisprocedure" class="level3">
+<h3 class="anchored" data-anchor-id="inrichten-beslisprocedure">Inrichten beslisprocedure</h3>
+<p>Instituut Archimedes (HU) gebruikte de <a href="./bronnen/59_Gesprekskaartjes.pptx">gesprekskaartjes</a> die ontwikkeld zijn in het landelijk leernetwerk programmatisch toetsen om een procedure uit te werken voor het komen tot een high stake beslissing. Deze procedure is als praktijkvoorbeeld toegevoegd.</p>
+<p><a href="./bronnen/100_Procedure_highstake_beslissingen_HU.pdf">Procedure high-stake beslissingen van de HU</a></p>
+</section>
+</section>
+<section id="praktische-handvatten" class="level2">
+<h2 class="anchored" data-anchor-id="praktische-handvatten">Praktische handvatten</h2>
+<section id="inrichten-van-de-beslisprocedure-1" class="level3">
+<h3 class="anchored" data-anchor-id="inrichten-van-de-beslisprocedure-1">Inrichten van de beslisprocedure</h3>
+<p>Hoe richt je de beslisprocedure in? Wil je hierover samen met collega’s in gesprek, dan bieden deze gesprekskaartjes een mooi handvat om dat gesprek te voeren. De gesprekskaartjes werden ontwikkeld door Maartjes de Groot, Jantina Huizenga en Judith Revet in het landelijk leernetwerk programmatisch toetsen.</p>
+<p><a href="./bronnen/59_Gesprekskaartjes.pptx">Gesprekskaartjes beslisproces</a></p>
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-baartman2020programmatisch" class="csl-entry" role="doc-biblioentry">
+Baartman, Liesbeth, Tamara van Schilt-Mol, and Cees van der Vleuten. 2020. <em>Programmatisch Toetsen: Voorbeelden En Ervaringen Uit de Praktijk</em>. Hogeschool Utrecht.
+</div>
+<div id="ref-cook2016assessment" class="csl-entry" role="doc-biblioentry">
+Cook, David A, Ayelet Kuper, Rose Hatala, and Shiphra Ginsburg. 2016. <span>“When Assessment Data Are Words: Validity Evidence for Qualitative Educational Assessments.”</span> <em>Academic Medicine</em> 91 (10): 1359–69.
+</div>
+<div id="ref-heeneman2021ottawa" class="csl-entry" role="doc-biblioentry">
+Heeneman, Sylvia, Lubberta H de Jong, Luke J Dawson, Tim J Wilkinson, Anna Ryan, Glendon R Tait, Neil Rice, Dario Torre, Adrian Freeman, and Cees PM van der Vleuten. 2021. <span>“Ottawa 2020 Consensus Statement for Programmatic Assessment–1. Agreement on the Principles.”</span> <em>Medical Teacher</em> 43 (10): 1139–48.
+</div>
+<div id="ref-de2022shaping" class="csl-entry" role="doc-biblioentry">
+Jong, Lubberta H de, Harold GJ Bok, Lonneke H Schellekens, Wim DJ Kremer, F Herman Jonker, and Cees PM van der Vleuten. 2022. <span>“Shaping the Right Conditions in Programmatic Assessment: How Quality of Narrative Information Affects the Quality of High-Stakes Decision-Making.”</span> <em>BMC Medical Education</em> 22 (1): 1–10.
+</div>
+<div id="ref-doi:10.1080/0142159X.2018.1555369" class="csl-entry" role="doc-biblioentry">
+Jong, Lubberta H. de, Harold G. J. Bok, Wim D. J. Kremer, and Cees P. M. van der Vleuten. 2019. <span>“Programmatic Assessment: Can We Provide Evidence for Saturation of Information?”</span> <em>Medical Teacher</em> 41 (6): 678–82. <a href="https://doi.org/10.1080/0142159X.2018.1555369">https://doi.org/10.1080/0142159X.2018.1555369</a>.
+</div>
+<div id="ref-schuwirth2012programmatic" class="csl-entry" role="doc-biblioentry">
+Schuwirth, Lambert WT, and Cees PM van der Vleuten. 2012. <span>“Programmatic Assessment and Kane’92s Validity Perspective.”</span> <em>Medical Education</em> 46 (1): 38–48.
+</div>
+<div id="ref-van2012model" class="csl-entry" role="doc-biblioentry">
+Vleuten, Cees PM van der, LWT Schuwirth, EW Driessen, Joost Dijkstra, Dineke Tigelaar, LKJ Baartman, and Jan Van Tartwijk. 2012. <span>“A Model for Programmatic Assessment Fit for Purpose.”</span> <em>Medical Teacher</em> 34 (3): 205–14.
+</div>
+<div id="ref-wilkinson2011joining" class="csl-entry" role="doc-biblioentry">
+Wilkinson, Tim J, Mike J Tweed, Tony G Egan, Anthony N Ali, Jan M McKenzie, MaryLeigh Moore, and Joy R Rudland. 2011. <span>“Joining the Dots: Conditional Pass and Programmatic Assessment Enhances Recognition of Problems with Professionalism and Factors Hampering Student Progress.”</span> <em>BMC Medical Education</em> 11 (1): 1–9.
+</div>
+<div id="ref-zijlstra2017evaluation" class="csl-entry" role="doc-biblioentry">
+Zijlstra-Shaw, S, T Roberts, and PG Robinson. 2017. <span>“Evaluation of an Assessment System for Professionalism Amongst Dental Students.”</span> <em>European Journal of Dental Education</em> 21 (4): e89–100.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
