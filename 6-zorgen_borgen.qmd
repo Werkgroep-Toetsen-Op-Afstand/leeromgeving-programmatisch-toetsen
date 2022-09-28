@@ -1,6 +1,8 @@
-# Zorgen en borgen 
+# Zorgen voor en borgen van toetskwaliteit  
 
-Bij opleidingen die (gaan) werken met programmatisch toetsen verandert vaak de manier waarop zij zorgen voor de toetskwaliteit. Ook de manier waarop de examencommissie deze toetskwaliteit borgt, verandert. In deze inleiding staan we stil bij nieuwe en aangepaste instrumenten voor het zorgen voor en borgen van de toetskwaliteit. We doen dat aan de hand van de elementen van het toetsweb (Van Schilt-Mol et al, 2020) met een aanpassing; bij programmatisch toetsen wordt op één of meerdere momenten de informatie van een groot aantal datapunten gebruikt om een beslissing te nemen over het wel of niet toekennen van studiepunten (highstake beslissing). We gebruiken hier daarom de termen datapuntenprogramma, highstakebeslissing en datapunten in plaats van de toetswebtermen toetsprogramma en toets(tak)en. Daarmee zijn er bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen: 
+Door: Sylvia Heeneman (Maastricht University) en Irene Biemond (Hogeschool van Hall Larenstein)
+
+Bij opleidingen die (gaan) werken met programmatisch toetsen verandert vaak de manier waarop zij zorgen voor de toetskwaliteit. Ook de manier waarop de examencommissie deze toetskwaliteit borgt, verandert. Dit vraagt nieuwe en aangepaste instrumenten voor het zorgen voor en borgen van toetskwaliteit. Er zijn bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen, te zien in de elementen van het toetsweb (Van Schilt-Mol et al, 2020). Voor programmatisch toetsen wordt het toetsweb op één punt aangepast: op één of meerdere momenten wordt de informatie uit een groot aantal datapunten gebruikt om een beslissing te nemen over het wel of niet toekennen van studiepunten (high-stakes beslissing). We gebruiken hier daarom de termen programma van datapunten,  high-stake beslissing en datapunten in plaats van de toetswebtermen toetsprogramma en toets(tak)en. Daarmee zijn er bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen: 
 
 [AFBEELDING TOEVOEGEN]
 
@@ -8,92 +10,99 @@ Bij opleidingen die (gaan) werken met programmatisch toetsen verandert vaak de m
 
 Het toetsbeleid is het geheel aan vastgestelde afspraken over toetsen en beoordelen, zowel inhoudelijk als procedureel (Bruijns & Kok, 2015). Toetsbeleid kan bestaan op verschillende niveaus, bijvoorbeeld op instellingsniveau en opleidingsniveau. Het toetsbeleid is vaak onderdeel van en opgenomen in meerdere documenten zoals een toetskader, een toetsbeleid, een toetsreglement en een onderwijs- en examenregeling. De afspraken in het toetsbeleid kunnen gaan over alle elementen van het toetsweb. Naast de afspraken die de instelling en opleiding maken, zijn examencommissies in het hoger onderwijs bevoegd eigen richtlijnen en aanwijzingen te geven binnen het kader van de onderwijs- en examenregeling (WHW 7.12b lid 1b). 
 
-### Toetsbeleid: zorgen voor kwaliteit van toetsing 
+###Toetsbeleid - Zorgen voor toetskwaliteit: 
 
-Stel toetsbeleid op; zorg in ieder geval voor afspraken over: 
+* Stel toetsbeleid op; zorg in ieder geval voor afspraken over: 
+    * de rechtsbescherming van studenten; 
+    * het voorkómen en constateren van fraude in de datapunten; 
+    * de herkansings- en/of remedieermogelijkheden voor studenten.   
 
-* de rechtsbescherming van studenten;
-* het voorkómen en constateren van fraude in de datapunten; 
-* de herkansings- en/of remedieermogelijkheden voor studenten die een onderwijseenheid niet hebben behaald.   
+### Toetsbeleid - Borgen van toetskwaliteit 
 
-### Toetsbeleid: borgen van kwaliteit van toetsing 
-
-* Wees scherp op de vraag of programmatisch toetsen volgens de bedoeling wordt ingezet (VERWIJZING naar : Biemond - Overzicht van signalen voor ‘slechte invoering van PT’). 
+* Wees scherp op de vraag of programmatisch toetsen volgens de bedoeling (zie de uitgangspunten van programmatisch toetsen) wordt ingezet (VERWIJZING naar : Biemond - Overzicht van signalen voor ‘slechte invoering van PT’). 
 * Ga na of het toetsbeleid de examencommissies voldoende mogelijkheden geeft haar borgende taak uit te voeren. 
 * Ga na of het toetsbeleid bekend is bij alle relevante actoren en wordt nageleefd. 
 
-## Geheel aan datapunten 
+## Programma van datapunten  
 
-Een datapuntenprogramma is een overzicht van (kenmerken van) datapunten en beslismomenten dat bewust tot stand is gekomen op basis van vastgestelde doelen (Biemond & Baartman, 2021). Die doelen zijn bijvoorbeeld validiteit en betrouwbaarheid. Bij een datapuntenprogramma hoort een verantwoording, waarin ook de uitgangspunten voor het datapuntenprogramma staan vermeld. Een uitgangspunt kan bijvoorbeeld zijn dat er wordt gewerkt met een mix van datapunten, bijvoorbeeld in het soort datapunten, in de contexten waarin beroepshandelingen zijn uitgevoerd en in het perspectief zoals een klant/patiënt/ docent/medestudent (Biemond & Baartman, 2021). 
+Een programma van datapunten een overzicht van (kenmerken van) datapunten en beslismomenten dat bewust tot stand is gekomen op basis van vastgestelde doelen (Biemond & Baartman, 2021). Die doelen zijn bijvoorbeeld validiteit en betrouwbaarheid. Bij een programma van datapunten hoort een verantwoording, waarin ook de uitgangspunten voor het programma staan vermeld. Een uitgangspunt kan bijvoorbeeld zijn dat er wordt gewerkt met een mix van datapunten, bijvoorbeeld in het soort datapunten, in de contexten waarin beroepshandelingen zijn uitgevoerd en in het perspectief van de feedback zoals van een klant/patiënt/ docent/medestudent (Biemond & Baartman, 2021). 
 
-### Geheel aan datapunten: zorgen voor kwaliteit van toetsing 
+### Programma van datapunten – zorgen voor toetskwaliteit 
 
-* Geef een heldere verantwoording van het datapuntenprogramma en relateer de keuzes aan de uitgangspunten van programmatisch toetsen (link naar andere deel online leeromgeving). Dit artikel van Biemond & Baartman (2021) kan daarbij behulpzaam zijn. [BRON TOEVOEGEN]
-* Ontwerp een datapuntenprogramma dat de leerfunctie versterkt. 
-* Ontwerp een datapuntenprogramma dat leidt tot een robuuste beslissing. 
+* Geef een heldere verantwoording van het programma van datapunten en relateer de keuzes aan de uitgangspunten van programmatisch toetsen. Dit artikel van Biemond & Baartman (2021) kan daarbij behulpzaam zijn. 
+
+* Ontwerp een programma van datapunten dat de leerfunctie versterkt (zie pagina over ontwerpen). 
+
+* Ontwerp een programma van datapunten dat leidt tot een robuuste beslissing (zie pagina’s over ontwerpen en over de beslisfunctie). 
+
 * Besteed aandacht aan de kaders die je de studenten meegeeft in hun keuzemogelijkheden (voor bijvoorbeeld datapunten, contexten, perspectief van feedbackgever). 
-* Besteed aandacht aan de wijze waarop saturatie bereikt wordt. 
-* Stel vast op welke wijze de informatie van datapunten wordt geaggregeerd tot een high stake beslissing.  
 
-### Geheel aan datapunten: borgen van kwaliteit van toetsing 
+* Besteed aandacht aan de wijze waarop saturatie bereikt wordt (zie pagina over beslisfunctie). 
 
-* Bekijk het datapuntenprogramma op papier en ga na of het in de praktijk ook zo wordt uitgevoerd. 
-* Evalueer de verantwoording van het datapuntenprogramma. 
+* Stel vast op welke wijze de informatie van datapunten wordt geaggregeerd tot een high-stakes beslissing.  
+
+### Programma van datapunten – borgen van toetskwaliteit 
+
+* Bekijk het programma van datapunten op papier en ga na of het in de praktijk ook zo wordt uitgevoerd. 
+
+* Evalueer de verantwoording van het programma van datapunten. 
+
 * Besteed aandacht aan de kaders die de studenten meekrijgen in hun keuzemogelijkheden. 
+
 * Bekijk steekproefsgewijs welke datapunten studenten opnemen in hun portfolio en de keuzes die ze maken. 
 
-## High-stake beslissing 
+## High-stakes beslissing 
 
-De high-stake beslissing gaat over het wel of niet toekennen van studiepunten. Hierbij wordt de informatie uit een groot aantal datapunten gebruikt om deze beslissing te nemen. 
+De high-stakes beslissing gaat over het wel of niet toekennen van studiepunten. Hierbij wordt de informatie uit een groot aantal datapunten gebruikt om deze beslissing te nemen. 
 
-### High-stake beslissing: zorgen voor kwaliteit van toetsing 
+### High-stakes beslissing – zorgen voor toetskwaliteit 
 
-* Expliciteer de richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie (Verwijzing naar nog te schrijven blog Sylvia/Irene). 
-* Maak duidelijk hoe begeleiders en examinatoren kalibreren. 
-* Leg procedures rondom highstakebeslissingen vast. 
+* Expliciteer de richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie van informatie [VERWIJZING INVOEGEN](Verwijzing naar nog te schrijven blog Sylvia/Irene). 
+* Maak duidelijk hoe begeleiders en beslissers kalibreren. 
+* Leg procedures rondom high- stakes beslissingen vast. 
 * Leg uit hoe de besliscommissie wordt samengesteld. 
 * Stel een helder(e) beoordelingsformulier/rubric op met een duidelijke invulinstructie. 
 * Leg uit op welke wijze de eventuele remediëring tot stand komt. 
 
-### High-stake beslissing: borgen van kwaliteit van toetsing 
+### High-stakes beslissing – borgen van toetskwaliteit 
 
 * Evalueer steekproefsgewijs de kwaliteit van de portfolio’s (kwaliteit datapunten, kwaliteit feedback, saturatie). 
-* Beoordeel richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie en/of verslagen van highstakebeslissingen. 
+* Evalueer richtlijnen/formulieren/procedures die gevolgd worden bij de aggregatie van informatie uit de datapunten. 
 * Bekijk de manier waarop aggregatie van informatie plaatsvindt. 
-* Beoordeel procedures rondom highstakebeslissingen en woon beslismomenten bij. 
-* Beoordeel de samenstelling van de besliscommissie of geef hiervoor richtlijnen. 
-* Beoordeel de procedures rondom kalibratie en de uitvoering ervan in de praktijk. 
-* Evalueer de kwaliteit van het beoordelingsformulier/rubric en de invulinstructie.
-* Beoordeel de procedure rondom de totstandkoming van de remediering. 
-* Beoordeel of de student met het remediëringsprogramma of de remediëringsopdracht aan de eisen kan voldoen.  
+* Evalueer procedures rondom high-stakes beslissingen en woon beslismomenten bij. 
+* Evalueer de samenstelling van de besliscommissie of geef hiervoor richtlijnen. 
+* Evalueer de procedures rondom kalibratie en de uitvoering ervan in de praktijk. 
+* Evalueer de kwaliteit van het beoordelingsformulier/rubric en de invulinstructie. 
+* Evalueer de procedure rondom de totstandkoming van de remediering. 
+* Evalueer of de student met het remediëringsprogramma of de remediëringsopdracht aan de eisen kan voldoen.  
 
 ## Datapunten 
 
 Een datapunt geeft een brokje informatie over de student en kan bijvoorbeeld bestaan uit beroepsproducten, kennisproducten, onderbouwingen, reflecties, zelfbeoordelingen, scores op kennistoetsen of feedback van medestudenten, cliënten of opdrachtgevers. Een datapunt kan informatie geven over meerdere beroepscompetenties (Biemond & Baartman, 2021). 
 
-### Datapunten: zorgen voor kwaliteit van toetsing 
+### Datapunten – zorgen voor toetskwaliteit 
 
 * Besteed aandacht aan de kaders die je de studenten meegeeft in hun keuzemogelijkheden voor datapunten (bijvoorbeeld contexten, perspectief van feedbackgever). 
 * Maak duidelijk welke eisen worden gesteld aan feedback. 
 * Stel richtlijnen vast voor de kwaliteit van de datapunten, rekening houdend met zowel de leerfunctie als de beslisfunctie. 
 
-### Datapunten: borgen van kwaliteit van toetsing 
-
+### Datapunten – borgen van toetskwaliteit 
+ 
 * Bepaal en beargumenteer hoeveel aandacht de examencommissie wil besteden aan de borgen van de kwaliteit van datapunten. 
 * Evalueer de richtlijnen voor de kwaliteit van de datapunten. 
 * Bepaal eventueel in hoeverre deze richtlijnen in de praktijk worden nageleefd. 
 
 ## Toetsorganisatie 
 
-Met de toetsorganisatie wordt verwezen naar de wijze waarop docenten, examencommissie, toetscommissie, management en ondersteunende medewerkers doelgericht met elkaar samenwerken om de gewenste toetskwaliteit te realiseren (Van Deursen & Van Zijl, 2015). Daarbij gaat het om het vaststellen van rollen, taken en verantwoordelijkheden van actoren/betrokkenen bij toetsing, het rolvast met elkaar samenwerken en de logistieke organisatie van toetsing (Van Deursen & Van Zijl, 2015).  
+Met de toetsorganisatie wordt verwezen naar de wijze waarop docenten, examencommissie, toetscommissie, management en ondersteunende medewerkers doelgericht met elkaar samenwerken om de gewenste toetskwaliteit te realiseren (Van Deursen & Van Zijl, 2015). Daarbij gaat het om het vaststellen van rollen, taken en verantwoordelijkheden van actoren/betrokkenen bij toetsing, het rolvast met elkaar samenwerken en de logistieke organisatie van toetsing.
 
-### Toetsorganisatie: zorgen voor kwaliteit van toetsing 
+### Toetsorganisatie – zorgen voor toetskwaliteit 
 
 * Regel de logistiek rondom de bijeenkomsten van de besliscommissie. 
 * Expliciteer taken, verantwoordelijkheden en bevoegdheden van diegenen die een rol spelen in de toetskwaliteit.  
 * Zorg - zeker als studenten veel keuzemogelijkheden krijgen - voor een goede uitvoering en registratie en pas systemen en procedures hierop zo nodig aan. 
 
-### Toetsorganisatie: borgen van kwaliteit van toetsing 
+### Toetsorganisatie – borgen van toetskwaliteit 
 
 * Ga na of de logistiek rondom de bijeenkomsten van de besliscommissie goed werkt. 
 * Evalueer of diegenen die een rol spelen in de toetskwaliteit de juiste taken uitvoeren, de juiste verantwoordelijkheden dragen en bevoegdheden gebruiken.  
@@ -101,13 +110,13 @@ Met de toetsorganisatie wordt verwezen naar de wijze waarop docenten, examencomm
 
 ## Toetsbekwaamheid 
 
-Met toetsbekwaamheid wordt verwezen naar de deskundigheid die bij actoren aanwezig moet zijn om toetskwaliteit te realiseren (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Bij programmatisch toetsen hoort daarbij ook feedbackgeletterdheid van studenten, docenten en begeleiders uit het werkveld; coachingsvaardigheden bij docenten en vaardigheid in holistisch beoordelen bij examinatoren. Daarnaast is kennis nodig bij examencommissies, docenten en managers over het doel van en de werkwijze bij programmatisch toetsen. Wij merken daarnaast dat het verstandig is om ook minder direct betrokkenen, zoals juridisch medewerkers of medewerkers van de cijferadministratie, uit te leggen wat programmatisch toetsen inhoudt. 
+Met toetsbekwaamheid wordt verwezen naar de deskundigheid die bij actoren aanwezig moet zijn om toetskwaliteit te realiseren (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Bij programmatisch toetsen hoort daarbij ook feedbackgeletterdheid van studenten, docenten en begeleiders uit het werkveld; coachingsvaardigheden bij docenten en vaardigheid in holistisch beoordelen bij beslissers. Daarnaast is kennis nodig bij examencommissies, docenten en managers over het doel van en de werkwijze bij programmatisch toetsen. Daarnaast kan het verstandig zijn om ook minder direct betrokkenen, zoals juridisch medewerkers of medewerkers van de cijferadministratie, uit te leggen wat programmatisch toetsen inhoudt. 
 
-### Toetsbekwaamheid: zorgen voor kwaliteit van toetsing 
+### Toetsbekwaamheid – zorgen voor toetskwaliteit 
 
-* Maak een plan om de toetsbekwaamheid van studenten, docenten, beoogd examinatoren en andere actoren op peil te krijgen en te houden, voer het plan uit en evalueer de uitvoering.  
+* Maak een plan om de toetsbekwaamheid van studenten, docenten, beslissers en andere actoren op peil te krijgen en te houden, voer het plan uit en evalueer de uitvoering.  
 
-### Toetsbekwaamheid: borgen van kwaliteit van toetsing 
+### Toetsbekwaamheid – borgen van toetskwaliteit 
 
 * Stel (nieuwe) criteria vast waaraan examinatoren moeten voldoen. 
 * Evalueer de uitvoering van het plan rondom de toetsbekwaamheid. 
@@ -128,7 +137,6 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 @valentine2022pursuit
 
 ### Praktijkgerichte publicaties 
-
 
 #### Kennisclips zorgen en borgen 
 

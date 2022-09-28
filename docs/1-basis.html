@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -83,9 +88,11 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Leermodule Programmatisch Toetsen</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -129,22 +136,22 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link">Implementeren van programmatisch toetsen</a>
+  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link">Implementatie</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie</a>
+  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie van programmatisch toetsen</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">De beslisfunctie</a>
+  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">Beslisfunctie</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen en borgen</a>
+  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen voor en borgen van toetskwaliteit</a>
   </div>
 </li>
     </ul>
@@ -152,16 +159,18 @@ div.csl-indent {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#de-basis" id="toc-de-basis" class="nav-link active" data-scroll-target="#de-basis">De basis</a>
   <ul class="collapse">
   <li><a href="#inleiding" id="toc-inleiding" class="nav-link" data-scroll-target="#inleiding">Inleiding</a></li>
-  <li><a href="#optimaliseren-van-de-beslisfunctie" id="toc-optimaliseren-van-de-beslisfunctie" class="nav-link" data-scroll-target="#optimaliseren-van-de-beslisfunctie">Optimaliseren van de beslisfunctie</a></li>
+  <li><a href="#optimaliseren-van-de-beslisfunctie" id="toc-optimaliseren-van-de-beslisfunctie" class="nav-link" data-scroll-target="#optimaliseren-van-de-beslisfunctie">Optimaliseren van de beslisfunctie</a>
+  <ul class="collapse">
   <li><a href="#betrouwbaarheid" id="toc-betrouwbaarheid" class="nav-link" data-scroll-target="#betrouwbaarheid">Betrouwbaarheid</a></li>
   <li><a href="#validiteit" id="toc-validiteit" class="nav-link" data-scroll-target="#validiteit">Validiteit</a></li>
+  </ul></li>
   <li><a href="#het-stimuleren-van-het-leerproces-van-de-student" id="toc-het-stimuleren-van-het-leerproces-van-de-student" class="nav-link" data-scroll-target="#het-stimuleren-van-het-leerproces-van-de-student">Het stimuleren van het leerproces van de student</a></li>
   <li><a href="#uitgangspunten-van-programmatisch-toetsen" id="toc-uitgangspunten-van-programmatisch-toetsen" class="nav-link" data-scroll-target="#uitgangspunten-van-programmatisch-toetsen">Uitgangspunten van programmatisch toetsen</a>
   <ul class="collapse">
@@ -202,51 +211,51 @@ div.csl-indent {
 <h1>De basis</h1>
 <section id="inleiding" class="level2">
 <h2 class="anchored" data-anchor-id="inleiding">Inleiding</h2>
-<p>Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie én het optimaliseren van de leerfunctie van toetsing (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee componenten. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.</p>
+<p>Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie én het optimaliseren van de leerfunctie van toetsing (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee functies van toetsing. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.</p>
 </section>
 <section id="optimaliseren-van-de-beslisfunctie" class="level2">
 <h2 class="anchored" data-anchor-id="optimaliseren-van-de-beslisfunctie">Optimaliseren van de beslisfunctie</h2>
-<p>Als je belangrijke beslissingen neemt over studenten zoals het toekennen van studiepunten, wat uiteindelijk zal leiden tot het toekennen van een diploma, dan wil je dat deze beslissing betrouwbaar en valide is.</p>
+<p>Als je belangrijke beslissingen neemt over studenten zoals het toekennen van (grote aantallen) studiepunten, wat uiteindelijk zal leiden tot het toekennen van een diploma, dan is het belangrijk dat deze beslissing betrouwbaar en valide is.</p>
+<section id="betrouwbaarheid" class="level3">
+<h3 class="anchored" data-anchor-id="betrouwbaarheid">Betrouwbaarheid</h3>
+<p>Bij betrouwbaarheid gaat het om de vraag hoe consistent je iets meet, bijvoorbeeld doordat verschillende beoordelaars het met elkaar eens zijn, of doordat je bij een herhaalde meting dezelfde uitkomst krijgt. Vaak wordt gedacht dat mc-toetsen (of meer “gestandaardiseerde toetsen”) meer betrouwbaar zijn dan bijvoorbeeld mondelinge toetsvormen of observaties in de praktijk (meer “subjectieve toetsen”). Uit onderzoek is gebleken dat álle toetsvormen onbetrouwbaar zijn als de toetstijd maar kort is, dus als een mc-toets weinig items bevat of een observatie in de praktijk slechts een korte momentopname is (<span class="citation" data-cites="van2005assessing">Van Der Vleuten and Schuwirth (<a href="#ref-van2005assessing" role="doc-biblioref">2005</a>)</span>) (@ van2010assessment). Meer toetstijd, oftewel meer vragen in een toets of meer meetmomenten in de praktijk, bleek daarentegen wel tot een betrouwbare beslissing te leiden. Interessant aan dit onderzoek was dat dit niet alleen bleek voor meer subjectieve toetsvormen zoals praktijkobservaties en mondelinge examens, maar ook voor meer objectieve toetsvormen zoals multiple choice toetsen. Dus niet de manier van toetsen maar juist een veelvuldigheid aan meetmomenten leidt tot een betrouwbare beslissing.</p>
 </section>
-<section id="betrouwbaarheid" class="level2">
-<h2 class="anchored" data-anchor-id="betrouwbaarheid">Betrouwbaarheid</h2>
-<p>Bij betrouwbaarheid gaat het om de vraag hoe consistent een bepaalde toetsvorm iets meet, of de vraag in hoeverre beoordelingen van verschillende beoordelaars overeenstemmen. Vaak wordt gedacht dat mc-toetsen (of meer “gestandaardiseerde toetsen”) meer betrouwbaar zijn dan bijvoorbeeld mondelinge toetsvormen of observaties in de praktijk (meer “subjectieve toetsen”). Uit onderzoek is gebleken dat álle toetsvormen onbetrouwbaar zijn als de toetstijd maar kort is, dus als een mc-toets weinig items bevat of een observatie in de praktijk slechts een korte momentopname is (<span class="citation" data-cites="van2005assessing">Van Der Vleuten and Schuwirth (<a href="#ref-van2005assessing" role="doc-biblioref">2005</a>)</span>). Op basis van één enkele meting worden er dus veel fout-positieve en fout-negatieve beslissingen genomen. Meer toetstijd, oftewel meer vragen in een toets of meer meetmomenten in de praktijk bleken daarentegen wel tot een betrouwbare beslissing te leiden. Interessant aan dit onderzoek was dat dit niet alleen bleek voor meer subjectieve toetsvormen zoals praktijkobservaties en mondelinge examens, maar ook voor meer objectieve toetsvormen zoals multiple choice toetsen. Dus niet de manier van toetsen maar juist een veelvuldigheid aan meetmomenten leidt tot een betrouwbare beslissing. Een betrouwbare beslissing wordt dus gebaseerd op een veelheid aan verschillende meetmomenten.</p>
+<section id="validiteit" class="level3">
+<h3 class="anchored" data-anchor-id="validiteit">Validiteit</h3>
+<p>Validiteit gaat over de vraag of een bepaalde toetsvorm (of combinatie daarvan) echt het construct meet dat we beogen, en niet bijvoorbeeld maar een deel daarvan, of net iets anders. Vaak willen we dat studenten complexe vaardigheden of competenties ontwikkelen, of kunnen handelen in een complexe beroepspraktijk. Om dit daadwerkelijk te kunnen meten is het nodig om niet alleen naar de kennis maar ook naar de gedragingen van een student te kijken, in de context van die complexe beroepspraktijk. Een valide toetsprogramma moet dus recht kunnen doen aan de verschillende aspecten van de complexe vaardigheden die de opleiding beoogt aan te leren. Dit betekent dat een mix aan methoden nodig is om complexe vaardigheden / competenties te kunnen beoordelen.</p>
 </section>
-<section id="validiteit" class="level2">
-<h2 class="anchored" data-anchor-id="validiteit">Validiteit</h2>
-<p>Validiteit gaat over de vraag of een bepaalde toetsvorm (of combinatie daarvan) echt het construct meet dat we beogen, en niet bijvoorbeeld maar een deel daarvan, of net iets anders. Vaak willen we dat studenten complexe vaardigheden of competenties ontwikkelen, of kunnen handelen in een complexe beroepspraktijk. Het gaat hierbij om complexe vaardigheden zoals communiceren, samenwerken of professioneel handelen. Om dit daadwerkelijk te kunnen meten is het nodig om niet alleen naar de kennis maar ook naar de gedragingen van een student te kijken. Een valide toetsprogramma moet dus recht kunnen doen aan de verschillende aspecten van de complexe vaardigheden die de opleiding beoogd aan te leren. Dit betekent dat een mix aan methoden nodig is om complexe vaardigheden / competenties te kunnen beoordelen.</p>
 </section>
 <section id="het-stimuleren-van-het-leerproces-van-de-student" class="level2">
 <h2 class="anchored" data-anchor-id="het-stimuleren-van-het-leerproces-van-de-student">Het stimuleren van het leerproces van de student</h2>
-<p>Binnen de conventionele manier van toetsen wordt toetsing vaak primair ingezet als afsluiting van een leerproces (assessment of learning), terwijl juist de verbinding van het leren aan het onderwijs- en toetsactiviteiten van waarde kan zijn voor de ontwikkeling van de student (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>).). Zo blijkt uit onderzoek dat het leerproces van de student stopt wanneer de beoordeling is gegeven (Kohn, 2011). Ook is gebleken dat studenten zich met name inzetten voor dat waar zij op getoetst worden (<span class="citation" data-cites="kickert2022curricular">Kickert et al. (<a href="#ref-kickert2022curricular" role="doc-biblioref">2022</a>)</span>). Het inzetten van toetsing als afsluiting van het leerproces leidt dus tot povere leerstijlen die als focus hebben de toets te behalen. Ook de manier waarop beoordeeld wordt is van invloed op de mate waarin studenten kunnen leren van beoordelingen. Zo kan het geven van een cijfer gezien worden als een hele summiere vorm van feedback. Het cijfer vertelt studenten namelijk alleen iets over hoe goed zij het hebben gedaan, maar zegt verder niets over wat goed was en wat beter kon. Op deze manier krijgen studenten maar weinig inzicht in hun eigen leerproces wat het lastig maakt om hier als student de regie over te pakken. Terwijl dit in het kader van een leven lang ontwikkelen steeds belangrijker wordt. Een toetsprogramma dat van waarde kan zijn voor het leerproces van de student zou dus inzichten moeten bieden in de ontwikkeling van de student en ruimte moeten bieden voor doorontwikkeling.</p>
+<p>Toetsing wordt vaak primair ingezet als afsluiting van een leerproces (assessment of learning), terwijl juist de verbinding van toetsing aan de onderwijspraktijk en het leerproces van waarde kan zijn voor de ontwikkeling van de student (assessment for learning) (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>).). Zo blijkt uit onderzoek dat het leerproces van de student stopt wanneer de beoordeling is gegeven (Kohn, 2011). Ook is gebleken dat studenten zich met name inzetten voor datgene waar zij op getoetst worden (<span class="citation" data-cites="kickert2022curricular">Kickert et al. (<a href="#ref-kickert2022curricular" role="doc-biblioref">2022</a>)</span>). Het inzetten van toetsing als afsluiting van het leerproces leidt dus tot povere leerstijlen die als focus hebben de toets te behalen. Vaak krijgen studenten een cijfer voor een toets. Cijfer zijn echter maar een hele summiere vorm van feedback. Het cijfer vertelt studenten namelijk alleen iets over hoe goed zij het hebben gedaan, maar zegt verder niets over wat goed was en wat beter kon. Op deze manier krijgen studenten maar weinig inzicht in hun eigen leerproces wat het lastig maakt om hier als student de regie over te pakken. Bovendien vraagt de ontwikkeling van complexe vaardigheden of competenties tijd. Studenten ontwikkelen dit niet in een paar weken. Zij hebben langdurige oefenmogelijkheden nodig, met steeds feedback en nieuwe mogelijkheden om zich te verbeteren. Een toetsprogramma dat van waarde is voor het leerproces van de student zou dus inzichten moeten bieden in de ontwikkeling van de student en ruimte moeten bieden voor doorontwikkeling.</p>
 </section>
 <section id="uitgangspunten-van-programmatisch-toetsen" class="level2">
 <h2 class="anchored" data-anchor-id="uitgangspunten-van-programmatisch-toetsen">Uitgangspunten van programmatisch toetsen</h2>
-<p>Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (<span class="citation" data-cites="van2012model">C. P. van der Vleuten et al. (<a href="#ref-van2012model" role="doc-biblioref">2012</a>)</span>; <span class="citation" data-cites="heeneman2021ottawa">Heeneman et al. (<a href="#ref-heeneman2021ottawa" role="doc-biblioref">2021</a>)</span>), waarbij de volgende uitgangspunten centraal staan (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>):</p>
+<p>Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (van2012model; heeneman2021ottawa), waarbij de volgende uitgangspunten centraal staan (@ baartman2020programmatisch). Deze uitgangspunten worden kort toegelicht in [deze kennisclip] (https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d).</p>
 <section id="inzicht-in-de-ontwikkeling-van-de-studenten-ontstaat-door-een-mix-van-verschillende-datapunten" class="level3">
 <h3 class="anchored" data-anchor-id="inzicht-in-de-ontwikkeling-van-de-studenten-ontstaat-door-een-mix-van-verschillende-datapunten">Inzicht in de ontwikkeling van de studenten ontstaat door een mix van verschillende datapunten</h3>
-<p>Binnen programmatisch toetsen wordt de ontwikkeling van studenten gevolgd aan de hand van datapunten. Datapunten zijn dingen die de student doet of maakt, en die informatie geven over hun kennen en kunnen. Dit kan bijvoorbeeld een gemaakte opdracht, beroepsproduct, handeling in de praktijk, presentatie of de uitkomst van een kennistoets zijn. De vormkeuze van het datapunt staat hierbij ten dienste van het leerproces. Zo lokt bijvoorbeeld een kennistoets ander leergedrag uit dan een praktijkopdracht. Er bestaan dus geen voorkeurstypen van datapunten. Wel is de combinatie van verschillende typen datapunten van belang voor de validiteit, aangezien het in de beroepspraktijk immers ook zo is dat professionals op het ene moment bezig zijn met het schrijven van een rapport en op andere momenten bezig zijn met het geven van een presentatie, het opleveren van een product, et cetera. Geen enkel datapunt kan daardoor dekkend zijn voor alle complexe vaardigheden of competenties die beoordeeld dienen te worden.</p>
+<p>Binnen programmatisch toetsen wordt de ontwikkeling van studenten inzichtelijk gemaakt aan de hand van datapunten. Datapunten zijn dingen die de student doet of maakt, en die informatie geven over hun kennen en kunnen. Dit kan bijvoorbeeld een gemaakte opdracht, beroepsproduct, handeling in de praktijk, presentatie of de uitkomst van een kennistoets zijn. De vormkeuze van het datapunt staat hierbij ten dienste van het leerproces. Zo lokt bijvoorbeeld een kennistoets ander leergedrag uit dan een praktijkopdracht. Er bestaan dus geen voorkeurstypen van datapunten. Wel is de combinatie van verschillende typen datapunten van belang voor de validiteit, aangezien professionals in de beroepspraktijk ook op het ene moment bezig zijn met het schrijven van een rapport en op andere momenten bezig zijn met het geven van een presentatie, het bespreken met klanten, het uitvoeren van praktische handelingen, et cetera. Geen enkel datapunt kan daardoor dekkend zijn voor alle complexe vaardigheden of competenties die beoordeeld dienen te worden.</p>
 </section>
 <section id="elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing" class="level3">
 <h3 class="anchored" data-anchor-id="elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing">Elk datapunt is feedbackgericht en kent geen zak-/slaagbeslissing</h3>
-<p>Op basis van een datapunt kan nog geen zak-/slaagbeslissing genomen zoals het wel of niet toekennen van studiepunten. Een datapunt is immers maar een momentopname en geeft daarom geen betrouwbaar beeld van de student weet en kan. Wel is het van belang dat studenten feedback krijgen bij ieder datapunt zodat zij inzicht krijgen in waar zij nu staan en wat mogelijke vervolgstappen zijn. Deze feedback kan zowel kwantitatief (bijvoorbeeld een score op een5-puntschaal of een percentage goed beantwoordde vragen) als kwalitatief (narratieve feedback) zijn. Doordat er geen zak-/slaag beslissing verbonden is aan een datapunt hoeft niet iedereen hetzelfde beoordeeld te worden, maar kunnen er juist verschillende perspectieven op het werk meegenomen worden om zo veel mogelijk te kunnen leren. Hierbij kun je denken aan feedback van docenten, mensen uit de praktijk en peers. Deze feedback kan de student weer benutten voor een volgende opdracht, waarin een beroep wordt gedaan op dezelfde competenties.</p>
+<p>Op basis van een datapunt kan nog geen zak-/slaagbeslissing genomen zoals het wel of niet toekennen van studiepunten. Een datapunt is immers maar een momentopname en geeft daarom geen betrouwbaar beeld van wat de student weet en kan. Wel is het van belang dat studenten feedback krijgen bij ieder datapunt zodat zij inzicht krijgen in waar zij nu staan en wat mogelijke vervolgstappen zijn. Deze feedback kan zowel kwantitatief (bijvoorbeeld een score op een 5-puntschaal of een percentage goed beantwoorde vragen) als kwalitatief (narratieve feedback) zijn. Doordat er geen zak-/slaag beslissing verbonden is aan een datapunt, kan de student leren en fouten maken. Bovendien kan de student vanuit verschillende perspectieven feedback krijgen op zijn werk, waarbij niet iedereen dezelfde mening hoeft te hebben (zoals bij interbeoordelaars-betrouwbaarheid). Hierbij kun je denken aan feedback van docenten, mensen uit de praktijk en peers. Deze feedback kan de student weer benutten voor een volgende opdracht, waarin een beroep wordt gedaan op dezelfde competenties.</p>
 </section>
 <section id="de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma" class="level3">
 <h3 class="anchored" data-anchor-id="de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma">De leeropbrengsten vormen de ruggengraat van het toetsprogramma</h3>
-<p>Binnen programmatisch toetsen zijn de beoogde leeropbrengsten het uitgangspunt voor de keuze van de datapunten. Op basis van dit raamwerk aan competenties, vaardigheden en/of beroepstaken wordt bepaald wat de student moet laten zien om de beoogde leeruitkomsten aan te tonen. Datapunten worden gekoppeld aan dit raamwerk (of ruggengraat), zodat het voor zowel docenten als studenten inzichtelijk is welke datapunten een bijdrage leveren aan welk leerproces ten aanzien van de beoogde leerresultaten. Datapunten en/of de feedback op datapunten worden vastgelegd in een portfolio om de ontwikkeling van de student te kunnen monitoren. Het monitoren en begeleiden van de ontwikkeling van studenten gebeurt ook aan de hand van de ruggengraat. Zo kunnen datapunten beoordeeld worden aan de hand van feedbackformulieren waarin ook de onderliggende competenties terugkomen. Zo gaat de feedback die studenten ontvangen niet alleen over hoe zij de specifieke opdracht uit hebben gevoerd, maar ook over de competenties die zij hierbij hebben ingezet en ontwikkeld. Deze feedback kan een student weer benutten voor een volgende opdracht waar dezelfde competenties aan gekoppeld zijn. Op deze manier verzamelen studenten verschillende datapunten die dezelfde competenties aantonen. Al deze informatiebrokjes samen kunnen vervolgens weer leiden tot een betrouwbare zak-/slaagbeslissing.</p>
+<p>Binnen programmatisch toetsen zijn de beoogde leeropbrengsten het uitgangspunt voor de keuze van de datapunten. Op basis van dit raamwerk aan leeropbrengsten (competenties, kerntaken, beroepsrollen et cetera) wordt bepaald wat de student moet laten zien om de beoogde leeropbrengsten aan te tonen. Dit wordt ook wel de ruggengraat genoemd: de leeropbrengsten uitgewerkt in een aantal niveaus. Datapunten worden gekoppeld aan deze ruggengraat, zodat het voor zowel docenten als studenten inzichtelijk is welke datapunten een bijdrage leveren aan welke beoogde leeropbrengst en het leerproces daar naartoe. Datapunten en de feedback op datapunten worden vastgelegd in een portfolio om de ontwikkeling van de student te kunnen monitoren. Ook in dit portfolio vormt de ruggengraat het uitgangspunt. Een student kan bijvoorbeeld alle datapunten en feedback opvragen van één beoogde leeropbrengst. Het monitoren en begeleiden van de ontwikkeling van studenten gebeurt ook aan de hand van de ruggengraat. Zo kunnen verschillende betrokkenen feedback geven aan de hand van feedbackformulieren waarin ook de onderliggende competenties terugkomen. Zo gaat de feedback die studenten ontvangen niet alleen over hoe zij de specifieke opdracht uit hebben gevoerd, maar ook over de competenties die zij hierbij hebben ingezet en ontwikkeld. Deze feedback kan een student weer benutten voor een volgende opdracht waar dezelfde competenties aan gekoppeld zijn. Op deze manier verzamelen studenten verschillende datapunten die dezelfde competenties aantonen. Al deze informatiebrokjes samen kunnen vervolgens weer leiden tot een betrouwbare zak-/slaagbeslissing. Ook bij het nemen van een beslissing (zie uitgangspunten 5 en 6) vormt de ruggengraat de basis: informatie uit de verschillende datapunten wordt geaggregeerd aan de hand van de ruggengraat voor het nemen van een beslissing over de beoogde leeropbrengsten.</p>
 </section>
 <section id="er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" class="level3">
 <h3 class="anchored" data-anchor-id="er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing">Er is een constante dialoog over het gebruik van feedback voor zelfsturing</h3>
-<p>Uit onderzoek is gebleken dat studenten niet automatisch aan de slag gaan met de feedback die zij krijgen. Het leren ontvangen en benutten van feedback, en (uiteindelijk) het nemen van regie over het eigen leerproces moet daarom begeleid worden. Deze begeleiding kan geboden worden door een mentor/coach die de ontwikkeling van de student volgt en hier regelmatig het gesprek met de student over aan gaat. De mentor/coach bespreekt samen met de student de ontwikkeling aan de hand van de datapunten die tot dan toe verzameld zijn in het portfolio.</p>
+<p>Uit onderzoek is gebleken dat studenten niet automatisch aan de slag gaan met de feedback die zij krijgen. Het leren vragen, ontvangen en benutten van feedback, en (uiteindelijk) het nemen van regie over het eigen leerproces moet daarom begeleid worden. Deze begeleiding kan geboden worden door een mentor/coach die de ontwikkeling van de student volgt aan de hand van de datapunten en hier regelmatig het gesprek met de student over aan gaat. De mentor/coach bespreekt samen met de student de ontwikkeling aan de hand van de datapunten die tot dan toe verzameld zijn in het portfolio.</p>
 </section>
 <section id="het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd" class="level3">
 <h3 class="anchored" data-anchor-id="het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd">Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd</h3>
-<p>Zoals eerder aangegeven zijn er veel datapunten nodig om een betrouwbare beslissing te kunnen maken. Daarom moet de zwaarte van de beslissing (dat wat er op het spel staat voor de student) in verhouding staan met het aantal datapunten dat aanwezig is. Binnen programmatisch toetsen wordt er daarom gesproken over een “continuüm van stakes”, die gaat van low tot high stakes. Low stakes beslissingen hebben weinig consequenties , zoals de feedback op een datapunt. Medium stakes zijn veelal tussentijdse beoordelingen waarin er samen met de student gekeken wordt hoe deze er nu voor staat op basis van de geleverde datapunten. Deze beoordeling wordt vaak halverwege de onderwijsperiode gepland zodat de student nog genoeg tijd heeft om te werken aan de geconstateerde leerdoelen en datapunten kan verzamelen om groei aan te tonen. High stakes beslissingen hebben zwaarwegende gevolgen voor de student, zoals het toekennen van studiepunten of het behalen van een diploma.</p>
-<p>[AFBEELDING TOEVOEGEN - moet nog aangeleverd worden]</p>
+<p>Zoals eerder aangegeven zijn er veel datapunten nodig om een betrouwbare beslissing te kunnen nemen. Bij programmatisch toetsen wordt niet gesproken over “formatief” of “summatief”, maar over een continuum aan stakes, van low stakes beslissingen naar high stakes beslissingen. Bij low stakes beslissingen staat er weinig op het spel voor de student (bijvoorbeeld feedback op een datapunt), en bij high stakes juist veel (bijvoorbeeld een beslissing over een groot aantal studiepunten, overgang naar een volgende fase van de opleiding of stage). Medium stakes beslissingen zijn veelal tussentijdse beoordelingen waarin er samen met de student gekeken wordt hoe deze er nu voor staat op basis van de verzamelde datapunten. Deze beoordeling wordt vaak halverwege de onderwijsperiode gepland zodat de student nog genoeg tijd heeft om te werken aan de geconstateerde leerdoelen en datapunten kan verzamelen om groei aan te tonen. De zwaarte van de beslissing (dat wat er op het spel staat voor de student) moet in verhouding staan tot het aantal datapunten dat aanwezig is om die beslissing op te baseren. Dit betekent dat voor high stakes beslissingen veel datapunten nodig zijn. Deze veelheid aan datapunten, voorzien van feedback van diverse betrokkenen (docenten, praktijk, medestudenten et cetera) zorgt voor een intersubjectiviteit en daarmee een robuuste beslissing.<br>
+[AFBEELDING TOEVOEGEN - moet nog aangeleverd worden]</p>
 </section>
 <section id="de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise" class="level3">
 <h3 class="anchored" data-anchor-id="de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise">De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise</h3>
-<p>Op basis van meerdere datapunten kan afgeleid worden of een student de gewenste competenties en/of leeruitkomsten beheerst. Echter, gezien de heterogeniteit van de datapunten, kan er geen rekenkundig oordeel geveld worden over het totaal aan datapunten. Een high stakes beslissing op basis van een groot aantal datapunten vereist daarom een professioneel holistisch oordeel. Bij programmatisch toetsen wordt zo’n high stakes beslissing genomen door een besliscommissie. Ook hier geldt: wanneer een beslissing meer high stakes is, is meer beoordelaarsexpertise nodig, bijvoorbeeld door het inzetten van meer beoordelaars, het trainen van beoordelaars en kalibreersessies. . Om het oordeel van de beoordelaars te vergemakkelijken wordt veelal gebruik gemaakt van holistische beoordelingscriteria en niveaubeschrijvingen van een bepaalde competentie.</p>
+<p>Bij programmatisch toetsen wordt op basis van een veelheid aan datapunten een beslissing genomen over de beoogde leeropbrengsten. Echter, gezien de heterogeniteit van de datapunten, kan er geen rekenkundig oordeel geveld worden over het totaal aan datapunten. Een high stakes beslissing op basis van een groot aantal datapunten vereist daarom een professioneel holistisch oordeel. Bij programmatisch toetsen wordt zo’n high stakes beslissing genomen door een besliscommissie. Ook hier geldt: wanneer een beslissing meer high stakes is, is meer beoordelaarsexpertise nodig, bijvoorbeeld door het inzetten van meer beslissers, het trainen van de beslissers en kalibreersessies. Om het beslisproces te vergemakkelijken wordt veelal gebruik gemaakt van holistische beoordelingscriteria en niveaubeschrijvingen van de beoogde leeropbrengsten.</p>
 </section>
 </section>
 <section id="meer-weten" class="level2">
@@ -472,7 +481,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

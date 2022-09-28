@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -83,9 +88,11 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Leermodule Programmatisch Toetsen</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -129,22 +136,22 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link">Implementeren van programmatisch toetsen</a>
+  <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link">Implementatie</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie</a>
+  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie van programmatisch toetsen</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">De beslisfunctie</a>
+  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">Beslisfunctie</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen en borgen</a>
+  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen voor en borgen van toetskwaliteit</a>
   </div>
 </li>
     </ul>
@@ -152,24 +159,21 @@ div.csl-indent {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#programmatisch-toetsen-als-ontwerpvraagstuk" id="toc-programmatisch-toetsen-als-ontwerpvraagstuk" class="nav-link active" data-scroll-target="#programmatisch-toetsen-als-ontwerpvraagstuk">Programmatisch toetsen als ontwerpvraagstuk</a>
   <ul class="collapse">
-  <li><a href="#betrekken-van-stakeholders-in-het-ontwerpproces" id="toc-betrekken-van-stakeholders-in-het-ontwerpproces" class="nav-link" data-scroll-target="#betrekken-van-stakeholders-in-het-ontwerpproces">Betrekken van stakeholders in het ontwerpproces</a></li>
   <li><a href="#backwards-design" id="toc-backwards-design" class="nav-link" data-scroll-target="#backwards-design">Backwards design</a></li>
   <li><a href="#belangrijkste-ontwerpkeuzes-binnen-programmatisch-toetsen" id="toc-belangrijkste-ontwerpkeuzes-binnen-programmatisch-toetsen" class="nav-link" data-scroll-target="#belangrijkste-ontwerpkeuzes-binnen-programmatisch-toetsen">Belangrijkste ontwerpkeuzes binnen programmatisch toetsen</a>
   <ul class="collapse">
   <li><a href="#samenstellen-van-een-mix-van-datapunten" id="toc-samenstellen-van-een-mix-van-datapunten" class="nav-link" data-scroll-target="#samenstellen-van-een-mix-van-datapunten">Samenstellen van een mix van datapunten</a></li>
-  <li><a href="#elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing" id="toc-elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing" class="nav-link" data-scroll-target="#elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing">Elk datapunt is feedbackgericht en kent geen zak-/slaagbeslissing</a></li>
-  <li><a href="#de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma" id="toc-de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma" class="nav-link" data-scroll-target="#de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma">De leeropbrengsten vormen de ruggengraat van het toetsprogramma</a></li>
-  <li><a href="#er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" id="toc-er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" class="nav-link" data-scroll-target="#er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing">Er is een constante dialoog over het gebruik van feedback voor zelfsturing</a></li>
-  <li><a href="#het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd" id="toc-het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd" class="nav-link" data-scroll-target="#het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd">Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd</a></li>
-  <li><a href="#de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise" id="toc-de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise" class="nav-link" data-scroll-target="#de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise">De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise</a></li>
+  <li><a href="#datapunten-benutten-voor-leren-en-ervoor-zorgen-dat-studenten-dit-ook-zo-ervaren" id="toc-datapunten-benutten-voor-leren-en-ervoor-zorgen-dat-studenten-dit-ook-zo-ervaren" class="nav-link" data-scroll-target="#datapunten-benutten-voor-leren-en-ervoor-zorgen-dat-studenten-dit-ook-zo-ervaren">Datapunten benutten voor leren en ervoor zorgen dat studenten dit ook zo ervaren</a></li>
+  <li><a href="#het-ontwerpen-van-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" id="toc-het-ontwerpen-van-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" class="nav-link" data-scroll-target="#het-ontwerpen-van-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing">Het ontwerpen van een constante dialoog over het gebruik van feedback voor zelfsturing</a></li>
+  <li><a href="#het-ontwerpen-van-de-high-stakes-beslissingen" id="toc-het-ontwerpen-van-de-high-stakes-beslissingen" class="nav-link" data-scroll-target="#het-ontwerpen-van-de-high-stakes-beslissingen">Het ontwerpen van de high stakes beslissingen</a></li>
+  <li><a href="#inrichting-van-het-elektronisch-portfolio" id="toc-inrichting-van-het-elektronisch-portfolio" class="nav-link" data-scroll-target="#inrichting-van-het-elektronisch-portfolio">Inrichting van het (elektronisch) portfolio</a></li>
   </ul></li>
-  <li><a href="#inrichting-van-ict-systemen-voor-het-monitoren-en-vastleggen-van-ontwikkeling" id="toc-inrichting-van-ict-systemen-voor-het-monitoren-en-vastleggen-van-ontwikkeling" class="nav-link" data-scroll-target="#inrichting-van-ict-systemen-voor-het-monitoren-en-vastleggen-van-ontwikkeling">Inrichting van ICT-systemen voor het monitoren en vastleggen van ontwikkeling</a></li>
   <li><a href="#meer-weten" id="toc-meer-weten" class="nav-link" data-scroll-target="#meer-weten">Meer weten?</a>
   <ul class="collapse">
   <li><a href="#wetenschappelijke-publicaties" id="toc-wetenschappelijke-publicaties" class="nav-link" data-scroll-target="#wetenschappelijke-publicaties">Wetenschappelijke publicaties</a></li>
@@ -197,35 +201,53 @@ div.csl-indent {
 
 <section id="programmatisch-toetsen-als-ontwerpvraagstuk" class="level1">
 <h1>Programmatisch toetsen als ontwerpvraagstuk</h1>
-<section id="betrekken-van-stakeholders-in-het-ontwerpproces" class="level2">
-<h2 class="anchored" data-anchor-id="betrekken-van-stakeholders-in-het-ontwerpproces">Betrekken van stakeholders in het ontwerpproces</h2>
-</section>
+<p>Programmatisch toetsen is een concept, geen recept (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Dit betekent dat elke opleiding die een onderwijsontwerp wil maken gebaseerd op de principes van programmatisch toetsen, nog allerlei ontwerpkeuzes moet en kan maken bínnen die principes. Die keuzes moeten passen binnen de context van die specifieke opleiding. Zo moeten ontwerpkeuzes bijvoorbeeld passen bij de visie op onderwijs/leren van de opleiding, het beroep waartoe wordt opgeleid en het type studenten en docenten dat bij de opleiding betrokken is. In onderzoek naar het ontwerpen van leeromgevingen worden deze keuzes ontwerpbare elementen genoemd (<span class="citation" data-cites="bouw2021designable">Bouw, Zitter, and De Bruijn (<a href="#ref-bouw2021designable" role="doc-biblioref">2021</a>)</span>). Ontwerpbare elementen gaan over inhoudelijke, ruimtelijke, instrumentele, sociale en temporele aspecten van de onderwijsomgeving die je kunt ontwerpen. Het zijn de knoppen waar je aan kunt draaien in het onderwijsontwerp. Op deze pagina wordt ingegaan op mogelijke ontwerpkeuzes en hoe je dit kunt aanpakken.</p>
 <section id="backwards-design" class="level2">
 <h2 class="anchored" data-anchor-id="backwards-design">Backwards design</h2>
+<p>Backwards design is een ontwerpmethode waarbij het ontwerpen van het onderwijs begint bij het einde, namelijk de beoogde leeropbrengsten. Vanuit daar wordt terug geredeneerd naar hoe je deze beoogde leeropbrengsten het best kunt beoordelen, wat hierbij passende datapunten zijn, wat goede leeractiviteiten zijn en welke materialen en mensen je hiervoor nodig hebt (bron vernieuwende wijs). Het toepassen van backwards design als ontwerpmethode kan op verschillende niveaus. Zo kan het betrekking hebben op een enkele les of een onderwijsperiode, maar zeker ook op het ontwerpen van programmatisch toetsen. Hieronder wordt kort omschreven hoe backwards design eruit ziet voor het ontwerpen van de datapunten bij programmatisch toetsen (Biemond en Baartman, 2021). Lees voor meer gedetailleerde informatie het volledige artikel ( Backward design bij programmatisch toetsen :: Professioneel begeleiden) of bekijk het <a href="https://hva.mediamission.nl/Mediasite/MyMediasite/presentations/b8f23800ce264f93809f1015c7ff02dd1d">filmpje</a></p>
+<p>Wanneer je bij programmatisch toetsen het geheel aan datapunten wilt ontwerpen aan de hand van backwards design dan begin je bij het bepalen van de beoogde leeropbrengsten, die vaak worden afgeleid van het landelijk beroeps-/opleidingsprofiel. Vanuit deze leeropbrengsten wordt het aggregatieniveau vastgesteld. Hierbij wordt bepaald of er bij de beslismomenten gekeken wordt naar het niveau van de totale beroepsbekwaamheid, het niveau van competenties of het niveau van iedere leeruitkomst. Er moet dus een afweging gemaakt worden tussen één holistisch besluit waarbij bepaalde competenties elkaar kunnen compenseren of een besluit op basis van het behalen van specifieke leeruitkomsten (met mogelijk risico op een afvink cultuur als de leeruitkomsten te specifiek en talrijk zijn).</p>
+<p>[plaatje Biemond &amp; Baartman]</p>
+<p>Vervolgens kan het aantal beslismomenten worden vastgesteld en bepaald worden over welke inhoud een besluit wordt genomen tijdens welk beslismoment. Opleidingen kunnen ervoor kiezen alle competenties terug te laten komen in ieder beslismoment of om deze te verdelen over de beslismomenten. Wanneer dit is vastgesteld kan bepaald worden wanneer een student het beslismoment heeft behaald. Moet de student hiervoor bijvoorbeeld alle competenties beheersen of mogen er ook nog zwakkere punten zijn? Wanneer dit duidelijk is kan er bepaald worden welke informatie nodig is om deze beslissing te nemen. Of met andere woorden: welke datapunten kunnen informatie geven over deze competenties? Een datapunt kan informatie geven over meerdere competenties. In het ontwerp wordt bepaald hoeveel en welke mix aan datapunten nodig is om een robuuste beslissing te kunnen nemen.</p>
 </section>
 <section id="belangrijkste-ontwerpkeuzes-binnen-programmatisch-toetsen" class="level2">
 <h2 class="anchored" data-anchor-id="belangrijkste-ontwerpkeuzes-binnen-programmatisch-toetsen">Belangrijkste ontwerpkeuzes binnen programmatisch toetsen</h2>
+<p>Hoewel er consensus bestaat over de theoretische principes die als basis dienen voor het ontwerp van programmatisch toetsen, maken opleidingen verschillende specifieke ontwerpkeuzes binnen deze principes, passend bij hun eigen context. In deze paragraaf wordt een aantal belangrijke ontwerpkeuzes beschreven, zoals die zijn gebleken uit literatuur en praktijkervaringen.</p>
 <section id="samenstellen-van-een-mix-van-datapunten" class="level3">
 <h3 class="anchored" data-anchor-id="samenstellen-van-een-mix-van-datapunten">Samenstellen van een mix van datapunten</h3>
+<p>Geen enkel datapunt kan volledig dekkend zijn voor alle complexe vaardigheden of competenties waarover je een beslissing wilt nemen en waarop je ontwikkeling wilt monitoren. Er is daarom een mix aan verschillende typen datapunten nodig, en in het ontwerp moet je een keuze maken voor het type en aantal datapunten. Een mix aan datapunten kan gemaakt worden op basis van:</p>
+<ul>
+<li><p>Het soort datapunt, zoals het maken van een beroepsproduct, presentatie of reflectieverslag.</p></li>
+<li><p>Het perspectief door wie het datapunt bekeken wordt en door wie feedback wordt gegeven, bijvoorbeeld door de praktijk, een docent of medestudent.</p></li>
+<li><p>De context waarin opdrachten of beroepshandelingen worden uitgevoerd, zoals verschillende doelgroepen, werkomgevingen, of variatie in complexiteit.</p></li>
+</ul>
+<p>Het is afhankelijk van de beoogde leeropbrengsten hoeveel datapunten en wat voor soort datapunten nodig zijn. Zo kan het opnemen van lessen binnen een lerarenopleiding een verplicht datapunt zijn omdat dit essentieel wordt geacht om een besluit te kunnen nemen over de onderwijsbevoegdheid van een student (Baartman et al., 2022). Wanneer vak/beroepskennis wordt gezien als een belangrijk deel van de competentie van studenten, dan kunnen kennistoetsen passende datapunten zijn.</p>
+<p>Een andere belangrijke ontwerpkeuze als het gaat om de datapunten is de vraag of datapunten “verplicht” zijn, of dat de student zelf passende datapunten kiest en verzamelt. In het geval van verplichte datapunten moeten alle studenten die datapunten verzamelen, en ligt het curriculum dus min of meer vast. Verplicht betekent in dit geval niet dat de student die datapunten ook moet “halen”, want aan datapunten hangt nooit een zak/slaag beslissing. Naast verplichte datapunten is een mogelijke ontwerpkeuze om te kiezen voor vrije datapunten, waarbij studenten zelf mogen bepalen hoe zij de beoogde leeropbrengsten willen ontwikkelen en aantonen. Dit doet een groter beroep op de zelfregulatievaardigheden van studenten. Redenen om te kiezen voor vrije datapunten kunnen zijn: grote verschillen tussen beroepen/specialisaties in de beroepspraktijk en daarmee grote verschillen tussen studenten in wat zij doen op de stage/werkplek, en recht doen aan verschillen tussen studenten in bijvoorbeeld voorkennis en eerdere ervaringen.</p>
 </section>
-<section id="elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing" class="level3">
-<h3 class="anchored" data-anchor-id="elk-datapunt-is-feedbackgericht-en-kent-geen-zak-slaagbeslissing">Elk datapunt is feedbackgericht en kent geen zak-/slaagbeslissing</h3>
+<section id="datapunten-benutten-voor-leren-en-ervoor-zorgen-dat-studenten-dit-ook-zo-ervaren" class="level3">
+<h3 class="anchored" data-anchor-id="datapunten-benutten-voor-leren-en-ervoor-zorgen-dat-studenten-dit-ook-zo-ervaren">Datapunten benutten voor leren en ervoor zorgen dat studenten dit ook zo ervaren</h3>
+<p>Binnen programmatisch toetsen wordt op basis van een enkel datapunt geen zak-/slaagbeslissing genomen zodat studenten de ruimte hebben om fouten te mogen maken en de focus komt te liggen op ontwikkeling in plaats van het behalen van toetsen. Echter blijkt dit in de praktijk niet altijd zo te werken: studenten ervaren datapunten toch vaak als “summatief” of als dingen die ze moeten halen (<span class="citation" data-cites="heeneman2015impact">Heeneman et al. (<a href="#ref-heeneman2015impact" role="doc-biblioref">2015</a>)</span>; <span class="citation" data-cites="bok2013programmatic">Bok et al. (<a href="#ref-bok2013programmatic" role="doc-biblioref">2013</a>)</span>). Om deze reden blijft het neerzetten van een leer- en feedbackcultuur in de praktijk lastig. De volgende ontwerpkeuzes binnen programmatisch toetsen kunnen hier wel aan bijdragen (voor meer verdieping over de leerfunctie, klik hier):</p>
+<ul>
+<li><p>Het gebruik van narratieve feedback in plaats van cijfers kan een belangrijke rol spelen in het verschuiven van de focus van de studenten van “halen” naar “leren”, omdat hierbij de nadruk wordt gelegd op leren en vooruitgang in plaats van op vergelijking, rangschikking en competitie (<span class="citation" data-cites="schut2020between">Schut et al. (<a href="#ref-schut2020between" role="doc-biblioref">2020</a>)</span>)</p></li>
+<li><p>Het opnemen van voldoende datapunten is belangrijk voor het geven van ruimte aan doorgaande ontwikkeling (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Het kiezen voor veel verschillende datapunten kan er ook voor zorgen dat beoordelaars eerlijker feedback durven geven, wat de kwaliteit van de feedback kan verhogen (<span class="citation" data-cites="schut2020between">Schut et al. (<a href="#ref-schut2020between" role="doc-biblioref">2020</a>)</span>).</p></li>
+<li><p>Studenten feedback laten ophalen uit verschillende contexten draagt bij aan hoe waardevol studenten de feedback vinden (<span class="citation" data-cites="schut2018stakes">Schut et al. (<a href="#ref-schut2018stakes" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="dannefer2012evidence">Dannefer, Bierer, and Gladding (<a href="#ref-dannefer2012evidence" role="doc-biblioref">2012</a>)</span>)</p></li>
+<li><p>Het geven van keuzevrijheid in datapunten kan bijdragen aan het low-stake gevoel omdat studenten meer agency ervaren. Hierdoor weten studenten datapunten beter te benutten voor hun leerproces (@ schut2020understanding).</p></li>
+<li><p>Het verplicht stellen van het verzamelen van verschillende perspectieven op een datapunt (feedback door verschillende stakeholders) kan helpen bij het creëren van een cultuur waarin feedback vragen en ontvangen normaal is (@ baartman2022exploring).</p></li>
+</ul>
 </section>
-<section id="de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma" class="level3">
-<h3 class="anchored" data-anchor-id="de-leeropbrengsten-vormen-de-ruggengraat-van-het-toetsprogramma">De leeropbrengsten vormen de ruggengraat van het toetsprogramma</h3>
+<section id="het-ontwerpen-van-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" class="level3">
+<h3 class="anchored" data-anchor-id="het-ontwerpen-van-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing">Het ontwerpen van een constante dialoog over het gebruik van feedback voor zelfsturing</h3>
+<p>Om de dialoog over het gebruik van feedback vorm te geven worden er veelal (medium-stake) momenten georganiseerd tussen studenten en docenten in de rol van coach/mentor. Dit kunnen individuele gesprekken of groepsgesprekken zijn waarin studenten samen met de coach (en medestudenten) bekijken waar zij nu staan in hun ontwikkelproces op basis van de verkregen feedback en wat goede vervolgstappen zouden zijn (<span class="citation" data-cites="torre2021ottawa">Torre et al. (<a href="#ref-torre2021ottawa" role="doc-biblioref">2021</a>)</span>). Vaak worden studenten in deze bijeenkomsten begeleid om steeds meer eigenaarschap over hun ontwikkelproces te nemen. Ontwerpkeuzes die hierbij passen zijn het stimuleren van studenten om zelf feedback te vragen, de medium-stake momenten zelf te plannen en te leiden, en studenten aan het woord te laten vóórdat de coach een mening geeft. Lees hier meer over de leerfunctie van programmatisch toetsen.</p>
 </section>
-<section id="er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing" class="level3">
-<h3 class="anchored" data-anchor-id="er-is-een-constante-dialoog-over-het-gebruik-van-feedback-voor-zelfsturing">Er is een constante dialoog over het gebruik van feedback voor zelfsturing</h3>
+<section id="het-ontwerpen-van-de-high-stakes-beslissingen" class="level3">
+<h3 class="anchored" data-anchor-id="het-ontwerpen-van-de-high-stakes-beslissingen">Het ontwerpen van de high stakes beslissingen</h3>
+<p>Ontwerpkeuzes met betrekking tot de high stakes beslissingen hebben te maken met de momenten waarom die beslissingen plaatsvinden, welke beslissers betrokken zijn, wat de rol is van de mentor/coach, en welke procedure de beslissers gebruiken om tot een besluit te komen. Vaak vinden high-stakes beslismomenten plaats na een kwart, half of heel jaar, waarbij de toegekende studiepunten variëren van 15 tot 60 EC (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Het aantal high-stake beslismomenten en het moment waarop deze plaatsvinden kan afhankelijk zijn van de visie van de opleiding maar ook van bijvoorbeeld randvoorwaarden, zoals het kunnen voldoen aan de eisen van een lerarenbeurs. Daarnaast kan ook de doelgroep een rol spelen. Bijvoorbeeld aan het begin van de opleiding een groter aantal beslismomenten (over minder EC’s) om studenten te laten wennen aan programmatisch toetsen (Biemond en Baartman, 2021). Ook praktische overwegingen spelen een rol: idealiter zouden studenten wellicht op elk moment hun portfolio naar de besliscommissie kunnen sturen, maar in de praktijk wordt veelal gekozen voor een vast aantal momenten per jaar.</p>
+<p>Ook het aantal datapunten is een belangrijke ontwerpkeuze, in dit geval het aantal datapunten dat noodzakelijk is om een robuuste beslissing te kunnen nemen. Dit is afhankelijk van wanneer er saturatie optreedt (@ de2019programmatic). Het aantal datapunten dat wordt gebruikt om high-stakes beslissingen te nemen verschilt per opleiding maar veelal wordt uitgegaan van 8-10 datapunten per competentie (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Meer over saturatie en overwegingen voor het aantal datapunten lees je op de pagina over de beslisfunctie.</p>
+<p>Er zijn verschillende ontwerpkeuzes mogelijk als het gaat om de inrichting van de beslisprocedure. Voor een high-stake beslissing wordt vaak een besliscommissie opgesteld. Deze commissie bestaat over het algemeen uit twee of meer beslissers, onder wie soms professionals uit het werkveld. Een vaak toegepaste procedure houdt in dat twee beslissers het portfolio van de student onafhankelijk van elkaar bekijken en vervolgens gezamenlijk tot consensus proberen te komen over de beslissing. In het geval van twijfel wordt het portfolio van de student voorgelegd aan een ander commissielid of wordt het portfolio besproken in de commissievergadering. Een andere ontwerpkeuze is de coach wel/niet onderdeel uit te laten maken van besliscommissie. Enerzijds is de coach dicht betrokken geweest bij de ontwikkeling van de student en heeft de coach hier dus veel kennis over. Anderzijds blijkt uit onderzoek dat het voor coaches makkelijker is om eerlijke feedback te geven en een goede relatie op te bouwen met de student wanneer zij niet betrokken waren bij de eindbeslissing (<span class="citation" data-cites="schut2020between">Schut et al. (<a href="#ref-schut2020between" role="doc-biblioref">2020</a>)</span>). Het betrekken van de coach bij de beslissing kan er bijvoorbeeld voor zorgen dat de coach zich gedwongen voelt een student positieve feedback te geven om hun goede relatie te behouden, of studenten voelen zich niet vrij om hun ontwikkelpunten te bespreken omdat ze bang zijn dat dit leidt tot een negatieve beslissing. Tussenoplossingen die veel worden toegepast is dat de medium-stakes beslissingen van de coach worden meegenomen in het portfolio, de coach een advies schrijft voor de besliscommissie of dat de coach wordt ingeschakeld als extra informatiebron wanneer de commissie twijfelt over de beslissing. Het advies van de coach weegt dan mee, maar is niet doorslaggevend voor de beslissing (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>).</p>
 </section>
-<section id="het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd" class="level3">
-<h3 class="anchored" data-anchor-id="het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd">Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd</h3>
+<section id="inrichting-van-het-elektronisch-portfolio" class="level3">
+<h3 class="anchored" data-anchor-id="inrichting-van-het-elektronisch-portfolio">Inrichting van het (elektronisch) portfolio</h3>
+<p>Ook een passend – veelal elektronisch – portfolio is belangrijk voor het ontwerp van programmatisch toetsen. Studenten verzamelen hun datapunten in dit portfolio, en veelal geven feedbackgevers hun feedback op de datapunten ook via dit portfolio. Een goed werkend portfolio helpt zowel bij de leerfunctie als bij de beslisfunctie. Voor de leerfunctie is het bijvoorbeeld van belang dat een student en coach gemakkelijk een overzicht krijgen over alle verkregen feedback, bijvoorbeeld doordat alle (narratieve) feedback over een bepaald leeropbrengst kan worden opgevraagd. Voor de beslisfunctie is het belangrijk dat het portfolio de besliscommissie ondersteunt in het aggregeren van informatie uit alle datapunten naar de leeropbrengsten waarover een beslissing wordt genomen. Het kan de besliscommissie helpen om patronen ze zien (zie beslisfunctie). Voor de beslisfunctie is het ook belangrijk dat datapunten veilig kunnen worden gearchiveerd, en dat een student bijvoorbeeld niet achteraf wijzigingen kan aanbrengen in datapunten of verkregen feedback.</p>
 </section>
-<section id="de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise" class="level3">
-<h3 class="anchored" data-anchor-id="de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise">De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise</h3>
-</section>
-</section>
-<section id="inrichting-van-ict-systemen-voor-het-monitoren-en-vastleggen-van-ontwikkeling" class="level2">
-<h2 class="anchored" data-anchor-id="inrichting-van-ict-systemen-voor-het-monitoren-en-vastleggen-van-ontwikkeling">Inrichting van ICT-systemen voor het monitoren en vastleggen van ontwikkeling</h2>
 </section>
 <section id="meer-weten" class="level2">
 <h2 class="anchored" data-anchor-id="meer-weten">Meer weten?</h2>
@@ -309,6 +331,21 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-baartman2020programmatisch" class="csl-entry" role="doc-biblioentry">
+Baartman, Liesbeth, Tamara van Schilt-Mol, and Cees van der Vleuten. 2020. <em>Programmatisch Toetsen: Voorbeelden En Ervaringen Uit de Praktijk</em>. Hogeschool Utrecht.
+</div>
+<div id="ref-bok2013programmatic" class="csl-entry" role="doc-biblioentry">
+Bok, Harold GJ, Pim W Teunissen, Robert P Favier, Nancy J Rietbroek, Lars FH Theyse, Harold Brommer, Jan Haarhuis, Peter van Beukelen, Cees PM van der Vleuten, and Debbie ADC Jaarsma. 2013. <span>“Programmatic Assessment of Competency-Based Workplace Learning: When Theory Meets Practice.”</span> <em>BMC Medical Education</em> 13 (1): 1–9.
+</div>
+<div id="ref-bouw2021designable" class="csl-entry" role="doc-biblioentry">
+Bouw, Erica, Ilya Zitter, and Elly De Bruijn. 2021. <span>“Designable Elements of Integrative Learning Environments at the Boundary of School and Work: A Multiple Case Study.”</span> <em>Learning Environments Research</em> 24 (3): 487–517.
+</div>
+<div id="ref-dannefer2012evidence" class="csl-entry" role="doc-biblioentry">
+Dannefer, Elaine F, S Beth Bierer, and Sophia P Gladding. 2012. <span>“Evidence Within a Portfolio-Based Assessment Program: What Do Medical Students Select to Document Their Performance?”</span> <em>Medical Teacher</em> 34 (3): 215–20.
+</div>
+<div id="ref-heeneman2015impact" class="csl-entry" role="doc-biblioentry">
+Heeneman, Sylvia, Andrea Oudkerk Pool, Lambert WT Schuwirth, Cees PM van der Vleuten, and Erik W Driessen. 2015. <span>“The Impact of Programmatic Assessment on Student Learning: Theory Versus Practice.”</span> <em>Medical Education</em> 49 (5): 487–98.
+</div>
 <div id="ref-doi:10.1080/0142159X.2016.1230183" class="csl-entry" role="doc-biblioentry">
 Heeneman, Sylvia, Suzanne Schut, Jeroen Donkers, Cees van der Vleuten, and Arno Muijtjens. 2017. <span>“Embedding of the Progress Test in an Assessment Program Designed According to the Principles of Programmatic Assessment.”</span> <em>Medical Teacher</em> 39 (1): 44–52. <a href="https://doi.org/10.1080/0142159X.2016.1230183">https://doi.org/10.1080/0142159X.2016.1230183</a>.
 </div>
@@ -317,6 +354,12 @@ Imanipour, Masoomeh, and Mohammad Jalili. 2016. <span>“Development of a Compre
 </div>
 <div id="ref-jamieson2017designing" class="csl-entry" role="doc-biblioentry">
 Jamieson, Janica, Gemma Jenkins, Shelley Beatty, and Claire Palermo. 2017. <span>“Designing Programmes of Assessment: A Participatory Approach.”</span> <em>Medical Teacher</em> 39 (11): 1182–88.
+</div>
+<div id="ref-schut2018stakes" class="csl-entry" role="doc-biblioentry">
+Schut, Suzanne, Erik Driessen, Jan Van Tartwijk, Cees van der Vleuten, and Sylvia Heeneman. 2018. <span>“Stakes in the Eye of the Beholder: An International Study of Learners’92 Perceptions Within Programmatic Assessment.”</span> <em>Medical Education</em> 52 (6): 654–63.
+</div>
+<div id="ref-schut2020between" class="csl-entry" role="doc-biblioentry">
+Schut, Suzanne, Sylvia Heeneman, Beth Bierer, Erik Driessen, Jan van Tartwijk, and Cees van Der Vleuten. 2020. <span>“Between Trust and Control: Teachers’ Assessment Conceptualisations Within Programmatic Assessment.”</span> <em>Medical Education</em> 54 (6): 528–37.
 </div>
 <div id="ref-torre2021ottawa" class="csl-entry" role="doc-biblioentry">
 Torre, Dario, Neil E Rice, Anna Ryan, Harold Bok, Luke J Dawson, Beth Bierer, Tim J Wilkinson, et al. 2021. <span>“Ottawa 2020 Consensus Statements for Programmatic Assessment–2. Implementation and Practice.”</span> <em>Medical Teacher</em> 43 (10): 1149–60.
@@ -394,7 +437,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
