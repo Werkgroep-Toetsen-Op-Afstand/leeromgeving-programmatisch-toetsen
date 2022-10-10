@@ -10,7 +10,7 @@ Als je belangrijke beslissingen neemt over studenten zoals het toekennen van (gr
 
 ### Betrouwbaarheid 
 
-Bij betrouwbaarheid gaat het om de vraag hoe consistent je iets meet, bijvoorbeeld doordat verschillende beoordelaars het met elkaar eens zijn, of doordat je bij een herhaalde meting dezelfde uitkomst krijgt.  Vaak wordt gedacht dat mc-toetsen (of meer “gestandaardiseerde toetsen”) meer betrouwbaar zijn dan bijvoorbeeld mondelinge toetsvormen of observaties in de praktijk (meer “subjectieve toetsen”). Uit onderzoek is gebleken dat álle toetsvormen onbetrouwbaar zijn als de toetstijd maar kort is, dus als een mc-toets weinig items bevat of een observatie in de praktijk slechts een korte momentopname is (@van2005assessing) (@ van2010assessment). Meer toetstijd, oftewel meer vragen in een toets of meer meetmomenten in de praktijk, bleek daarentegen wel tot een betrouwbare beslissing te leiden. Interessant aan dit onderzoek was dat dit niet alleen bleek voor meer subjectieve toetsvormen zoals praktijkobservaties en mondelinge examens, maar ook voor meer objectieve toetsvormen zoals multiple choice toetsen. Dus niet de manier van toetsen maar juist een veelvuldigheid aan meetmomenten leidt tot een betrouwbare beslissing.  
+Bij betrouwbaarheid gaat het om de vraag hoe consistent je iets meet, bijvoorbeeld doordat verschillende beoordelaars het met elkaar eens zijn, of doordat je bij een herhaalde meting dezelfde uitkomst krijgt.  Vaak wordt gedacht dat mc-toetsen (of meer “gestandaardiseerde toetsen”) meer betrouwbaar zijn dan bijvoorbeeld mondelinge toetsvormen of observaties in de praktijk (meer “subjectieve toetsen”). Uit onderzoek is gebleken dat álle toetsvormen onbetrouwbaar zijn als de toetstijd maar kort is, dus als een mc-toets weinig items bevat of een observatie in de praktijk slechts een korte momentopname is (@van2005assessing) (@van2010assessment). Meer toetstijd, oftewel meer vragen in een toets of meer meetmomenten in de praktijk, bleek daarentegen wel tot een betrouwbare beslissing te leiden. Interessant aan dit onderzoek was dat dit niet alleen bleek voor meer subjectieve toetsvormen zoals praktijkobservaties en mondelinge examens, maar ook voor meer objectieve toetsvormen zoals multiple choice toetsen. Dus niet de manier van toetsen maar juist een veelvuldigheid aan meetmomenten leidt tot een betrouwbare beslissing.  
 
 ### Validiteit 
 
@@ -22,7 +22,7 @@ Toetsing wordt vaak primair ingezet als afsluiting van een leerproces (assessmen
 
 ## Uitgangspunten van programmatisch toetsen 
 
-Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (van2012model; heeneman2021ottawa), waarbij de volgende uitgangspunten centraal staan (@ baartman2020programmatisch). Deze uitgangspunten worden kort toegelicht in [deze kennisclip] (https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d). 
+Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (@van2012model; @heeneman2021ottawa), waarbij de volgende uitgangspunten centraal staan (@baartman2020programmatisch). Deze uitgangspunten worden kort toegelicht in [deze kennisclip](https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d). 
 
 ### Inzicht in de ontwikkeling van de studenten ontstaat door een mix van verschillende datapunten
 
