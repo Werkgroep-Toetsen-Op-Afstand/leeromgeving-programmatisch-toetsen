@@ -3,7 +3,7 @@ title: "Leermodule Programmatisch Toetsen"
 ---
 
 ::: {.column-screen-inset-right}
-![](images/elephant.jpeg)
+![](images/Leeromgeving.png)
 :::
 
 In deze leermodule leer je alles over programmatisch toetsen. Van de basis principes tot hoe een opleiding haar progrommatisch toetsproces can borgen.

@@ -1,5 +1,81 @@
 # De basis 
 
+<!-- content -->
+
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-6 .g-col-lg-4}
+
+::: {.card .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Meer weten? {.card-title}
+
+::: {.card-text}
+
+Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+:::
+
+[Klik hier](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-10 .g-col-md-4 .g-col-lg-2}
+
+::: {.card .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Praktijkvoorbeelden {.card-title}
+
+::: {.card-text}
+
+Introductietekst praktijkvoorbeelden 
+
+:::
+
+[Klik hier](){.btn .btn-primary}
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-3 .g-col-md-2 .g-col-lg-1}
+
+::: {.card .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Praktische handvatten {.card-title}
+
+::: {.card-text}
+
+Introductietekst praktische handvatten 
+
+:::
+
+[Klik hier](){.btn .btn-primary}
+
+:::
+
+:::
+
+:::
+
 ## Inleiding 
 
 Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie én het optimaliseren van de leerfunctie van toetsing (@baartman2020programmatisch). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee functies van toetsing. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.  
@@ -49,9 +125,7 @@ Zoals eerder aangegeven zijn er veel datapunten nodig om een betrouwbare besliss
 
 Bij programmatisch toetsen wordt op basis van een veelheid aan datapunten een beslissing genomen over de beoogde leeropbrengsten. Echter, gezien de heterogeniteit van de datapunten, kan er geen rekenkundig oordeel geveld worden over het totaal aan datapunten. Een high stakes beslissing op basis van een groot aantal datapunten vereist daarom een professioneel holistisch oordeel. Bij programmatisch toetsen wordt zo’n high stakes beslissing genomen door een besliscommissie. Ook hier geldt: wanneer een beslissing meer high stakes is, is meer beoordelaarsexpertise nodig, bijvoorbeeld door het inzetten van meer beslissers, het trainen van de beslissers en kalibreersessies. Om het beslisproces te vergemakkelijken wordt veelal gebruik gemaakt van holistische beoordelingscriteria en niveaubeschrijvingen van de beoogde leeropbrengsten.  
 
-## Meer weten? 
-
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+## Meer weten?
 
 ### Wetenschappelijke publicaties 
 

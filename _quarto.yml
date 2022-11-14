@@ -3,12 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "Leermodule Programmatisch Toetsen"
-  navbar:
+  title: "Leeromgeving programmatisch toetsen"
+  navbar: 
     left:
       - href: index.qmd
         text: Home
       # - text: Hoofdstukken
+      - text: "Basis"
+        file: 1-basis.qmd
+      - text: "Ontwerpvraagstuk"
+        file: 2-ontwerpvraagstuk.qmd
+      - text: "Implementeren"
+        file: 3-implementeren.qmd
+      - text: "Leerfunctie"
+        file: 4-leerfunctie.qmd
+      - text: "Besisfunctie"
+        file: 5-beslisfunctie.qmd
+      - text: "Zorgen en borgen"
+        file: 6-zorgen_borgen.qmd
       #   menu:
       #     - sidebar:modules      
       - about.qmd
@@ -30,7 +42,7 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: lumen
     css: styles.css
     toc: true
     bibliography: references.bib
