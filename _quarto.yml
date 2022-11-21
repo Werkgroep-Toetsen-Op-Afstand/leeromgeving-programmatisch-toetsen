@@ -4,40 +4,58 @@ project:
 
 website:
   title: "Leeromgeving programmatisch toetsen"
+  page-navigation: true
   navbar: 
     left:
-      - href: index.qmd
-        text: Home
-      # - text: Hoofdstukken
-      - text: "Basis"
-        file: 1-basis.qmd
-      - text: "Ontwerpvraagstuk"
-        file: 2-ontwerpvraagstuk.qmd
-      - text: "Implementeren"
-        file: 3-implementeren.qmd
-      - text: "Leerfunctie"
-        file: 4-leerfunctie.qmd
-      - text: "Besisfunctie"
-        file: 5-beslisfunctie.qmd
-      - text: "Zorgen en borgen"
-        file: 6-zorgen_borgen.qmd
-      #   menu:
-      #     - sidebar:modules      
+      - text: Hoofdstukken
+        menu:
+          - sidebar:basis
+          - sidebar:ontwerpvraagstuk
+          - sidebar:implementeren
+          - sidebar:leerfunctie
+          - sidebar:beslisfunctie
+          - sidebar:zorgen_borgen
       - about.qmd
       
   sidebar:
-    - id: modules
-      title: "Hoofdstukken"
+    - id: basis
+      title: "Basis"
       style: "docked"
-      # foreground: '#BC0031'
-      background: light
-      collapse-level: 2
+      collapse-level: 1
       contents:
         - 1-basis.qmd
+        - 1-basis-meer.qmd
+        - 1-basis-praktijk.qmd
+        - 1-basis-handvatten.qmd
+    - id: ontwerpvraagstuk
+      title: "Ontwerpvraagstuk"
+      style: "docked"
+      collapse-level: 2
+      contents:
         - 2-ontwerpvraagstuk.qmd
+    - id: implementeren
+      title: "Implementeren"
+      style: "docked"
+      collapse-level: 2
+      contents:
         - 3-implementeren.qmd
+    - id: leerfunctie
+      title: "Leerfunctie"
+      style: "docked"
+      collapse-level: 2
+      contents:
         - 4-leerfunctie.qmd
+    - id: beslisfunctie
+      title: "Besisfunctie"
+      style: "docked"
+      collapse-level: 2
+      contents:
         - 5-beslisfunctie.qmd
+    - id: zorgen_borgen
+      title: "Zorgen en borgen"
+      style: "docked"
+      collapse-level: 2
+      contents:
         - 6-zorgen_borgen.qmd
 
 format:
@@ -45,7 +63,6 @@ format:
     theme: lumen
     css: styles.css
     toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
     bibliography: references.bib
-
-
-

@@ -1,0 +1,77 @@
+# Meer weten?
+
+## Wetenschappelijke publicaties 
+
+### Assessing professional competence: from methods to programmes 
+
+@van2005assessing
+
+### The assessment of professional competence: building blocks for theory development 
+
+@van2010assessment 
+
+### Twelve Tips for programmatic assessment  
+
+@doi:10.3109/0142159X.2014.973388
+
+### A model for programmatic assessment fit for purpose 
+
+@van2012model 
+
+### Programmatic assessment: From assessment of learning to assessment for learning 
+
+@doi:10.3109/0142159X.2011.565828
+
+### Ottawa 2020 consensus statement for programmatic assessment - 1. Agreement on the principles 
+
+@heeneman2021ottawa
+
+Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](./bronnen/20_Ottowa_2020.pdf) te vinden.
+
+### Where the rubber meets the road — An integrative review of programmatic assessment in health care professions education 
+
+@schut2021rubber
+
+### Theoretical considerations on programmatic assessment 
+
+@torre2020theoretical
+
+## Praktijkgerichte publicaties
+
+### Programmatisch toetsen als motor voor professioneel leren in het hoger onderwijs 
+
+In het boek Toetsrevolutie schreven Cees van der Vleuten, Suzanne Schut en Sylvia Heeneman het hoofdstuk “Programmatisch toetsen als motor voor professioneel leren in het hoger onderwijs". In dit hoofdstuk beschrijven zij op toegankelijke wijze wat programmatisch toetsen is en hoe het een bijdrage zou kunnen leveren aan meer professioneel leren binnen het hoger onderwijs.  
+
+[Toetsrevolutie: Naar een feedbackcultuur in het hoger onderwijs](./bronnen/27_Toetsrevolutie.pdf)
+
+### ‘Wat is programmatisch toetsen’ in 2 minuten 
+
+In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat programmatisch toetsen is. De animatie is ontwikkeld door Cees van der Vleuten. 
+
+['Wat is programmatisch toetsen' in 2 minuten](./bronnen/80_Animatie_PT.mp4)
+
+### Drie perspectieven op toetsing: waar staat u en waar wilt u naar toe? 
+
+In dit webinar gaat Cees van der Vleuten in op de drie perspectieven binnen toetsing: assessment of learning, assessment for learning en een meer systeem-geïntegreerde aanpak van toetsing. Cees daagt de kijker uit na te denken over de vraag: waar staat u nu en waar wilt u naar toe?  
+
+Dit webinar is opgenomen voor de online leeromgeving. Bekijk het webinar [hier](https://hva.mediamission.nl/Mediasite/Play/3e1d975a273b49e7bfa2ec6f1467eb1e1d).
+
+### In gesprek over veelgestelde vragen over programmatisch toetsen 
+
+Op 6 juli 2020 vond een Q&A plaats waarin Cees van der Vleuten, Liesbeth Baartman en Tamara van Schilt-Mol antwoorden gaven op veelgestelde vragen over programmatisch toetsen. Tijdens deze Q&A wordt er onder meer gesproken over de uitgangspunten van programmatisch toetsen, de relatie met andere onderwijsconcepten en onderwijsinnovaties, en over het ontwerpen, implementeren en uitvoeren van programmatisch toetsen. 
+
+Bekijk de Q&A [hier](https://video.han.nl/P2G/Player/Player.aspx?id=cCjdDl).
+
+### Programmatischtoetsen.nl  
+
+Op deze website vind je informatie over programmatisch toetsen en portretten van opleidingen die zijn aangesloten bij het Landelijk Netwerk Programmatisch toetsen. Daarnaast worden antwoorden gegeven op veel gestelde vragen over programmatisch toetsen. 
+
+[Programmatisch toetsen – Platform Leren van Toetsen](https://www.programmatischtoetsen.nl)
+
+### Curriculumperspectief op motivatie 
+
+De manier waarop toetsing binnen een curriculum ingericht is, kan een groot effect hebben op de motivatie van studenten. In dit artikel wordt ingegaan op deze relatie. Er zijn zowel een praktijkgericht artikel als een wetenschappelijk artikel over dit onderwerp toegevoegd. 
+
+[Praktijkgericht artikel: Een curriculumperspectief op motivatie](./bronnen/102_Kickert_Curriculumperspectief.pdf)
+
+@kickert2022curricular

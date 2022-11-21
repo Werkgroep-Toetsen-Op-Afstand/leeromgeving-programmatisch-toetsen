@@ -1,0 +1,41 @@
+# Praktische handvatten 
+
+## ‘Wat is programmatisch toetsen’ in 2 minuten 
+
+In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat programmatisch toetsen is. Het filmpje is een mooi startpunt om met collega’s te gesprek over programmatisch toetsen te voeren: wat is het en past het bij onze visie?  
+ 
+De animatie is ontwikkeld door professor Cees van der Vleuten en geproduceerd door Masterbranders. 
+
+Bekijk de animatie [hier](./bronnen/80_Animatie_PT.mp4).
+
+## Praatplaat programmatisch toetsen 
+
+Op deze praatplaat is het concept programmatisch toetsen visueel weergegeven. De praatplaat kan worden gebruikt als handvat om met elkaar de uitgangspunten van programmatisch toetsen te bespreken of om het concept toe te lichten. De praatplaat is in opdracht van Tamara van Schilt-Mol en Liesbeth Baartman ontwikkeld door Studio Duikboot en is zowel in het Nederlands als Engels beschikbaar. 
+
+* [Programmatisch Toetsen: A3 print](./bronnen/93_PT_Print_A3.png)
+* [Programmatisch Toetsen: 1920x1080 300ppi](./bronnen/93_PT_1920x1080.png)
+* [Programmatic Assessment: A3 print](./bronnen/93_PA_Print_A3.png)
+* [Programmatic Assessment: 1920x1080 300ppi](./bronnen/93_PA_1920x1080.png) 
+
+## ‘Wat is programmatisch toetsen’ voor studenten            
+
+In deze animatie wordt heel duidelijk aan studenten uitgelegd wat programmatisch toetsen is, en wat het hem kan brengen. Hoewel de animatie gemaakt is voor studenten die co-schappen gaan lopen, is het zeker ook bruikbaar voor andere opleidingen als startpunt om met studenten het gesprek over programmatisch toetsen te voeren.  
+
+De animatie is gemaakt door Amsterdam UMC - masteropleiding Geneeskunde Vrije Universiteit. 
+[Bekijk de animatie](https://vimeo.com/536324176).
+ 
+## ‘Wat is programmatisch toetsen’ door een student 
+
+In deze animatie legt een student - vanuit het studentperspectief - uit wat programmatisch toetsen is.  
+
+Deze animatie is door Charlene van der Deijl gemaakt als opdracht van het vak 'Communicatiebureau' van de HAN-opleiding Communicatie. 
+
+[Bekijk de animatie](https://www.youtube.com/watch?v=ssFiVvV4Hhk).
+
+## 30 seconds en speeddaten 
+
+Wil je samen met collega's aan de slag met programmatisch toetsen en ben je benieuwd of iedereen bekend is met alle begrippen? Met de spellen 'speeddate' en '30 seconds' krijg je hier snel zicht op.  
+
+Speeddate en 30 seconds werden ontwikkeld door Barbara Spieringhs, Jantina Huizinga en Christina Schouten in het leernetwerk programmatisch toetsen. 
+
+[Download Speeddate en 30 Seconds hier](./bronnen/36_37_Speeddate_30seconds.pdf)

@@ -77,6 +77,7 @@ div.csl-indent {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -98,27 +99,35 @@ div.csl-indent {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-hoofdstukken" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoofdstukken</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-hoofdstukken">    
+        <li>
+    <a class="dropdown-item" href="./1-basis.html">
+ <span class="dropdown-text">Basis</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./1-basis.html" aria-current="page">Basis</a>
+        <li>
+    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html">
+ <span class="dropdown-text">Ontwerpvraagstuk</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./2-ontwerpvraagstuk.html">Ontwerpvraagstuk</a>
+        <li>
+    <a class="dropdown-item" href="./3-implementeren.html">
+ <span class="dropdown-text">Implementeren</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./3-implementeren.html">Implementeren</a>
+        <li>
+    <a class="dropdown-item" href="./4-leerfunctie.html">
+ <span class="dropdown-text">Leerfunctie</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./4-leerfunctie.html">Leerfunctie</a>
+        <li>
+    <a class="dropdown-item" href="./5-beslisfunctie.html">
+ <span class="dropdown-text">Besisfunctie</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./5-beslisfunctie.html">Besisfunctie</a>
+        <li>
+    <a class="dropdown-item" href="./6-zorgen_borgen.html">
+ <span class="dropdown-text">Zorgen en borgen</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./6-zorgen_borgen.html">Zorgen en borgen</a>
-  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
   </li>  
@@ -144,32 +153,7 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1-basis.html" class="sidebar-item-text sidebar-link">De basis</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./2-ontwerpvraagstuk.html" class="sidebar-item-text sidebar-link">Programmatisch toetsen als ontwerpvraagstuk</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./3-implementeren.html" class="sidebar-item-text sidebar-link active">Implementatie</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie van programmatisch toetsen</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">Beslisfunctie</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./6-zorgen_borgen.html" class="sidebar-item-text sidebar-link">Zorgen voor en borgen van toetskwaliteit</a>
   </div>
 </li>
     </ul>
@@ -411,10 +395,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
