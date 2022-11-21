@@ -54,8 +54,6 @@ Introductietekst praktijkvoorbeelden
 
 :::
 
-:::
-
 <!-- New card --> 
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
@@ -73,6 +71,8 @@ Introductietekst praktische handvatten
 :::
 
 [Klik hier](){.btn .btn-primary}
+
+:::
 
 :::
 

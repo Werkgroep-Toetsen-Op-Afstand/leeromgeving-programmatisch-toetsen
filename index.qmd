@@ -1,8 +1,10 @@
 ---
-title: "Leermodule Programmatisch Toetsen"
+format: 
+  html: 
+    page-layout: full
 ---
 
-::: {.column-screen-inset-right}
+::: {.column-page}
 ![](images/Leeromgeving.png)
 :::
 
