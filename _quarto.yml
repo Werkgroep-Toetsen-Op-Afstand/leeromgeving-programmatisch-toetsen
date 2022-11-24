@@ -33,30 +33,45 @@ website:
       collapse-level: 2
       contents:
         - 2-ontwerpvraagstuk.qmd
+        - 2-ontwerpvraagstuk-meer.qmd
+        - 2-ontwerpvraagstuk-praktijk.qmd
+        - 2-ontwerpvraagstuk-handvatten.qmd
     - id: implementeren
       title: "Implementeren"
       style: "docked"
       collapse-level: 2
       contents:
         - 3-implementeren.qmd
+        - 3-implementeren-meer.qmd
+        - 3-implementeren-praktijk.qmd
+        - 3-implementeren-handvatten.qmd
     - id: leerfunctie
       title: "Leerfunctie"
       style: "docked"
       collapse-level: 2
       contents:
         - 4-leerfunctie.qmd
+        - 4-leerfunctie-meer.qmd
+        - 4-leerfunctie-praktijk.qmd
+        - 4-leerfunctie-handvatten.qmd
     - id: beslisfunctie
       title: "Besisfunctie"
       style: "docked"
       collapse-level: 2
       contents:
         - 5-beslisfunctie.qmd
+        - 5-beslisfunctie-meer.qmd
+        - 5-beslisfunctie-praktijk.qmd
+        - 5-beslisfunctie-handvatten.qmd
     - id: zorgen_borgen
       title: "Zorgen en borgen"
       style: "docked"
       collapse-level: 2
       contents:
         - 6-zorgen_borgen.qmd
+        - 6-zorgen_borgen-meer.qmd
+        - 6-zorgen_borgen-praktijk.qmd
+        - 6-zorgen_borgen-handvatten.qmd
 
 format:
   html:

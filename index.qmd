@@ -8,4 +8,4 @@ format:
 ![](images/Leeromgeving.png)
 :::
 
-In deze leermodule leer je alles over programmatisch toetsen. Van de basis principes tot hoe een opleiding haar progrommatisch toetsproces can borgen.
+In deze leermodule leer je alles over programmatisch toetsen. Van de basisprincipes tot hoe een opleiding haar progrommatisch toetsproces can borgen.

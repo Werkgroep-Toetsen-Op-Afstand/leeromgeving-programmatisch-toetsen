@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Leeromgeving programmatisch toetsen – beslisfunctie-meer</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./5-beslisfunctie-praktijk.html" rel="next">
+<link href="./5-beslisfunctie.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leeromgeving programmatisch toetsen</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-hoofdstukken" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoofdstukken</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-hoofdstukken">    
+        <li>
+    <a class="dropdown-item" href="./1-basis.html">
+ <span class="dropdown-text">Basis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html">
+ <span class="dropdown-text">Ontwerpvraagstuk</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./3-implementeren.html">
+ <span class="dropdown-text">Implementeren</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./4-leerfunctie.html">
+ <span class="dropdown-text">Leerfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./5-beslisfunctie.html">
+ <span class="dropdown-text">Besisfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./6-zorgen_borgen.html">
+ <span class="dropdown-text">Zorgen en borgen</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie.html" class="sidebar-item-text sidebar-link">Beslisfunctie</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie-meer.html" class="sidebar-item-text sidebar-link active">Meer weten?</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie-praktijk.html" class="sidebar-item-text sidebar-link">Praktijkvoorbeelden</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5-beslisfunctie-handvatten.html" class="sidebar-item-text sidebar-link">Praktische handvatten</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#meer-weten" id="toc-meer-weten" class="nav-link active" data-scroll-target="#meer-weten">Meer weten?</a>
+  <ul class="collapse">
+  <li><a href="#wetenschappelijke-publicaties" id="toc-wetenschappelijke-publicaties" class="nav-link" data-scroll-target="#wetenschappelijke-publicaties">Wetenschappelijke publicaties</a>
+  <ul class="collapse">
+  <li><a href="#programmatic-assessment-can-we-provide-evidence-for-saturation-of-information" id="toc-programmatic-assessment-can-we-provide-evidence-for-saturation-of-information" class="nav-link" data-scroll-target="#programmatic-assessment-can-we-provide-evidence-for-saturation-of-information">Programmatic assessment: Can we provide evidence for saturation of information?</a></li>
+  <li><a href="#from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio" id="toc-from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio" class="nav-link" data-scroll-target="#from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio">From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio</a></li>
+  <li><a href="#evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students" id="toc-evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students" class="nav-link" data-scroll-target="#evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students">Evaluation of an assessment system for professionalism amongst dental students</a></li>
+  <li><a href="#joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress" id="toc-joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress" class="nav-link" data-scroll-target="#joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress">Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress</a></li>
+  </ul></li>
+  <li><a href="#praktijkgerichte-publicaties" id="toc-praktijkgerichte-publicaties" class="nav-link" data-scroll-target="#praktijkgerichte-publicaties">Praktijkgerichte publicaties</a>
+  <ul class="collapse">
+  <li><a href="#het-nemen-van-zorgvuldige-beslissingen" id="toc-het-nemen-van-zorgvuldige-beslissingen" class="nav-link" data-scroll-target="#het-nemen-van-zorgvuldige-beslissingen">Het nemen van zorgvuldige beslissingen</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="meer-weten" class="level1">
+<h1>Meer weten?</h1>
+<p>Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op de beslisfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.</p>
+<section id="wetenschappelijke-publicaties" class="level2">
+<h2 class="anchored" data-anchor-id="wetenschappelijke-publicaties">Wetenschappelijke publicaties</h2>
+<section id="programmatic-assessment-can-we-provide-evidence-for-saturation-of-information" class="level3">
+<h3 class="anchored" data-anchor-id="programmatic-assessment-can-we-provide-evidence-for-saturation-of-information">Programmatic assessment: Can we provide evidence for saturation of information?</h3>
+<p><span class="citation" data-cites="doi:10.1080/0142159X.2018.1555369">Jong et al. (<a href="#ref-doi:10.1080/0142159X.2018.1555369" role="doc-biblioref">2019</a>)</span></p>
+</section>
+<section id="from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio" class="level3">
+<h3 class="anchored" data-anchor-id="from-aggregation-to-interpretation-how-assessors-judge-complex-data-in-a-competency-based-portfolio">From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio</h3>
+<p><span class="citation" data-cites="oudkerk2018aggregation">(<a href="#ref-oudkerk2018aggregation" role="doc-biblioref"><strong>oudkerk2018aggregation?</strong></a>)</span></p>
+</section>
+<section id="evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation-of-an-assessment-system-for-professionalism-amongst-dental-students">Evaluation of an assessment system for professionalism amongst dental students</h3>
+<p><span class="citation" data-cites="zijlstra2017evaluation">Zijlstra-Shaw, Roberts, and Robinson (<a href="#ref-zijlstra2017evaluation" role="doc-biblioref">2017</a>)</span></p>
+</section>
+<section id="joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress" class="level3">
+<h3 class="anchored" data-anchor-id="joining-the-dots-conditional-pass-and-programmatic-assessment-enhances-recognition-of-problems-with-professionalism-and-factors-hampering-student-progress">Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress</h3>
+<p><span class="citation" data-cites="wilkinson2011joining">Wilkinson et al. (<a href="#ref-wilkinson2011joining" role="doc-biblioref">2011</a>)</span></p>
+</section>
+</section>
+<section id="praktijkgerichte-publicaties" class="level2">
+<h2 class="anchored" data-anchor-id="praktijkgerichte-publicaties">Praktijkgerichte publicaties</h2>
+<section id="het-nemen-van-zorgvuldige-beslissingen" class="level3">
+<h3 class="anchored" data-anchor-id="het-nemen-van-zorgvuldige-beslissingen">Het nemen van zorgvuldige beslissingen</h3>
+<p>In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen.</p>
+<p><a href="https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d">Bekijk het webinar</a></p>
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-doi:10.1080/0142159X.2018.1555369" class="csl-entry" role="doc-biblioentry">
+Jong, Lubberta H. de, Harold G. J. Bok, Wim D. J. Kremer, and Cees P. M. van der Vleuten. 2019. <span>“Programmatic Assessment: Can We Provide Evidence for Saturation of Information?”</span> <em>Medical Teacher</em> 41 (6): 678–82. <a href="https://doi.org/10.1080/0142159X.2018.1555369">https://doi.org/10.1080/0142159X.2018.1555369</a>.
+</div>
+<div id="ref-wilkinson2011joining" class="csl-entry" role="doc-biblioentry">
+Wilkinson, Tim J, Mike J Tweed, Tony G Egan, Anthony N Ali, Jan M McKenzie, MaryLeigh Moore, and Joy R Rudland. 2011. <span>“Joining the Dots: Conditional Pass and Programmatic Assessment Enhances Recognition of Problems with Professionalism and Factors Hampering Student Progress.”</span> <em>BMC Medical Education</em> 11 (1): 1–9.
+</div>
+<div id="ref-zijlstra2017evaluation" class="csl-entry" role="doc-biblioentry">
+Zijlstra-Shaw, S, T Roberts, and PG Robinson. 2017. <span>“Evaluation of an Assessment System for Professionalism Amongst Dental Students.”</span> <em>European Journal of Dental Education</em> 21 (4): e89–100.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./5-beslisfunctie.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Beslisfunctie</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./5-beslisfunctie-praktijk.html" class="pagination-link">
+        <span class="nav-page-text">Praktijkvoorbeelden</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

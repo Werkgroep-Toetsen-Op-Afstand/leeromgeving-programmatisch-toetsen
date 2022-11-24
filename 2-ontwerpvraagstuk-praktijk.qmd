@@ -1,0 +1,25 @@
+# Praktijkvoorbeelden 
+
+## ICT-systemen 
+
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 8 april 2022 werd stilgestaan bij de vraag aan welke eisen ICT-systemen moeten voldoen om de ontwikkeling van de studenten te kunnen monitoren en om zorgvuldige beslissingen over studenten te nemen. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+
+[Opname Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_opname.mp4)
+
+[Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
+
+[Hogeschool Inholland - Portfolio Mahara](./bronnen/57_Inholland_Portfolio_Mahara.pptx)
+
+[Presentatie Arno Kamphuis - HU](./bronnen/57_ArnoKamphuis _HU.pptx)
+
+[Presentatie Hanneke Fens - HU](./bronnen/57_HannekeFens_HU.pdf)
+
+## Handreiking ontwerpeisen curriculum 
+
+Fontys Paramedische Hogescholen maakte een handreiking die opleidingen kan ondersteunen bij het ontwerpen van het curriculum. In deze handreiking worden vijf ontwerpeisen  toegelicht. In de ontwerpeis 'toetsconcept' wordt beschreven hoe bij het ontwerpen van het curriculum volgens de principes van programmatisch toetsen toetsing ingericht kan worden. 
+
+[Handreiking Ontwerpeisen curriculumontwikkeling Fontys](./bronnen/110_Handreiking_Ontwerpeisen_Fontys.pdf)
+
+## Voorbeeld van een toetsplan 
+
+Het [toetsplan 'vakdidactisch handelen: ontwerpen van onderwijs'](./bronnen/84_Format_Toetsplan_HU.docx) van Instituut Archimedes van de Hogeschool Utrecht geeft een voorbeeld van hoe de principes van programmatisch toetsen verwerkt zijn in een toetsplan.

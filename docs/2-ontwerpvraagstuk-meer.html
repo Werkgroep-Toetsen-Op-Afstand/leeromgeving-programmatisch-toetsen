@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Leeromgeving programmatisch toetsen – ontwerpvraagstuk-meer</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./2-ontwerpvraagstuk-praktijk.html" rel="next">
+<link href="./2-ontwerpvraagstuk.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leeromgeving programmatisch toetsen</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-hoofdstukken" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoofdstukken</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-hoofdstukken">    
+        <li>
+    <a class="dropdown-item" href="./1-basis.html">
+ <span class="dropdown-text">Basis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html">
+ <span class="dropdown-text">Ontwerpvraagstuk</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./3-implementeren.html">
+ <span class="dropdown-text">Implementeren</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./4-leerfunctie.html">
+ <span class="dropdown-text">Leerfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./5-beslisfunctie.html">
+ <span class="dropdown-text">Besisfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./6-zorgen_borgen.html">
+ <span class="dropdown-text">Zorgen en borgen</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk.html" class="sidebar-item-text sidebar-link">Programmatisch toetsen als ontwerpvraagstuk</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk-meer.html" class="sidebar-item-text sidebar-link active">Meer weten?</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk-praktijk.html" class="sidebar-item-text sidebar-link">Praktijkvoorbeelden</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2-ontwerpvraagstuk-handvatten.html" class="sidebar-item-text sidebar-link">Praktische handvatten</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#meer-weten" id="toc-meer-weten" class="nav-link active" data-scroll-target="#meer-weten">Meer weten?</a>
+  <ul class="collapse">
+  <li><a href="#wetenschappelijke-publicaties" id="toc-wetenschappelijke-publicaties" class="nav-link" data-scroll-target="#wetenschappelijke-publicaties">Wetenschappelijke publicaties</a>
+  <ul class="collapse">
+  <li><a href="#twelve-tips-for-programmatic-assessment" id="toc-twelve-tips-for-programmatic-assessment" class="nav-link" data-scroll-target="#twelve-tips-for-programmatic-assessment">Twelve Tips for programmatic assessment</a></li>
+  <li><a href="#embedding-of-the-progress-test-in-an-assessment-program-designed-according-to-the-principles-of-programmatic-assessment" id="toc-embedding-of-the-progress-test-in-an-assessment-program-designed-according-to-the-principles-of-programmatic-assessment" class="nav-link" data-scroll-target="#embedding-of-the-progress-test-in-an-assessment-program-designed-according-to-the-principles-of-programmatic-assessment">Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment</a></li>
+  <li><a href="#development-of-a-comprehensive-clinical-performance-assessment-system-for-nursing-students-a-programmatic-approach" id="toc-development-of-a-comprehensive-clinical-performance-assessment-system-for-nursing-students-a-programmatic-approach" class="nav-link" data-scroll-target="#development-of-a-comprehensive-clinical-performance-assessment-system-for-nursing-students-a-programmatic-approach">Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach</a></li>
+  <li><a href="#designing-programmes-of-assessment-a-participatory-approach" id="toc-designing-programmes-of-assessment-a-participatory-approach" class="nav-link" data-scroll-target="#designing-programmes-of-assessment-a-participatory-approach">Designing programmes of assessment: a participatory approach</a></li>
+  </ul></li>
+  <li><a href="#praktijkgerichte-publicaties" id="toc-praktijkgerichte-publicaties" class="nav-link" data-scroll-target="#praktijkgerichte-publicaties">Praktijkgerichte publicaties</a>
+  <ul class="collapse">
+  <li><a href="#backwards-design-van-een-curriculum" id="toc-backwards-design-van-een-curriculum" class="nav-link" data-scroll-target="#backwards-design-van-een-curriculum">Backwards design van een curriculum</a></li>
+  <li><a href="#dashboard-bij-ontwikkelen-van-programmatisch-toetsen" id="toc-dashboard-bij-ontwikkelen-van-programmatisch-toetsen" class="nav-link" data-scroll-target="#dashboard-bij-ontwikkelen-van-programmatisch-toetsen">Dashboard bij ontwikkelen van programmatisch toetsen</a></li>
+  <li><a href="#ontwerpvraagstukken-bij-programmatisch-toetsen" id="toc-ontwerpvraagstukken-bij-programmatisch-toetsen" class="nav-link" data-scroll-target="#ontwerpvraagstukken-bij-programmatisch-toetsen">Ontwerpvraagstukken bij programmatisch toetsen</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="meer-weten" class="level1">
+<h1>Meer weten?</h1>
+<p>Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.</p>
+<section id="wetenschappelijke-publicaties" class="level2">
+<h2 class="anchored" data-anchor-id="wetenschappelijke-publicaties">Wetenschappelijke publicaties</h2>
+<section id="twelve-tips-for-programmatic-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="twelve-tips-for-programmatic-assessment">Twelve Tips for programmatic assessment</h3>
+<p><span class="citation" data-cites="doi:10.3109/0142159X.2014.973388">Vleuten et al. (<a href="#ref-doi:10.3109/0142159X.2014.973388" role="doc-biblioref">2015</a>)</span></p>
+</section>
+<section id="embedding-of-the-progress-test-in-an-assessment-program-designed-according-to-the-principles-of-programmatic-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="embedding-of-the-progress-test-in-an-assessment-program-designed-according-to-the-principles-of-programmatic-assessment">Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment</h3>
+<p><span class="citation" data-cites="doi:10.1080/0142159X.2016.1230183">Heeneman et al. (<a href="#ref-doi:10.1080/0142159X.2016.1230183" role="doc-biblioref">2017</a>)</span></p>
+</section>
+<section id="development-of-a-comprehensive-clinical-performance-assessment-system-for-nursing-students-a-programmatic-approach" class="level3">
+<h3 class="anchored" data-anchor-id="development-of-a-comprehensive-clinical-performance-assessment-system-for-nursing-students-a-programmatic-approach">Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach</h3>
+<p><span class="citation" data-cites="imanipour2016development">Imanipour and Jalili (<a href="#ref-imanipour2016development" role="doc-biblioref">2016</a>)</span></p>
+</section>
+<section id="designing-programmes-of-assessment-a-participatory-approach" class="level3">
+<h3 class="anchored" data-anchor-id="designing-programmes-of-assessment-a-participatory-approach">Designing programmes of assessment: a participatory approach</h3>
+<p><span class="citation" data-cites="jamieson2017designing">Jamieson et al. (<a href="#ref-jamieson2017designing" role="doc-biblioref">2017</a>)</span></p>
+</section>
+</section>
+<section id="praktijkgerichte-publicaties" class="level2">
+<h2 class="anchored" data-anchor-id="praktijkgerichte-publicaties">Praktijkgerichte publicaties</h2>
+<section id="backwards-design-van-een-curriculum" class="level3">
+<h3 class="anchored" data-anchor-id="backwards-design-van-een-curriculum">Backwards design van een curriculum</h3>
+<p>Een van de vragen die leeft bij opleidingen die (willen gaan) werken volgens de uitgangspunten van programmatisch toetsen is: ‘Hoe kom je tot een verantwoord en bewust samengesteld toetsprogramma?’. In dit artikel wordt een stappenplan geboden waarbij vanuit de te nemen beslissingen wordt toegewerkt naar het toetsprogramma.</p>
+<p><a href="./bronnen/40_Backwards_design.pdf">Backwards design</a></p>
+</section>
+<section id="dashboard-bij-ontwikkelen-van-programmatisch-toetsen" class="level3">
+<h3 class="anchored" data-anchor-id="dashboard-bij-ontwikkelen-van-programmatisch-toetsen">Dashboard bij ontwikkelen van programmatisch toetsen</h3>
+<p>In deze blog wordt een dashboard beschreven met succesfactoren voor de ontwikkeling van programmatisch toetsen.</p>
+<p><a href="https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/">Dashboard voor het ontwikkelen van programmatisch toetsen in je opleiding – Platform Leren van Toetsen</a></p>
+</section>
+<section id="ontwerpvraagstukken-bij-programmatisch-toetsen" class="level3">
+<h3 class="anchored" data-anchor-id="ontwerpvraagstukken-bij-programmatisch-toetsen">Ontwerpvraagstukken bij programmatisch toetsen</h3>
+<p>In <a href="https://lerenvantoetsen.nl/houvast-bij-het-invoeren-van-programmatisch-toetsen-in-de-praktijk/">deze blog</a> wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen van een curriculum volgens de principes van programmatisch toetsen: feedbackproces, toetsprogramma en het nemen van beslissingen. De blog is gebaseerd op het wetenschappelijke artikel van Torre en collega’s (2021).</p>
+<p><span class="citation" data-cites="torre2021ottawa">Torre et al. (<a href="#ref-torre2021ottawa" role="doc-biblioref">2021</a>)</span></p>
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-doi:10.1080/0142159X.2016.1230183" class="csl-entry" role="doc-biblioentry">
+Heeneman, Sylvia, Suzanne Schut, Jeroen Donkers, Cees van der Vleuten, and Arno Muijtjens. 2017. <span>“Embedding of the Progress Test in an Assessment Program Designed According to the Principles of Programmatic Assessment.”</span> <em>Medical Teacher</em> 39 (1): 44–52. <a href="https://doi.org/10.1080/0142159X.2016.1230183">https://doi.org/10.1080/0142159X.2016.1230183</a>.
+</div>
+<div id="ref-imanipour2016development" class="csl-entry" role="doc-biblioentry">
+Imanipour, Masoomeh, and Mohammad Jalili. 2016. <span>“Development of a Comprehensive Clinical Performance Assessment System for Nursing Students: A Programmatic Approach.”</span> <em>Japan Journal of Nursing Science</em> 13 (1): 46–54.
+</div>
+<div id="ref-jamieson2017designing" class="csl-entry" role="doc-biblioentry">
+Jamieson, Janica, Gemma Jenkins, Shelley Beatty, and Claire Palermo. 2017. <span>“Designing Programmes of Assessment: A Participatory Approach.”</span> <em>Medical Teacher</em> 39 (11): 1182–88.
+</div>
+<div id="ref-torre2021ottawa" class="csl-entry" role="doc-biblioentry">
+Torre, Dario, Neil E Rice, Anna Ryan, Harold Bok, Luke J Dawson, Beth Bierer, Tim J Wilkinson, et al. 2021. <span>“Ottawa 2020 Consensus Statements for Programmatic Assessment–2. Implementation and Practice.”</span> <em>Medical Teacher</em> 43 (10): 1149–60.
+</div>
+<div id="ref-doi:10.3109/0142159X.2014.973388" class="csl-entry" role="doc-biblioentry">
+Vleuten, C. P. M. Van Der, L. W. T. Schuwirth, E. W. Driessen, M. J. B. Govaerts, and S. Heeneman. 2015. <span>“Twelve Tips for Programmatic Assessment.”</span> <em>Medical Teacher</em> 37 (7): 641–46. <a href="https://doi.org/10.3109/0142159X.2014.973388">https://doi.org/10.3109/0142159X.2014.973388</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./2-ontwerpvraagstuk.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Programmatisch toetsen als ontwerpvraagstuk</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./2-ontwerpvraagstuk-praktijk.html" class="pagination-link">
+        <span class="nav-page-text">Praktijkvoorbeelden</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

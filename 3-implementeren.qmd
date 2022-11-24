@@ -6,7 +6,7 @@ Niet alleen een goed ontwerp, maar ook de invoering van programmatisch toetsen i
 
 ::: {.grid}
 
-::: {.g-col-6 .g-col-md-6 .g-col-lg-4}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
 ::: {.card .rounded-3 .mx-auto}
 
@@ -30,7 +30,7 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 <!-- New card --> 
 
-::: {.g-col-10 .g-col-md-4 .g-col-lg-2}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
 ::: {.card .rounded-3 .mx-auto}
 
@@ -52,11 +52,9 @@ Introductietekst praktijkvoorbeelden
 
 :::
 
-:::
-
 <!-- New card --> 
 
-::: {.g-col-3 .g-col-md-2 .g-col-lg-1}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
 ::: {.card .rounded-3 .mx-auto}
 
@@ -78,38 +76,31 @@ Introductietekst praktische handvatten
 
 :::
 
-### Aansluiting op de gedeelde onderwijsvisie 
+:::
+
+## Aansluiting op de gedeelde onderwijsvisie 
 
 Programmatisch toetsen sluit aan bij een onderwijsvisie waarbij zelfregulatie, leren van narratieve feedback, ruimte voor het maken van fouten en reflectie hoog in het vaandel staan. In een dergelijke onderwijsvisie wordt toetsing gezien als een middel om het leren van studenten te bevorderen (Biemond & Kaijen, 2021). Een van de grootste obstakels bij het implementeren van programmatisch toetsen blijkt de algemene weerstand tegen verandering te zijn, waarbij het lastig is om de verankerde onderwijs- en toetsingsculturen, verwachtingen en attitudes van betrokkenen te veranderen. Doorzettingsvermogen, sterk leiderschap en het betrekken van verschillende stake-holders bij het ontwerpen en uitvoeren van programmatisch toetsen kan helpen om tot een gedeelde visie te komen (@torre2021ottawa). Wanneer er helemaal geen gedeelde onderwijsvisie is of deze visie niet past bij de uitgangspunten van programmatisch toetsen, dan wordt aangeraden eerst samen te werken aan een gedeelde onderwijsvisie, om vervolgens te bepalen of programmatisch toetsen passend is (bron blog).  
-
-### Betrekken van stakeholders in het ontwerpproces 
+## Betrekken van stakeholders in het ontwerpproces 
 
 Uit onderzoek is gebleken dat het inzetten van participatory action research voor het ontwerpen van programmatisch toetsen kan helpen bij het bevorderen van een gedeelde visie (@jamieson2017designing). Deelnemers ervaarden een verschuiving in hun opvattingen ten opzichte van toetsing, wat de implementatie van programmatisch toetsen ondersteunde. Participatory action research heeft als doel om de praktijk beter te begrijpen en te verbeteren door in samenwerking met verschillende stakeholders en onderzoekers gebruik te maken van de cyclus van actieonderzoek (@baum2006participatory; @reason2001handbook). Het doen van actieonderzoek bestaat uit een iteratief proces, waarbij deelnemers gegevens verzamelen en analyseren en vervolgens bepalen welke actie moet volgen. De resulterende actie wordt vervolgens verder onderzocht, wat weer leidt tot nieuwe acties, et cetera. Een mooi voorbeeld van hoe actieonderzoek toegepast kan worden om programmatisch toetsen te ontwerpen is omschreven door (@jamieson2017designing). 
 
-### Het hebben van een heldere ruggengraat 
+## Het hebben van een heldere ruggengraat 
 
 Om ervoor te zorgen dat het voor iedereen duidelijk is wat er wordt beoogd met het onderwijs en wat de waarde is van wat er geleerd wordt, is het van belang om een heldere ruggengraat te hebben (@bate2020does; @van2015twelve). De ruggengraat kan gezien worden als een raamwerk van beoogde competenties, vaardigheden en/of beroepstaken binnen het onderwijsprogramma (baartman2020programmatisch). Als een opleiding nog niet over een dergelijke ‘ruggengraat’ beschikt, wordt aangeraden om deze eerst met de opleiding vast te stellen (Biemond & Kaijen, 2021). Op basis daarvan kan een coherent opleidings- en datapuntenprogramma worden ingericht (@bate2020does; Biemond & Kaijen, 2021). Tips over hoe je dit precies kunt aanpakken zijn te vinden op de ontwerppagina.  
 
-### Een leer- en feedbackcultuur laten groeien 
+## Een leer- en feedbackcultuur laten groeien 
 
 Uit onderzoek naar programmatisch toetsen is gebleken dat studenten datapunten als “summatief” kunnen ervaren en niet automatisch aan de slag gaan met de feedback die ze hierop ontvangen (@heeneman2015impact; @bok2013programmatic). Het is daarom van belang om een goede leer- en feedbackcultuur neer te [zetten](https://lerenvantoetsen.nl/feedbackcultuur-een-groot-begrip-om-klein-mee-te-beginnen/ ). De wil om zo’n leer- en feedbackcultuur in de opleiding te laten ontstaan moet binnen het docententeam én bij de onderwijsmanager(s) aanwezig zijn. Dat gebeurt vanuit een gezamenlijke visie en de bereidheid om te veranderen. Daarnaast is het van belang om de feedbackgeletterdheid van zowel studenten als docenten te trainen en studenten goed mee te nemen in het concept van programmatisch toetsen en hen doorlopend inzicht te bieden in hoe zij ervoor staan (@bate2020does). Meer tips en praktische handvatten over hoe je een leer- en feedbackcultuur kunt bevorderen door het ontwerp van programmatisch toetsen worden gegeven op de pagina over het ontwerpproces.  
 
-### Het hebben van moed 
+## Het hebben van moed 
 
 Programmatisch toetsen vergt zowel een andere manier van werken als een andere manier van denken. Veel van de eerder opgedane ideeën en ervaringen over onderwijs en toetsing zullen losgelaten moeten worden om programmatisch toetsen te implementeren. Ook vraagt het andere manieren van werken voor docenten. Zo kijken docenten voortdurend mee met de studenten om zo de ontwikkeling te monitoren en bij te sturen waar nodig. Docenten krijgen een meer coachende rol toebedeeld. Voor zo'n omslag is moed nodig. Moed om te gaan proberen, fouten te maken en weer door te gaan (Biemond &Kaijen, 2021).  
 
-### Voldoende tijd en middelen 
+## Voldoende tijd en middelen 
 
 Een andere belangrijke factor voor het implementeren van programmatisch toetsen is de beschikbaarheid van tijd en middelen (@torre2021ottawa). Zo gaven verschillende opleidingen aan dat er toename ontstond in tijd en werkdruk voor docenten in het beginstadium van programmatisch toetsen. Daarnaast bleek er behoefte te zijn aan ondersteuning bij het ontwerpen van programmatisch toetsen, het trainen van docenten en studenten in de principes van programmatisch toetsen en het geven en ontvangen van feedback. Ook bleek de aanschaf van een passend e-portfolio een waardevolle investering om de voortgang van de studenten goed te kunnen volgen.  
 
-### Dashboard voor het implementatieproces  
+## Dashboard voor het implementatieproces  
 
 Opleidingen die bezig zijn met programmatisch toetsen kunnen gebruik maken van de [dashboard tool](Dashboard voor het ontwikkelen van programmatisch toetsen in je opleiding – Platform Leren van Toetsen) om bovengenoemde lessen mee te nemen in het implementatieproces. Op het dashboard staan succesfactoren weergegeven die gaan over sterk leiderschap, regie, een nieuw curriculum, betrokken stakeholders, professionalisering, investeren in software, feedbackgeletterdheid en de ontwikkeling van een coachsysteem. De dashboardtool kan helpen om het gesprek met elkaar aan te gaan en in kaart te brengen op welke factoren de opleiding goed en minder goed “scoort”, om zo meer grip te krijgen op het bevorderen van het implementatieproces.   
-
-# Meer weten?
-
-# Praktijkvoorbeelden
-
-# Praktische handvatten
-
-# References

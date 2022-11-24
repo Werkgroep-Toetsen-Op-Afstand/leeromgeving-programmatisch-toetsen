@@ -1,0 +1,48 @@
+# Meer weten? 
+Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op de leerfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+## Wetenschappelijke publicaties 
+
+### A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL) 
+
+@schellekens2021scoping
+
+### Clarifying students’ feedback-seeking behaviour in clinical clerkships 
+
+@bok2013clarifying
+
+### Understanding the influence of teacher--learner relationships on learners’ assessment perception 
+
+@schut2020understanding
+
+### Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment 
+
+@schut2018stakes
+
+### The impact of programmatic assessment on student learning: theory versus practice 
+
+@heeneman2015impact
+
+### McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period 
+
+@li2017mcmaster
+
+## Praktijkgerichte publicaties 
+
+### Actieve rol van de student in het feedbackproces 
+
+Feedback is een essentieel onderdeel van programmatisch toetsen. Het gaat dan zowel om feedback vragen als om de ontvangen feedback gebruiken. In dit feedbackproces wordt een actieve rol van de student verwacht. Hoe help je de student om deze rol te pakken? In dit webinar gaat Renske de Kleijn hierop in. Het webinar is georganiseerd vanuit het Platform Leren van Toetsen. 
+
+[Webinar Platform Leren van Toetsen](https://www.youtube.com/watch?v=rN8w3rvvugY&t=741s)
+
+### Zelfregulerend leren 
+
+In dit webinar gaat Niels Bohnen in op de relatie tussen zelfregulerend leren en programmatisch toetsen. Hij maakte deze presentatie in het landelijk leernetwerk programmatisch toetsen. 
+
+[Keynote Niels Bohnen over zelfregulerend leren en de relatie met PT](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
+
+### Zelfregulatie, leerstrategieën en zelfbeoordeling 
+
+Binnen de context van programmatisch toetsen wordt van studenten in toenemende mate verwacht dat zij in staat zijn op een effectieve en efficiënte maniet zelfregulatiestrategieën in te zetten. Hoewel bijgevoegd artikel zich primair richt op het voortgezet onderwijs, beidt het duidelijke informatie over zelfregulatie, leerstrategieën en zelfbeoordeling die ook goed toepasbaar zijn binnen de HO-context. 
+
+[Zelfregulatie en eigenaarschap in het VO](./bronnen/106_Zelfregulatie_eigenaarschap_VO.pdf)

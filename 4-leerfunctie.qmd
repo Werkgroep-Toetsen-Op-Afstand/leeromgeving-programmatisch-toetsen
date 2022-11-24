@@ -5,7 +5,7 @@ Het doel van programmatisch toetsen is het optimaliseren van zowel de leerfuncti
 
 ::: {.grid}
 
-::: {.g-col-6 .g-col-md-6 .g-col-lg-4}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
 ::: {.card .rounded-3 .mx-auto}
 
@@ -29,7 +29,7 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 <!-- New card --> 
 
-::: {.g-col-10 .g-col-md-4 .g-col-lg-2}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
 ::: {.card .rounded-3 .mx-auto}
 
@@ -51,11 +51,9 @@ Introductietekst praktijkvoorbeelden
 
 :::
 
-:::
-
 <!-- New card --> 
 
-::: {.g-col-3 .g-col-md-2 .g-col-lg-1}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
 ::: {.card .rounded-3 .mx-auto}
 
@@ -77,7 +75,10 @@ Introductietekst praktische handvatten
 
 :::
 
-### Verschillende functies van toetsing in balans 
+:::
+
+
+## Verschillende functies van toetsing in balans 
 
 Als het gaat om de verschillende functies van toetsing, wordt er vaak onderscheid gemaakt tussen (1) Assessment as Learning, (2) Assessment for Learning en (3) Assessment of Learning. Bij assessment of learning gaat het om het vaststellen van wat er geleerd is, bijvoorbeeld om studiepunten toe te kennen, voor doorstroom naar een volgende onderwijseenheid/onderwijsjaar en om diploma’s toe te kennen. Bij assessment for learning ligt de focus op het verzamelen van informatie om het leren te stimuleren en te sturen. Bij assessment as learning zijn toetsing en leren geïntegreerd. Tegelijkertijd zijn deze functies van toetsing niet los van elkaar te zien. Als de focus primair ligt op assessment of learning, kan informatie immers nog steeds worden gebruikt voor verder leren. Daarom is het belangrijk om een goede balans te zoeken tussen assessment of learning en assessment for learning. Om daadwerkelijk een lerende cultuur te creëren in een opleiding, is het belangrijk naar alle drie deze paradigma’s te kijken en een integratief programma samen te stellen waarin assessment for/of/as learning op elkaar zijn afgestemd (@schellekens2021scoping; filmpje Cees). De relatie tussen de verschillende functies van toetsing kunnen ook worden weergegeven in onderstaande figuur.   
 
@@ -89,108 +90,17 @@ In scenario 2 staat de formatieve functie van toetsen centraal. Gedurende het on
 
 In scenario 3 worden de formatieve en summatieve functie met elkaar verweven. De informatie uit formatieve activiteiten wordt zowel gebruikt om het leren te stimuleren en te sturen, als om een onderbouwde beslissing te kunnen nemen over de vraag of er (voldoende) geleerd is. Dit scenario vormt de basis voor programmatisch toetsen (@baartman2020programmatisch; @van2012model).  
  
-### Datapunten in het teken van het leerproces van de student 
+## Datapunten in het teken van het leerproces van de student 
 
 Bij programmatisch toetsen gaat het om de longitudinale ontwikkeling van de student (@van2012model). Doordat programmatisch toetsen een holistische benadering is, wordt er naar de gehele ontwikkeling van de student gekeken. Deze ontwikkeling wordt gevolgd door middel van datapunten, waarbij maximaal wordt ingezet op de leerwaarde van elk datapunt. Het leren wordt geoptimaliseerd door deze datapunten niet worden gebruikt voor het nemen van zak/slaag beslissingen (@heeneman2021ottawa). Op basis van één of enkele datapunten worden alleen low-stakes beslissingen genomen, met weinig consequenties voor een student (@schut2020understanding). Het gaat om “beslissingen voor morgen”, bijvoorbeeld de student die feedback gaat verwerken of extra gaat oefenen. Door het verzamelen van datapunten ontstaat er een continue stroom van informatie voor studenten die zij kunnen gebruiken om zicht te krijgen op hun ontwikkeling, nieuwe leerpunten te formuleren, en uiteindelijk hun leerproces zelf te reguleren (@van2012model).  
 
-### Percepties van studenten over low-stakes beslissingen 
+## Percepties van studenten over low-stakes beslissingen 
 
 Low-stakes beslissingen kunnen nog steeds angst bij studenten veroorzaken en gezien worden als high-stakes (@heeneman2021ottawa). Een mogelijkheid om te stimuleren dat studenten datapunten ook daadwerkelijk als low-stakes ervaren, is het inzetten van een groter aantal datapunten (@schut2018stakes). Ook is het belangrijk dat studenten controle (agency) ervaren over het toetsproces. Dit zorgt ervoor dat studenten datapunten daadwerkelijk als low-stakes ervaren (@schut2018stakes). Ook het vermijden van “summatieve signalen” bij datapunten is belangrijk, zoals het geven van cijfers. Het geven van cijfers zorgt namelijk voor beperkte feedback en studenten kunnen zich gaan focussen op de cijfers in plaats van op de vraag wat de gekregen feedback betekent en hoe ze die feedback kunnen gebruiken om zich te ontwikkelen (@van2012model). Ook het stimuleren van het verzamelen van feedback van verschillende betrokkenen en het trainen van feedbackgeletterdheid bij studenten en docenten kan helpen om ervoor te zorgen dat studenten datapunten ervaren als mogelijkheid om van te leren, en niet als bewijs van het leren (@baartman2022exploring).  
 
-### Feedback 
+## Feedback 
 
 De leerfunctie van programmatisch toetsen wordt ook geoptimaliseerd door het inzetten van betekenisvolle, narratieve feedback. De longitudinale opeenvolging van datapunten die bij elkaar aansluiten, maakt het voor studenten ook mogelijk om feedback daadwerkelijk te benutten en zich te verbeteren (@heeneman2021ottawa). Door het verzamelen van datapunten en het voeren van de dialoog over die datapunten (in medium-stakes momenten) krijgen zowel de docent als de student inzicht in de ontwikkeling van de student. Een van de principes van programmatisch toetsen stelt dat een continue dialoog met de student een voorwaarde is om de student echt te laten leren van feedback uit de datapunten (@baartman2020programmatisch). Hierbij wordt het als belangrijk gezien om een relatie te ontwikkelen tussen de docent en student, om op deze manier de kwaliteit van de feedback te verbeteren en om het proces van reflectie en het stellen van doelen te bevorderen (@torre2021ottawa). Echter is bekend dat het ontvangen van feedback geen garantie is dat lerende hiermee aan de slag gaat. Het ontvangen en geven van feedback zijn vaardigheden die ontwikkeld moeten worden. Hierbij is ook het ook van belang dat docenten, medestudenten, werkplekbegeleiders, en andere betrokkenen goede feedback geven op de datapunten. Dit vraagt feedbackgeletterdheid van feedbackgevers en feedbackontvangers.   
 
-### Het stimuleren van zelfregulatie 
+## Het stimuleren van zelfregulatie 
 Programmatisch toetsen heeft ook vaak als doel om [zelfregulatie te stimuleren] (https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d). Onder zelfregulatie verstaan we ‘de controle die studenten hebben over hun cognitie, gedrag, emoties en motivatie, door het gebruik van persoonlijke strategieën om de doelen die ze hebben gesteld te bereiken’ (@panadero2014students, p. 450-451). Omdat zelfregulatie om veel externe sturing en ondersteuning vraagt, is het belangrijk dat dit ondersteund wordt (@van2012model). Programmatisch toetsen kan zelfregulatie ondersteunen door het inzetten van bijvoorbeeld coaching of mentoring. Coaching op verschillende manieren worden ingericht. Meestal gebeurt dit door middel van reflectieve gesprekken tussen student en mentor, waarbij de datapunten die tot dan toe zijn verzameld worden besproken, en nieuwe leerdoelen worden vastgesteld. Het gaat hier vaak om “intermediate-stakes” beslissingen, dus beslissingen die iets meer consequenties hebben voor de student, maar nog geen slag-slaag beslissing zijn. Het is belangrijk om ervoor te zorgen dat de relatie tussen de docent en student veilig is en dat er ruimte is voor de autonomie van de student, omdat hiermee de kans wordt vergroot dat studenten de datapunten gebruiken om hun leerproces te ondersteunen (@schut2018stakes).  
-
-# Meer weten? 
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op de leerfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
-
-#### Wetenschappelijke publicaties 
-
-##### A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL) 
-
-@schellekens2021scoping
-
-##### Clarifying students’ feedback-seeking behaviour in clinical clerkships 
-
-@bok2013clarifying
-
-##### Understanding the influence of teacher--learner relationships on learners’ assessment perception 
-
-@schut2020understanding
-
-##### Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment 
-
-@schut2018stakes
-
-##### The impact of programmatic assessment on student learning: theory versus practice 
-
-@heeneman2015impact
-
-##### McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period 
-
-@li2017mcmaster
-
-# Praktijkgerichte publicaties 
-
-##### Actieve rol van de student in het feedbackproces 
-
-Feedback is een essentieel onderdeel van programmatisch toetsen. Het gaat dan zowel om feedback vragen als om de ontvangen feedback gebruiken. In dit feedbackproces wordt een actieve rol van de student verwacht. Hoe help je de student om deze rol te pakken? In dit webinar gaat Renske de Kleijn hierop in. Het webinar is georganiseerd vanuit het Platform Leren van Toetsen. 
-
-[Webinar Platform Leren van Toetsen](https://www.youtube.com/watch?v=rN8w3rvvugY&t=741s)
-
-##### Zelfregulerend leren 
-
-In dit webinar gaat Niels Bohnen in op de relatie tussen zelfregulerend leren en programmatisch toetsen. Hij maakte deze presentatie in het landelijk leernetwerk programmatisch toetsen. 
-
-[Keynote Niels Bohnen over zelfregulerend leren en de relatie met PT](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
-
-##### Zelfregulatie, leerstrategieën en zelfbeoordeling 
-
-Binnen de context van programmatisch toetsen wordt van studenten in toenemende mate verwacht dat zij in staat zijn op een effectieve en efficiënte maniet zelfregulatiestrategieën in te zetten. Hoewel bijgevoegd artikel zich primair richt op het voortgezet onderwijs, beidt het duidelijke informatie over zelfregulatie, leerstrategieën en zelfbeoordeling die ook goed toepasbaar zijn binnen de HO-context. 
-
-[Zelfregulatie en eigenaarschap in het VO](./bronnen/106_Zelfregulatie_eigenaarschap_VO.pdf)
-
-# Praktijkvoorbeelden 
-
-#### Feedbackformulieren 
-
-Instituut Archimedes (HU) ontwikkelde een feedbackformulier dat studenten helpt om heel gericht zichzelf te beoordelen en een feedbackvraag te formuleren, en dat beoordelaars helpt om gerichte feedback te geven. Ook MOVEL (HAN) ontwikkelde een formulier waarmee beoordelaars en studenten feedback kunnen geven waarin expliciete aandacht is voor zowel feedup, feedback als feedforward. 
-
-[Feedbackformulier Instituut Archimedes](./bronnen/90_Feedbackformulier_Archimedes.docx)
-
-[Feedbackformulier MOVEL](./bronnen/96_Feedbackformulier_MOVEL.pdf)
-
-# Praktische handvatten 
-
-#### Feedback geven 
-
-Feedback is essentieel bij programmatisch toetsen. Het geven van goede feedback is echter niet eenvoudig, evenals het vragen van feedback. Fontys ontwikkelde handreikingen voor student, docent en werkveld over het geven en vragen van feedback.  
-
-[Feedback handout Fontys](./bronnen/82_Feedback_handout_Fontys.pdf)
-
-[Feedback handreiking docent Fontys](./bronnen/82_Feedback_handreiking_docent_Fontys.pdf)
-
-[Feedback handreiking student Fontys](./bronnen/82_Feedback_handreiking_student_Fontys.pdf)
-
-[Feedback handreiking werkveld Fontys](./bronnen/82_Feedback_handreiking_student_Fontys.pdf)
-
-#### Workshop feedback geven 
-
-Instituut Archimedes (HU) ontwikkelde deze workshop die bestaat uit 2 delen. In deze workshop wordt expliciet stilgestaan bij feedback binnen de context van programmatisch toetsen. 
-
-[Workshop feedback geven binnen programmatisch toetsen - Deel 1](./bronnen/87_HU_Workshop_Feedback_1.pptx)
-
-[Workshop feedback geven binnen programmatisch toetsen - Deel 2](./bronnen/87_HU_Workshop_Feedback_2.pptx)
-
-#### Praatplaat grip op ontwikkeling 
-  
-Het is belangrijk om met studenten het gesprek aan te gaan over hun ontwikkeling. Deze praatplaat kan daarbij helpen. De praatplaat is door Lambert Zaad, Tugba Ozdes, Ria Kersbergen, Sabrina Bloemen en Ellen Leenaarts-Gunnewijk ontwikkeld in het HAN leernetwerk programmatisch toetsen (ontwerp: Studio Duikboot).  
-
-[Praatplaat Grip op Ontwikkeling - Powerpoint HD, 1920x1080, 72ppi](./bronnen/92_Praatplaat_PowerpointHD.png)
-
-[Praatplaat Grip op Ontwikkeling - A3, 4961x3508, 300ppi](./bronnen/92_Praatplaat_A3.png)
-
-[Grafiek uitgelicht - Print, 300ppi](./bronnen/92_Praatplaat_Grafiek.png)

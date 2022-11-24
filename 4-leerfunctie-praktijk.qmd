@@ -1,0 +1,9 @@
+# Praktijkvoorbeelden 
+
+## Feedbackformulieren 
+
+Instituut Archimedes (HU) ontwikkelde een feedbackformulier dat studenten helpt om heel gericht zichzelf te beoordelen en een feedbackvraag te formuleren, en dat beoordelaars helpt om gerichte feedback te geven. Ook MOVEL (HAN) ontwikkelde een formulier waarmee beoordelaars en studenten feedback kunnen geven waarin expliciete aandacht is voor zowel feedup, feedback als feedforward. 
+
+[Feedbackformulier Instituut Archimedes](./bronnen/90_Feedbackformulier_Archimedes.docx)
+
+[Feedbackformulier MOVEL](./bronnen/96_Feedbackformulier_MOVEL.pdf)

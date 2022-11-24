@@ -1,0 +1,33 @@
+# Meer weten? 
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het zorgen voor en borgen van de kwaliteit van toetsing bij programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+## Wetenschappelijke publicaties 
+
+### Programmatic assessment: Can we provide evidence for saturation of information? 
+
+@doi:10.1080/0142159X.2018.1555369
+
+### The pursuit of fairness in assessment: Looking beyond the objective 
+
+@valentine2022pursuit
+
+## Praktijkgerichte publicaties 
+
+### Kennisclips zorgen en borgen 
+
+In zeven korte kennisclips wordt ingegaan op het zorgen voor en borgen van kwaliteit voor toetsing binnen de context van programmatisch toetsen. De kennisclips zijn gemaakt door Sylvia Heeneman en Irene Biemond.  
+
+[Kennisclip 1 - Inleiding en samenvatting](./bronnen/111_Kennisclip_1_Inleiding.mp4)
+
+[Kennisclip 2 - Toetsbeleid](./bronnen/111_Kennisclip_2_Toetsbeleid.mp4)
+
+[Kennisclip 3 - Overzicht van datapunten](./bronnen/111_Kennisclip_3_Overzicht_datapunten.mp4)
+
+[Kennisclip 4 - Highstake beslissing](./bronnen/111_Kennisclip_4_Highstake_beslissing.mp4)
+
+[Kennisclip 5 - Datapunten](./bronnen/111_Kennisclip_5_Datapunten.mp4)
+
+[Kennisclip 6 - Toetsorganisatie](./bronnen/111_Kennisclip_6_Toetsorganisatie.mp4)
+
+[Kennisclip 7 - Toetsbekwaamheid](./bronnen/111_Kennisclip_7_Toetsbekwaamheid.mp4)
