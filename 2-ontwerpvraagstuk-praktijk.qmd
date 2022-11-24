@@ -4,7 +4,7 @@
 
 Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 8 april 2022 werd stilgestaan bij de vraag aan welke eisen ICT-systemen moeten voldoen om de ontwikkeling van de studenten te kunnen monitoren en om zorgvuldige beslissingen over studenten te nemen. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
 
-[Opname Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_opname.mp4)
+[Opname Buitenkring bijeenkomst 3](https://www.youtube.com/watch?v=DTwiG0aquvE)
 
 [Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
 
