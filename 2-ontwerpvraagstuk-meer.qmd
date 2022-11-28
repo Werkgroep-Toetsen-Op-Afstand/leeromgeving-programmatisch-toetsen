@@ -2,6 +2,28 @@
 
 Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
 
+## Praktijkgerichte publicaties 
+
+### Backwards design van een curriculum 
+
+Een van de vragen die leeft bij opleidingen die (willen gaan) werken volgens de uitgangspunten van programmatisch toetsen is: ‘Hoe kom je tot een verantwoord en bewust samengesteld toetsprogramma?’. In dit artikel wordt een stappenplan geboden waarbij vanuit de te nemen beslissingen wordt toegewerkt naar het toetsprogramma.  
+
+[Backwards design bij programmatisch toetsen](https://www.professioneelbegeleiden.nl/backward-design-bij-programmatisch-toetsen)
+
+### Dashboard bij ontwikkelen van programmatisch toetsen 
+
+In deze blog wordt een dashboard beschreven met succesfactoren voor de ontwikkeling van programmatisch toetsen.  
+
+[Dashboard voor het ontwikkelen van programmatisch toetsen in je opleiding – Platform Leren van Toetsen](https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/)
+
+### Ontwerpvraagstukken bij programmatisch toetsen 
+
+In deze blog wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen van een curriculum volgens de principes van programmatisch toetsen: feedbackproces, toetsprogramma en het nemen van beslissingen. De blog is gebaseerd op het wetenschappelijke artikel van Torre en collega's (2021). 
+
+[Houvast bij het invoeren van programmatisch toetsen in de praktijk](https://lerenvantoetsen.nl/houvast-bij-het-invoeren-van-programmatisch-toetsen-in-de-praktijk/)
+
+@torre2021ottawa
+
 ## Wetenschappelijke publicaties 
 
 ### Twelve Tips for programmatic assessment 
@@ -19,23 +41,3 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 ### Designing programmes of assessment: a participatory approach 
 
 @jamieson2017designing
-
-## Praktijkgerichte publicaties 
-
-### Backwards design van een curriculum 
-
-Een van de vragen die leeft bij opleidingen die (willen gaan) werken volgens de uitgangspunten van programmatisch toetsen is: ‘Hoe kom je tot een verantwoord en bewust samengesteld toetsprogramma?’. In dit artikel wordt een stappenplan geboden waarbij vanuit de te nemen beslissingen wordt toegewerkt naar het toetsprogramma.  
-
-[Backwards design](./bronnen/40_Backwards_design.pdf)
-
-### Dashboard bij ontwikkelen van programmatisch toetsen 
-
-In deze blog wordt een dashboard beschreven met succesfactoren voor de ontwikkeling van programmatisch toetsen.  
-
-[Dashboard voor het ontwikkelen van programmatisch toetsen in je opleiding – Platform Leren van Toetsen](https://lerenvantoetsen.nl/dashboard-voor-het-ontwikkelen-van-programmatisch-toetsen-in-je-opleiding/)
-
-### Ontwerpvraagstukken bij programmatisch toetsen 
-
-In [deze blog](https://lerenvantoetsen.nl/houvast-bij-het-invoeren-van-programmatisch-toetsen-in-de-praktijk/) wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen van een curriculum volgens de principes van programmatisch toetsen: feedbackproces, toetsprogramma en het nemen van beslissingen. De blog is gebaseerd op het wetenschappelijke artikel van Torre en collega's (2021). 
-
-@torre2021ottawa

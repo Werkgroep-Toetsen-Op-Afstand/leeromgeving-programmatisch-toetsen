@@ -26,4 +26,4 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 
 In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen. 
 
-[Bekijk het webinar](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0FiAKThmuUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

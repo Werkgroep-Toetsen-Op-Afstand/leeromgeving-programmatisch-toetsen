@@ -1,2 +1,35 @@
 # Meer weten? 
 
+Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het implementeren van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+
+## Praktijkgerichte publicaties 
+
+### Voorwaarden voor programmatisch toetsen 
+
+In [deze blog](https://lerenvantoetsen.nl/programmatisch-toetsen-in-het-hbo-dat-vraagt-moed/) wordt stilgestaan bij een viertal voorwaarden waaraan voldaan moet zijn om te kunnen starten met het ontwerpen en implementeren van programmatisch toetsen. 
+
+### Programmatisch toetsen in verschillende onderwijsdomeinen 
+Programmatisch toetsen wordt momenteel geïmplementeerd in verschillende onderwijsdomeinen. Liesbeth Baartman, Tamara van Schilt-Mol en Cees van der Vleuten legden een aantal implementaties naast elkaar om meer zicht te krijgen op de verschillen en overeenkomsten. Deze korte (Engelstalige) presentatie is opgenomen ten behoeve van het EARLI congres 2021. Zowel de opname als de gebruikte PowerPoint zijn hieronder te vinden. 
+
+### Mindset en vaardigheden van docenten 
+Anne Hoogeveen onderzocht voor haar masterscriptie hoe docenten aankijken tegen programmatisch toetsen en over welke vaardigheden zij moeten beschikken. Haar (Engelstalige) scriptie is hier opgenomen. 
+
+[Opname](link)
+
+[Powerpoint](link)
+
+## Wetenschappelijke publicaties 
+
+### Between trust and control: Teachers' assessment conceptualisations within programmatic assessment 
+
+@schut2020between
+
+### Ottawa 2020 consensus statements for programmatic assessment - 2. Implementation and practice 
+
+@torre2021ottawa
+
+LET OP: dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het eerste deel is toegevoegd op de pagina ‘programmatisch toetsen – de basis’. 
+
+### Competency-based education calls for programmatic assessment: But what does this look like in practice? 
+
+@rich2020competency

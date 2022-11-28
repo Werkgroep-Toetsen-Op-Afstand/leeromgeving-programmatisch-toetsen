@@ -33,13 +33,13 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 Feedback is een essentieel onderdeel van programmatisch toetsen. Het gaat dan zowel om feedback vragen als om de ontvangen feedback gebruiken. In dit feedbackproces wordt een actieve rol van de student verwacht. Hoe help je de student om deze rol te pakken? In dit webinar gaat Renske de Kleijn hierop in. Het webinar is georganiseerd vanuit het Platform Leren van Toetsen. 
 
-[Webinar Platform Leren van Toetsen](https://www.youtube.com/watch?v=rN8w3rvvugY&t=741s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rN8w3rvvugY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Zelfregulerend leren 
 
 In dit webinar gaat Niels Bohnen in op de relatie tussen zelfregulerend leren en programmatisch toetsen. Hij maakte deze presentatie in het landelijk leernetwerk programmatisch toetsen. 
 
-[Keynote Niels Bohnen over zelfregulerend leren en de relatie met PT](https://hva.mediamission.nl/Mediasite/Play/eb403c7ad45c44b5adf896c4682eff461d)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dtKdXHdGJy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Zelfregulatie, leerstrategieën en zelfbeoordeling 
 

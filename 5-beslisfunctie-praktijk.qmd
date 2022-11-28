@@ -2,9 +2,9 @@
 
 ## Het nemen van zorgvuldige beslissingen 
 
-Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vind hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
+Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 21 januari 2022 werd stilgestaan bij de vraag hoe zorgvuldige beslissingen over studenten genomen kunnen worden. Daarnaast werd stilgestaan bij het borgen van de kwaliteit van deze beslissingen. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
 
-[Buitenkring bijeenkomst 2: Opname](./bronnen/56_Buitenkring_Bijeenkomst2_Opname.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8gXmTCSaJBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Buitenkring bijeenkomst 2: Presentatie](./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf)
 

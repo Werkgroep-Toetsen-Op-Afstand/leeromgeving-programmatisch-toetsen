@@ -1,1 +1,7 @@
 # Praktische handvatten
+
+## Programmatisch toetsen in het hbo: dat vraagt moed!
+
+In deze blog wordt stilgestaan bij een viertal voorwaarden waaraan voldaan moet zijn om te kunnen starten met het ontwerpen en implementeren van programmatisch toetsen.
+
+[Programmatisch toetsen in het hbo: dat vraagt moed!](https://lerenvantoetsen.nl/programmatisch-toetsen-in-het-hbo-dat-vraagt-moed/)

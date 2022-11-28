@@ -6,7 +6,7 @@ In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat p
  
 De animatie is ontwikkeld door professor Cees van der Vleuten en geproduceerd door Masterbranders. 
 
-Bekijk de animatie [hier](./bronnen/80_Animatie_PT.mp4).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yhjzsNuVFmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Praatplaat programmatisch toetsen 
 
@@ -30,7 +30,7 @@ In deze animatie legt een student - vanuit het studentperspectief - uit wat prog
 
 Deze animatie is door Charlene van der Deijl gemaakt als opdracht van het vak 'Communicatiebureau' van de HAN-opleiding Communicatie. 
 
-[Bekijk de animatie](https://www.youtube.com/watch?v=ssFiVvV4Hhk).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ssFiVvV4Hhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 30 seconds en speeddaten 
 

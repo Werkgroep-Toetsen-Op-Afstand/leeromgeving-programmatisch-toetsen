@@ -6,6 +6,10 @@ Hoe kunnen examencommissies op een goede manier invulling geven aan hun wettelij
 
 [Holistisch beslissen en de borging van kwaliteit door een examencommissie, hoe dan?](https://lerenvantoetsen.nl/holistisch-beslissen-en-de-borging-van-kwaliteit-door-een-examencommissie-hoe-dan/)
 
+## De rol van de examencommissie bij programmatisch toetsen
+
+[Naar gecontroleerd vertrouwen. De rol van de examencommissie bij programmatisch toetsen](https://lerenvantoetsen.nl/naar-gecontroleerd-vertrouwen-de-rol-van-de-examencommissie-bij-programmatisch-toetsen/)
+
 ## Protocol toetsing en beoordeling bij de huisartsenopleiding 
 
 In de huisartsenopleiding wordt gewerkt volgens de principes van programmatisch toetsen. Op deze site staan het toetsplan en het 'protocol toetsing en beoordeling' dat de opleiding hanteert. Hierin is uitgewerkt hoe de ontwikkeling van de student gedurende de opleiding steeds onderwerp van gesprek is en hoe (en op basis waarvan) beslissingen worden genomen. 
@@ -16,4 +20,4 @@ In de huisartsenopleiding wordt gewerkt volgens de principes van programmatisch 
 
 De zelfevaluatie-methodiek KIT2.0 is gebaseerd op principes van programmatisch toetsen. Deze basisprincipes zie je terug in de kwaliteitscriteria. Met de methodiek kun je de kwaliteit van je toetsprogramma in kaart brengen en nagaan hoe je toetsprogramma zich verhoudt tot de uitgangspunten van programmatisch toetsen. 
 
-[Achtergrond – Kwaliteitsinstrument Toetsprogramma (kwaliteit-toetsprogramma.nl)](https://www.kwaliteit-toetsprogramma.nl/achtergrond/)
+[Kwaliteitsinstrument Toetsprogramma (kwaliteit-toetsprogramma.nl)](https://www.kwaliteit-toetsprogramma.nl/)
