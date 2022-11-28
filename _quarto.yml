@@ -7,7 +7,7 @@ website:
   page-navigation: true
   navbar: 
     left:
-      - text: Hoofdstukken
+      - text: Onderwerpen
         menu:
           - sidebar:basis
           - sidebar:ontwerpvraagstuk
@@ -55,7 +55,7 @@ website:
         - 4-leerfunctie-praktijk.qmd
         - 4-leerfunctie-handvatten.qmd
     - id: beslisfunctie
-      title: "Besisfunctie"
+      title: "Beslisfunctie"
       style: "docked"
       collapse-level: 2
       contents:
