@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Leeromgeving programmatisch toetsen – basis</title>
+<title>Leeromgeving programmatisch toetsen - Basis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -49,7 +49,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./1-basis-meer.html" rel="next">
+<link href="./1-basis-praktijk.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -139,7 +139,7 @@ div.csl-indent {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <h1 class="quarto-secondary-nav-title">Basis</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -150,16 +150,16 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./" class="sidebar-logo-link">
+      <img src="./images/boom.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1-basis.html" class="sidebar-item-text sidebar-link active">De basis</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./1-basis-meer.html" class="sidebar-item-text sidebar-link">Meer weten?</a>
+  <a href="./1-basis.html" class="sidebar-item-text sidebar-link active">Basis</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -172,6 +172,11 @@ div.csl-indent {
   <a href="./1-basis-handvatten.html" class="sidebar-item-text sidebar-link">Praktische handvatten</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1-basis-meer.html" class="sidebar-item-text sidebar-link">Meer weten?</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -181,10 +186,7 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#de-basis" id="toc-de-basis" class="nav-link active" data-scroll-target="#de-basis">De basis</a>
-  <ul class="collapse">
-  <li><a href="#inleiding" id="toc-inleiding" class="nav-link" data-scroll-target="#inleiding">Inleiding</a></li>
-  <li><a href="#optimaliseren-van-de-beslisfunctie" id="toc-optimaliseren-van-de-beslisfunctie" class="nav-link" data-scroll-target="#optimaliseren-van-de-beslisfunctie">Optimaliseren van de beslisfunctie</a>
+  <li><a href="#optimaliseren-van-de-beslisfunctie" id="toc-optimaliseren-van-de-beslisfunctie" class="nav-link active" data-scroll-target="#optimaliseren-van-de-beslisfunctie">Optimaliseren van de beslisfunctie</a>
   <ul class="collapse">
   <li><a href="#betrouwbaarheid" id="toc-betrouwbaarheid" class="nav-link" data-scroll-target="#betrouwbaarheid">Betrouwbaarheid</a></li>
   <li><a href="#validiteit" id="toc-validiteit" class="nav-link" data-scroll-target="#validiteit">Validiteit</a></li>
@@ -199,58 +201,30 @@ div.csl-indent {
   <li><a href="#het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd" id="toc-het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd" class="nav-link" data-scroll-target="#het-aantal-datapunten-en-de-zwaarte-van-de-beslissing-zijn-proportioneel-aan-elkaar-gerelateerd">Het aantal datapunten en de zwaarte van de beslissing zijn proportioneel aan elkaar gerelateerd</a></li>
   <li><a href="#de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise" id="toc-de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise" class="nav-link" data-scroll-target="#de-zwaarte-van-een-beslissing-is-leidend-voor-de-hoeveelheid-benodigde-beoordelaarsexpertise">De zwaarte van een beslissing is leidend voor de hoeveelheid benodigde beoordelaarsexpertise</a></li>
   </ul></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Basis</h1>
+</div>
 
 
-<section id="de-basis" class="level1">
-<h1>De basis</h1>
-<section id="inleiding" class="level3">
-<h3 class="anchored" data-anchor-id="inleiding">Inleiding</h3>
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="lead">
 <p>Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie én het optimaliseren van de leerfunctie van toetsing (<span class="citation" data-cites="baartman2020programmatisch">Baartman, Schilt-Mol, and Vleuten (<a href="#ref-baartman2020programmatisch" role="doc-biblioref">2020</a>)</span>). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee functies van toetsing. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.</p>
-<!-- content -->
-</section>
-<div class="grid">
-<div class="g-col-12 g-col-md-6 g-col-lg-4">
-<div class="card rounded-3 mx-auto">
-<section id="meer-weten" class="level2 card-title card-body">
-<h2 class="card-title anchored" data-anchor-id="meer-weten">Meer weten?</h2>
-<div class="card-text">
-<p>Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.</p>
-</div>
-<p><a href="https://leonlindnerweb.wordpress.com" class="btn btn-primary">Klik hier</a></p>
-</section>
-</div>
-</div>
-<!-- New card -->
-<div class="g-col-12 g-col-md-6 g-col-lg-4">
-<div class="card rounded-3 mx-auto">
-<section id="praktijkvoorbeelden" class="level2 card-title card-body">
-<h2 class="card-title anchored" data-anchor-id="praktijkvoorbeelden">Praktijkvoorbeelden</h2>
-<div class="card-text">
-<p>Introductietekst praktijkvoorbeelden</p>
-</div>
-<p><a href="" class="btn btn-primary">Klik hier</a></p>
-</section>
-</div>
-</div>
-<!-- New card -->
-<div class="g-col-12 g-col-md-6 g-col-lg-4">
-<div class="card rounded-3 mx-auto">
-<section id="praktische-handvatten" class="level2 card-title card-body">
-<h2 class="card-title anchored" data-anchor-id="praktische-handvatten">Praktische handvatten</h2>
-<div class="card-text">
-<p>Introductietekst praktische handvatten</p>
-</div>
-<p><a href="" class="btn btn-primary">Klik hier</a></p>
-</section>
-</div>
-</div>
 </div>
 <section id="optimaliseren-van-de-beslisfunctie" class="level2">
 <h2 class="anchored" data-anchor-id="optimaliseren-van-de-beslisfunctie">Optimaliseren van de beslisfunctie</h2>
@@ -298,7 +272,6 @@ div.csl-indent {
 
 
 
-</section>
 </section>
 </section>
 
@@ -438,8 +411,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./1-basis-meer.html" class="pagination-link">
-        <span class="nav-page-text">Meer weten?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./1-basis-praktijk.html" class="pagination-link">
+        <span class="nav-page-text">Praktijkvoorbeelden</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

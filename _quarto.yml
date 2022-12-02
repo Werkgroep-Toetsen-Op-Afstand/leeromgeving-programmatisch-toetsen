@@ -19,59 +19,60 @@ website:
       
   sidebar:
     - id: basis
+      logo: images/boom.png
       title: "Basis"
       style: "docked"
       collapse-level: 1
       contents:
         - 1-basis.qmd
-        - 1-basis-meer.qmd
         - 1-basis-praktijk.qmd
         - 1-basis-handvatten.qmd
+        - 1-basis-meer.qmd
     - id: ontwerpvraagstuk
       title: "Ontwerpvraagstuk"
       style: "docked"
       collapse-level: 2
       contents:
         - 2-ontwerpvraagstuk.qmd
-        - 2-ontwerpvraagstuk-meer.qmd
         - 2-ontwerpvraagstuk-praktijk.qmd
         - 2-ontwerpvraagstuk-handvatten.qmd
+        - 2-ontwerpvraagstuk-meer.qmd
     - id: implementeren
       title: "Implementeren"
       style: "docked"
       collapse-level: 2
       contents:
         - 3-implementeren.qmd
-        - 3-implementeren-meer.qmd
         - 3-implementeren-praktijk.qmd
         - 3-implementeren-handvatten.qmd
+        - 3-implementeren-meer.qmd
     - id: leerfunctie
       title: "Leerfunctie"
       style: "docked"
       collapse-level: 2
       contents:
         - 4-leerfunctie.qmd
-        - 4-leerfunctie-meer.qmd
         - 4-leerfunctie-praktijk.qmd
         - 4-leerfunctie-handvatten.qmd
+        - 4-leerfunctie-meer.qmd
     - id: beslisfunctie
       title: "Beslisfunctie"
       style: "docked"
       collapse-level: 2
       contents:
         - 5-beslisfunctie.qmd
-        - 5-beslisfunctie-meer.qmd
         - 5-beslisfunctie-praktijk.qmd
         - 5-beslisfunctie-handvatten.qmd
+        - 5-beslisfunctie-meer.qmd
     - id: zorgen_borgen
       title: "Zorgen en borgen"
       style: "docked"
       collapse-level: 2
       contents:
         - 6-zorgen_borgen.qmd
-        - 6-zorgen_borgen-meer.qmd
         - 6-zorgen_borgen-praktijk.qmd
         - 6-zorgen_borgen-handvatten.qmd
+        - 6-zorgen_borgen-meer.qmd
 
 format:
   html:

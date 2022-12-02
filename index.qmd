@@ -6,24 +6,184 @@ format:
 
 ::: {.column-page}
 ![](images/Leeromgeving.png)
+
+::: {.lead}
+
+Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is bedoeld voor iedereen die meer wil weten over programmatisch toetsen of er praktisch mee aan de slag wil. 
+
 :::
 
+::: {.grid}
 
-*“Een individuele toets heeft beperkingen, maar een programma niet’*
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
-*“Het geven van feedback is geen garantie voor het gebruik ervan”*
+::: {.card .text-white .bg-primary .rounded-3 .mx-auto}
 
-**Online leeromgeving**  
-Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is bedoeld voor iedereen die meer wil weten over programmatisch toetsen of er praktisch mee aan de slag wil.  
+::: {.card-body}
 
-**Informatie gestructureerd rondom zes thema’s**  
-De inhoud op deze leeromgeving is gegroepeerd rondom zes thema’s: (1) de basis, (2) ontwerpvraagstuk, (3) implementeren, (4) leerfunctie, (5) beslisfunctie en (6) zorgen en borgen. Ieder thema start met een inleiding van ongeveer één  A4 waarin het thema aan de hand van relevante literatuur wordt beschreven. 
+## Basis {.card-title}
 
-**Verdieping en aan de slag**  
+::: {.card-text}
+
+* [Inleiding](1-basis.qmd){.link-light}
+* [Praktijkvoorbeelden](1-basis-praktijk.qmd){.link-light}
+* [Praktische handvatten](1-basis-handvatten.qmd){.link-light}
+* [Meer weten](1-basis-meer.qmd){.link-light}
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.card  .text-white .bg-primary .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Ontwerpvraagstuk {.card-title}
+
+::: {.card-text}
+
+* [Inleiding](2-ontwerpvraagstuk.qmd){.link-light}
+* [Praktijkvoorbeelden](2-ontwerpvraagstuk-praktijk.qmd){.link-light}
+* [Praktische handvatten](2-ontwerpvraagstuk-handvatten.qmd){.link-light}
+* [Meer weten](2-ontwerpvraagstuk-meer.qmd){.link-light}
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.card  .text-white .bg-primary .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Implementatie {.card-title}
+
+::: {.card-text}
+
+* [Inleiding](3-implementeren.qmd){.link-light}
+* [Praktijkvoorbeelden](3-implementeren-praktijk.qmd){.link-light}
+* [Praktische handvatten](3-implementeren-handvatten.qmd){.link-light}
+* [Meer weten](3-implementeren-meer.qmd){.link-light}
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.card  .text-white .bg-primary .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Leerfunctie {.card-title}
+
+::: {.card-text}
+
+* [Inleiding](4-leerfunctie.qmd){.link-light}
+* [Praktijkvoorbeelden](4-leerfunctie-praktijk.qmd){.link-light}
+* [Praktische handvatten](4-leerfunctie-handvatten.qmd){.link-light}
+* [Meer weten](4-leerfunctie-meer.qmd){.link-light}
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.card  .text-white .bg-primary .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Beslisfunctie {.card-title}
+
+::: {.card-text}
+
+* [Inleiding](5-beslisfunctie.qmd){.link-light}
+* [Praktijkvoorbeelden](5-beslisfunctie-praktijk.qmd){.link-light}
+* [Praktische handvatten](5-beslisfunctie-handvatten.qmd){.link-light}
+* [Meer weten](5-beslisfunctie-meer.qmd){.link-light}
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.card  .text-white .bg-primary .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Zorgen en borgen {.card-title}
+
+::: {.card-text}
+
+* [Inleiding](6-zorgen_borgen.qmd){.link-light}
+* [Praktijkvoorbeelden](6-zorgen_borgen-praktijk.qmd){.link-light}
+* [Praktische handvatten](6-zorgen_borgen-handvatten.qmd){.link-light}
+* [Meer weten](6-zorgen_borgen-meer.qmd){.link-light}
+
+:::
+
+:::
+
+:::
+
+:::
+
+:::
+<!-- end card grid -->
+
+::: 
+<!-- end column-page -->
+
+
+
+
+::: {.column-body}
+
+## Verdieping en aan de slag
+
 Wil je na het lezen van de inleidingen per thema nog meer weten of aan de slag? Bij ieder thema zijn praktische handvatten, concrete praktijkvoorbeelden en publicaties (vakpublicaties en wetenschappelijke publicaties) opgenomen. In het menu aan de linkerkant op de thema-pagina’s kun je steeds rechtstreeks naar deze onderdelen. 
 
-**Voor elk wat wils**  
-Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en onderwijskundigen.  Ben je nog relatief onbekend met het concept van programmatisch toetsen?  Begin dan eens met de keynote die Cees van der Vleuten, de grondlegger van programmatisch toetsen, speciaal voor deze online leeromgeving heeft opgenomen. Je gaat dan naar het thema ‘de basis’ en klikt dan links op ‘publicaties’. Ben je bezig om programmatisch toetsen te implementeren? Wellicht vind je dan het spel ’30 seconds’ interessant. Je gaat dan naar het thema ‘de basis’ en klikt dan op ‘praktische handvatten’. Enzovoort. Zo is er voor elk wat wils.
+## Voor elk wat wils
 
-**Samengesteld onder redactie**  
-Deze online leeromgeving is samengesteld onder redactie van Liesbeth Baartman, Tamara-Schilt-van Mol en Jan Berends. Zij zijn betrokken bij het landelijke leernetwerk programmatisch toetsen. Deze omgeving is mogelijk gemaakt met behulp van subsidie van het Versnellingsplan.
+Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en onderwijskundigen.  Ben je nog relatief onbekend met het concept van programmatisch toetsen?  Begin dan eens met de keynote die Cees van der Vleuten, de grondlegger van programmatisch toetsen, speciaal voor deze online leeromgeving heeft opgenomen. Je gaat dan naar het thema ‘de basis’ en klikt dan links op ‘publicaties’. Ben je bezig om programmatisch toetsen te implementeren? Wellicht vind je dan het spel ’30 seconds’ interessant. Je gaat dan naar het thema ‘de basis’ en klikt dan op ‘praktische handvatten’. Zo is er voor elk wat wils.
+
+> Een individuele toets heeft beperkingen, maar een programma niet
+
+> Het geven van feedback is geen garantie voor het gebruik ervan
+
+:::

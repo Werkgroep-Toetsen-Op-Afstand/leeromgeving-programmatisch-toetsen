@@ -1,82 +1,10 @@
-# De basis 
+---
+title: "Basis"
+---
 
-### Inleiding 
+::: {.lead}
 
-Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie én het optimaliseren van de leerfunctie van toetsing (@baartman2020programmatisch). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee functies van toetsing. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.  
-
-<!-- content -->
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Meer weten? {.card-title}
-
-::: {.card-text}
-
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
-
-:::
-
-[Klik hier](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktijkvoorbeelden {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktijkvoorbeelden 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktische handvatten {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktische handvatten 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
+Programmatisch toetsen is een holistische manier van toetsen waarbij gekeken wordt naar de gehele ontwikkeling van de student. Het doel van programmatisch toetsen is het optimaliseren van de beslisfunctie én het optimaliseren van de leerfunctie van toetsing (@baartman2020programmatisch). Op deze pagina zal eerst worden ingegaan op wat we uit de literatuur weten over het optimaliseren van deze twee functies van toetsing. Vervolgens zal worden beschreven hoe programmatisch toetsen hierop aansluit.
 
 :::
 
