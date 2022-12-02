@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Leeromgeving programmatisch toetsen"
+  favicon: images/boom-klein.png
   page-navigation: true
   navbar: 
     left:
