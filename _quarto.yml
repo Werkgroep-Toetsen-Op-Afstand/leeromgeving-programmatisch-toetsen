@@ -76,8 +76,7 @@ website:
 
 format:
   html:
-    theme: lumen
-    css: styles.css
+    theme: lumen-progtoets.scss
     toc: true
     smooth-scroll: true
     link-external-newwindow: true
