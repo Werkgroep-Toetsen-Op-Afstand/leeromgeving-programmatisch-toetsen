@@ -1,6 +1,12 @@
-# Meer weten? 
+---
+title: "Meer weten?"
+---
 
-Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
+::: {.lead}
+
+Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.
+
+:::
 
 ## Praktijkgerichte publicaties 
 

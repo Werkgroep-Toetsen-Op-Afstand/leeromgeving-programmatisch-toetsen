@@ -1,82 +1,12 @@
-# De leerfunctie van programmatisch toetsen  
+---
+title: "De leerfunctie van programmatisch toetsen"
+---
+
+::: {.lead}
+
 Het doel van programmatisch toetsen is het optimaliseren van zowel de leerfunctie als de beslisfunctie van toetsen (@van2012model). De leerfunctie van programmatisch toetsen is belangrijk voor het inzichtelijk maken van de ontwikkeling van studenten, het stimuleren en ondersteunen van het leerproces, en voor het stimuleren van zelfregulatie.  
 
-<!-- content -->
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Meer weten? {.card-title}
-
-::: {.card-text}
-
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
-
 :::
-
-[Klik hier](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktijkvoorbeelden {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktijkvoorbeelden 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktische handvatten {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktische handvatten 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-:::
-
 
 ## Verschillende functies van toetsing in balans 
 

@@ -1,4 +1,6 @@
-# Praktische handvatten 
+---
+title: "Praktische handvatten "
+---
 
 ## ‘Wat is programmatisch toetsen’ in 2 minuten 
 

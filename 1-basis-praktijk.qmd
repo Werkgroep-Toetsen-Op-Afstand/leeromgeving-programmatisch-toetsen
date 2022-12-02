@@ -1,4 +1,6 @@
-# Praktijkvoorbeelden 
+---
+title: "Praktijkvoorbeelden"
+---
 
 ## Wat is programmatisch toetsen (niet)? 
 

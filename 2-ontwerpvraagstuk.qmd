@@ -1,80 +1,10 @@
-# Programmatisch toetsen als ontwerpvraagstuk 
+---
+title: "Programmatisch toetsen als ontwerpvraagstuk"
+---
 
-Programmatisch toetsen is een concept, geen recept (@baartman2020programmatisch). Dit betekent dat elke opleiding die een onderwijsontwerp wil maken gebaseerd op de principes van programmatisch toetsen, nog allerlei ontwerpkeuzes moet en kan maken bínnen die principes. Die keuzes moeten passen binnen de context van die specifieke opleiding. Zo moeten ontwerpkeuzes bijvoorbeeld passen bij de visie op onderwijs/leren van de opleiding, het beroep waartoe wordt opgeleid en het type studenten en docenten dat bij de opleiding betrokken is. In onderzoek naar het ontwerpen van leeromgevingen worden deze keuzes ontwerpbare elementen genoemd (@bouw2021designable). Ontwerpbare elementen gaan over inhoudelijke, ruimtelijke, instrumentele, sociale en temporele aspecten van de onderwijsomgeving die je kunt ontwerpen. Het zijn de knoppen waar je aan kunt draaien in het onderwijsontwerp. Op deze pagina wordt ingegaan op mogelijke ontwerpkeuzes en hoe je dit kunt aanpakken.  
+::: {.lead}
 
-<!-- content -->
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Meer weten? {.card-title}
-
-::: {.card-text}
-
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
-
-:::
-
-[Klik hier](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktijkvoorbeelden {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktijkvoorbeelden 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktische handvatten {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktische handvatten 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
+Programmatisch toetsen is een concept, geen recept (@baartman2020programmatisch). Dit betekent dat elke opleiding die een onderwijsontwerp wil maken gebaseerd op de principes van programmatisch toetsen, nog allerlei ontwerpkeuzes moet en kan maken bínnen die principes. Die keuzes moeten passen binnen de context van die specifieke opleiding. Zo moeten ontwerpkeuzes bijvoorbeeld passen bij de visie op onderwijs/leren van de opleiding, het beroep waartoe wordt opgeleid en het type studenten en docenten dat bij de opleiding betrokken is. In onderzoek naar het ontwerpen van leeromgevingen worden deze keuzes ontwerpbare elementen genoemd (@bouw2021designable). Ontwerpbare elementen gaan over inhoudelijke, ruimtelijke, instrumentele, sociale en temporele aspecten van de onderwijsomgeving die je kunt ontwerpen. Het zijn de knoppen waar je aan kunt draaien in het onderwijsontwerp. Op deze pagina wordt ingegaan op mogelijke ontwerpkeuzes en hoe je dit kunt aanpakken.
 
 :::
 

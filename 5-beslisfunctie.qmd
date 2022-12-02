@@ -1,84 +1,15 @@
-# Beslisfunctie 
+---
+title: "Beslisfunctie"
+---
+
+::: {.lead}
 
 Programmatisch toetsen beoogt zowel het optimaliseren van leren, als het optimaliseren van beslissingen die worden genomen over studenten (@van2012model). Om tot een beslissing te komen over de beheersing van beoogde leeropbrengsten, wordt bij programmatisch toetsen informatie over de leeropbrengsten gedestilleerd uit alle beschikbare datapunten (aggregatie van informatie). Er wordt op basis van alle datapunten een holistische beslissing genomen (@baartman2020programmatisch).  
 
-<!-- content -->
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Meer weten? {.card-title}
-
-::: {.card-text}
-
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
-
 :::
 
-[Klik hier](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
+## Een continuum van low-stakes tot high-stakes beslissingen
 
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktijkvoorbeelden {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktijkvoorbeelden 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktische handvatten {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktische handvatten 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-:::
-
-## Een continuum van low-stakes tot high-stakes beslissingen  
 Eén van de [uitgangspunten](https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d) van programmatisch toetsen is dat het aantal datapunten en de zwaarte van de beslissing proportioneel aan elkaar gerelateerd zijn (@van2012model). Bij programmatisch toetsen wordt daarom niet gesproken over “formatief” of “summatief”, maar over een continuum aan “stakes”: van low-stakes beslissingen naar high-stakes beslissingen. Bij low-stakes beslissingen staat er weinig op het spel voor de student. Het gaat bijvoorbeeld om feedback op een datapunten, waarbij de consequentie is dat de student de feedback moet verwerken of extra moet oefenen. Bij high-stakes beslissingen staat er wel veel op het spel voor studenten. Er wordt een zak-/slaagbeslissing genomen, vaak over een groot aantal studiepunten of bijvoorbeeld toelating tot een volgende fase van de opleiding of de afronding van de stageperiode (@baartman2020programmatisch). Voor het nemen van zo’n high-stakes beslissing zijn veel datapunten nodig.  
 
 [FIGUUR LOW-HIGH STAKES INVOEGEN] 

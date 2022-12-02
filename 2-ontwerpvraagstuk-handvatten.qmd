@@ -1,4 +1,6 @@
-# Praktische handvatten 
+---
+title: "Praktische handvatten"
+---
 
 ## Ontwerpprincipes inrichting studiecoaching 
 

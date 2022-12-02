@@ -1,86 +1,16 @@
-# Zorgen voor en borgen van toetskwaliteit  
+---
+title: "Zorgen voor en borgen van toetskwaliteit"
+---
 
-#### Door: Sylvia Heeneman (Maastricht University) en Irene Biemond (Hogeschool van Hall Larenstein)
+::: {.lead}
 
 Bij opleidingen die (gaan) werken met programmatisch toetsen verandert vaak de manier waarop zij zorgen voor de toetskwaliteit. Ook de manier waarop de examencommissie deze toetskwaliteit borgt, verandert. Dit vraagt nieuwe en aangepaste instrumenten voor het zorgen voor en borgen van toetskwaliteit. Er zijn bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen, te zien in de elementen van het toetsweb (Van Schilt-Mol et al, 2020). Voor programmatisch toetsen wordt het toetsweb op één punt aangepast: op één of meerdere momenten wordt de informatie uit een groot aantal datapunten gebruikt om een beslissing te nemen over het wel of niet toekennen van studiepunten (high-stakes beslissing). We gebruiken hier daarom de termen programma van datapunten,  high-stake beslissing en datapunten in plaats van de toetswebtermen toetsprogramma en toets(tak)en. Daarmee zijn er bij programmatisch toetsen zes elementen die de kwaliteit van toetsing bepalen: 
 
+:::
+
+Door: Sylvia Heeneman (Maastricht University) en Irene Biemond (Hogeschool van Hall Larenstein)
+
 [AFBEELDING TOEVOEGEN]
-
-<!-- content -->
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Meer weten? {.card-title}
-
-::: {.card-text}
-
-Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op het ontwerpen van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
-
-:::
-
-[Klik hier](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktijkvoorbeelden {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktijkvoorbeelden 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-<!-- New card --> 
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-
-::: {.card .rounded-3 .mx-auto}
-
-::: {.card-body}
-
-## Praktische handvatten {.card-title}
-
-::: {.card-text}
-
-Introductietekst praktische handvatten 
-
-:::
-
-[Klik hier](){.btn .btn-primary}
-
-:::
-
-:::
-
-:::
-
-:::
 
 ## Toetsbeleid 
 

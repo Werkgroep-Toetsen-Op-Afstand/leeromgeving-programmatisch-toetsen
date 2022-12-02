@@ -4,4 +4,12 @@ title: "About"
 
 ## Samengesteld onder redactie
 
-Deze online leeromgeving is samengesteld onder redactie van Liesbeth Baartman, Tamara van Schilt-Mol en Jan Berends. Zij zijn betrokken bij het landelijke leernetwerk programmatisch toetsen. Deze omgeving is mogelijk gemaakt met behulp van subsidie van het Versnellingsplan.
+Deze online leeromgeving is samengesteld onder redactie van Liesbeth Baartman, Tamara van Schilt-Mol en Jan Berends. Zij zijn betrokken bij het landelijke leernetwerk programmatisch toetsen. 
+
+## Web redactie
+
+De web redactie is uitgevoerd door Rochelle Hurenkamp en Sharon Klinkenberg.
+
+## Financiering
+
+Deze web omgeving is mogelijk gemaakt met behulp van subsidie van de werkgroep toetsen op afstand van het Versnellingsplan onderwijsinnovatie met ICT.

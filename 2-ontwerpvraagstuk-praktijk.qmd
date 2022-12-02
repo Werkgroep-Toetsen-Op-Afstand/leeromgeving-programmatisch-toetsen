@@ -1,4 +1,6 @@
-# Praktijkvoorbeelden 
+---
+title: "Praktijkvoorbeelden"
+---
 
 ## ICT-systemen 
 
@@ -6,13 +8,10 @@ Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DTwiG0aquvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
-
-[Hogeschool Inholland - Portfolio Mahara](./bronnen/57_Inholland_Portfolio_Mahara.pptx)
-
-[Presentatie Arno Kamphuis - HU](./bronnen/57_ArnoKamphuis _HU.pptx)
-
-[Presentatie Hanneke Fens - HU](./bronnen/57_HannekeFens_HU.pdf)
+* [Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
+* [Hogeschool Inholland - Portfolio Mahara](./bronnen/57_Inholland_Portfolio_Mahara.pptx)
+* [Presentatie Arno Kamphuis - HU](./bronnen/57_ArnoKamphuis _HU.pptx)
+* [Presentatie Hanneke Fens - HU](./bronnen/57_HannekeFens_HU.pdf)
 
 ## Handreiking ontwerpeisen curriculum 
 
