@@ -5,6 +5,8 @@ project:
 website:
   title: "Leeromgeving programmatisch toetsen"
   favicon: images/boom-klein.png
+  repo-url: https://github.com/werkgroep-toetsen-op-afstand/leeromgeving-programmatisch-toetsen
+  repo-actions: [edit, issue]
   page-navigation: true
   navbar: 
     left:
