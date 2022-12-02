@@ -5,7 +5,26 @@ format:
 ---
 
 ::: {.column-page}
-![](images/Leeromgeving.png)
+
+::: {.grid .title .text-white}
+
+::: {.g-col-12 .g-col-md-9}
+
+LEEROMGEVING<br>PROGAMMATISCH TOETSEN
+
+:::
+
+::: {.g-col-12 .g-col-md-3}
+
+![](images/boom-klein.png){.boom}
+
+:::
+
+:::
+<!-- end title -->
+
+
+<!-- ![](images/Leeromgeving.png) -->
 
 ::: {.lead}
 
