@@ -22,7 +22,7 @@ website:
       
   sidebar:
     - id: basis
-      logo: images/boom-klein.png
+      logo: images/boom.svg
       title: "Basis"
       style: "docked"
       collapse-level: 1
