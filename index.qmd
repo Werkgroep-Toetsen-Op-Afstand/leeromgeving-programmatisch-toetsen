@@ -16,7 +16,7 @@ LEEROMGEVING<br>PROGAMMATISCH TOETSEN
 
 ::: {.g-col-12 .g-col-md-3}
 
-![](images/boom-klein.png){.boom}
+![](images/boom.svg){.boom}
 
 :::
 
