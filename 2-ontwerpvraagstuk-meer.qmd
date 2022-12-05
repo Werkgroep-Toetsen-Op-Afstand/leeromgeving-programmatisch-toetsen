@@ -30,6 +30,16 @@ In deze blog wordt stilgestaan bij drie ontwerpvraagstukken bij het ontwikkelen 
 
 @torre2021ottawa
 
+### Kennisclip over de ontwerpfunctie van programmatisch toetsen
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DM6IBCxWi5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Kennisclip over de ontwerpprincipes voor studiecoaching bij programmatisch toetsen
+
+In deze kennisclip gaat Debby Weerlink van Fontys in op de ontwerpprincipes voor studiecoaching bij programmatisch toetsen.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VPXHVMCPUy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Wetenschappelijke publicaties 
 
 ### Twelve Tips for programmatic assessment 

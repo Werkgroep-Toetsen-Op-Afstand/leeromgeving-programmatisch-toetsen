@@ -52,6 +52,8 @@ Op deze website vind je informatie over programmatisch toetsen en portretten van
 
 ### Keynote van Liesbeth Baartman over de 6 principes van programmatisch toetsen
 
+In deze kennisclip gaat bijzonder lector Toetsing en Beoordeling in beroepsonderwijs aan de Hogeschool Utrecht Liesbeth Baartman dieper in op de zes principes van programmatisch toetsen.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fBCnwJUR1jI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Wetenschappelijke publicaties 

@@ -8,4 +8,4 @@ Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar w
 
 [Powerpointpresentatie](./bronnen/55_Buitenkring_PT.pptx)
 
-[Opname](./bronnen/55_Bijeenkomst.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X5c2oUQmtGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -19,3 +19,8 @@ Wil je als opleiding aan de slag met programmatisch toetsen? Dan zul je merken d
 ## Handreiking inrichting programmatisch toetsen (HU)
 
 De Hogeschool Utrecht ontwikkelde een praktische handreiking voor opleidingen die willen gaan werken met de principes van programmatisch toetsen. In deze handreiking is er zowel aandacht voor het ontwikkelproces als voor de implementatie. 
+
+## Ervaringen met programmatisch toetsen. Verslag van de themabijeenkomst
+
+[Ervaringen met programmatisch toetsen: verslag van de themabijeenkomst](https://lerenvantoetsen.nl/ervaringen-met-programmatisch-toetsen-verslag-van-de-themabijeenkomst/)
+
