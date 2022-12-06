@@ -8,8 +8,8 @@ Deze online leeromgeving is samengesteld onder redactie van Liesbeth Baartman, T
 
 ## Web redactie
 
-De web redactie is uitgevoerd door Rochelle Hurenkamp en Sharon Klinkenberg.
+De webredactie is uitgevoerd door Rochelle Hurenkamp en Sharon Klinkenberg.
 
 ## Financiering
 
-Deze web omgeving is mogelijk gemaakt met behulp van subsidie van de werkgroep toetsen op afstand van het Versnellingsplan onderwijsinnovatie met ICT.
+Deze webomgeving is mogelijk gemaakt met behulp van subsidie van de werkgroep toetsen op afstand van het Versnellingsplan onderwijsinnovatie met ICT.
