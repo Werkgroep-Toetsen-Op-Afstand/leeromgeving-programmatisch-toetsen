@@ -6,6 +6,6 @@ title: "Praktijkvoorbeelden"
 
 Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar webinars rondom een praktijkvraag gericht op programmatisch toetsen tijdens zogenoemde buitenkringbijeenkomsten. Tijdens de buitenkringbijeenkomst op 26 november 2021 werd stilgestaan bij de uitgangspunten van programmatisch toetsen, het ontwerpen van programmatisch toetsen en bij enkele veelvoorkomende misconcepties. Je vindt hier zowel de opname als de materialen gebruikt tijdens de bijeenkomst. 
 
-[Powerpointpresentatie](./bronnen/55_Buitenkring_PT.pptx)
+[Powerpointpresentatie](https://docs.google.com/presentation/d/1iKgDnUM34u6_vmbe16KUBHle2BAGzk8p/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X5c2oUQmtGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

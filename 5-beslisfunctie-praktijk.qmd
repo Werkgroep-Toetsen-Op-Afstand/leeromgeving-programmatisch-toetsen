@@ -6,12 +6,12 @@ Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8gXmTCSaJBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Buitenkring bijeenkomst 2: Presentatie](./bronnen/56_Buitenkring_Bijeenkomst2_Presentatie.pdf)
+[Buitenkring bijeenkomst 2: Presentatie](https://drive.google.com/file/d/1XCoA-PhkvyrNStBv6wP93GnK3s19HTNR/view?usp=share_link)
 
-[Buitenkring bijeenkomst 2: Beslisprocedure](./bronnen/56_Buitenkring_Bijeenkomst2_Beslisprocedure.pptx)
+[Buitenkring bijeenkomst 2: Beslisprocedure](https://docs.google.com/presentation/d/1f1efBYfabum0xgJw_Hmp7-UzhH8EmJbg/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true)
 
 ## Inrichten beslisprocedure 
 
-Instituut Archimedes (HU) gebruikte de [gesprekskaartjes](./bronnen/59_Gesprekskaartjes.pptx) die ontwikkeld zijn in het landelijk leernetwerk programmatisch toetsen om een procedure uit te werken voor het komen tot een high stake beslissing. Deze procedure is als praktijkvoorbeeld toegevoegd. 
+Instituut Archimedes (HU) gebruikte de [gesprekskaartjes](https://docs.google.com/presentation/d/1hbygrJ1ITpJGOOgGNuD0FW7pc5HZXY91/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true) die ontwikkeld zijn in het landelijk leernetwerk programmatisch toetsen om een procedure uit te werken voor het komen tot een high stake beslissing. Deze procedure is als praktijkvoorbeeld toegevoegd. 
 
-[Procedure high-stake beslissingen van de HU](./bronnen/100_Procedure_highstake_beslissingen_HU.pdf)
+[Procedure high-stake beslissingen van de HU](https://docs.google.com/document/d/1pzVYz8-Cy9CoHyCqXOu3HJ7bCf3I7fqH/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true)

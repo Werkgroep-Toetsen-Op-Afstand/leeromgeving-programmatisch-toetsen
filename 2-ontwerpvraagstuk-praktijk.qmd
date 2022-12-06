@@ -8,16 +8,16 @@ Het landelijk leernetwerk programmatisch toetsen organiseert driemaal per jaar w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DTwiG0aquvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* [Powerpoint Buitenkring bijeenkomst 3](./bronnen/57_Buitenkring_PT.pptx)
-* [Hogeschool Inholland - Portfolio Mahara](./bronnen/57_Inholland_Portfolio_Mahara.pptx)
-* [Presentatie Arno Kamphuis - HU](./bronnen/57_ArnoKamphuis _HU.pptx)
-* [Presentatie Hanneke Fens - HU](./bronnen/57_HannekeFens_HU.pdf)
+* [Powerpoint Buitenkring bijeenkomst 3](https://docs.google.com/presentation/d/13qCy-SsnRIobF6HgK8VibcREh5z_MTnG/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true)
+* [Hogeschool Inholland - Portfolio Mahara](https://docs.google.com/presentation/d/1qEyKHHGSAhOa4aZEpP_aN_uG6eWZXEkl/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true)
+* [Presentatie Arno Kamphuis - HU](https://docs.google.com/presentation/d/1kQOd_6HFYX2bqg-jpO7iUWzgWxd7Th2p/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true)
+* [Presentatie Hanneke Fens - HU](https://drive.google.com/file/d/1ObtPeecd3lWCvKHEehIeAPXD70C1fdIu/view?usp=share_link)
 
 ## Handreiking ontwerpeisen curriculum 
 
 Fontys Paramedische Hogescholen maakte een handreiking die opleidingen kan ondersteunen bij het ontwerpen van het curriculum. In deze handreiking worden vijf ontwerpeisen  toegelicht. In de ontwerpeis 'toetsconcept' wordt beschreven hoe bij het ontwerpen van het curriculum volgens de principes van programmatisch toetsen toetsing ingericht kan worden. 
 
-[Handreiking Ontwerpeisen curriculumontwikkeling Fontys](./bronnen/110_Handreiking_Ontwerpeisen_Fontys.pdf)
+[Handreiking Ontwerpeisen curriculumontwikkeling Fontys](https://drive.google.com/file/d/1UHDjq3bVNAhfma8okfa9wkv594C1TUug/view?usp=share_link)
 
 ## Profiel Fontys Paramedische Hogeschool
 
@@ -25,7 +25,7 @@ Binnen programmatisch toetsen vervult de docent meerdere rollen. Fontys Paramedi
 
 ## Voorbeeld van een toetsplan 
 
-Het [toetsplan 'vakdidactisch handelen: ontwerpen van onderwijs'](./bronnen/84_Format_Toetsplan_HU.docx) van Instituut Archimedes van de Hogeschool Utrecht geeft een voorbeeld van hoe de principes van programmatisch toetsen verwerkt zijn in een toetsplan.
+Het [toetsplan 'vakdidactisch handelen: ontwerpen van onderwijs'](https://docs.google.com/document/d/1yra-6ByIKWyZ0Mj4mwx7H-MxQrtZHeqe/edit?usp=share_link&ouid=113832975952028051169&rtpof=true&sd=true) van Instituut Archimedes van de Hogeschool Utrecht geeft een voorbeeld van hoe de principes van programmatisch toetsen verwerkt zijn in een toetsplan.
 
 ## Een curriculumperspectief op motivatie
 

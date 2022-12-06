@@ -8,13 +8,13 @@ title: "Meer weten?"
 
 In het boek Toetsrevolutie schreven Cees van der Vleuten, Suzanne Schut en Sylvia Heeneman het hoofdstuk “Programmatisch toetsen als motor voor professioneel leren in het hoger onderwijs". In dit hoofdstuk beschrijven zij op toegankelijke wijze wat programmatisch toetsen is en hoe het een bijdrage zou kunnen leveren aan meer professioneel leren binnen het hoger onderwijs.  
 
-[Toetsrevolutie: Naar een feedbackcultuur in het hoger onderwijs](./bronnen/27_Toetsrevolutie.pdf)
+[Toetsrevolutie: Naar een feedbackcultuur in het hoger onderwijs](https://drive.google.com/file/d/1vjQ4hYdSMaMeu26lymvDNMKxKIRU7BSy/view?usp=share_link)
 
 ### ‘Wat is programmatisch toetsen’ in 2 minuten 
 
 In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat programmatisch toetsen is. De animatie is ontwikkeld door Cees van der Vleuten. 
 
-['Wat is programmatisch toetsen' in 2 minuten](./bronnen/80_Animatie_PT.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yhjzsNuVFmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Drie perspectieven op toetsing: waar staat u en waar wilt u naar toe? 
 
@@ -40,7 +40,7 @@ Op deze website vind je informatie over programmatisch toetsen en portretten van
 
 De manier waarop toetsing binnen een curriculum ingericht is, kan een groot effect hebben op de motivatie van studenten. In dit artikel wordt ingegaan op deze relatie. Er zijn zowel een praktijkgericht artikel als een wetenschappelijk artikel over dit onderwerp toegevoegd. 
 
-[Praktijkgericht artikel: Een curriculumperspectief op motivatie](./bronnen/102_Kickert_Curriculumperspectief.pdf)
+[Praktijkgericht artikel: Een curriculumperspectief op motivatie](https://drive.google.com/file/d/1Y92epCUjd11JDAya76jmKP0WGeR-XnN9/view?usp=share_link)
 
 @kickert2022curricular
 
@@ -82,7 +82,7 @@ In deze kennisclip gaat bijzonder lector Toetsing en Beoordeling in beroepsonder
 
 @heeneman2021ottawa
 
-Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](./bronnen/20_Ottowa_2020.pdf) te vinden.
+Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de principes. In het tweede deel over hoe deze vorm krijgen in de praktijk. Het tweede deel is [hier](https://drive.google.com/file/d/1lIkm3Q6npUxjibh0VHq6RZnQCnUMQNoh/view?usp=share_link) te vinden.
 
 ### Where the rubber meets the road — An integrative review of programmatic assessment in health care professions education 
 

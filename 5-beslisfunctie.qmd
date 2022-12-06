@@ -12,8 +12,6 @@ Programmatisch toetsen beoogt zowel het optimaliseren van leren, als het optimal
 
 Eén van de [uitgangspunten](https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d) van programmatisch toetsen is dat het aantal datapunten en de zwaarte van de beslissing proportioneel aan elkaar gerelateerd zijn (@van2012model). Bij programmatisch toetsen wordt daarom niet gesproken over “formatief” of “summatief”, maar over een continuum aan “stakes”: van low-stakes beslissingen naar high-stakes beslissingen. Bij low-stakes beslissingen staat er weinig op het spel voor de student. Het gaat bijvoorbeeld om feedback op een datapunten, waarbij de consequentie is dat de student de feedback moet verwerken of extra moet oefenen. Bij high-stakes beslissingen staat er wel veel op het spel voor studenten. Er wordt een zak-/slaagbeslissing genomen, vaak over een groot aantal studiepunten of bijvoorbeeld toelating tot een volgende fase van de opleiding of de afronding van de stageperiode (@baartman2020programmatisch). Voor het nemen van zo’n high-stakes beslissing zijn veel datapunten nodig.  
 
-[FIGUUR LOW-HIGH STAKES INVOEGEN] 
-
 ## Hoeveel datapunten heb je nodig en wat is saturatie? 
 
 High-stakes beslissingen zijn gebaseerd op veel datapunten, op rijke informatie uit verschillende contexten, en op feedback vanuit veel verschillende perspectieven (school, werkveld, medestudenten) op die datapunten. De datapunten vormen samen een totaalplaatje van de student, waarover een holistische beslissing wordt genomen. Er kan een robuuste beslissing worden genomen over de student, wanneer dit plaatje duidelijk genoeg is (@baartman2020programmatisch).  

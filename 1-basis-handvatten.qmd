@@ -14,10 +14,10 @@ De animatie is ontwikkeld door professor Cees van der Vleuten en geproduceerd do
 
 Op deze praatplaat is het concept programmatisch toetsen visueel weergegeven. De praatplaat kan worden gebruikt als handvat om met elkaar de uitgangspunten van programmatisch toetsen te bespreken of om het concept toe te lichten. De praatplaat is in opdracht van Tamara van Schilt-Mol en Liesbeth Baartman ontwikkeld door Studio Duikboot en is zowel in het Nederlands als Engels beschikbaar. 
 
-* [Programmatisch Toetsen: A3 print](./bronnen/93_PT_Print_A3.png)
-* [Programmatisch Toetsen: 1920x1080 300ppi](./bronnen/93_PT_1920x1080.png)
-* [Programmatic Assessment: A3 print](./bronnen/93_PA_Print_A3.png)
-* [Programmatic Assessment: 1920x1080 300ppi](./bronnen/93_PA_1920x1080.png) 
+* [Programmatisch Toetsen: A3 print](https://drive.google.com/file/d/1IXDaY2GhGIwbkfxIrP8ZQaKVXYqMcZZ-/view?usp=share_link)
+* [Programmatisch Toetsen: 1920x1080 300ppi](https://drive.google.com/file/d/17eB1fOi7ZU1CLuJ0UbecJhpfM5OHEUiT/view?usp=share_link)
+* [Programmatic Assessment: A3 print](https://drive.google.com/file/d/1-z4C3q0oAUE1yXHbO1x1nddJF1_FW3a6/view?usp=share_link)
+* [Programmatic Assessment: 1920x1080 300ppi](https://drive.google.com/file/d/1pj4dCIEX8QISTB11mNrLKQy1rod1fXMP/view?usp=share_link) 
 
 ## ‘Wat is programmatisch toetsen’ voor studenten            
 
@@ -40,4 +40,4 @@ Wil je samen met collega's aan de slag met programmatisch toetsen en ben je beni
 
 Speeddate en 30 seconds werden ontwikkeld door Barbara Spieringhs, Jantina Huizinga en Christina Schouten in het leernetwerk programmatisch toetsen. 
 
-[Download Speeddate en 30 Seconds hier](./bronnen/36_37_Speeddate_30seconds.pdf)
+[Download Speeddate en 30 Seconds hier](https://drive.google.com/file/d/16NydCbgOz3jyrmbrxky4gAoCJVC3Vb5b/view?usp=share_link)

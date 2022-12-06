@@ -18,16 +18,30 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 
 In zeven korte kennisclips wordt ingegaan op het zorgen voor en borgen van kwaliteit voor toetsing binnen de context van programmatisch toetsen. De kennisclips zijn gemaakt door Sylvia Heeneman en Irene Biemond.  
 
-[Kennisclip 1 - Inleiding en samenvatting](https://www.youtube.com/watch?v=ZfU9PxoqG2A)
+**Kennisclip 1 - Inleiding en samenvatting**
 
-[Kennisclip 2 - Toetsbeleid](https://www.youtube.com/watch?v=BRCAits1gmI)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZfU9PxoqG2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Kennisclip 3 - Overzicht van datapunten](https://www.youtube.com/watch?v=9H7eVuNzCR4)
+**Kennisclip 2 - Toetsbeleid**
 
-[Kennisclip 4 - Highstake beslissing](https://www.youtube.com/watch?v=VdWTBymux9s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BRCAits1gmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Kennisclip 5 - Datapunten](https://www.youtube.com/watch?v=q7UTJJS4GI8)
+**Kennisclip 3 - Overzicht van datapunten**
 
-[Kennisclip 6 - Toetsorganisatie](https://www.youtube.com/watch?v=cwmR2-_YEDI)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9H7eVuNzCR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Kennisclip 7 - Toetsbekwaamheid](https://www.youtube.com/watch?v=5c3P3ecE7wQ)
+**Kennisclip 4 - Highstake beslissing**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VdWTBymux9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Kennisclip 5 - Datapunten**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q7UTJJS4GI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Kennisclip 6 - Toetsorganisatie**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cwmR2-_YEDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Kennisclip 7 - Toetsbekwaamheid**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5c3P3ecE7wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
