@@ -6,7 +6,7 @@ title: "Praktische handvatten "
 
 In deze (Nederlands ondertitelde) animatie wordt in twee minuten uitgelegd wat programmatisch toetsen is. Het filmpje is een mooi startpunt om met collega’s te gesprek over programmatisch toetsen te voeren: wat is het en past het bij onze visie?  
  
-De animatie is ontwikkeld door professor Cees van der Vleuten en geproduceerd door Masterbranders. 
+De animatie is ontwikkeld door professor Cees van der Vleuten en geproduceerd door Masterbranders.. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yhjzsNuVFmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
