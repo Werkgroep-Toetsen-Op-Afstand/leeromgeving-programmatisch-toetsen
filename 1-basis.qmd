@@ -26,7 +26,7 @@ Toetsing wordt vaak primair ingezet als afsluiting van een leerproces (assessmen
 
 ## Uitgangspunten van programmatisch toetsen 
 
-Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (@van2012model; @heeneman2021ottawa), waarbij de volgende uitgangspunten centraal staan (@baartman2020programmatisch). Deze uitgangspunten worden kort toegelicht in [deze kennisclip](https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d). 
+Op basis van de hierboven omschreven inzichten is programmatisch toetsen ontwikkeld (@van2012model; @heeneman2021ottawa), waarbij de volgende uitgangspunten centraal staan (@baartman2020programmatisch). Deze uitgangspunten worden hieronder kort toegelicht en zijn ook te vinden in [deze kennisclip](https://hva.mediamission.nl/Mediasite/Play/72b9376346f142508f7a93243cab71011d). 
 
 ### Inzicht in de ontwikkeling van de studenten ontstaat door een mix van verschillende datapunten
 
