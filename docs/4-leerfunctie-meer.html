@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -76,7 +76,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -96,63 +97,70 @@ div.csl-indent {
     <span class="navbar-title">Leeromgeving programmatisch toetsen</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-onderwerpen" role="button" data-bs-toggle="dropdown" aria-expanded="false">Onderwerpen</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-onderwerpen" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Onderwerpen</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-onderwerpen">    
         <li>
-    <a class="dropdown-item" href="./1-basis.html">
+    <a class="dropdown-item" href="./1-basis.html" rel="" target="">
  <span class="dropdown-text">Basis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html">
+    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html" rel="" target="">
  <span class="dropdown-text">Ontwerpvraagstuk</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./3-implementeren.html">
+    <a class="dropdown-item" href="./3-implementeren.html" rel="" target="">
  <span class="dropdown-text">Implementeren</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./4-leerfunctie.html">
+    <a class="dropdown-item" href="./4-leerfunctie.html" rel="" target="">
  <span class="dropdown-text">Leerfunctie</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./5-beslisfunctie.html">
+    <a class="dropdown-item" href="./5-beslisfunctie.html" rel="" target="">
  <span class="dropdown-text">Beslisfunctie</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./6-zorgen_borgen.html">
+    <a class="dropdown-item" href="./6-zorgen_borgen.html" rel="" target="">
  <span class="dropdown-text">Zorgen en borgen</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./4-leerfunctie-meer.html">Meer weten?</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./" class="sidebar-logo-link">
+      <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/boom.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
@@ -160,27 +168,32 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">De leerfunctie van programmatisch toetsen</a>
+  <a href="./4-leerfunctie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">De leerfunctie van programmatisch toetsen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie-praktijk.html" class="sidebar-item-text sidebar-link">Praktijkvoorbeelden</a>
+  <a href="./4-leerfunctie-praktijk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Praktijkvoorbeelden</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie-handvatten.html" class="sidebar-item-text sidebar-link">Praktische handvatten</a>
+  <a href="./4-leerfunctie-handvatten.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Praktische handvatten</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4-leerfunctie-meer.html" class="sidebar-item-text sidebar-link active">Meer weten?</a>
+  <a href="./4-leerfunctie-meer.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Meer weten?</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -241,7 +254,7 @@ div.csl-indent {
 </section>
 <section id="mcmaster-modular-assessment-program-mcmap-through-the-years-residents-experience-with-an-evolving-feedback-culture-over-a-3-year-period" class="level3">
 <h3 class="anchored" data-anchor-id="mcmaster-modular-assessment-program-mcmap-through-the-years-residents-experience-with-an-evolving-feedback-culture-over-a-3-year-period">McMaster Modular Assessment Program (McMAP) through the years: residents’ experience with an evolving feedback culture over a 3-year period</h3>
-<p><span class="citation" data-cites="li2017mcmaster">Li, Sherbino, and Chan (<a href="#ref-li2017mcmaster" role="doc-biblioref">2017</a>)</span></p>
+<p><span class="citation" data-cites="li2017mcmaster">Li et al. (<a href="#ref-li2017mcmaster" role="doc-biblioref">2017</a>)</span></p>
 </section>
 <section id="scriptie-feedbackcultuur---marieke-van-der-linden" class="level3">
 <h3 class="anchored" data-anchor-id="scriptie-feedbackcultuur---marieke-van-der-linden">Scriptie feedbackcultuur - Marieke van der Linden</h3>
@@ -273,24 +286,24 @@ div.csl-indent {
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-bok2013clarifying" class="csl-entry" role="doc-biblioentry">
-Bok, Harold GJ, Pim W Teunissen, Annemarie Spruijt, Joanne PI Fokkema, Peter van Beukelen, Debbie ADC Jaarsma, and Cees PM van der Vleuten. 2013. <span>“Clarifying Students’92 Feedback-Seeking Behaviour in Clinical Clerkships.”</span> <em>Medical Education</em> 47 (3): 282–91.
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-bok2013clarifying" class="csl-entry" role="listitem">
+Bok, H. G., Teunissen, P. W., Spruijt, A., Fokkema, J. P., Beukelen, P. van, Jaarsma, D. A., &amp; Vleuten, C. P. van der. (2013). Clarifying students’92 feedback-seeking behaviour in clinical clerkships. <em>Medical Education</em>, <em>47</em>(3), 282–291.
 </div>
-<div id="ref-heeneman2015impact" class="csl-entry" role="doc-biblioentry">
-Heeneman, Sylvia, Andrea Oudkerk Pool, Lambert WT Schuwirth, Cees PM van der Vleuten, and Erik W Driessen. 2015. <span>“The Impact of Programmatic Assessment on Student Learning: Theory Versus Practice.”</span> <em>Medical Education</em> 49 (5): 487–98.
+<div id="ref-heeneman2015impact" class="csl-entry" role="listitem">
+Heeneman, S., Oudkerk Pool, A., Schuwirth, L. W., Vleuten, C. P. van der, &amp; Driessen, E. W. (2015). The impact of programmatic assessment on student learning: Theory versus practice. <em>Medical Education</em>, <em>49</em>(5), 487–498.
 </div>
-<div id="ref-li2017mcmaster" class="csl-entry" role="doc-biblioentry">
-Li, Shelly-Anne, Jonathan Sherbino, and Teresa M Chan. 2017. <span>“McMaster Modular Assessment Program (McMAP) Through the Years: Residents’ Experience with an Evolving Feedback Culture over a 3-Year Period.”</span> <em>AEM Education and Training</em> 1 (1): 5–14.
+<div id="ref-li2017mcmaster" class="csl-entry" role="listitem">
+Li, S.-A., Sherbino, J., &amp; Chan, T. M. (2017). McMaster modular assessment program (McMAP) through the years: Residents’ experience with an evolving feedback culture over a 3-year period. <em>AEM Education and Training</em>, <em>1</em>(1), 5–14.
 </div>
-<div id="ref-schellekens2021scoping" class="csl-entry" role="doc-biblioentry">
-Schellekens, Lonneke H, Harold GJ Bok, Lubberta H de Jong, Marieke F van der Schaaf, Wim DJ Kremer, and Cees PM van der Vleuten. 2021. <span>“A Scoping Review on the Notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL).”</span> <em>Studies in Educational Evaluation</em> 71: 101094.
+<div id="ref-schellekens2021scoping" class="csl-entry" role="listitem">
+Schellekens, L. H., Bok, H. G., Jong, L. H. de, Schaaf, M. F. van der, Kremer, W. D., &amp; Vleuten, C. P. van der. (2021). A scoping review on the notions of assessment as learning (AaL), assessment for learning (AfL), and assessment of learning (AoL). <em>Studies in Educational Evaluation</em>, <em>71</em>, 101094.
 </div>
-<div id="ref-schut2018stakes" class="csl-entry" role="doc-biblioentry">
-Schut, Suzanne, Erik Driessen, Jan Van Tartwijk, Cees van der Vleuten, and Sylvia Heeneman. 2018. <span>“Stakes in the Eye of the Beholder: An International Study of Learners’92 Perceptions Within Programmatic Assessment.”</span> <em>Medical Education</em> 52 (6): 654–63.
+<div id="ref-schut2018stakes" class="csl-entry" role="listitem">
+Schut, S., Driessen, E., Van Tartwijk, J., Vleuten, C. van der, &amp; Heeneman, S. (2018). Stakes in the eye of the beholder: An international study of learners’92 perceptions within programmatic assessment. <em>Medical Education</em>, <em>52</em>(6), 654–663.
 </div>
-<div id="ref-schut2020understanding" class="csl-entry" role="doc-biblioentry">
-Schut, Suzanne, Jan van Tartwijk, Erik Driessen, Cees van der Vleuten, and Sylvia Heeneman. 2020. <span>“Understanding the Influence of Teacher–Learner Relationships on Learners’92 Assessment Perception.”</span> <em>Advances in Health Sciences Education</em> 25 (2): 441–56.
+<div id="ref-schut2020understanding" class="csl-entry" role="listitem">
+Schut, S., Tartwijk, J. van, Driessen, E., Vleuten, C. van der, &amp; Heeneman, S. (2020). Understanding the influence of teacher–learner relationships on learners’92 assessment perception. <em>Advances in Health Sciences Education</em>, <em>25</em>(2), 441–456.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -320,9 +333,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -334,7 +361,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -370,24 +414,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -395,7 +543,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

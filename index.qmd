@@ -47,7 +47,7 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 * [Inleiding](1-basis.qmd){.link-light}
 * [Praktijkvoorbeelden](1-basis-praktijk.qmd){.link-light}
 * [Praktische handvatten](1-basis-handvatten.qmd){.link-light}
-* [Meer weten](1-basis-meer.qmd){.link-light}
+* [Meer weten?](1-basis-meer.qmd){.link-light}
 
 :::
 
@@ -72,7 +72,7 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 * [Inleiding](2-ontwerpvraagstuk.qmd){.link-light}
 * [Praktijkvoorbeelden](2-ontwerpvraagstuk-praktijk.qmd){.link-light}
 * [Praktische handvatten](2-ontwerpvraagstuk-handvatten.qmd){.link-light}
-* [Meer weten](2-ontwerpvraagstuk-meer.qmd){.link-light}
+* [Meer weten?](2-ontwerpvraagstuk-meer.qmd){.link-light}
 
 :::
 
@@ -97,7 +97,7 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 * [Inleiding](3-implementeren.qmd){.link-light}
 * [Praktijkvoorbeelden](3-implementeren-praktijk.qmd){.link-light}
 * [Praktische handvatten](3-implementeren-handvatten.qmd){.link-light}
-* [Meer weten](3-implementeren-meer.qmd){.link-light}
+* [Meer weten?](3-implementeren-meer.qmd){.link-light}
 
 :::
 
@@ -122,7 +122,7 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 * [Inleiding](4-leerfunctie.qmd){.link-light}
 * [Praktijkvoorbeelden](4-leerfunctie-praktijk.qmd){.link-light}
 * [Praktische handvatten](4-leerfunctie-handvatten.qmd){.link-light}
-* [Meer weten](4-leerfunctie-meer.qmd){.link-light}
+* [Meer weten?](4-leerfunctie-meer.qmd){.link-light}
 
 :::
 
@@ -147,7 +147,7 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 * [Inleiding](5-beslisfunctie.qmd){.link-light}
 * [Praktijkvoorbeelden](5-beslisfunctie-praktijk.qmd){.link-light}
 * [Praktische handvatten](5-beslisfunctie-handvatten.qmd){.link-light}
-* [Meer weten](5-beslisfunctie-meer.qmd){.link-light}
+* [Meer weten?](5-beslisfunctie-meer.qmd){.link-light}
 
 :::
 
@@ -172,7 +172,7 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 * [Inleiding](6-zorgen_borgen.qmd){.link-light}
 * [Praktijkvoorbeelden](6-zorgen_borgen-praktijk.qmd){.link-light}
 * [Praktische handvatten](6-zorgen_borgen-handvatten.qmd){.link-light}
-* [Meer weten](6-zorgen_borgen-meer.qmd){.link-light}
+* [Meer weten?](6-zorgen_borgen-meer.qmd){.link-light}
 
 :::
 
