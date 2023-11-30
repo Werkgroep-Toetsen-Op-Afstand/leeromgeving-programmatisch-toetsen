@@ -5,25 +5,37 @@ Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch 
 
 ### A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL) 
 
+De auteurs stellen dat Assessment as Learning, -for Learning en -of Learning in samenhang moeten worden gezien om een beoordelingscultuur te creëren dat het leren van studenten maximaal faciliteert.
+
 @schellekens2021scoping
 
 ### Clarifying students’ feedback-seeking behaviour in clinical clerkships 
+
+De studie toont dat studenten tijdens stages feedback zoeken op basis van inter- en persoonlijke factoren en kan bijdragen aan het optimaliseren en ontwikkelen van onderwijskansen tijdens stages. 
 
 @bok2013clarifying
 
 ### Understanding the influence of teacher--learner relationships on learners’ assessment perception 
 
+Docenten benutten leerpotentieel van low-stakes door in de beoordelingsrelatie stuurkracht van studenten te stimuleren met oog op invloed van eigen stuurkracht op beoordelingspercepties van studenten.
+
 @schut2020understanding
 
 ### Stakes in the eye of the beholder: an international study of learners’ perceptions within programmatic assessment 
+
+Hoe ervaren lerenden beoordelingsmomenten binnen programmatisch toetsen en welke factoren beïnvloeden dit? Dit kan helpen bij ontwerp van beoordelingsprogramma's waarin beoordeling leren ondersteunt.
 
 @schut2018stakes
 
 ### The impact of programmatic assessment on student learning: theory versus practice 
 
+Het onderzoek richt zich op elementen van programmatisch toetsen die studenten als ondersteunend of remmend voor het leren ervaren en op factoren die de actieve constructie van hun leren beïnvloeden.
+
 @heeneman2015impact
 
 ### McMaster Modular Assessment Program (McMAP) through the years: residents' experience with an evolving feedback culture over a 3-year period 
+
+McMaster Modular Assessment Program: een op de werkplek gebaseerd beoordelingssysteem dat low-stake beoordelingen van prestaties gebruikt. Dit artikel evalueert dit programma 3 jaar na implementatie.
 
 @li2017mcmaster
 
