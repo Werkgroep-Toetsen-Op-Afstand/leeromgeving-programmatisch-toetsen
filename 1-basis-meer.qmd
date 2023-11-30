@@ -60,21 +60,31 @@ In deze kennisclip gaat bijzonder lector Toetsing en Beoordeling in beroepsonder
 
 ### Assessing professional competence: from methods to programmes 
 
+De auteurs tonen met een model voor bepalen van bruikbaarheid van beoordelingsmethoden aan dat keuze van beoordelingsmethoden contextafhankelijk is en beoordelen een onderwijskundig ontwerpprobleem.
+
 @van2005assessing
 
-### The assessment of professional competence: building blocks for theory development 
+### The assessment of professional competence: building blocks for theory development
+
+In dit artikel wordt onderscheid gemaakt tussen bestaande beoordelingstechnieken voor beoordelen van 'knows', knowing how' en 'showing how' en recente ontwikkelingen in beoordelingen op ‘does’-niveau.
 
 @van2010assessment 
 
-### Twelve Tips for programmatic assessment  
+### Twelve Tips for programmatic assessment 
+
+Dit artikel biedt twaalf concrete tips om programmatisch toetsen in de praktijk te ontwerpen. De auteurs hopen dat je hiermee zo ver als mogelijk kunt komen in jullie eigen praktijk. 
 
 @doi:10.3109/0142159X.2014.973388
 
 ### A model for programmatic assessment fit for purpose 
 
+De auteurs beschrijven een model voor programmatisch toetsen, dat tegelijkertijd de beoordeling voor leren en de beoordeling voor besluitvorming over de voortgang van de leerling optimaliseert. 
+
 @van2012model 
 
 ### Programmatic assessment: From assessment of learning to assessment for learning 
+
+Het doel van dit artikel is om verdere routes te beschrijven voor de ontwikkeling van programmatisch toetsen in de context van assessment for learning. 
 
 @doi:10.3109/0142159X.2011.565828
 
@@ -86,8 +96,12 @@ Dit artikel bestaat uit twee delen. In het eerste deel wordt ingegaan op de prin
 
 ### Where the rubber meets the road — An integrative review of programmatic assessment in health care professions education 
 
+Dit artikel bevat een review dat werd uitgevoerd om de resultaten te beoordelen en bijeen te brengen van studies die programmatisch toetsen in het gezondheidszorgonderwijs in de praktijk onderzoeken. 
+
 @schut2021rubber
 
 ### Theoretical considerations on programmatic assessment 
+
+Dit artikel beschrijft opvallende theoretische perspectieven op programmatisch toetsen en er wordt onderzocht hoe theorie onderwijsprofessionals kan helpen effectieve programma's te ontwikkelen.
 
 @torre2020theoretical
