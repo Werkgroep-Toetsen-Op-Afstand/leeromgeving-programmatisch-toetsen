@@ -6,17 +6,25 @@ Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch to
 
 ### Programmatic assessment: Can we provide evidence for saturation of information? 
 
+De auteurs willen valide bewijs leveren voor saturatie van informatie door onderzoek naar de relatie tussen aantal datapunten dat de minimumeis overschrijdt en consensus tussen twee beoordelaars.
+
 @doi:10.1080/0142159X.2018.1555369
 
 ### From aggregation to interpretation: how assessors judge complex data in a competency-based portfolio 
+
+Het doel van dit onderzoek is om het begrip te vergroten hoe beoordelaars oordelen vormen bij het interpreteren van de complexe gegevens die zijn opgenomen in een competentiegericht portfolio.
 
 @oudkerk2018aggregation
 
 ### Evaluation of an assessment system for professionalism amongst dental students 
 
+De studie is gericht op het ontwikkelen en valideren van een beoordelingsprogramma om studenten aan te moedigen na te denken over en uitleg te geven over hun waargenomen gedrag met passende feedback.
+
 @zijlstra2017evaluation
 
 ### Joining the dots: conditional pass and programmatic assessment enhances recognition of problems with professionalism and factors hampering student progress 
+
+De auteurs beschrijven en evalueren een programmatisch systeem voor de omgang met beoordelingsresultaten van studenten dat zowel is afgestemd op leren en remediëren, als op verdedigbaarheid.
 
 @wilkinson2011joining
 
