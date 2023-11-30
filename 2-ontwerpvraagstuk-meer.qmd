@@ -44,16 +44,24 @@ In deze kennisclip gaat Debby Weerlink van Fontys in op de ontwerpprincipes voor
 
 ### Twelve Tips for programmatic assessment 
 
+Dit artikel biedt twaalf concrete tips om programmatisch toetsen in de praktijk te ontwerpen. De auteurs hopen dat je hiermee zo ver als mogelijk kunt komen in jullie eigen praktijk. 
+
 @doi:10.3109/0142159X.2014.973388
 
 ### Embedding of the progress test in an assessment program designed according to the principles of programmatic assessment 
+
+Het inbedden van een voortgangstoets in een beoordelingsprogramma heeft een positieve invloed op de totale scores van die toets, gebruik van feedback uit die toets en waargenomen leerwaarde.
 
 @doi:10.1080/0142159X.2016.1230183
 
 ### Development of a comprehensive clinical performance assessment system for nursing students: a programmatic approach 
 
+Het doel van deze studie was om een uitgebreid beoordelingssysteem te ontwikkelen voor studenten verpleegkunde in hun intensive care stage op basis van een programmatische aanpak.
+
 @imanipour2016development
 
 ### Designing programmes of assessment: a participatory approach 
+
+De auteurs van dit artikel zien participatief actieonderzoek als een haalbare en effectieve manier voor het ontwerp van programmatisch toetsen. 
 
 @jamieson2017designing
