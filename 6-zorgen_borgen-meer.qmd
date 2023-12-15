@@ -2,19 +2,6 @@
 
 Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op het zorgen voor en borgen van de kwaliteit van toetsing bij programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
 
-## Wetenschappelijke publicaties 
-
-### Programmatic assessment: Can we provide evidence for saturation of information?
-
-De auteurs willen valide bewijs leveren voor saturatie van informatie door onderzoek naar de relatie tussen aantal datapunten dat de minimumeis overschrijdt en consensus tussen twee beoordelaars.
-
-@doi:10.1080/0142159X.2018.1555369
-
-### The pursuit of fairness in assessment: Looking beyond the objective 
-
-De auteurs onderzoeken eerlijkheid als een fundamentele kwaliteit van beoordelingen. Deze benadering legitimeert menselijk oordeel en gedeelde subjectiviteit in beslissingen naast objectieve methoden.
-
-@valentine2022pursuit
 
 ## Praktijkgerichte publicaties 
 
@@ -49,3 +36,17 @@ In zeven korte kennisclips wordt ingegaan op het zorgen voor en borgen van kwali
 **Kennisclip 7 - Toetsbekwaamheid**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5c3P3ecE7wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Wetenschappelijke publicaties 
+
+### Programmatic assessment: Can we provide evidence for saturation of information?
+
+De auteurs willen valide bewijs leveren voor saturatie van informatie door onderzoek naar de relatie tussen aantal datapunten dat de minimumeis overschrijdt en consensus tussen twee beoordelaars.
+
+@doi:10.1080/0142159X.2018.1555369
+
+### The pursuit of fairness in assessment: Looking beyond the objective 
+
+De auteurs onderzoeken eerlijkheid als een fundamentele kwaliteit van beoordelingen. Deze benadering legitimeert menselijk oordeel en gedeelde subjectiviteit in beslissingen naast objectieve methoden.
+
+@valentine2022pursuit

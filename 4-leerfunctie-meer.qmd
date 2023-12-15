@@ -1,6 +1,26 @@
 # Meer weten? 
 Er zijn meerdere (wetenschappelijke) publicaties verschenen over programmatisch toetsen waarbij ingegaan wordt op de leerfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
 
+## Praktijkgerichte publicaties 
+
+### Actieve rol van de student in het feedbackproces 
+
+Feedback is een essentieel onderdeel van programmatisch toetsen. Het gaat dan zowel om feedback vragen als om de ontvangen feedback gebruiken. In dit feedbackproces wordt een actieve rol van de student verwacht. Hoe help je de student om deze rol te pakken? In dit webinar gaat Renske de Kleijn hierop in. Het webinar is georganiseerd vanuit het Platform Leren van Toetsen. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rN8w3rvvugY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Zelfregulerend leren 
+
+In dit webinar gaat Niels Bohnen in op de relatie tussen zelfregulerend leren en programmatisch toetsen. Hij maakte deze presentatie in het landelijk leernetwerk programmatisch toetsen. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dtKdXHdGJy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Zelfregulatie, leerstrategieën en zelfbeoordeling 
+
+Binnen de context van programmatisch toetsen wordt van studenten in toenemende mate verwacht dat zij in staat zijn op een effectieve en efficiënte maniet zelfregulatiestrategieën in te zetten. Hoewel bijgevoegd artikel zich primair richt op het voortgezet onderwijs, beidt het duidelijke informatie over zelfregulatie, leerstrategieën en zelfbeoordeling die ook goed toepasbaar zijn binnen de HO-context. 
+
+[Zelfregulatie en eigenaarschap in het VO](https://drive.google.com/file/d/1-s9HDDE7EnKMaj6bdddYN4s1DXp8GC--/view?usp=share_link)
+
 ## Wetenschappelijke publicaties 
 
 ### A scoping review on the notions of Assessment as Learning (AaL), Assessment for Learning (AfL), and Assessment of Learning (AoL) 
@@ -42,23 +62,3 @@ McMaster Modular Assessment Program: een op de werkplek gebaseerd beoordelingssy
 ### Scriptie feedbackcultuur - Marieke van der Linden
 
 In [deze scriptie](https://lerenvantoetsen.nl/wp-content/uploads/2021/11/Scriptie-Feedbackcultuur_Marieke-van-der-Linden-170717.pdf) wordt onderzocht welke factoren invloed kunnen hebben op een 'feedbackcultuur'.
-
-## Praktijkgerichte publicaties 
-
-### Actieve rol van de student in het feedbackproces 
-
-Feedback is een essentieel onderdeel van programmatisch toetsen. Het gaat dan zowel om feedback vragen als om de ontvangen feedback gebruiken. In dit feedbackproces wordt een actieve rol van de student verwacht. Hoe help je de student om deze rol te pakken? In dit webinar gaat Renske de Kleijn hierop in. Het webinar is georganiseerd vanuit het Platform Leren van Toetsen. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rN8w3rvvugY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Zelfregulerend leren 
-
-In dit webinar gaat Niels Bohnen in op de relatie tussen zelfregulerend leren en programmatisch toetsen. Hij maakte deze presentatie in het landelijk leernetwerk programmatisch toetsen. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dtKdXHdGJy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Zelfregulatie, leerstrategieën en zelfbeoordeling 
-
-Binnen de context van programmatisch toetsen wordt van studenten in toenemende mate verwacht dat zij in staat zijn op een effectieve en efficiënte maniet zelfregulatiestrategieën in te zetten. Hoewel bijgevoegd artikel zich primair richt op het voortgezet onderwijs, beidt het duidelijke informatie over zelfregulatie, leerstrategieën en zelfbeoordeling die ook goed toepasbaar zijn binnen de HO-context. 
-
-[Zelfregulatie en eigenaarschap in het VO](https://drive.google.com/file/d/1-s9HDDE7EnKMaj6bdddYN4s1DXp8GC--/view?usp=share_link)

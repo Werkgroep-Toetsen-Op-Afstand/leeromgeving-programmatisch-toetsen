@@ -2,6 +2,14 @@
 
 Er zijn meerdere (wetenschappelijke) artikelen verschenen over programmatisch toetsen waarbij ingegaan wordt op de beslisfunctie van programmatisch toetsen. Onderstaande lijst geeft een overzicht.  
 
+## Praktijkgerichte publicaties 
+
+### Het nemen van zorgvuldige beslissingen 
+
+In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0FiAKThmuUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Wetenschappelijke publicaties 
 
 ### Programmatic assessment: Can we provide evidence for saturation of information? 
@@ -27,11 +35,3 @@ De studie is gericht op het ontwikkelen en valideren van een beoordelingsprogram
 De auteurs beschrijven en evalueren een programmatisch systeem voor de omgang met beoordelingsresultaten van studenten dat zowel is afgestemd op leren en remediëren, als op verdedigbaarheid.
 
 @wilkinson2011joining
-
-## Praktijkgerichte publicaties 
-
-### Het nemen van zorgvuldige beslissingen 
-
-In dit webinar gaat Lubberta de Jong in op het nemen van zorgvuldige, robuuste beslissingen in de context van programmatisch toetsen. Zij maakte deze presentatie voor het landelijk leernetwerk programmatisch toetsen. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0FiAKThmuUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

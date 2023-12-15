@@ -10,7 +10,7 @@ website:
   page-navigation: true
   navbar: 
     left:
-      - text: Onderwerpen
+      - text: Thema's
         menu:
           - sidebar:basis
           - sidebar:ontwerpvraagstuk
@@ -18,7 +18,7 @@ website:
           - sidebar:leerfunctie
           - sidebar:beslisfunctie
           - sidebar:zorgen_borgen
-      - about.qmd
+      - colofon.qmd
       
   sidebar:
     - id: basis

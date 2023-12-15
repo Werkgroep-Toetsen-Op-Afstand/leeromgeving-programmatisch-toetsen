@@ -1,18 +1,15 @@
 ---
-title: "Leeromgeving programmatisch toetsen"
-output: html_document
+title: "Colofon"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Samengesteld onder redactie
 
-# Colofon 
+Deze online leeromgeving is samengesteld onder redactie van Liesbeth Baartman, Tamara van Schilt-Mol en Jan Berends. Zij zijn betrokken bij het landelijke leernetwerk programmatisch toetsen. 
 
-## Het leernetwerk programmatisch toetsen 
+## Web redactie
 
-## Samenstellers van de online leeromgeving 
+De webredactie is uitgevoerd door Rochelle Hurenkamp en Sharon Klinkenberg.
 
-## Versnellingsplan 
+## Financiering
 
-## Bijdragen aan de online leeromgeving? 
+Deze webomgeving is mogelijk gemaakt met behulp van subsidie van de werkgroep toetsen op afstand van het Versnellingsplan onderwijsinnovatie met ICT.
