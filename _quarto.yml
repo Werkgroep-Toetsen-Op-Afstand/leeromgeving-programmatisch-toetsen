@@ -76,6 +76,19 @@ website:
         - 6-zorgen_borgen-praktijk.qmd
         - 6-zorgen_borgen-handvatten.qmd
         - 6-zorgen_borgen-meer.qmd
+    - id: leernetwerk
+      title: "Leernetwerk Programmatisch Toetsen"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - 7-leernetwerk.qmd
+    - id: leernetwerk
+      title: "Leernetwerk Programmatisch Toetsen"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - 7-leernetwerk.qmd
+
 
 format:
   html:

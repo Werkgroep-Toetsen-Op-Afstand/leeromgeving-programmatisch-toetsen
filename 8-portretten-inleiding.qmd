@@ -1,0 +1,15 @@
+---
+title: "Inleiding"
+---
+
+::: {.lead}
+Overweeg je te gaan werken volgens de principes van programmatisch toetsen? Bekijk dan zeker de praktijkvoorbeelden van opleidingen die dit al doen hieronder!
+
+:::
+
+## Over de portretten
+De portretten programmatisch toetsen zijn gebaseerd op interviews die afgenomen zijn met de deelnemers van het landelijk leernetwerk programmatisch toetsen tussen mei 2021 en maart 2022. Elk portret vertegenwoordigt één en soms meerdere opleidingen die programmatisch toetsen aan het ontwikkelen of aan het implementeren zijn.
+
+Elk portret is een momentopname, het geeft weer hoe ver een opleiding op dat moment was in de ontwikkeling of implementatie van programmatisch toetsen.
+
+De portretten geven inzicht in welke keuzes opleidingen maken wanneer ze programmatisch toetsen inzetten of willen inzetten. Deze keuzes kunnen andere opleidingen helpen of inspireren. In de portretten zijn er dan ook geen goede of foute keuzes, het zijn voorbeelden van programmatisch toetsen in het hoger beroepsonderwijs.

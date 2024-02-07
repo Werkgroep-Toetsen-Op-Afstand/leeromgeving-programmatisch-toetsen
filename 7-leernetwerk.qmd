@@ -1,0 +1,27 @@
+---
+title: "Leernetwerk Programmatisch Toetsen"
+---
+
+::: {.lead}
+
+Het Leernetwerk Programmatisch Toetsen is er voor opleidingen die werken volgens de principes van programmatisch toetsen. Ook opleidingen die programmatisch toetsen willen gaan implementeren en in de ontwikkelfase zitten nemen deel. 
+
+:::
+
+## Doel van het netwerk
+Het doel van het leernetwerk is om van en met elkaar te leren. De leden van het leernetwerk verkennen gemeenschappelijke vraagstukken en wisselen tijdens bijeenkomsten kennis en ervaringen uit. Het leernetwerk kent een binnen- en een buitenkring.
+
+## Binnenkring
+De opleidingen in de binnenkring (per studiejaar maximaal 40) komen zes keer per jaar bij elkaar en werken dan gezamenlijk aan praktijkvraagstukken rondom het ontwerpen en de implementatie van programmatisch toetsen. Binnen deze binnenkring zijn er twee groepen. Aan de eerste groep nemen opleidingen deel die programmatisch toetsen aan het ontwerpen zijn en opleidingen die programmatisch toetsen recentelijk/enkele jaren geleden hebben geïmplementeerd. In deze groep staat netwerken, kennisdeling en intervisie centraal. Aan de tweede groep nemen opleidingen deel die al ruime tijd volgens de uitgangspunten van programmatisch toetsen werken en die graag onderzoek doen naar meer complexe vraagstukken in hun eigen praktijk. 
+
+## Buitenkring
+De buitenkring komt driemaal per jaar online bij elkaar. In deze buitenkring participeren opleidingen die (willen) werken volgens de principes van programmatisch toetsen. Dit kunnen bijvoorbeeld opleidingen zijn die zich aan het oriënteren zijn op de mogelijkheid om programmatisch toetsen te gaan implementeren, maar ook opleidingen die al aan het ontwerpen zijn of al (langer) werken volgens de principes van programmatisch toetsen. De buitenkring is daarnaast ook bedoeld voor individuele personen (docenten, onderwijskundigen, etc.) die persoonlijk geïnteresseerd zijn in programmatisch toetsen. In iedere bijeenkomst staat één thema centraal. Aanmelden voor de buitenkringbijeenkomsten kan via [Forms](https://forms.office.com/Pages/ResponsePage.aspx?id=t-dzXeGzAE2zAwVhQLKjtBC181x_XD9Lqc97_ECz0nJUNzJJUFU2UUNUWU45NFo5RU1OSllWREVHUy4u).
+
+## Begeleiding leernetwerk
+De begeleiding van het leernetwerk is in handen van lectoren Liesbeth Baartman (HU) en Tamara van Schilt-Mol (HAN). Zij zijn verantwoordelijk voor de opzet, inhoud en organisatie van het leernetwerk. Zij doen dit samen met meerdere inhouds- en ervaringsdeskundigen, die ook aanwezig zijn tijdens alle bijeenkomsten.
+
+## Deelnemen aan de binnenkring
+Ieder studiejaar start een nieuwe binnenkring. Informatie over mogelijkheden tot aanmelden wordt ieder voorjaar gedeeld via de [LinkedIn-pagina](https://www.linkedin.com/company/programmatisch-toetsen-leernetwerk) van het netwerk en via de nieuwsbrief van het [netwerk Toetsbekwaamheid](https://toetsbekwaamheid.nl/). De bijeenkomsten van het leernetwerk vinden plaats in Congrescentrum Domstad in Utrecht. De deelnemers komen zes keer per jaar een dagdeel bij elkaar.  Per opleiding nemen 2 personen deel aan de 6 binnenkring-bijeenkomsten en 3 buitenkring-bijeenkomsten. Deelname aan het leernetwerk bedraagt 1.250 euro per opleiding.
+
+## Vragen
+Heb je nog aanvullende vragen? Aarzel dan niet om een mailtje te sturen naar [liesbeth.baartman@hu.nl](liesbeth.baartman@hu.nl) en/of [tamara.vanschiltmol@han.nl](tamara.vanschiltmol@han.nl)

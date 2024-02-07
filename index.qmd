@@ -6,7 +6,7 @@ format:
 
 ::: {.column-page}
 
-::: {.grid .header .text-white}
+::: {.h-15 .grid .header .text-white}
 
 ::: {.g-col-12 .g-col-md-9}
 
@@ -33,6 +33,52 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 :::
 
 ::: {.grid}
+
+<!-- remarks -->
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6}
+
+::: {.card .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Verdieping en aan de slag {.card-title}
+
+::: {.card-text}
+
+Wil je na het lezen van de inleidingen per thema nog meer weten of aan de slag? Bij ieder thema zijn praktische handvatten, concrete praktijkvoorbeelden en publicaties (vakpublicaties en wetenschappelijke publicaties) opgenomen. In het menu aan de linkerkant op de thema-pagina’s kun je steeds rechtstreeks naar deze onderdelen. 
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-12 .g-col-md-6}
+
+::: {.card .rounded-3 .mx-auto}
+
+::: {.card-body}
+
+## Voor elk wat wils{.card-title}
+
+::: {.card-text}
+
+Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en onderwijskundigen.  Ben je nog relatief onbekend met het concept van programmatisch toetsen?  Begin dan eens met de keynote die Cees van der Vleuten, de grondlegger van programmatisch toetsen, speciaal voor deze online leeromgeving heeft opgenomen. Je gaat dan naar het thema ‘de basis’ en klikt dan links op ‘publicaties’. Ben je bezig om programmatisch toetsen te implementeren? Wellicht vind je dan het spel ’30 seconds’ interessant. Je gaat dan naar het thema ‘de basis’ en klikt dan op ‘praktische handvatten’. Zo is er voor elk wat wils.
+
+:::
+
+:::
+
+:::
+
+:::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
@@ -182,21 +228,20 @@ Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is be
 
 :::
 
-<!-- remarks -->
 
 <!-- New card --> 
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
-::: {.card .rounded-3 .mx-auto}
+::: {.card  .text-white .bg-info .rounded-3 .mx-auto}
 
 ::: {.card-body}
 
-## Verdieping en aan de slag {.card-title}
+## Leernetwerk {.card-title}
 
 ::: {.card-text}
 
-Wil je na het lezen van de inleidingen per thema nog meer weten of aan de slag? Bij ieder thema zijn praktische handvatten, concrete praktijkvoorbeelden en publicaties (vakpublicaties en wetenschappelijke publicaties) opgenomen. In het menu aan de linkerkant op de thema-pagina’s kun je steeds rechtstreeks naar deze onderdelen. 
+* [Informatie over het leernetwerk](7-leernetwerk.qmd){.link-light}
 
 :::
 
@@ -205,20 +250,22 @@ Wil je na het lezen van de inleidingen per thema nog meer weten of aan de slag? 
 :::
 
 :::
+
 
 <!-- New card --> 
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
-::: {.card .rounded-3 .mx-auto}
+::: {.card  .text-white .bg-info .rounded-3 .mx-auto}
 
 ::: {.card-body}
 
-## Voor elk wat wils{.card-title}
+## Portretten {.card-title}
 
 ::: {.card-text}
 
-Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en onderwijskundigen.  Ben je nog relatief onbekend met het concept van programmatisch toetsen?  Begin dan eens met de keynote die Cees van der Vleuten, de grondlegger van programmatisch toetsen, speciaal voor deze online leeromgeving heeft opgenomen. Je gaat dan naar het thema ‘de basis’ en klikt dan links op ‘publicaties’. Ben je bezig om programmatisch toetsen te implementeren? Wellicht vind je dan het spel ’30 seconds’ interessant. Je gaat dan naar het thema ‘de basis’ en klikt dan op ‘praktische handvatten’. Zo is er voor elk wat wils.
+* [Inleiding](8-portretten-inleiding.qmd){.link-light}
+* [Portretten](8-portretten-praktijk.qmd){.link-light}
 
 :::
 
@@ -227,7 +274,6 @@ Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en
 :::
 
 :::
-
 
 :::
 <!-- end card grid -->

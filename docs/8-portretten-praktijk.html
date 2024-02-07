@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Leeromgeving programmatisch toetsen - Praktijkvoorbeelden</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/boom-klein.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leeromgeving programmatisch toetsen</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-themas" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Thema’s</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-themas">    
+        <li>
+    <a class="dropdown-item" href="./1-basis.html" rel="" target="">
+ <span class="dropdown-text">Basis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html" rel="" target="">
+ <span class="dropdown-text">Ontwerpvraagstuk</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./3-implementeren.html" rel="" target="">
+ <span class="dropdown-text">Implementeren</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./4-leerfunctie.html" rel="" target="">
+ <span class="dropdown-text">Leerfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./5-beslisfunctie.html" rel="" target="">
+ <span class="dropdown-text">Beslisfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./6-zorgen_borgen.html" rel="" target="">
+ <span class="dropdown-text">Zorgen en borgen</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./colofon.html" rel="" target="">
+ <span class="menu-text">Colofon</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hogeschool-van-arnhem-en-nijmegen-opleiding-mondzorgkunde" id="toc-hogeschool-van-arnhem-en-nijmegen-opleiding-mondzorgkunde" class="nav-link active" data-scroll-target="#hogeschool-van-arnhem-en-nijmegen-opleiding-mondzorgkunde">Hogeschool van Arnhem en Nijmegen: opleiding Mondzorgkunde</a></li>
+  <li><a href="#avans-hogeschool-business-innovation-2021-2022" id="toc-avans-hogeschool-business-innovation-2021-2022" class="nav-link" data-scroll-target="#avans-hogeschool-business-innovation-2021-2022">Avans hogeschool: Business Innovation (2021 – 2022)</a></li>
+  <li><a href="#hogeschool-van-amsterdam-opleiding-voeding-diëtetiek-2021-2022" id="toc-hogeschool-van-amsterdam-opleiding-voeding-diëtetiek-2021-2022" class="nav-link" data-scroll-target="#hogeschool-van-amsterdam-opleiding-voeding-diëtetiek-2021-2022">Hogeschool van Amsterdam: opleiding Voeding &amp; Diëtetiek (2021 – 2022)</a></li>
+  <li><a href="#han-sportkunde-en-alo-voortbouwen-op-talenten-om-te-komen-tot-een-eigen-visitekaartje" id="toc-han-sportkunde-en-alo-voortbouwen-op-talenten-om-te-komen-tot-een-eigen-visitekaartje" class="nav-link" data-scroll-target="#han-sportkunde-en-alo-voortbouwen-op-talenten-om-te-komen-tot-een-eigen-visitekaartje">HAN: Sportkunde en ALO – voortbouwen op talenten om te komen tot een eigen visitekaartje</a></li>
+  <li><a href="#fontys-hogescholen-bachelor-communicatie-international-event-music-and-entertainment-studies-iemes" id="toc-fontys-hogescholen-bachelor-communicatie-international-event-music-and-entertainment-studies-iemes" class="nav-link" data-scroll-target="#fontys-hogescholen-bachelor-communicatie-international-event-music-and-entertainment-studies-iemes">Fontys Hogescholen: Bachelor Communicatie – International Event Music and Entertainment Studies (IEMES)</a></li>
+  <li><a href="#hogeschool-saxion-opleiding-bedrijfskunde-2021-2022" id="toc-hogeschool-saxion-opleiding-bedrijfskunde-2021-2022" class="nav-link" data-scroll-target="#hogeschool-saxion-opleiding-bedrijfskunde-2021-2022">Hogeschool Saxion: opleiding Bedrijfskunde (2021 – 2022)</a></li>
+  <li><a href="#hogeschool-windesheim-opleiding-oefentherapie-programmatisch-toetsen-ontwerpen-voor-een-nieuwe-opleiding-2022" id="toc-hogeschool-windesheim-opleiding-oefentherapie-programmatisch-toetsen-ontwerpen-voor-een-nieuwe-opleiding-2022" class="nav-link" data-scroll-target="#hogeschool-windesheim-opleiding-oefentherapie-programmatisch-toetsen-ontwerpen-voor-een-nieuwe-opleiding-2022">Hogeschool Windesheim: Opleiding Oefentherapie – programmatisch toetsen ontwerpen voor een nieuwe opleiding (2022)</a></li>
+  <li><a href="#hogeschool-utrecht-opleiding-communicatie-als-opleiding-ingroeien-in-programmatisch-toetsen-2022" id="toc-hogeschool-utrecht-opleiding-communicatie-als-opleiding-ingroeien-in-programmatisch-toetsen-2022" class="nav-link" data-scroll-target="#hogeschool-utrecht-opleiding-communicatie-als-opleiding-ingroeien-in-programmatisch-toetsen-2022">Hogeschool Utrecht: Opleiding Communicatie – als opleiding ingroeien in programmatisch toetsen (2022)</a></li>
+  <li><a href="#has-toegepaste-biologie-ambitieuze-plannen-voor-programmatisch-toetsen-2021" id="toc-has-toegepaste-biologie-ambitieuze-plannen-voor-programmatisch-toetsen-2021" class="nav-link" data-scroll-target="#has-toegepaste-biologie-ambitieuze-plannen-voor-programmatisch-toetsen-2021">HAS Toegepaste Biologie: ambitieuze plannen voor programmatisch toetsen (2021)</a></li>
+  <li><a href="#hogeschool-van-amsterdam-educatief-professional-beroepsonderwijs-ad-programmatisch-toetsen-met-veel-flexibiliteit-2022" id="toc-hogeschool-van-amsterdam-educatief-professional-beroepsonderwijs-ad-programmatisch-toetsen-met-veel-flexibiliteit-2022" class="nav-link" data-scroll-target="#hogeschool-van-amsterdam-educatief-professional-beroepsonderwijs-ad-programmatisch-toetsen-met-veel-flexibiliteit-2022">Hogeschool van Amsterdam: Educatief Professional Beroepsonderwijs (AD) – programmatisch toetsen met veel flexibiliteit (2022)</a></li>
+  <li><a href="#hogeschool-arnhem-en-nijmegen-opleiding-voeding-en-diëtetiek-2020-2021" id="toc-hogeschool-arnhem-en-nijmegen-opleiding-voeding-en-diëtetiek-2020-2021" class="nav-link" data-scroll-target="#hogeschool-arnhem-en-nijmegen-opleiding-voeding-en-diëtetiek-2020-2021">Hogeschool Arnhem en Nijmegen: opleiding Voeding en Diëtetiek (2020 – 2021)</a></li>
+  <li><a href="#hogeschool-utrecht-minor-leefstijl-coaching-2021-2022" id="toc-hogeschool-utrecht-minor-leefstijl-coaching-2021-2022" class="nav-link" data-scroll-target="#hogeschool-utrecht-minor-leefstijl-coaching-2021-2022">Hogeschool Utrecht: minor Leefstijl Coaching (2021-2022)</a></li>
+  <li><a href="#fontys-ict-programmatisch-toetsen-in-het-eerste-semester-van-de-propedeuse-2020-2021" id="toc-fontys-ict-programmatisch-toetsen-in-het-eerste-semester-van-de-propedeuse-2020-2021" class="nav-link" data-scroll-target="#fontys-ict-programmatisch-toetsen-in-het-eerste-semester-van-de-propedeuse-2020-2021">Fontys ICT: programmatisch toetsen in het eerste semester van de propedeuse (2020 – 2021)</a></li>
+  <li><a href="#aeres-hogeschool-opleiding-food-systems-innovation-2020-2021" id="toc-aeres-hogeschool-opleiding-food-systems-innovation-2020-2021" class="nav-link" data-scroll-target="#aeres-hogeschool-opleiding-food-systems-innovation-2020-2021">Aeres Hogeschool: opleiding Food Systems Innovation (2020-2021)</a></li>
+  <li><a href="#marnix-academie-het-inzetten-van-programmatisch-toetsen-voor-het-opleiden-van-zelfregulerende-onderwijsprofessionals-2022" id="toc-marnix-academie-het-inzetten-van-programmatisch-toetsen-voor-het-opleiden-van-zelfregulerende-onderwijsprofessionals-2022" class="nav-link" data-scroll-target="#marnix-academie-het-inzetten-van-programmatisch-toetsen-voor-het-opleiden-van-zelfregulerende-onderwijsprofessionals-2022">Marnix Academie: het inzetten van programmatisch toetsen voor het opleiden van zelfregulerende onderwijsprofessionals (2022)</a></li>
+  <li><a href="#hogeschool-arnhem-en-nijmegen-master-ontwerpen-van-eigentijds-leren-2020-2021" id="toc-hogeschool-arnhem-en-nijmegen-master-ontwerpen-van-eigentijds-leren-2020-2021" class="nav-link" data-scroll-target="#hogeschool-arnhem-en-nijmegen-master-ontwerpen-van-eigentijds-leren-2020-2021">Hogeschool Arnhem en Nijmegen: Master Ontwerpen van Eigentijds Leren (2020-2021)</a></li>
+  <li><a href="#hogeschool-van-amsterdam-hbo-ict-2021" id="toc-hogeschool-van-amsterdam-hbo-ict-2021" class="nav-link" data-scroll-target="#hogeschool-van-amsterdam-hbo-ict-2021">Hogeschool van Amsterdam: HBO ICT (2021)</a></li>
+  <li><a href="#fontys-paramedische-hogeschool-een-omvangrijk-ontwerp-en-implementatieproces-2020-2021" id="toc-fontys-paramedische-hogeschool-een-omvangrijk-ontwerp-en-implementatieproces-2020-2021" class="nav-link" data-scroll-target="#fontys-paramedische-hogeschool-een-omvangrijk-ontwerp-en-implementatieproces-2020-2021">Fontys Paramedische Hogeschool: een omvangrijk ontwerp en implementatieproces (2020-2021)</a></li>
+  <li><a href="#hogeschool-inholland-opleiding-pedagogiek-2020-2021" id="toc-hogeschool-inholland-opleiding-pedagogiek-2020-2021" class="nav-link" data-scroll-target="#hogeschool-inholland-opleiding-pedagogiek-2020-2021">Hogeschool Inholland: opleiding Pedagogiek (2020-2021)</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/werkgroep-toetsen-op-afstand/leeromgeving-programmatisch-toetsen/edit/main/8-portretten-praktijk.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/werkgroep-toetsen-op-afstand/leeromgeving-programmatisch-toetsen/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Praktijkvoorbeelden</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="lead">
+<p>Hieronder staat het overzicht van 19 portretten zoals gepubliceerd op het platform Leren van Toetsen.</p>
+</div>
+<section id="hogeschool-van-arnhem-en-nijmegen-opleiding-mondzorgkunde" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-van-arnhem-en-nijmegen-opleiding-mondzorgkunde">Hogeschool van Arnhem en Nijmegen: opleiding Mondzorgkunde</h2>
+<p>Als je belangrijke beslissingen neemt over studenten zoals het toekennen van (grote aantallen) studiepunten, wat uiteindelijk zal leiden tot het toekennen van een diploma, dan is het belangrijk dat deze beslissing betrouwbaar en valide is.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/hogeschool-van-arnhem-en-nijmegen-opleiding-mondzorgkunde/">Hogeschool van Arnhem en Nijmegen: opleiding Mondzorgkunde</a></p>
+</section>
+<section id="avans-hogeschool-business-innovation-2021-2022" class="level2">
+<h2 class="anchored" data-anchor-id="avans-hogeschool-business-innovation-2021-2022">Avans hogeschool: Business Innovation (2021 – 2022)</h2>
+<p>Sinds september 2021 is de bacheloropleiding Business Innovation aan de Avans Hogeschool gestart met het implementeren van programmatisch toetsen in het propedeusejaar. Hierbij gaat het om drie onderwijseenheden (modules) van elk 11 EC. Momenteel is de opleiding bezig met herontwikkeling per jaar om zo de gehele opleiding programmatisch in te richten. De focus van dit portret ligt op het programmatisch toetsen in het propedeusejaar en is een momentopname van mei 2022.</p>
+<p><a href="https://lerenvantoetsen.nl/avans-hogeschool-business-innovation-2021-2022/">Avans hogeschool: Business Innovation</a></p>
+</section>
+<section id="hogeschool-van-amsterdam-opleiding-voeding-diëtetiek-2021-2022" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-van-amsterdam-opleiding-voeding-diëtetiek-2021-2022">Hogeschool van Amsterdam: opleiding Voeding &amp; Diëtetiek (2021 – 2022)</h2>
+<p>Studenten van de bacheloropleiding Voeding &amp; Diëtetiek aan de Hogeschool van Amsterdam worden opgeleid tot voedingsprofessionals. De gehele opleiding telt 800-900 studenten. De opleiding is in 2020 gestart met het implementeren van programmatisch toetsen in ongeveer de helft van het eerste jaar. De opleiding is momenteel bezig om stap voor stap programmatisch toetsen ook in de andere leerjaren te implementeren. In dit portret lees je meer over ontwerpkeuzes en de implementatie van programmatisch toetsen in de hoofdfase (jaar 2 en 3, 90 EC) van de opleiding.</p>
+<p><a href="https://lerenvantoetsen.nl/hva-voeding-dietetiek-2021-2022/">Hogeschool van Amsterdam: opleiding Voeding &amp; Diëtetiek</a></p>
+</section>
+<section id="han-sportkunde-en-alo-voortbouwen-op-talenten-om-te-komen-tot-een-eigen-visitekaartje" class="level2">
+<h2 class="anchored" data-anchor-id="han-sportkunde-en-alo-voortbouwen-op-talenten-om-te-komen-tot-een-eigen-visitekaartje">HAN: Sportkunde en ALO – voortbouwen op talenten om te komen tot een eigen visitekaartje</h2>
+<p>De afstudeerfase (60 EC) van de opleidingen Algemene Lichamelijke Opvoeding (ALO) en Sportkunde van de HAN zijn programmatisch ingericht. In september 2020 is de opleiding Sportkunde begonnen en september 2021 is ook de ALO gestart. Dit portret is een momentopname van begin 2022.</p>
+<p><a href="https://lerenvantoetsen.nl/han-alo-sportkunde/">HAN: Sportkunde en ALO</a></p>
+</section>
+<section id="fontys-hogescholen-bachelor-communicatie-international-event-music-and-entertainment-studies-iemes" class="level2">
+<h2 class="anchored" data-anchor-id="fontys-hogescholen-bachelor-communicatie-international-event-music-and-entertainment-studies-iemes">Fontys Hogescholen: Bachelor Communicatie – International Event Music and Entertainment Studies (IEMES)</h2>
+<p>De bacheloropleiding Communicatie International Event Music and Entertainment Studies (CO IEMES) van Fontys bestaat uit ongeveer 650-700 studenten. De opleiding is in 2018 gestart met het implementeren van programmatisch toetsen in jaar 2. Inmiddels wordt programmatisch toetsen binnen de gehele opleiding toegepast. Lees hier meer over hoe zij dit hebben aangepakt en waar zij staan in dit proces begin 2022.</p>
+<p><a href="https://lerenvantoetsen.nl/fontys-iemes/">Fontys Hogescholen: IEMES</a></p>
+</section>
+<section id="hogeschool-saxion-opleiding-bedrijfskunde-2021-2022" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-saxion-opleiding-bedrijfskunde-2021-2022">Hogeschool Saxion: opleiding Bedrijfskunde (2021 – 2022)</h2>
+<p>De bacheloropleiding Bedrijfskunde van de Saxion Hogeschool is in februari 2022 gestart met een pilot (30 voltijdstudenten) voor programmatisch toetsen in het eerste jaar. Hetgeen geleerd is tijdens de pilot, heeft de opleiding meegenomen bij het implementeren van programmatisch toetsen in studiejaar 2022-2023, waarbij programmatisch toetsen in de gehele opleiding wordt ingezet. De ervaringen met de pilot en de implementatie van programmatisch toetsen in het gehele programma worden gedeeld in dit portret.</p>
+<p><a href="https://lerenvantoetsen.nl/hogeschool-saxion-opleiding-bedrijfskunde-2021-2022/">Hogeschool Saxion: opleiding Bedrijfskunde</a></p>
+</section>
+<section id="hogeschool-windesheim-opleiding-oefentherapie-programmatisch-toetsen-ontwerpen-voor-een-nieuwe-opleiding-2022" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-windesheim-opleiding-oefentherapie-programmatisch-toetsen-ontwerpen-voor-een-nieuwe-opleiding-2022">Hogeschool Windesheim: Opleiding Oefentherapie – programmatisch toetsen ontwerpen voor een nieuwe opleiding (2022)</h2>
+<p>Aan Hogeschool Windesheim is de opleiding Oefentherapie nieuw gestart in september 2022. De opleiding bestaat al wel bij Hogeschool Utrecht en de Hogeschool van Amsterdam. Echter is het laatste cohort bij de Hogeschool Utrecht in september 2021 gestart en in Amsterdam verandert de opleiding waarbij studenten breder starten en oefentherapie een uitstroomrichting is. Oefentherapie aan de Hogeschool Windesheim is echt een aparte opleiding gericht op oefentherapie. Oefentherapie is een vak waarin heel holistisch gekeken wordt naar de mens. De opleiding wil studenten leren om holistisch naar de mens te kijken en wil zelf dan ook zo naar studenten kijken. Vanuit die visie heeft de opleiding gekozen voor programmatisch toetsen. Oefentherapie is een nieuwe opleiding, waardoor het ontwikkelteam de opleiding volledig vanuit deze visie kon gaan vormgeven.</p>
+<p><a href="https://lerenvantoetsen.nl/hogeschool-windesheim-opleiding-oefentherapie-programmatisch-toetsen-ontwerpen-voor-een-nieuwe-opleiding/">Hogeschool Windesheim: Opleiding Oefentherapie</a></p>
+</section>
+<section id="hogeschool-utrecht-opleiding-communicatie-als-opleiding-ingroeien-in-programmatisch-toetsen-2022" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-utrecht-opleiding-communicatie-als-opleiding-ingroeien-in-programmatisch-toetsen-2022">Hogeschool Utrecht: Opleiding Communicatie – als opleiding ingroeien in programmatisch toetsen (2022)</h2>
+<p>De bacheloropleiding Communicatie aan de Hogeschool Utrecht heeft al de nodige ervaring met programmatisch toetsen: in 2017 zijn ze gestart met het implementeren van programmatisch toetsen in het tweede leerjaar en ondertussen wordt in de gehele opleiding programmatisch getoetst. Elk jaar beginnen tussen de 150 en 200 nieuwe studenten aan de opleiding met in totaal ongeveer 600 a 700 studenten. In dit portret lees je hoe ze gaandeweg zijn ingegroeid in het werken met programmatisch toetsen.</p>
+<p><a href="https://lerenvantoetsen.nl/hogeschool-utrecht-opleiding-communicatie-als-opleiding-ingroeien-in-programmatisch-toetsen-2022/">Hogeschool Utrecht: Opleiding Communicatie</a></p>
+</section>
+<section id="has-toegepaste-biologie-ambitieuze-plannen-voor-programmatisch-toetsen-2021" class="level2">
+<h2 class="anchored" data-anchor-id="has-toegepaste-biologie-ambitieuze-plannen-voor-programmatisch-toetsen-2021">HAS Toegepaste Biologie: ambitieuze plannen voor programmatisch toetsen (2021)</h2>
+<p>De opleiding Toegepaste Biologie heeft het ontwerpen van programmatisch toetsen serieus aangepakt en hebben de tijd genomen om tot een gedegen ontwerp te komen. Ze zijn begonnen met het formuleren van de leeruitkomsten, hebben vervolgens de datapunten en het bijbehorende onderwijs uitgewerkt, en zich daarna op de beslisprocedure gericht. In september 2022 is de opleiding van start gegaan met programmatisch toetsen vanaf het eerste leerjaar terwijl het ontwerpproces voor de andere leerjaren doorloopt. In dit portret lees je meet over de aanpak van Toegepaste Biologie van HAS Green academy.</p>
+<p><a href="https://lerenvantoetsen.nl/has_toegepaste_biologie/">HAS Toegepaste Biologie</a></p>
+</section>
+<section id="hogeschool-van-amsterdam-educatief-professional-beroepsonderwijs-ad-programmatisch-toetsen-met-veel-flexibiliteit-2022" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-van-amsterdam-educatief-professional-beroepsonderwijs-ad-programmatisch-toetsen-met-veel-flexibiliteit-2022">Hogeschool van Amsterdam: Educatief Professional Beroepsonderwijs (AD) – programmatisch toetsen met veel flexibiliteit (2022)</h2>
+<p>De opleiding Educatief Professional Beroepsonderwijs is een kleine associate degree (AD) opleiding. Er zitten in het studiejaar 2021-2022 vier studenten in het eerste leerjaar en twaalf studenten in het tweede leerjaar. De opleiding wil inzetten op langdurige ontwikkeling en veel flexibiliteit voor de studenten. In dit portret lees je hoe ze programmatisch toetsen gebruiken om deze doelstellingen te bereiken.</p>
+<p><a href="https://lerenvantoetsen.nl/hogeschool-van-amsterdam-educatief-professional-beroepsonderwijs-ad-programmatisch-toetsen-met-veel-flexibiliteit-2022/">Hogeschool van Amsterdam: Educatief Professional Beroepsonderwijs (AD)</a></p>
+</section>
+<section id="hogeschool-arnhem-en-nijmegen-opleiding-voeding-en-diëtetiek-2020-2021" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-arnhem-en-nijmegen-opleiding-voeding-en-diëtetiek-2020-2021">Hogeschool Arnhem en Nijmegen: opleiding Voeding en Diëtetiek (2020 – 2021)</h2>
+<p>De voltijdopleiding Voeding en Diëtetiek van de Hogeschool Arnhem en Nijmegen is een vierjarige hbo-opleiding met +/- 600 studenten. Vanaf studiejaar 2019-2020 heeft de opleiding een deel van het propedeusejaar en een deel van het tweede jaar programmatisch ingericht. Stapsgewijs wil de opleiding in studiejaar 2021-2022 programmatisch toetsen in de gehele opleiding inzetten. Dit portret is een momentopname van juli 2021.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/han-voeding-dietetiek/">Hogeschool Arnhem en Nijmegen: opleiding Voeding en Diëtetiek</a></p>
+</section>
+<section id="hogeschool-utrecht-minor-leefstijl-coaching-2021-2022" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-utrecht-minor-leefstijl-coaching-2021-2022">Hogeschool Utrecht: minor Leefstijl Coaching (2021-2022)</h2>
+<p>Op de Hogeschool van Utrecht kunnen studenten de minor Leefstijl Coaching volgen. Deze minor heeft een omvang van 30 EC, duurt een half jaar en is voor zowel voltijd- als deeltijdstudenten. De minor telt +/- 30 studenten. Een deel van de minor (20 EC) is programmatisch ingericht. Dit portret is een momentopname van begin 2022.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/hogeschool-utrecht-minor-leefstijl-coaching-2021-2022/">Hogeschool Utrecht: minor Leefstijl Coaching</a></p>
+</section>
+<section id="fontys-ict-programmatisch-toetsen-in-het-eerste-semester-van-de-propedeuse-2020-2021" class="level2">
+<h2 class="anchored" data-anchor-id="fontys-ict-programmatisch-toetsen-in-het-eerste-semester-van-de-propedeuse-2020-2021">Fontys ICT: programmatisch toetsen in het eerste semester van de propedeuse (2020 – 2021)</h2>
+<p>De opleiding ICT aan Fontys Hogeschool is toegankelijk voor Nederlandse en internationale studenten en biedt verschillende leervormen om kennis en vaardigheden op te doen. In het allereerste semester van de course-based leervorm wordt gewerkt volgens de uitgangspunten van programmatisch toetsen. De opleiding beoordeelt studenten op het geheel van wat ze kunnen in plaats van naar losse modules te kijken.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/aeres-2/">Fontys ICT: propedeuse</a></p>
+</section>
+<section id="aeres-hogeschool-opleiding-food-systems-innovation-2020-2021" class="level2">
+<h2 class="anchored" data-anchor-id="aeres-hogeschool-opleiding-food-systems-innovation-2020-2021">Aeres Hogeschool: opleiding Food Systems Innovation (2020-2021)</h2>
+<p>Food Systems Innovation is een Engelstalige éénjarige masteropleiding van 60 EC aan Aeres Hogeschool met een instroom van 15 á 20 studenten per jaar. In de visie van de opleiding staat ontwikkelingsgericht opleiden centraal, waarbij studenten constant werken aan de vijf eindkwalificaties van de opleiding en zo professionals worden die geleerd hebben zich continu te ontwikkelen. De opleiding kent drie onderwijsperiodes die ieder bestaan uit twee onderwijsmodules. De opleiding Food Systems Innovations is per september 2021 gestart met het implementeren van programmatisch toetsen. In dit profiel lees je hoe ze dit aanpakken.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/aeres/">Aeres Hogeschool: opleiding Food Systems Innovation</a></p>
+</section>
+<section id="marnix-academie-het-inzetten-van-programmatisch-toetsen-voor-het-opleiden-van-zelfregulerende-onderwijsprofessionals-2022" class="level2">
+<h2 class="anchored" data-anchor-id="marnix-academie-het-inzetten-van-programmatisch-toetsen-voor-het-opleiden-van-zelfregulerende-onderwijsprofessionals-2022">Marnix Academie: het inzetten van programmatisch toetsen voor het opleiden van zelfregulerende onderwijsprofessionals (2022)</h2>
+<p>De Marnix Academie (Pabo Utrecht) is een voltijd bachelor opleiding met een totale studielast van 240 ECT. De opleiding is in september 2021 voor het nieuwe cohort gestart met een nieuw curriculum waarbij voor programmatisch toetsen is gekozen. Het gaat hierbij om zo’n 250 studenten. Dit portret is een momentopname van begin 2022.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/marnix/">Marnix Academie: onderwijsprofessionals</a></p>
+</section>
+<section id="hogeschool-arnhem-en-nijmegen-master-ontwerpen-van-eigentijds-leren-2020-2021" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-arnhem-en-nijmegen-master-ontwerpen-van-eigentijds-leren-2020-2021">Hogeschool Arnhem en Nijmegen: Master Ontwerpen van Eigentijds Leren (2020-2021)</h2>
+<p>De deeltijd masteropleiding ontwerpen van eigentijds leren (MOVEL) van de Hogeschool van Arnhem en Nijmegen (HAN) is een tweejarige masteropleiding met een totale studiebelasting van 60 ECT. Studenten hebben 1 dag per week een bijeenkomst, verder ontwikkelen zij zich op de werkplek en werken zij samen in de online leeromgeving. De opleiding is gestart in september 2019 met ongeveer 20 studenten; in 2021 zijn er ongeveer 50 studenten gestart. In dit portret wordt uitgelegd hoe zij werken volgens de principes van programmatisch toetsen.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/han-movel/">Hogeschool Arnhem en Nijmegen: Master Ontwerpen van Eigentijds Leren</a></p>
+</section>
+<section id="hogeschool-van-amsterdam-hbo-ict-2021" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-van-amsterdam-hbo-ict-2021">Hogeschool van Amsterdam: HBO ICT (2021)</h2>
+<p>HBO ICT wil uiteindelijk de hele bachelor ICT richting programmatisch toetsen (als onderdeel van een onderwijsvernieuwing), maar dit wordt gefaseerd uitgerold, beginnend bij het 3e leerjaar van de leerroute Business IT &amp; Management. In februari 2021 is binnen deze leerroute voor het eerst gestart met programmatisch toetsen. Naast deze leerroute wordt in dit portret ook ingegaan op een experiment bij de leerroute Game Development.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/hogeschool-van-amsterdam_hbo-ict/">Hogeschool van Amsterdam: HBO ICT</a></p>
+</section>
+<section id="fontys-paramedische-hogeschool-een-omvangrijk-ontwerp-en-implementatieproces-2020-2021" class="level2">
+<h2 class="anchored" data-anchor-id="fontys-paramedische-hogeschool-een-omvangrijk-ontwerp-en-implementatieproces-2020-2021">Fontys Paramedische Hogeschool: een omvangrijk ontwerp en implementatieproces (2020-2021)</h2>
+<p>Fontys Paramedische Hogeschool (FPH) startte in september 2021 met programmatisch toetsen in de afstudeerfase van 5 bacheloropleidingen: een omvangrijk ontwerp en implementatieproces. De FPH visie op leren gaat uit van de lerende aan het stuur, leren vanuit een uitdagende, authentieke beroepscontext en het geleerde integraal toepassen in de praktijk. In dit portret vertellen ze meer over hun gekozen aanpak.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/fontys-paramedische-hogeschool-een-omvangrijk-ontwerp-en-implementatieproces-2020-2021/">Fontys Paramedische Hogeschool</a></p>
+</section>
+<section id="hogeschool-inholland-opleiding-pedagogiek-2020-2021" class="level2">
+<h2 class="anchored" data-anchor-id="hogeschool-inholland-opleiding-pedagogiek-2020-2021">Hogeschool Inholland: opleiding Pedagogiek (2020-2021)</h2>
+<p>De bacheloropleiding Pedagogiek van hogeschool Inholland bestaat uit ongeveer 500 tot 550 voltijd studenten. De opleiding is per 1 september 2021 begonnen met het implementeren van programmatisch toetsen voor leerjaar 1 en 2 per nieuw cohort. In dit portret vertellen zij hoe zij dit hebben aangepakt.</p>
+<p><a href="https://lerenvantoetsen.nl/praktijkvoorbeelden/hogeschool-inholland-opleiding-pedagogiek-2020-2021/">Hogeschool Inholland: opleiding Pedagogiek</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

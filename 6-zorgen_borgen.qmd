@@ -31,7 +31,7 @@ Het toetsbeleid is het geheel aan vastgestelde afspraken over toetsen en beoorde
 
 ### Borgen van toetskwaliteit 
 
-* Wees scherp op de vraag of programmatisch toetsen volgens de bedoeling (zie de uitgangspunten van programmatisch toetsen) wordt ingezet (VERWIJZING naar : Biemond - Overzicht van signalen voor ‘slechte invoering van PT’). 
+* Wees scherp op de vraag of programmatisch toetsen volgens de bedoeling (zie de uitgangspunten van programmatisch toetsen) wordt ingezet. 
 * Ga na of het toetsbeleid de examencommissies voldoende mogelijkheden geeft haar borgende taak uit te voeren. 
 * Ga na of het toetsbeleid bekend is bij alle relevante actoren en wordt nageleefd. 
 
