@@ -233,7 +233,7 @@ Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
-::: {.card  .text-white .bg-info .rounded-3 .mx-auto}
+::: {.card  .text-white .bg-info .rounded-3 .mx-auto .h-100}
 
 ::: {.card-body}
 
@@ -256,7 +256,7 @@ Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 
-::: {.card  .text-white .bg-info .rounded-3 .mx-auto}
+::: {.card  .text-white .bg-info .rounded-3 .mx-auto .h-100}
 
 ::: {.card-body}
 
