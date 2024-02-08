@@ -83,11 +83,12 @@ website:
       contents:
         - 7-leernetwerk.qmd
     - id: leernetwerk
-      title: "Leernetwerk Programmatisch Toetsen"
+      title: "Portretten"
       style: "docked"
       collapse-level: 2
       contents:
-        - 7-leernetwerk.qmd
+        - 8-portretten-inleiding.qmd
+        - 8-portretten-praktijk.qmd
 
 
 format:
