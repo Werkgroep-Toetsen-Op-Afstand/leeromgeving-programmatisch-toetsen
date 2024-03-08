@@ -24,3 +24,10 @@ De Hogeschool Utrecht ontwikkelde een praktische handreiking voor opleidingen di
 
 [Ervaringen met programmatisch toetsen: verslag van de themabijeenkomst](https://lerenvantoetsen.nl/ervaringen-met-programmatisch-toetsen-verslag-van-de-themabijeenkomst/)
 
+## Ontwerptool medium stakes
+
+In het leernetwerk programmatisch toetsen 2022-2023 zijn verschillende tools ontwikkeld die bruikbaar kunnen zijn voor opleidingen die programmatisch willen toetsen. Deze ontwerptool kun je gebruiken om samen medium-stakes beslissingen te ontwerpen in een opleiding waarin programmatisch wordt getoetst. Verschillende ontwerpvragen helpen je het gesprek hierover te voeren.  
+
+[Ontwerptool documentatie](https://docs.google.com/document/d/1wwphFIJ-h8-poJZfVXiWYJFKB62o_8We/edit?usp=share_link&ouid=107473526964173779461&rtpof=true&sd=true)
+
+[Ontwerptool invuldiagram](https://drive.google.com/file/d/16Zbb-0V9qmIp886CVcOlxRXmHK3XUEIk/view?usp=share_link)
