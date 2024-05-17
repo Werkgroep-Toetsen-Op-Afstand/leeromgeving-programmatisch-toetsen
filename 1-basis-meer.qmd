@@ -105,3 +105,9 @@ Dit artikel bevat een review dat werd uitgevoerd om de resultaten te beoordelen 
 Dit artikel beschrijft opvallende theoretische perspectieven op programmatisch toetsen en er wordt onderzocht hoe theorie onderwijsprofessionals kan helpen effectieve programma's te ontwikkelen.
 
 @torre2020theoretical
+
+### Assessment and feedback in higher education reimagined: using programmatic assessment to transform higher education
+
+In dit artikel worden de uitgangspunten va programmatisch toetsen beschreven en wordt een aantal handvatten gegeven voor opleidingen die willen starten met programmatisch toetsen.
+
+@doi:10.1080/13603108.2023.2283118

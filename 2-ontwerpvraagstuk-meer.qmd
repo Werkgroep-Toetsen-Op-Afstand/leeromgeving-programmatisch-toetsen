@@ -65,3 +65,9 @@ Het doel van deze studie was om een uitgebreid beoordelingssysteem te ontwikkele
 De auteurs van dit artikel zien participatief actieonderzoek als een haalbare en effectieve manier voor het ontwerp van programmatisch toetsen. 
 
 @jamieson2017designing
+
+### Programmatic assessment design choices in nine programs in higher education
+
+In dit artikel worden de opbrengsten beschreven van een onderzoek naar ontwerpkeuzes van 9 opleidingen in het Nederlandse hoger (beroeps)onderwijs.
+
+@doi:10.3389/feduc.2022.931980
