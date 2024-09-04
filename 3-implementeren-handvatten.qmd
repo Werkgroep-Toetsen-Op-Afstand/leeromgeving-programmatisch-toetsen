@@ -5,3 +5,12 @@
 In deze blog wordt stilgestaan bij een viertal voorwaarden waaraan voldaan moet zijn om te kunnen starten met het ontwerpen en implementeren van programmatisch toetsen.
 
 [Programmatisch toetsen in het hbo: dat vraagt moed!](https://lerenvantoetsen.nl/programmatisch-toetsen-in-het-hbo-dat-vraagt-moed/)
+
+## Dashboard programmatisch toetsen.
+
+Wil jouw opleiding aan de slag met het concept programmatisch toetsen? Of zijn jullie dit aan het vertalen naar je eigen opleiding en loopt het niet zoals het gaat? Dit dashboard (@Biemond2022) kan helpen om grip te krijgen op jullie proces.
+Aan de hand van (oa) het onderzoek van @torre2021ottawa hebben we factoren van die invloed zijn op het mislukken of slagen van onderwijsinnovatie richting programmatisch toetsen gebundeld tot 8 'knoppen om aan te draaien'.  In het dashboard programmatisch toetsen presenteren we ze. Je kunt het bijvoorbeeld gebruiken om met je team eerst in kaart te brengen welke factoren jullie al goed op orde hebben. Welke knop heeft nog aandacht nodig? Vervolgens kun je samen bepalen wat een passende volgende stap is voor jullie.
+
+[Dashboard programmatisch toetsen](https://drive.google.com/file/d/1RzET0i1NuNJgxEujJhqGhNeAUJsI6HFD/view)
+
+[Meterkaartjes dashboard](https://drive.google.com/file/d/1yzSpaQ8sMZdKsJjAaIUtMNCnpObHFrqA/view)
