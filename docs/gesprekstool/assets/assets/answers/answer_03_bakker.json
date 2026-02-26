@@ -1,0 +1,172 @@
+{
+    "id": "a1b2c3d4-3333-4ccc-b333-333333333333",
+    "questionnaireId": "gesprekstool_beoordelen_beslissen_v1",
+    "name": "Pieter Bakker",
+    "course": "Informatica",
+    "year": "2024-2025",
+    "roles": [
+        "beoordelaar",
+        "beslisser"
+    ],
+    "timestamp": "2025-11-05T10:45:00.000",
+    "themes": [
+        {
+            "themeId": "beoordelaar_theme1",
+            "themeName": "Bekwaamheid in de huidige cursus",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "1a",
+                    "questionText": "Didactische scholing",
+                    "score": 2,
+                    "selectedOptions": [
+                        "Ik ben momenteel in opleiding voor mijn BDB"
+                    ]
+                },
+                {
+                    "questionId": "1b",
+                    "questionText": "Didactische bijscholing",
+                    "score": 2
+                },
+                {
+                    "questionId": "2a",
+                    "questionText": "Inhoudsdeskundig – kennis van het domein",
+                    "score": 4
+                },
+                {
+                    "questionId": "2b",
+                    "questionText": "Inhoudsdeskundig – ervaring met de cursus",
+                    "score": 2,
+                    "developmentText": "Tweede keer dat ik bij deze cursus betrokken ben."
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme2",
+            "themeName": "Het inzichtelijk maken van jouw ervaringen",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "3",
+                    "questionText": "Praktijkervaring",
+                    "score": 5,
+                    "developmentText": "15 jaar ervaring als werktuigbouwkundig ingenieur bij grote bedrijven."
+                },
+                {
+                    "questionId": "4",
+                    "questionText": "Onderzoekservaring",
+                    "score": 2
+                },
+                {
+                    "questionId": "5",
+                    "questionText": "Toetsdeskundigheid",
+                    "score": 2
+                },
+                {
+                    "questionId": "6",
+                    "questionText": "Kalibratie",
+                    "score": 3
+                },
+                {
+                    "questionId": "7",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme3",
+            "themeName": "Pedagogisch didactische kwaliteit",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "8",
+                    "questionText": "Feedback",
+                    "score": 3
+                },
+                {
+                    "questionId": "9",
+                    "questionText": "Feedback leer- en toetsklimaat",
+                    "score": 2
+                },
+                {
+                    "questionId": "10a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 3
+                },
+                {
+                    "questionId": "10b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "themeId": "beslisser_theme1",
+            "themeName": "Bekwaamheid als examinator",
+            "role": "beslisser",
+            "questions": [
+                {
+                    "questionId": "11a",
+                    "questionText": "Toetsscholing",
+                    "score": 2,
+                    "selectedOptions": [
+                        "Ik ben momenteel in opleiding voor mijn BKE"
+                    ]
+                },
+                {
+                    "questionId": "11b",
+                    "questionText": "Toetsbijscholing",
+                    "score": 2
+                },
+                {
+                    "questionId": "12",
+                    "questionText": "Kennis programmatisch toetsen",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "themeId": "beslisser_theme2",
+            "themeName": "Deskundigheid als examinator binnen programmatisch toetsen",
+            "role": "beslisser",
+            "questions": [
+                {
+                    "questionId": "13",
+                    "questionText": "High-stake beslissingen",
+                    "score": 2
+                },
+                {
+                    "questionId": "14",
+                    "questionText": "Informatierijke beslissing",
+                    "score": 3
+                },
+                {
+                    "questionId": "15a",
+                    "questionText": "Kalibratie – voorbereiding",
+                    "score": 2
+                },
+                {
+                    "questionId": "15b",
+                    "questionText": "Kalibratie – afstemming",
+                    "score": 2
+                },
+                {
+                    "questionId": "16",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 3
+                },
+                {
+                    "questionId": "17a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 2
+                },
+                {
+                    "questionId": "17b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

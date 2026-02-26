@@ -1,0 +1,83 @@
+{
+    "id": "a1b2c3d4-aaaa-4dde-baaa-aaaaaaaaaaaa",
+    "questionnaireId": "gesprekstool_beoordelen_beslissen_v1",
+    "name": "Fatima Yilmaz",
+    "course": "Informatica",
+    "year": "2025-2026",
+    "roles": [
+        "beslisser"
+    ],
+    "timestamp": "2026-02-20T10:30:00.000",
+    "themes": [
+        {
+            "themeId": "beslisser_theme1",
+            "themeName": "Bekwaamheid als examinator",
+            "role": "beslisser",
+            "questions": [
+                {
+                    "questionId": "11a",
+                    "questionText": "Toetsscholing",
+                    "score": 4,
+                    "selectedOptions": [
+                        "Ik ben in opleiding voor SKE of Master Toetsdeskundige"
+                    ]
+                },
+                {
+                    "questionId": "11b",
+                    "questionText": "Toetsbijscholing",
+                    "score": 4,
+                    "developmentText": "Volg regelmatig webinars en neem deel aan de toetscommissie."
+                },
+                {
+                    "questionId": "12",
+                    "questionText": "Kennis programmatisch toetsen",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "themeId": "beslisser_theme2",
+            "themeName": "Deskundigheid als examinator binnen programmatisch toetsen",
+            "role": "beslisser",
+            "questions": [
+                {
+                    "questionId": "13",
+                    "questionText": "High-stake beslissingen",
+                    "score": 3,
+                    "developmentText": "Heb ervaring met het nemen van zak/slaag-beslissingen maar wil hier sterker in worden."
+                },
+                {
+                    "questionId": "14",
+                    "questionText": "Informatierijke beslissing",
+                    "score": 3
+                },
+                {
+                    "questionId": "15a",
+                    "questionText": "Kalibratie – voorbereiding",
+                    "score": 4
+                },
+                {
+                    "questionId": "15b",
+                    "questionText": "Kalibratie – afstemming",
+                    "score": 3
+                },
+                {
+                    "questionId": "16",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 4,
+                    "developmentText": "Juridische achtergrond helpt bij het stellen van gerichte vragen."
+                },
+                {
+                    "questionId": "17a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 4
+                },
+                {
+                    "questionId": "17b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

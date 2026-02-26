@@ -1,0 +1,256 @@
+{
+    "id": "gesprekstool_beoordelen_beslissen_v1",
+    "title": "Gesprekstool Beoordelen & Beslissen",
+    "version": "1.0",
+    "description": "Vragenlijst over toetsbekwaamheid voor docententeams",
+    "roles": [
+        {
+            "roleId": "beoordelaar",
+            "roleName": "Beoordelaar",
+            "themes": [
+                {
+                    "themeId": "beoordelaar_theme1",
+                    "themeName": "Bekwaamheid in de huidige cursus",
+                    "themeDescription": "Gekoppeld aan de mate van bekwaamheid om de datapunten van de huidige cursus te beoordelen.",
+                    "questions": [
+                        {
+                            "questionId": "1a",
+                            "questionText": "Didactische scholing",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "label": "Ik heb geen didactische scholing gevolgd of ben niet in opleiding voor mijn BDB",
+                                    "score": 1
+                                },
+                                {
+                                    "label": "Ik ben momenteel in opleiding voor mijn BDB",
+                                    "score": 2
+                                },
+                                {
+                                    "label": "Ik ben in het bezit van een lesbevoegdheid (BDB, 1e of 2e graads)",
+                                    "score": 3
+                                },
+                                {
+                                    "label": "Ik ben in het bezit van een relevante master zoals onderwijskunde",
+                                    "score": 5
+                                }
+                            ],
+                            "levelLow": "Ik heb geen didactische scholing gevolgd of ben niet in opleiding voor mijn BDB.",
+                            "levelHigh": "Ik ben reeds in opleiding of in bezit van een lesbevoegdheid (BDB, 1e of 2e graads), relevante master zoals onderwijskunde."
+                        },
+                        {
+                            "questionId": "1b",
+                            "questionText": "Didactische bijscholing",
+                            "type": "slider",
+                            "levelLow": "Ik houd mijn kennis over didactiek nauwelijks tot niet bij.",
+                            "levelHigh": "Ik houd mijn kennis over didactiek met regelmaat bij."
+                        },
+                        {
+                            "questionId": "2a",
+                            "questionText": "Inhoudsdeskundig – kennis van het domein",
+                            "type": "slider",
+                            "levelLow": "Ik participeer bij de onderwijsactiviteiten in de cursus en ken het domein / de leeruitkomsten op hoofdlijnen.",
+                            "levelHigh": "Ik participeer bij de onderwijsactiviteiten in de cursus en ken het domein / de leeruitkomsten zeer goed."
+                        },
+                        {
+                            "questionId": "2b",
+                            "questionText": "Inhoudsdeskundig – ervaring met de cursus",
+                            "type": "slider",
+                            "levelLow": "Dit is de eerste keer dat ik bij de uitvoering van de cursus betrokken ben.",
+                            "levelHigh": "Ik ben meerdere keren bij de uitvoering van de cursus betrokken geweest en/of heb een bijdrage geleverd aan de ontwikkeling ervan."
+                        }
+                    ]
+                },
+                {
+                    "themeId": "beoordelaar_theme2",
+                    "themeName": "Het inzichtelijk maken van jouw ervaringen",
+                    "themeDescription": "Gericht op ervaringen die een rol spelen bij het beoordelen van de leeruitkomsten.",
+                    "questions": [
+                        {
+                            "questionId": "3",
+                            "questionText": "Praktijkervaring",
+                            "type": "slider",
+                            "levelLow": "Geen recente praktijkervaring/kennis van het werkveld.",
+                            "levelHigh": "Recente praktijkervaring en veel kennis van/inzicht in het werkveld."
+                        },
+                        {
+                            "questionId": "4",
+                            "questionText": "Onderzoekservaring",
+                            "type": "slider",
+                            "levelLow": "Geen ervaring met initiëren/analyseren van onderzoek.",
+                            "levelHigh": "Recente ervaring met onderzoek en een afgeronde Masteropleiding."
+                        },
+                        {
+                            "questionId": "5",
+                            "questionText": "Toetsdeskundigheid",
+                            "type": "slider",
+                            "levelLow": "Ontwikkeling vindt incidenteel plaats.",
+                            "levelHigh": "Ontwikkeling is structureel ingebed (bijscholing, literatuur, etc.)."
+                        },
+                        {
+                            "questionId": "6",
+                            "questionText": "Kalibratie",
+                            "type": "slider",
+                            "levelLow": "Neemt incidenteel deel aan kalibratiesessies over beoordelingscriteria.",
+                            "levelHigh": "Neemt structureel deel aan kalibratiesessies."
+                        },
+                        {
+                            "questionId": "7",
+                            "questionText": "Gesprekstechnieken",
+                            "type": "slider",
+                            "levelLow": "Past nauwelijks (bewust) gesprekstechnieken toe.",
+                            "levelHigh": "Past gesprekstechnieken bewust toe om leren te stimuleren."
+                        }
+                    ]
+                },
+                {
+                    "themeId": "beoordelaar_theme3",
+                    "themeName": "Pedagogisch didactische kwaliteit",
+                    "themeDescription": "Bijdrage aan het leerklimaat waarin een student effectief leert.",
+                    "questions": [
+                        {
+                            "questionId": "8",
+                            "questionText": "Feedback",
+                            "type": "slider",
+                            "levelLow": "Vooral feedback op inhoud, nauwelijks op proces/ontwikkeling.",
+                            "levelHigh": "Structureel gerichte informatieve/specifieke feedback op zowel inhoud als proces."
+                        },
+                        {
+                            "questionId": "9",
+                            "questionText": "Feedback leer- en toetsklimaat",
+                            "type": "slider",
+                            "levelLow": "Nauwelijks bewust richting/ruimte voor effectief klimaat.",
+                            "levelHigh": "Creëert structureel bewust een effectief leer- en toetsklimaat/ontwikkelingsgerichte benadering."
+                        },
+                        {
+                            "questionId": "10a",
+                            "questionText": "Kwaliteitsbesef – zelfreflectie",
+                            "type": "slider",
+                            "levelLow": "Reflecteert incidenteel op eigen rol en vraagt nauwelijks feedback aan collega's.",
+                            "levelHigh": "Reflecteert structureel en vraagt actief feedback op eigen rol."
+                        },
+                        {
+                            "questionId": "10b",
+                            "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                            "type": "slider",
+                            "levelLow": "Vindt het lastig om verkregen feedback te verwerken.",
+                            "levelHigh": "Staat open voor feedback en past handelen indien nodig aan."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "roleId": "beslisser",
+            "roleName": "Beslisser",
+            "themes": [
+                {
+                    "themeId": "beslisser_theme1",
+                    "themeName": "Bekwaamheid als examinator",
+                    "themeDescription": "Bekwaamheid om te beslissen of leeruitkomsten behaald zijn en deskundigheid over programmatisch toetsen.",
+                    "questions": [
+                        {
+                            "questionId": "11a",
+                            "questionText": "Toetsscholing",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "label": "Ik heb geen scholing gevolgd of ben niet in opleiding voor BKE",
+                                    "score": 1
+                                },
+                                {
+                                    "label": "Ik ben momenteel in opleiding voor mijn BKE",
+                                    "score": 2
+                                },
+                                {
+                                    "label": "Ik ben in het bezit van mijn BKE",
+                                    "score": 3
+                                },
+                                {
+                                    "label": "Ik ben in opleiding voor SKE of Master Toetsdeskundige",
+                                    "score": 4
+                                },
+                                {
+                                    "label": "Ik ben in het bezit van mijn SKE of Master Toetsdeskundige",
+                                    "score": 5
+                                }
+                            ],
+                            "levelLow": "Geen scholing gevolgd / niet in opleiding voor BKE.",
+                            "levelHigh": "BKE behaald / in opleiding voor SKE of Master Toetsdeskundige."
+                        },
+                        {
+                            "questionId": "11b",
+                            "questionText": "Toetsbijscholing",
+                            "type": "slider",
+                            "levelLow": "Houdt kennis over toetsing nauwelijks bij.",
+                            "levelHigh": "Houdt kennis over toetsing met regelmaat bij."
+                        },
+                        {
+                            "questionId": "12",
+                            "questionText": "Kennis programmatisch toetsen",
+                            "type": "slider",
+                            "levelLow": "Kent enkele uitgangspunten, maar nauwelijks de ontwerpkeuzes van de opleiding.",
+                            "levelHigh": "Kent alle uitgangspunten, ontwerpkeuzes en het toetsbeleid."
+                        }
+                    ]
+                },
+                {
+                    "themeId": "beslisser_theme2",
+                    "themeName": "Deskundigheid als examinator binnen programmatisch toetsen",
+                    "themeDescription": "Deskundigheid om te beslissen binnen het kader van programmatisch toetsen.",
+                    "questions": [
+                        {
+                            "questionId": "13",
+                            "questionText": "High-stake beslissingen",
+                            "type": "slider",
+                            "levelLow": "Vindt het lastig om beslissingen te nemen op basis van saturatie/triangulatie/intersubjectiviteit.",
+                            "levelHigh": "Beslist over het gehele datapuntenprogramma en verantwoordt dit kundig."
+                        },
+                        {
+                            "questionId": "14",
+                            "questionText": "Informatierijke beslissing",
+                            "type": "slider",
+                            "levelLow": "Licht beslissing globaal toe met beperkte specifieke toelichting.",
+                            "levelHigh": "Geeft gerichte informatierijke en specifieke toelichting op de ontwikkeling."
+                        },
+                        {
+                            "questionId": "15a",
+                            "questionText": "Kalibratie – voorbereiding",
+                            "type": "slider",
+                            "levelLow": "Neemt geen deel aan kalibratie voorafgaand aan een high stake-moment.",
+                            "levelHigh": "Neemt structureel deel aan kalibratie over de te nemen beslissing."
+                        },
+                        {
+                            "questionId": "15b",
+                            "questionText": "Kalibratie – afstemming",
+                            "type": "slider",
+                            "levelLow": "Vergelijkt eindoordeel nauwelijks met andere beslissers.",
+                            "levelHigh": "Bespreekt eindoordeel en feedback altijd met andere beslissers."
+                        },
+                        {
+                            "questionId": "16",
+                            "questionText": "Gesprekstechnieken",
+                            "type": "slider",
+                            "levelLow": "Past nauwelijks technieken toe om bekwaamheid te achterhalen.",
+                            "levelHigh": "Past technieken bewust toe om bekwaamheid te achterhalen."
+                        },
+                        {
+                            "questionId": "17a",
+                            "questionText": "Kwaliteitsbesef – zelfreflectie",
+                            "type": "slider",
+                            "levelLow": "Reflecteert incidenteel op rol als beslisser.",
+                            "levelHigh": "Reflecteert bewust en samen met collega's op rol als beslisser."
+                        },
+                        {
+                            "questionId": "17b",
+                            "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                            "type": "slider",
+                            "levelLow": "Vindt het lastig om feedback te verwerken.",
+                            "levelHigh": "Staat open voor feedback en past handelen aan."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
