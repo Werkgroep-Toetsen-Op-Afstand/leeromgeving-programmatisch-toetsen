@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -19,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Gesprekstool">
+  <meta name="description" content="A new Flutter project.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -28,108 +27,12 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="gesprekstool/favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>gesprekstool</title>
   <link rel="manifest" href="manifest.json">
-
-  <style>
-    body {
-      background-color: #FFFFFF;
-      margin: 0;
-    }
-
-    #loading-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
-    }
-
-    .spinner {
-      width: 50px;
-      height: 50px;
-      border: 5px solid rgba(229, 0, 85, 0.2);
-      border-top: 5px solid #E50055;
-      /* HAN Magenta */
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-
-    .progress-track {
-      width: 200px;
-      height: 6px;
-      background-color: rgba(229, 0, 85, 0.2);
-      border-radius: 3px;
-      overflow: hidden;
-    }
-
-    .progress-fill {
-      width: 0%;
-      height: 100%;
-      background-color: #E50055;
-      border-radius: 3px;
-      animation: progress 4s cubic-bezier(0.1, 0.8, 0.2, 1) forwards;
-    }
-
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    @keyframes progress {
-      0% {
-        width: 0%;
-      }
-
-      50% {
-        width: 60%;
-      }
-
-      80% {
-        width: 85%;
-      }
-
-      100% {
-        width: 95%;
-      }
-
-      /* Wait at 95% until flutter-first-frame */
-    }
-  </style>
 </head>
-
 <body>
-  <!-- Loading indicator shown while Flutter engine initializes -->
-  <div id="loading-container">
-    <div class="spinner"></div>
-    <div class="progress-track">
-      <div class="progress-fill"></div>
-    </div>
-  </div>
-
   <script src="flutter_bootstrap.js" async></script>
-  <script>
-    // Remove the loading indicator once Flutter renders its first frame
-    window.addEventListener('flutter-first-frame', function () {
-      var loadingContainer = document.getElementById('loading-container');
-      if (loadingContainer) {
-        // Complete the bar instantly before removing
-        var fill = document.querySelector('.progress-fill');
-        if (fill) fill.style.width = '100%';
-        setTimeout(() => loadingContainer.remove(), 200);
-      }
-    });
-  </script>
 </body>
-
 </html>
