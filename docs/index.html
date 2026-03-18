@@ -1,38 +1,569 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+<title>Leeromgeving programmatisch toetsen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="gesprekstool">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/boom-klein.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
-  <title>gesprekstool</title>
-  <link rel="manifest" href="manifest.json">
+
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
-</html>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Leeromgeving programmatisch toetsen</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-themas" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Thema’s</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-themas">    
+        <li>
+    <a class="dropdown-item" href="./1-basis.html" rel="" target="">
+ <span class="dropdown-text">Basis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./2-ontwerpvraagstuk.html" rel="" target="">
+ <span class="dropdown-text">Ontwerpvraagstuk</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./3-implementeren.html" rel="" target="">
+ <span class="dropdown-text">Implementeren</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./4-leerfunctie.html" rel="" target="">
+ <span class="dropdown-text">Leerfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./5-beslisfunctie.html" rel="" target="">
+ <span class="dropdown-text">Beslisfunctie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./6-zorgen_borgen.html" rel="" target="">
+ <span class="dropdown-text">Zorgen en borgen</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./colofon.html" rel="" target="">
+ <span class="menu-text">Colofon</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content page-columns page-full column-body" id="quarto-document-content">
+
+
+
+<div class="column-page">
+<div class="h-15 grid header text-white">
+<div class="g-col-12 g-col-md-9">
+<p>LEEROMGEVING<br>PROGRAMMATISCH TOETSEN</p>
+</div>
+<div class="g-col-12 g-col-md-3">
+<p><img src="images/boom.svg" class="boom img-fluid"></p>
+</div>
+</div>
+<!-- end title -->
+<!-- ![](images/Leeromgeving.png) -->
+<div class="lead">
+<p>Welkom op de online leeromgeving programmatisch toetsen. Deze leeromgeving is bedoeld voor iedereen die meer wil weten over programmatisch toetsen of er praktisch mee aan de slag wil.</p>
+</div>
+<div class="grid">
+<!-- remarks -->
+<!-- New card -->
+<div class="g-col-12 g-col-md-6">
+<div class="card rounded-3 mx-auto">
+<div class="card-body">
+<button class="btn card-title" data-bs-toggle="collapse" data-bs-target="#collapseMore" role="button" aria-expanded="false" aria-controls="collapseMore"><h2 class="anchored">Meer weten...</h2></button>
+<div id="collapseMore" class="card-text collapse">
+<p>Wil je na het lezen van de inleidingen per thema nog meer weten of aan de slag? Bij ieder thema zijn praktische handvatten, concrete praktijkvoorbeelden en publicaties (vakpublicaties en wetenschappelijke publicaties) opgenomen. In het menu aan de linkerkant op de thema-pagina’s kun je steeds rechtstreeks naar deze onderdelen.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6">
+<div class="card rounded-3 mx-auto">
+<div class="card-body">
+<button class="btn card-title" data-bs-toggle="collapse" data-bs-target="#collapseWho" role="button" aria-expanded="false" aria-controls="collapseWho"><h2 class="anchored">Voor wie...</h2></button>
+<div id="collapseWho" class="card-text collapse">
+<p>Er is materiaal voor docenten, managers, leden van examen- en toetscommissies en onderwijskundigen. Ben je nog relatief onbekend met het concept van programmatisch toetsen? Begin dan eens met de keynote die Cees van der Vleuten, de grondlegger van programmatisch toetsen, speciaal voor deze online leeromgeving heeft opgenomen. Je gaat dan naar het thema ‘de basis’ en klikt dan links op ‘publicaties’. Ben je bezig om programmatisch toetsen te implementeren? Wellicht vind je dan het spel ’30 seconds’ interessant. Je gaat dan naar het thema ‘de basis’ en klikt dan op ‘praktische handvatten’. Zo is er voor elk wat wils.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-primary rounded-3 mx-auto">
+<section id="basis" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="basis">Basis</h2>
+<div class="card-text">
+<ul>
+<li><a href="./1-basis.html" class="link-light">Inleiding</a></li>
+<li><a href="./1-basis-praktijk.html" class="link-light">Praktijkvoorbeelden</a></li>
+<li><a href="./1-basis-handvatten.html" class="link-light">Praktische handvatten</a></li>
+<li><a href="./1-basis-meer.html" class="link-light">Meer weten?</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-primary rounded-3 mx-auto">
+<section id="ontwerpvraagstuk" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="ontwerpvraagstuk">Ontwerpvraagstuk</h2>
+<div class="card-text">
+<ul>
+<li><a href="./2-ontwerpvraagstuk.html" class="link-light">Inleiding</a></li>
+<li><a href="./2-ontwerpvraagstuk-praktijk.html" class="link-light">Praktijkvoorbeelden</a></li>
+<li><a href="./2-ontwerpvraagstuk-handvatten.html" class="link-light">Praktische handvatten</a></li>
+<li><a href="./2-ontwerpvraagstuk-meer.html" class="link-light">Meer weten?</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-primary rounded-3 mx-auto">
+<section id="implementatie" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="implementatie">Implementatie</h2>
+<div class="card-text">
+<ul>
+<li><a href="./3-implementeren.html" class="link-light">Inleiding</a></li>
+<li><a href="./3-implementeren-praktijk.html" class="link-light">Praktijkvoorbeelden</a></li>
+<li><a href="./3-implementeren-handvatten.html" class="link-light">Praktische handvatten</a></li>
+<li><a href="./3-implementeren-meer.html" class="link-light">Meer weten?</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-primary rounded-3 mx-auto">
+<section id="leerfunctie" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="leerfunctie">Leerfunctie</h2>
+<div class="card-text">
+<ul>
+<li><a href="./4-leerfunctie.html" class="link-light">Inleiding</a></li>
+<li><a href="./4-leerfunctie-praktijk.html" class="link-light">Praktijkvoorbeelden</a></li>
+<li><a href="./4-leerfunctie-handvatten.html" class="link-light">Praktische handvatten</a></li>
+<li><a href="./4-leerfunctie-meer.html" class="link-light">Meer weten?</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-primary rounded-3 mx-auto">
+<section id="beslisfunctie" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="beslisfunctie">Beslisfunctie</h2>
+<div class="card-text">
+<ul>
+<li><a href="./5-beslisfunctie.html" class="link-light">Inleiding</a></li>
+<li><a href="./5-beslisfunctie-praktijk.html" class="link-light">Praktijkvoorbeelden</a></li>
+<li><a href="./5-beslisfunctie-handvatten.html" class="link-light">Praktische handvatten</a></li>
+<li><a href="./5-beslisfunctie-meer.html" class="link-light">Meer weten?</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-primary rounded-3 mx-auto">
+<section id="zorgen-en-borgen" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="zorgen-en-borgen">Zorgen en borgen</h2>
+<div class="card-text">
+<ul>
+<li><a href="./6-zorgen_borgen.html" class="link-light">Inleiding</a></li>
+<li><a href="./6-zorgen_borgen-praktijk.html" class="link-light">Praktijkvoorbeelden</a></li>
+<li><a href="./6-zorgen_borgen-handvatten.html" class="link-light">Praktische handvatten</a></li>
+<li><a href="./6-zorgen_borgen-meer.html" class="link-light">Meer weten?</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-info rounded-3 mx-auto h-100">
+<section id="leernetwerk-programmatisch-toetsen" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="leernetwerk-programmatisch-toetsen">Leernetwerk Programmatisch Toetsen</h2>
+<div class="card-text">
+<ul>
+<li><a href="./7-leernetwerk.html" class="link-light">Informatie over het leernetwerk</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+<!-- New card -->
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="card text-white bg-info rounded-3 mx-auto h-100">
+<section id="portretten" class="level2 card-title card-body">
+<h2 class="card-title anchored" data-anchor-id="portretten">Portretten</h2>
+<div class="card-text">
+<ul>
+<li><a href="./8-portretten-inleiding.html" class="link-light">Inleiding</a></li>
+<li><a href="./8-portretten-praktijk.html" class="link-light">Portretten</a></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+</div>
+<!-- end card grid -->
+</div>
+<!-- end column-page -->
+<div class="column-body">
+<!--
+
+> Een individuele toets heeft beperkingen, maar een programma niet
+
+> Het geven van feedback is geen garantie voor het gebruik ervan
+
+-->
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/werkgroep-toetsen-op-afstand/leeromgeving-programmatisch-toetsen/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/werkgroep-toetsen-op-afstand/leeromgeving-programmatisch-toetsen/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer><script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
