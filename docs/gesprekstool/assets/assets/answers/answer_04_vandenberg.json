@@ -1,0 +1,104 @@
+{
+    "id": "a1b2c3d4-4444-4ddd-b444-444444444444",
+    "questionnaireId": "gesprekstool_beoordelen_beslissen_v1",
+    "name": "Sophie van den Berg",
+    "course": "Informatica",
+    "year": "2025-2026",
+    "roles": [
+        "beoordelaar"
+    ],
+    "timestamp": "2026-02-01T11:00:00.000",
+    "themes": [
+        {
+            "themeId": "beoordelaar_theme1",
+            "themeName": "Bekwaamheid in de huidige cursus",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "1a",
+                    "questionText": "Didactische scholing",
+                    "score": 1,
+                    "selectedOptions": [
+                        "Ik heb geen didactische scholing gevolgd of ben niet in opleiding voor mijn BDB"
+                    ]
+                },
+                {
+                    "questionId": "1b",
+                    "questionText": "Didactische bijscholing",
+                    "score": 1
+                },
+                {
+                    "questionId": "2a",
+                    "questionText": "Inhoudsdeskundig – kennis van het domein",
+                    "score": 3,
+                    "developmentText": "Ik ken de leeruitkomsten redelijk maar wil me hierin nog verder verdiepen."
+                },
+                {
+                    "questionId": "2b",
+                    "questionText": "Inhoudsdeskundig – ervaring met de cursus",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme2",
+            "themeName": "Het inzichtelijk maken van jouw ervaringen",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "3",
+                    "questionText": "Praktijkervaring",
+                    "score": 4,
+                    "developmentText": "8 jaar werkervaring als verpleegkundige in het ziekenhuis."
+                },
+                {
+                    "questionId": "4",
+                    "questionText": "Onderzoekservaring",
+                    "score": 1
+                },
+                {
+                    "questionId": "5",
+                    "questionText": "Toetsdeskundigheid",
+                    "score": 1
+                },
+                {
+                    "questionId": "6",
+                    "questionText": "Kalibratie",
+                    "score": 1
+                },
+                {
+                    "questionId": "7",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme3",
+            "themeName": "Pedagogisch didactische kwaliteit",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "8",
+                    "questionText": "Feedback",
+                    "score": 2
+                },
+                {
+                    "questionId": "9",
+                    "questionText": "Feedback leer- en toetsklimaat",
+                    "score": 1
+                },
+                {
+                    "questionId": "10a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 2
+                },
+                {
+                    "questionId": "10b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

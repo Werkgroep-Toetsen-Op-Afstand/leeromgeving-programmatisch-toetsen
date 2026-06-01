@@ -1,0 +1,106 @@
+{
+    "id": "a1b2c3d4-9999-4ccd-b999-999999999999",
+    "questionnaireId": "gesprekstool_beoordelen_beslissen_v1",
+    "name": "Tom Hendriks",
+    "course": "Informatica",
+    "year": "2025-2026",
+    "roles": [
+        "beoordelaar"
+    ],
+    "timestamp": "2026-02-25T15:45:00.000",
+    "themes": [
+        {
+            "themeId": "beoordelaar_theme1",
+            "themeName": "Bekwaamheid in de huidige cursus",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "1a",
+                    "questionText": "Didactische scholing",
+                    "score": 2,
+                    "selectedOptions": [
+                        "Ik ben momenteel in opleiding voor mijn BDB"
+                    ]
+                },
+                {
+                    "questionId": "1b",
+                    "questionText": "Didactische bijscholing",
+                    "score": 3,
+                    "developmentText": "Volg nu een cursus over activerend leren."
+                },
+                {
+                    "questionId": "2a",
+                    "questionText": "Inhoudsdeskundig – kennis van het domein",
+                    "score": 5,
+                    "developmentText": "Heb zelf als UX designer gewerkt en ken het vakgebied uitstekend."
+                },
+                {
+                    "questionId": "2b",
+                    "questionText": "Inhoudsdeskundig – ervaring met de cursus",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme2",
+            "themeName": "Het inzichtelijk maken van jouw ervaringen",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "3",
+                    "questionText": "Praktijkervaring",
+                    "score": 5
+                },
+                {
+                    "questionId": "4",
+                    "questionText": "Onderzoekservaring",
+                    "score": 2
+                },
+                {
+                    "questionId": "5",
+                    "questionText": "Toetsdeskundigheid",
+                    "score": 3
+                },
+                {
+                    "questionId": "6",
+                    "questionText": "Kalibratie",
+                    "score": 2
+                },
+                {
+                    "questionId": "7",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 4,
+                    "developmentText": "Gebruik veel open vragen en luistertechnieken in mijn feedback."
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme3",
+            "themeName": "Pedagogisch didactische kwaliteit",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "8",
+                    "questionText": "Feedback",
+                    "score": 4
+                },
+                {
+                    "questionId": "9",
+                    "questionText": "Feedback leer- en toetsklimaat",
+                    "score": 4,
+                    "developmentText": "Ik probeer actief een veilige leeromgeving te creëren."
+                },
+                {
+                    "questionId": "10a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 3
+                },
+                {
+                    "questionId": "10b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

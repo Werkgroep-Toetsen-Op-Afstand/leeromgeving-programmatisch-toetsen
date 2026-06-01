@@ -1,0 +1,104 @@
+{
+    "id": "a1b2c3d4-7777-4aab-b777-777777777777",
+    "questionnaireId": "gesprekstool_beoordelen_beslissen_v1",
+    "name": "Ahmed El Amrani",
+    "course": "Informatica",
+    "year": "2025-2026",
+    "roles": [
+        "beoordelaar"
+    ],
+    "timestamp": "2026-02-18T16:20:00.000",
+    "themes": [
+        {
+            "themeId": "beoordelaar_theme1",
+            "themeName": "Bekwaamheid in de huidige cursus",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "1a",
+                    "questionText": "Didactische scholing",
+                    "score": 3,
+                    "selectedOptions": [
+                        "Ik ben in het bezit van een lesbevoegdheid (BDB, 1e of 2e graads)"
+                    ]
+                },
+                {
+                    "questionId": "1b",
+                    "questionText": "Didactische bijscholing",
+                    "score": 3
+                },
+                {
+                    "questionId": "2a",
+                    "questionText": "Inhoudsdeskundig – kennis van het domein",
+                    "score": 4,
+                    "developmentText": "Ik geef al jaren les in constructieleer en ken het domein goed."
+                },
+                {
+                    "questionId": "2b",
+                    "questionText": "Inhoudsdeskundig – ervaring met de cursus",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme2",
+            "themeName": "Het inzichtelijk maken van jouw ervaringen",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "3",
+                    "questionText": "Praktijkervaring",
+                    "score": 3
+                },
+                {
+                    "questionId": "4",
+                    "questionText": "Onderzoekservaring",
+                    "score": 4
+                },
+                {
+                    "questionId": "5",
+                    "questionText": "Toetsdeskundigheid",
+                    "score": 3
+                },
+                {
+                    "questionId": "6",
+                    "questionText": "Kalibratie",
+                    "score": 4,
+                    "developmentText": "Neem regelmatig deel aan kalibratiesessies met collega's."
+                },
+                {
+                    "questionId": "7",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme3",
+            "themeName": "Pedagogisch didactische kwaliteit",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "8",
+                    "questionText": "Feedback",
+                    "score": 4
+                },
+                {
+                    "questionId": "9",
+                    "questionText": "Feedback leer- en toetsklimaat",
+                    "score": 3
+                },
+                {
+                    "questionId": "10a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 4
+                },
+                {
+                    "questionId": "10b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

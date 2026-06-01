@@ -1,0 +1,173 @@
+{
+    "id": "a1b2c3d4-5555-4eee-b555-555555555555",
+    "questionnaireId": "gesprekstool_beoordelen_beslissen_v1",
+    "name": "Kees de Jong",
+    "course": "Informatica",
+    "year": "2025-2026",
+    "roles": [
+        "beoordelaar",
+        "beslisser"
+    ],
+    "timestamp": "2026-02-10T08:30:00.000",
+    "themes": [
+        {
+            "themeId": "beoordelaar_theme1",
+            "themeName": "Bekwaamheid in de huidige cursus",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "1a",
+                    "questionText": "Didactische scholing",
+                    "score": 4,
+                    "selectedOptions": [
+                        "Ik ben in het bezit van een relevante master zoals onderwijskunde"
+                    ]
+                },
+                {
+                    "questionId": "1b",
+                    "questionText": "Didactische bijscholing",
+                    "score": 5,
+                    "developmentText": "Bezoek minimaal 3 conferenties per jaar en lees maandelijks vakliteratuur."
+                },
+                {
+                    "questionId": "2a",
+                    "questionText": "Inhoudsdeskundig – kennis van het domein",
+                    "score": 5
+                },
+                {
+                    "questionId": "2b",
+                    "questionText": "Inhoudsdeskundig – ervaring met de cursus",
+                    "score": 5,
+                    "developmentText": "Ik heb deze cursus zelf mee ontworpen en geef het al 6 jaar."
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme2",
+            "themeName": "Het inzichtelijk maken van jouw ervaringen",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "3",
+                    "questionText": "Praktijkervaring",
+                    "score": 4
+                },
+                {
+                    "questionId": "4",
+                    "questionText": "Onderzoekservaring",
+                    "score": 5,
+                    "developmentText": "Gepromoveerd in de elektrotechniek met focus op embedded systems."
+                },
+                {
+                    "questionId": "5",
+                    "questionText": "Toetsdeskundigheid",
+                    "score": 5
+                },
+                {
+                    "questionId": "6",
+                    "questionText": "Kalibratie",
+                    "score": 5
+                },
+                {
+                    "questionId": "7",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "themeId": "beoordelaar_theme3",
+            "themeName": "Pedagogisch didactische kwaliteit",
+            "role": "beoordelaar",
+            "questions": [
+                {
+                    "questionId": "8",
+                    "questionText": "Feedback",
+                    "score": 5
+                },
+                {
+                    "questionId": "9",
+                    "questionText": "Feedback leer- en toetsklimaat",
+                    "score": 5
+                },
+                {
+                    "questionId": "10a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 5
+                },
+                {
+                    "questionId": "10b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "themeId": "beslisser_theme1",
+            "themeName": "Bekwaamheid als examinator",
+            "role": "beslisser",
+            "questions": [
+                {
+                    "questionId": "11a",
+                    "questionText": "Toetsscholing",
+                    "score": 5,
+                    "selectedOptions": [
+                        "Ik ben in het bezit van mijn SKE of Master Toetsdeskundige"
+                    ]
+                },
+                {
+                    "questionId": "11b",
+                    "questionText": "Toetsbijscholing",
+                    "score": 5
+                },
+                {
+                    "questionId": "12",
+                    "questionText": "Kennis programmatisch toetsen",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "themeId": "beslisser_theme2",
+            "themeName": "Deskundigheid als examinator binnen programmatisch toetsen",
+            "role": "beslisser",
+            "questions": [
+                {
+                    "questionId": "13",
+                    "questionText": "High-stake beslissingen",
+                    "score": 5
+                },
+                {
+                    "questionId": "14",
+                    "questionText": "Informatierijke beslissing",
+                    "score": 5
+                },
+                {
+                    "questionId": "15a",
+                    "questionText": "Kalibratie – voorbereiding",
+                    "score": 5
+                },
+                {
+                    "questionId": "15b",
+                    "questionText": "Kalibratie – afstemming",
+                    "score": 5
+                },
+                {
+                    "questionId": "16",
+                    "questionText": "Gesprekstechnieken",
+                    "score": 4
+                },
+                {
+                    "questionId": "17a",
+                    "questionText": "Kwaliteitsbesef – zelfreflectie",
+                    "score": 5
+                },
+                {
+                    "questionId": "17b",
+                    "questionText": "Kwaliteitsbesef – feedbackverwerking",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}
