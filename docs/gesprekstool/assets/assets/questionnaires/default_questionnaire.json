@@ -15,7 +15,7 @@
                     "questions": [
                         {
                             "questionId": "1a",
-                            "questionText": "Didactische bekwaam - bevoegdheid",
+                            "questionText": "Didactische bekwaamheid - bevoegdheid",
                             "type": "radio",
                             "options": [
                                 {
@@ -36,7 +36,7 @@
                         },
                         {
                             "questionId": "1b",
-                            "questionText": "Didactisch bekwaam - onderhoud van kennis",
+                            "questionText": "Didactische bekwaamheid - onderhoud van kennis",
                             "type": "slider",
                             "levelLow": "Ik houd mijn kennis over didactiek nauwelijks tot niet bij.",
                             "levelHigh": "Ik houd mijn kennis over didactiek met regelmaat bij."
